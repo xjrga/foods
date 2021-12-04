@@ -1,0 +1,20 @@
+    <assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	      xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 http://maven.apache.org/xsd/assembly-2.1.0.xsd">    
+    <id>jar-with-dependencies</id>
+    <formats>
+	<format>jar</format>
+    </formats>
+    <!--Includes a base directory in the final archive. For example, if you are creating an assembly named "your-app", setting includeBaseDirectory to true will create an archive that includes this base directory. If this option is set to false the archive created will unzip its content to the current directory.-->
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+	<dependencySet>
+	    <outputDirectory>/</outputDirectory>
+	    <!--Determines whether the artifact produced during the current project's build should be included in this dependency set.-->
+	    <useProjectArtifact>true</useProjectArtifact>
+	    <!--If set to true, this property will unpack all module packages into the specified output directory. When set to false module packages will be included as archives (jars).-->
+	    <unpack>true</unpack>
+	    <scope>runtime</scope>
+	</dependencySet>
+    </dependencySets>    
+</assembly>
