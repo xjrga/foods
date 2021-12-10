@@ -6,11 +6,11 @@
 
     <groupId>io.github.xjrga</groupId>
     <artifactId>foods</artifactId>
-    <version>01</version>
+    <version>01-SNAPSHOT</version>
 
     <name>foods</name>
     
-    <description>Food Collection</description>
+    <description>Snackmix Foods Library</description>
 	    
     <url>https://github.com/xjrga/foods</url>
     
@@ -58,17 +58,6 @@
 	</repository>
     </repositories>
 
-    <dependencies>
-	
-	<dependency>
-	    <groupId>junit</groupId>
-	    <artifactId>junit</artifactId>
-	    <version>4.13</version>
-	    <scope>test</scope>
-	</dependency>
-	
-    </dependencies>
-
     <build>
 	<pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 	    <plugins>
@@ -112,7 +101,7 @@
 				<classpathLayoutType>simple</classpathLayoutType>
 				<classpathPrefix>lib/</classpathPrefix>
 				<addClasspath>true</addClasspath>
-				<mainClass>io.github.xjrga.foods.App</mainClass>
+				<mainClass>io.github.xjrga.foods.Main</mainClass>
 			    </manifest>
 			</archive>			
 		    </configuration>                                                      
@@ -189,7 +178,7 @@
 			    <!--Set main class for jar with dependencies-->
 			    <archive>
 				<manifest>
-				    <mainClass>io.github.xjrga.foods.App</mainClass>
+				    <mainClass>io.github.xjrga.foods.Main</mainClass>
 				</manifest>
 			    </archive>			    
 			    <descriptors>                                
@@ -216,4 +205,12 @@
 	    </plugin>-->
 	</plugins>
     </build>
+    <dependencies>
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.8.1</version>
+	    <scope>test</scope>
+	</dependency>
+    </dependencies>
 </project>

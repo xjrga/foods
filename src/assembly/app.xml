@@ -16,12 +16,12 @@
     </dependencySets>
     <fileSets>
 	<fileSet>
-            <directory>${project.basedir}</directory>            
-            <outputDirectory></outputDirectory>
+	    <directory>${project.basedir}</directory>            
+	    <outputDirectory></outputDirectory>
 	    <includes>
 		<!--include>dir/dir/**</include-->		
 	    </includes>
-        </fileSet>
+	</fileSet>
 	<fileSet>           
 	    <directory>${project.build.directory}</directory>            
 	    <outputDirectory></outputDirectory>             
