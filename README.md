@@ -1,6 +1,6 @@
-[Snack's Food Library](https://xjrga.github.io/foods "Snack's Food Library")
+[Snackmix Food Library](https://xjrga.github.io/foods "Snackmix Food Library")
 
-    Snack's Food Library 
+    Snackmix Food Library 
     
     Home page: https://xjrga.github.io/foods
     Download: https://search.maven.org/search?q=io.github.xjrga
@@ -51,4 +51,8 @@ Snack uses a data subset from:
     2) Dietary Reference Intakes Nutrient Recommendations Report from 
        Food and Nutrition Board of the Institute of Medicine, 
        National Academy of Sciences
+
+Notes
+    
+    Always double check the units when entering data
               

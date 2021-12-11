@@ -354,3 +354,4 @@ public interface Food {
 //https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Classics/ah74.pdf
 //https://en.wikipedia.org/wiki/Atwater_system
 //https://academic.oup.com/ajcn/article/86/6/1649/4649752
+//https://en.wikipedia.org/wiki/Glycemic_index
