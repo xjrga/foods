@@ -306,4 +306,47 @@ public class Bananas_rawNGTest {
     public void test_zinc() {
         assertEquals(0.15, food.get_zinc(), 0.00001);
     }
+
+    //glycemic load
+    @Test(enabled = true)
+    public void test_glycemic_load() {
+        assertEquals(10.52479, food.get_glycemic_load(), 0.00001);
+    }
+
+    //energy_alcohol
+    @Test(enabled = true)
+    public void test_energy_alcohol() {
+        assertEquals(0.0, food.get_energy_alcohol(), 0.00001);
+    }
+
+    //energy_digestible_carbohydrate
+    @Test(enabled = true)
+    public void test_energy_digestible_carbohydrate() {
+        assertEquals(80.96, food.get_energy_digestible_carbohydrate(), 0.00001);
+    }
+
+    //energy_digestible
+    @Test(enabled = true)
+    public void test_energy_digestible() {
+        assertEquals(88.28999, food.get_energy_digestible(), 0.00001);
+    }
+
+    //energy_fat
+    @Test(enabled = true)
+    public void test_energy_fat() {
+        assertEquals(2.97, food.get_energy_fat(), 0.00001);
+    }
+
+    //energy_no_protein
+    @Test(enabled = true)
+    public void test_energy_no_protein() {
+        assertEquals(83.92999, food.get_energy_no_protein(), 0.00001);
+    }
+
+    //energy_protein
+    @Test(enabled = true)
+    public void test_energy_protein() {
+        assertEquals(4.36, food.get_energy_protein(), 0.00001);
+    }
+
 }
