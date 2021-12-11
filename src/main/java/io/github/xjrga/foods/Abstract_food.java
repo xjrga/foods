@@ -123,7 +123,7 @@ public abstract class Abstract_food implements Food {
         set_protein_atwater_factor(4.0);
         set_carbohydrate_by_difference_atwater_factor(4.0);
         set_fat_atwater_factor(9.0);
-        set_alcohol_atwater_factor(7.0);
+        set_alcohol_atwater_factor(6.93);
     }
 
     @Override
@@ -293,7 +293,7 @@ public abstract class Abstract_food implements Food {
     }
 
     @Override
-    public final Double get_digestible_carbs_coefficient() {
+    public final Double get_digestible_carbohydrate_coefficient() {
         return get_digestible_carbohydrate() / weight;
     }
 

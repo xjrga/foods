@@ -95,7 +95,7 @@ public interface Food {
     //calculated carbs
     Double get_digestible_carbohydrate();
 
-    Double get_digestible_carbs_coefficient();
+    Double get_digestible_carbohydrate_coefficient();
 
     //Fats
     Double get_cholesterol();

@@ -145,9 +145,9 @@ public class Bananas_rawNGTest {
         assertEquals(52.0, food.get_glycemic_index(), 0.00001);
     }
 
-    //gross_energy
+    //energy_gross
     @Test(enabled = true)
-    public void test_gross_energy() {
+    public void test_energy_gross() {
         assertEquals(89.0, food.get_energy_gross(), 0.00001);
     }
 
@@ -325,6 +325,12 @@ public class Bananas_rawNGTest {
         assertEquals(80.96, food.get_energy_digestible_carbohydrate(), 0.00001);
     }
 
+    //energy_digestible_carbohydrate_coefficient
+    @Test(enabled = true)
+    public void test_energy_digestible_carbohydrate_coefficient() {
+        assertEquals(0.8096, food.get_energy_digestible_carbohydrate_coefficient(), 0.00001);
+    }
+
     //energy_digestible
     @Test(enabled = true)
     public void test_energy_digestible() {
@@ -347,6 +353,300 @@ public class Bananas_rawNGTest {
     @Test(enabled = true)
     public void test_energy_protein() {
         assertEquals(4.36, food.get_energy_protein(), 0.00001);
+    }
+
+    //
+    @Test(enabled = true)
+    public void test_energy_gross_coefficient() {
+        assertEquals(0.89, food.get_energy_gross_coefficient(), 0.00001);
+    }
+
+    //
+    @Test(enabled = true)
+    public void test_protein_coefficient() {
+        assertEquals(0.0109, food.get_protein_coefficient(), 0.00001);
+    }
+
+    //
+    @Test(enabled = true)
+    public void test_carbohydrate_by_difference_coefficient() {
+        assertEquals(0.2284, food.get_carbohydrate_by_difference_coefficient(), 0.00001);
+    }
+
+    //
+    @Test(enabled = true)
+    public void test_fiber_coefficient() {
+        assertEquals(0.02600, food.get_fiber_coefficient(), 0.00001);
+    }
+
+    //fat_coefficient
+    @Test(enabled = true)
+    public void test_fat_coefficient() {
+        assertEquals(0.0033, food.get_fat_coefficient(), 0.00001);
+    }
+
+    //alcohol_coefficient
+    @Test(enabled = true)
+    public void test_alcohol_coefficient() {
+        assertEquals(0.0, food.get_alcohol_coefficient(), 0.00001);
+    }
+
+    //digestible_carbohydrate_coefficient
+    @Test(enabled = true)
+    public void test_digestible_carbohydrate_coefficient() {
+        assertEquals(0.2024, food.get_digestible_carbohydrate_coefficient(), 0.00001);
+    }
+
+    //cholesterol_coefficient
+    @Test(enabled = true)
+    public void test_cholesterol_coefficient() {
+        assertEquals(0.0, food.get_cholesterol_coefficient(), 0.00001);
+    }
+
+    //monounsaturated_fat_coefficient
+    @Test(enabled = true)
+    public void test_monounsaturated_fat_coefficient() {
+        assertEquals(0.0003, food.get_monounsaturated_fat_coefficient(), 0.00001);
+    }
+
+    //polyunsaturated_fat_coefficient
+    @Test(enabled = true)
+    public void test_polyunsaturated_fat_coefficient() {
+        assertEquals(0.0007, food.get_polyunsaturated_fat_coefficient(), 0.00001);
+    }
+
+    //saturated_fat_coefficient
+    @Test(enabled = true)
+    public void test_saturated_fat_coefficient() {
+        assertEquals(0.0011, food.get_saturated_fat_coefficient(), 0.00001);
+    }
+
+    //complete_protein_coefficient
+    @Test(enabled = true)
+    public void test_complete_protein_coefficient() {
+        assertEquals(0.0, food.get_complete_protein_coefficient(), 0.00001);
+    }
+
+    //calcium_coefficient
+    @Test(enabled = true)
+    public void test_calcium_coefficient() {
+        assertEquals(0.05, food.get_calcium_coefficient(), 0.00001);
+    }
+
+    //copper_coefficient
+    @Test(enabled = true)
+    public void test_copper_coefficient() {
+        assertEquals(0.0007, food.get_copper_coefficient(), 0.00001);
+    }
+
+    //fluoride_coefficient
+    @Test(enabled = true)
+    public void test_fluoride_coefficient() {
+        assertEquals(0.02200, food.get_fluoride_coefficient(), 0.00001);
+    }
+
+    //iron_coefficient
+    @Test(enabled = true)
+    public void test_iron_coefficient() {
+        assertEquals(0.0026, food.get_iron_coefficient(), 0.00001);
+    }
+
+    //magnesium_coefficient
+    @Test(enabled = true)
+    public void test_magnesium_coefficient() {
+        assertEquals(0.27, food.get_magnesium_coefficient(), 0.00001);
+    }
+
+    //manganese_coefficient
+    @Test(enabled = true)
+    public void test_manganese_coefficient() {
+        assertEquals(0.0027, food.get_manganese_coefficient(), 0.00001);
+    }
+
+    //phosphorus_coefficient
+    @Test(enabled = true)
+    public void test_phosphorus_coefficient() {
+        assertEquals(0.22, food.get_phosphorus_coefficient(), 0.00001);
+    }
+
+    //potassium_coefficient
+    @Test(enabled = true)
+    public void test_potassium_coefficient() {
+        assertEquals(3.58, food.get_potassium_coefficient(), 0.00001);
+    }
+
+    //selenium_coefficient
+    @Test(enabled = true)
+    public void test_selenium_coefficient() {
+        assertEquals(0.01, food.get_selenium_coefficient(), 0.00001);
+    }
+
+    //sodium_coefficient
+    @Test(enabled = true)
+    public void test_sodium_coefficient() {
+        assertEquals(0.01, food.get_sodium_coefficient(), 0.00001);
+    }
+
+    //zinc_coefficient
+    @Test(enabled = true)
+    public void test_zinc_coefficient() {
+        assertEquals(0.0015, food.get_zinc_coefficient(), 0.00001);
+    }
+
+    //folate_coefficient
+    @Test(enabled = true)
+    public void test_folate_coefficient() {
+        assertEquals(0.2, food.get_folate_coefficient(), 0.00001);
+    }
+
+    //niacin_coefficient
+    @Test(enabled = true)
+    public void test_niacin_coefficient() {
+        assertEquals(0.0066, food.get_niacin_coefficient(), 0.00001);
+    }
+
+    //pantothenic_acid_coefficient
+    @Test(enabled = true)
+    public void test_pantothenic_acid_coefficient() {
+        assertEquals(0.0033, food.get_pantothenic_acid_coefficient(), 0.00001);
+    }
+
+    //riboflavin_coefficient
+    @Test(enabled = true)
+    public void test_riboflavin_coefficient() {
+        assertEquals(0.0007, food.get_riboflavin_coefficient(), 0.00001);
+    }
+
+    //thiamin_coefficient
+    @Test(enabled = true)
+    public void test_thiamin_coefficient() {
+        assertEquals(0.0003, food.get_thiamin_coefficient(), 0.00001);
+    }
+
+    //vitamin_a_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_a_coefficient() {
+        assertEquals(0.03, food.get_vitamin_a_coefficient(), 0.00001);
+    }
+
+    //vitamin_b12_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_b12_coefficient() {
+        assertEquals(0.0, food.get_vitamin_b12_coefficient(), 0.00001);
+    }
+
+    //vitamin_b6_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_b6_coefficient() {
+        assertEquals(0.0036, food.get_vitamin_b6_coefficient(), 0.00001);
+    }
+
+    //vitamin_c_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_c_coefficient() {
+        assertEquals(0.087, food.get_vitamin_c_coefficient(), 0.00001);
+    }
+
+    //vitamin_d_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_d_coefficient() {
+        assertEquals(0.0, food.get_vitamin_d_coefficient(), 0.00001);
+    }
+
+    //vitamin_e_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_e_coefficient() {
+        assertEquals(0.001, food.get_vitamin_e_coefficient(), 0.00001);
+    }
+
+    //vitamin_k_coefficient
+    @Test(enabled = true)
+    public void test_vitamin_k_coefficient() {
+        assertEquals(0.005, food.get_vitamin_k_coefficient(), 0.00001);
+    }
+
+    //choline_coefficient
+    @Test(enabled = true)
+    public void test_choline_coefficient() {
+        assertEquals(0.098, food.get_choline_coefficient(), 0.00001);
+    }
+
+    //glycemic_load_coefficient
+    @Test(enabled = true)
+    public void test_glycemic_load_coefficient() {
+        assertEquals(0.10524, food.get_glycemic_load_coefficient(), 0.00001);
+    }
+
+    //alphalinolenic_acid_coefficient
+    @Test(enabled = true)
+    public void test_alphalinolenic_acid_coefficient() {
+        assertEquals(0.0, food.get_alphalinolenic_acid_coefficient(), 0.00001);
+    }
+
+    //linoleic_acid_coefficient
+    @Test(enabled = true)
+    public void test_linoleic_acid_coefficient() {
+        assertEquals(0.0, food.get_linoleic_acid_coefficient(), 0.00001);
+    }
+
+    //dha_coefficient
+    @Test(enabled = true)
+    public void test_dha_coefficient() {
+        assertEquals(0.0, food.get_dha_coefficient(), 0.00001);
+    }
+
+    //epa_coefficient
+    @Test(enabled = true)
+    public void test_epa_coefficient() {
+        assertEquals(0.0, food.get_epa_coefficient(), 0.00001);
+    }
+
+    //water_coefficient
+    @Test(enabled = true)
+    public void test_water_coefficient() {
+        assertEquals(0.7491, food.get_water_coefficient(), 0.00001);
+    }
+
+    //cost_coefficient
+    @Test(enabled = true)
+    public void test_cost_coefficient() {
+        assertEquals(0.0, food.get_cost_coefficient(), 0.00001);
+    }
+
+    //energy_alcohol_coefficient
+    @Test(enabled = true)
+    public void test_energy_alcohol_coefficient() {
+        assertEquals(0.0, food.get_energy_alcohol_coefficient(), 0.00001);
+    }
+
+    //energy_digestible_coefficient
+    @Test(enabled = true)
+    public void test_energy_digestible_coefficient() {
+        assertEquals(0.88289, food.get_energy_digestible_coefficient(), 0.00001);
+    }
+
+    //energy_fat_coefficient
+    @Test(enabled = true)
+    public void test_energy_fat_coefficient() {
+        assertEquals(0.0297, food.get_energy_fat_coefficient(), 0.00001);
+    }
+
+    //energy_no_protein_coefficient
+    @Test(enabled = true)
+    public void test_energy_no_protein_coefficient() {
+        assertEquals(0.83929, food.get_energy_no_protein_coefficient(), 0.00001);
+    }
+
+    //energy_protein_coefficient
+    @Test(enabled = true)
+    public void test_energy_protein_coefficient() {
+        assertEquals(.0436, food.get_energy_protein_coefficient(), 0.00001);
+    }
+
+    //digestible_carbohydrate
+    @Test(enabled = true)
+    public void test_digestible_carbohydrate() {
+        assertEquals(20.24, food.get_digestible_carbohydrate(), 0.00001);
     }
 
 }
