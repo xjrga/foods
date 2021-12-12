@@ -18,13 +18,12 @@
 package io.github.xjrga.foods;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food implementation example
  */
 public class Food_impl extends Abstract_food {
 
     /**
-     *
+     * Constructs a food item
      */
     public Food_impl() {
         set_food_name("");

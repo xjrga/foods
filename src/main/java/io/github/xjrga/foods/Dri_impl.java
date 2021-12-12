@@ -18,13 +18,12 @@
 package io.github.xjrga.foods;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a dri implementation example
  */
 public class Dri_impl extends Abstract_dri {
 
     /**
-     *
+     * Constructs a dri item
      */
     public Dri_impl() {
         set_lifestage_id(0);

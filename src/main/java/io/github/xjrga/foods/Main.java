@@ -1,7 +1,7 @@
 package io.github.xjrga.foods;
 
 /**
- * Delivers Welcome to Snackmix Food Library Message
+ * Delivers welcome to "Snackmix food Library" message
  *
  */
 public class Main {

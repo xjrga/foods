@@ -18,8 +18,7 @@
 package io.github.xjrga.foods;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is an abstract dri to extend from
  */
 public class Abstract_dri implements Dri {
 
