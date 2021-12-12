@@ -20,8 +20,8 @@ package io.github.xjrga.foods.dairy_and_egg_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a extends Abstract_food {
 

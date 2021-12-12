@@ -20,8 +20,8 @@ package io.github.xjrga.foods.beverages;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Coffee_brewed_prepared_with_tap_water extends Abstract_food {
 

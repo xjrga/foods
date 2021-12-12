@@ -20,8 +20,8 @@ package io.github.xjrga.foods.vegetables_and_vegetable_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Potatoes_baked_flesh_and_skin_without_salt extends Abstract_food {
 

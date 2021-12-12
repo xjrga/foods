@@ -20,8 +20,8 @@ package io.github.xjrga.foods.breakfast_cereals;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original extends Abstract_food {
 

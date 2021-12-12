@@ -20,8 +20,8 @@ package io.github.xjrga.foods.sweets;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Chewing_gum_sugarless extends Abstract_food {
 

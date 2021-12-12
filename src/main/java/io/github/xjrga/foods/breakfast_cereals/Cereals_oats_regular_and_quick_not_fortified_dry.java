@@ -20,8 +20,8 @@ package io.github.xjrga.foods.breakfast_cereals;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Cereals_oats_regular_and_quick_not_fortified_dry extends Abstract_food {
 

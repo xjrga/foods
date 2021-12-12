@@ -20,8 +20,8 @@ package io.github.xjrga.foods.glycemic_index_test_set;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw extends Abstract_food {
 

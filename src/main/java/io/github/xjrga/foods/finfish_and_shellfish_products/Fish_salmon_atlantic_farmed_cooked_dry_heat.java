@@ -20,8 +20,8 @@ package io.github.xjrga.foods.finfish_and_shellfish_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Fish_salmon_atlantic_farmed_cooked_dry_heat extends Abstract_food {
 

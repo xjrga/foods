@@ -20,8 +20,8 @@ package io.github.xjrga.foods.pork_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted extends Abstract_food {
 

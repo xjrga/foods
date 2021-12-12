@@ -20,8 +20,8 @@ package io.github.xjrga.foods.beef_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Beef_round_top_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw extends Abstract_food {
 

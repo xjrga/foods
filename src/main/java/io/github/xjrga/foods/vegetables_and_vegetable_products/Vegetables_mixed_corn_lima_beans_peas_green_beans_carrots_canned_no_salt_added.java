@@ -20,8 +20,8 @@ package io.github.xjrga.foods.vegetables_and_vegetable_products;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added extends Abstract_food {
 

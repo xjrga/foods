@@ -20,8 +20,8 @@ package io.github.xjrga.foods.fast_foods;
 import io.github.xjrga.foods.Abstract_food;
 
 /**
- *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * This is a food item from USDA National Nutrient Database for Standard
+ * Reference, Release 28
  */
 public class Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato extends Abstract_food {
 

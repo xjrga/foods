@@ -21,7 +21,6 @@ import io.github.xjrga.foods.Abstract_food;
 
 /**
  *
- * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
 public class Generic_multivitamin extends Abstract_food {
 
