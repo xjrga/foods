@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_boiled_cooked_in_skin_flesh_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Potatoes_boiled_cooked_in_skin_flesh_without_salt() {
         set_food_name("Potatoes, boiled, cooked in skin, flesh, without salt");
         set_food_label("Potatoes_boiled_cooked_in_skin_flesh_without_salt");

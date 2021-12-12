@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Alcoholic_beverage_beer_light extends Abstract_food {
 
+    /**
+     *
+     */
     public Alcoholic_beverage_beer_light() {
         set_food_name("Alcoholic beverage, beer, light");
         set_food_label("Alcoholic_beverage_beer_light");

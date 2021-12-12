@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lettuce_iceberg_includes_crisphead_types_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Lettuce_iceberg_includes_crisphead_types_raw() {
         set_food_name("Lettuce, iceberg (includes crisphead types), raw");
         set_food_label("Lettuce_iceberg_includes_crisphead_types_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweet_potato_raw_unprepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweet_potato_raw_unprepared() {
         set_food_name("Sweet potato, raw, unprepared");
         set_food_label("Sweet_potato_raw_unprepared");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nectarines_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Nectarines_raw() {
         set_food_name("Nectarines, raw");
         set_food_label("Nectarines_raw");

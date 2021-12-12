@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Strawberries_frozen_unsweetened extends Abstract_food {
 
+    /**
+     *
+     */
     public Strawberries_frozen_unsweetened() {
         set_food_name("Strawberries, frozen, unsweetened");
         set_food_label("Strawberries_frozen_unsweetened");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Seeds_flaxseed_efas extends Abstract_food {
 
+    /**
+     *
+     */
     public Seeds_flaxseed_efas() {
         set_food_name("Seeds, flaxseed (EFAs)");
         set_food_label("Seeds_flaxseed_efas");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oat_bran_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Oat_bran_cooked() {
         set_food_name("Oat bran, cooked");
         set_food_label("Oat_bran_cooked");

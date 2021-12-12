@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Applesauce_canned_unsweetened_with_added_ascorbic_acid extends Abstract_food {
 
+    /**
+     *
+     */
     public Applesauce_canned_unsweetened_with_added_ascorbic_acid() {
         set_food_name("Applesauce, canned, unsweetened, with added ascorbic acid");
         set_food_label("Applesauce_canned_unsweetened_with_added_ascorbic_acid");

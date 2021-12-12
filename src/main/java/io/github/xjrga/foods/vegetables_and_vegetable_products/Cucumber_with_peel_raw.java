@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cucumber_with_peel_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Cucumber_with_peel_raw() {
         set_food_name("Cucumber, with peel, raw");
         set_food_label("Cucumber_with_peel_raw");

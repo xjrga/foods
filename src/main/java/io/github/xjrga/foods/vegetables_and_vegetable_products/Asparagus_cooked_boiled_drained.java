@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Asparagus_cooked_boiled_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Asparagus_cooked_boiled_drained() {
         set_food_name("Asparagus, cooked, boiled, drained");
         set_food_label("Asparagus_cooked_boiled_drained");

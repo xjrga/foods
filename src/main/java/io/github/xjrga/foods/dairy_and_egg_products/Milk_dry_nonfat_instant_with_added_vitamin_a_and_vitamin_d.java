@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_dry_nonfat_instant_with_added_vitamin_a_and_vitamin_d extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_dry_nonfat_instant_with_added_vitamin_a_and_vitamin_d() {
         set_food_name("Milk, dry, nonfat, instant, with added vitamin A and vitamin D");
         set_food_label("Milk_dry_nonfat_instant_with_added_vitamin_a_and_vitamin_d");

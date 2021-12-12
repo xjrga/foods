@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Prune_puree extends Abstract_food {
 
+    /**
+     *
+     */
     public Prune_puree() {
         set_food_name("Prune puree");
         set_food_label("Prune_puree");

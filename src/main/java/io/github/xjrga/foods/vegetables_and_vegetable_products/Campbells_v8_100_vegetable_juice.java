@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Campbells_v8_100_vegetable_juice extends Abstract_food {
 
+    /**
+     *
+     */
     public Campbells_v8_100_vegetable_juice() {
         set_food_name("CAMPBELL'S, V8 100% Vegetable Juice");
         set_food_label("Campbell_s_v8_100_vegetable_juice");

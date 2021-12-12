@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sour_cream_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Sour_cream_fat_free() {
         set_food_name("Sour cream, fat free");
         set_food_label("Sour_cream_fat_free");

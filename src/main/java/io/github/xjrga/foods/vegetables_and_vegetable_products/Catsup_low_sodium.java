@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Catsup_low_sodium extends Abstract_food {
 
+    /**
+     *
+     */
     public Catsup_low_sodium() {
         set_food_name("Catsup, low sodium");
         set_food_label("Catsup_low_sodium");

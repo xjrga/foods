@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_mixed_nuts_dry_roasted_with_peanuts_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_mixed_nuts_dry_roasted_with_peanuts_without_salt_added() {
         set_food_name("Nuts, mixed nuts, dry roasted, with peanuts, without salt added");
         set_food_label("Nuts_mixed_nuts_dry_roasted_with_peanuts_without_salt_added");

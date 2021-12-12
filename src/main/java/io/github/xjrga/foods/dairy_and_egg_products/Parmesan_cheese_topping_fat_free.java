@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Parmesan_cheese_topping_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Parmesan_cheese_topping_fat_free() {
         set_food_name("Parmesan cheese topping, fat free");
         set_food_label("Parmesan_cheese_topping_fat_free");

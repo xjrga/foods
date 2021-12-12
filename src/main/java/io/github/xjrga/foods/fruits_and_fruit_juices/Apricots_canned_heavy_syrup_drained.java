@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Apricots_canned_heavy_syrup_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Apricots_canned_heavy_syrup_drained() {
         set_food_name("Apricots, canned, heavy syrup, drained");
         set_food_label("Apricots_canned_heavy_syrup_drained");

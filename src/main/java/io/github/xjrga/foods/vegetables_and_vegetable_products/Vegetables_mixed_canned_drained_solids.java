@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Vegetables_mixed_canned_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Vegetables_mixed_canned_drained_solids() {
         set_food_name("Vegetables, mixed, canned, drained solids");
         set_food_label("Vegetables_mixed_canned_drained_solids");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_mahimahi_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_mahimahi_raw() {
         set_food_name("Fish, mahimahi, raw");
         set_food_label("Fish_mahimahi_raw");

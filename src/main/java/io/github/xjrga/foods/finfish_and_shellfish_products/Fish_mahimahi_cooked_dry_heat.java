@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_mahimahi_cooked_dry_heat extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_mahimahi_cooked_dry_heat() {
         set_food_name("Fish, mahimahi, cooked, dry heat");
         set_food_label("Fish_mahimahi_cooked_dry_heat");

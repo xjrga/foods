@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mayonnaise_reduced_fat_with_olive_oil extends Abstract_food {
 
+    /**
+     *
+     */
     public Mayonnaise_reduced_fat_with_olive_oil() {
         set_food_name("Mayonnaise, reduced fat, with olive oil");
         set_food_label("Mayonnaise_reduced_fat_with_olive_oil");

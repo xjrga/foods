@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pastrami_beef_98_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Pastrami_beef_98_fat_free() {
         set_food_name("Pastrami, beef, 98% fat-free");
         set_food_label("Pastrami_beef_98_fat_free");

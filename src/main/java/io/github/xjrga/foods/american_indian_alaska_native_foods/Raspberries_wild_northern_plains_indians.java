@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Raspberries_wild_northern_plains_indians extends Abstract_food {
 
+    /**
+     *
+     */
     public Raspberries_wild_northern_plains_indians() {
         set_food_name("Raspberries, wild (Northern Plains Indians)");
         set_food_label("Raspberries_wild_northern_plains_indians");

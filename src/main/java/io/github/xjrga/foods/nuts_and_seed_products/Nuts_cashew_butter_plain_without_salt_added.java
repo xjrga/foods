@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_cashew_butter_plain_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_cashew_butter_plain_without_salt_added() {
         set_food_name("Nuts, cashew butter, plain, without salt added");
         set_food_label("Nuts_cashew_butter_plain_without_salt_added");

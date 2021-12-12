@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soybeans_green_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Soybeans_green_cooked_boiled_drained_without_salt() {
         set_food_name("Soybeans, green, cooked, boiled, drained, without salt");
         set_food_label("Soybeans_green_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beets_cooked_boiled_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Beets_cooked_boiled_drained() {
         set_food_name("Beets, cooked, boiled, drained");
         set_food_label("Beets_cooked_boiled_drained");

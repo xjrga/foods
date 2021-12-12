@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_ground_97_lean_meat_3_fat_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beef_ground_97_lean_meat_3_fat_raw() {
         set_food_name("Beef, ground, 97% lean meat / 3% fat, raw");
         set_food_label("Beef_ground_97_lean_meat_3_fat_raw");

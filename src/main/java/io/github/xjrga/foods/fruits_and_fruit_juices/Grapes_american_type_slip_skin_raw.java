@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapes_american_type_slip_skin_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Grapes_american_type_slip_skin_raw() {
         set_food_name("Grapes, american type (slip skin), raw");
         set_food_label("Grapes_american_type_slip_skin_raw");

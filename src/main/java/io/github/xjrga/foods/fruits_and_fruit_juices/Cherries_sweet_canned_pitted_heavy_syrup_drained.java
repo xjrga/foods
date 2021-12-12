@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cherries_sweet_canned_pitted_heavy_syrup_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Cherries_sweet_canned_pitted_heavy_syrup_drained() {
         set_food_name("Cherries, sweet, canned, pitted, heavy syrup, drained");
         set_food_label("Cherries_sweet_canned_pitted_heavy_syrup_drained");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Apricots_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Apricots_raw() {
         set_food_name("Apricots, raw");
         set_food_label("Apricots_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sorghum_grain extends Abstract_food {
 
+    /**
+     *
+     */
     public Sorghum_grain() {
         set_food_name("Sorghum grain");
         set_food_label("Sorghum_grain");

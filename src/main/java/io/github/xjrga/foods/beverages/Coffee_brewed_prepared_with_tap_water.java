@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Coffee_brewed_prepared_with_tap_water extends Abstract_food {
 
+    /**
+     *
+     */
     public Coffee_brewed_prepared_with_tap_water() {
         set_food_name("Coffee, brewed, prepared with tap water");
         set_food_label("Coffee_brewed_prepared_with_tap_water");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids() {
         set_food_name("Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained solids");
         set_food_label("Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids");

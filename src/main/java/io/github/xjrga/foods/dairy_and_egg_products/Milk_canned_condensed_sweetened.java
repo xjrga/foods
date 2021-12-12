@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_canned_condensed_sweetened extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_canned_condensed_sweetened() {
         set_food_name("Milk, canned, condensed, sweetened");
         set_food_label("Milk_canned_condensed_sweetened");

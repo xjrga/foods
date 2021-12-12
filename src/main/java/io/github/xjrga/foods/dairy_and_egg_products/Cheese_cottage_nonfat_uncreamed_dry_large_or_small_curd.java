@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd() {
         set_food_name("Cheese, cottage, nonfat, uncreamed, dry, large or small curd");
         set_food_label("Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd");

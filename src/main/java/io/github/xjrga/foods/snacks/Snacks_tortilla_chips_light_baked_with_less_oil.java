@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_tortilla_chips_light_baked_with_less_oil extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_tortilla_chips_light_baked_with_less_oil() {
         set_food_name("Snacks, tortilla chips, light (baked with less oil)");
         set_food_label("Snacks_tortilla_chips_light_baked_with_less_oil");

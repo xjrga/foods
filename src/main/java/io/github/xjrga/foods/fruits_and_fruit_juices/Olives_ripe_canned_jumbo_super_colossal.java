@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Olives_ripe_canned_jumbo_super_colossal extends Abstract_food {
 
+    /**
+     *
+     */
     public Olives_ripe_canned_jumbo_super_colossal() {
         set_food_name("Olives, ripe, canned (jumbo-super colossal)");
         set_food_label("Olives_ripe_canned_jumbo_super_colossal");

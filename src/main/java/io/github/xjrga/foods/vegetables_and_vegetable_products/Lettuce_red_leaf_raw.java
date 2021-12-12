@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lettuce_red_leaf_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Lettuce_red_leaf_raw() {
         set_food_name("Lettuce, red leaf, raw");
         set_food_label("Lettuce_red_leaf_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_producer_fluid_3_7_milkfat extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_producer_fluid_3_7_milkfat() {
         set_food_name("Milk, producer, fluid, 3.7% milkfat");
         set_food_label("Milk_producer_fluid_3_7_milkfat");

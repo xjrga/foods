@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_pita_whole_wheat extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_pita_whole_wheat() {
         set_food_name("Bread, pita, whole-wheat");
         set_food_label("Bread_pita_whole_wheat");

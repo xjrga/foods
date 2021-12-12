@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Carrots_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Carrots_cooked_boiled_drained_without_salt() {
         set_food_name("Carrots, cooked, boiled, drained, without salt");
         set_food_label("Carrots_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pretzels_soft_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Pretzels_soft_unsalted() {
         set_food_name("Pretzels, soft, unsalted");
         set_food_label("Pretzels_soft_unsalted");

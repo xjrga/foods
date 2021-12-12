@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pasta_dry_enriched extends Abstract_food {
 
+    /**
+     *
+     */
     public Pasta_dry_enriched() {
         set_food_name("Pasta, dry, enriched");
         set_food_label("Pasta_dry_enriched");

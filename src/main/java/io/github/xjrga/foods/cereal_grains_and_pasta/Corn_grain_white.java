@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Corn_grain_white extends Abstract_food {
 
+    /**
+     *
+     */
     public Corn_grain_white() {
         set_food_name("Corn grain, white");
         set_food_label("Corn_grain_white");

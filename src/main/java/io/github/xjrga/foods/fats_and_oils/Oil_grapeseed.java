@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_grapeseed extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_grapeseed() {
         set_food_name("Oil, grapeseed");
         set_food_label("Oil_grapeseed");

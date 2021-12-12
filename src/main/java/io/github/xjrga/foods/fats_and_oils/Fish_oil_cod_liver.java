@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_oil_cod_liver extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_oil_cod_liver() {
         set_food_name("Fish oil, cod liver");
         set_food_label("Fish_oil_cod_liver");

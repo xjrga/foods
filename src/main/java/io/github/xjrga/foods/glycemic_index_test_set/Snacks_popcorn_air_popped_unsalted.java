@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_popcorn_air_popped_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_popcorn_air_popped_unsalted() {
         set_food_name("Snacks, popcorn, air-popped (Unsalted)");
         set_food_label("Snacks_popcorn_air_popped_unsalted");

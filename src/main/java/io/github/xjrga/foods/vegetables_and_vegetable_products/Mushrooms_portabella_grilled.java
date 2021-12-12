@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mushrooms_portabella_grilled extends Abstract_food {
 
+    /**
+     *
+     */
     public Mushrooms_portabella_grilled() {
         set_food_name("Mushrooms, portabella, grilled");
         set_food_label("Mushrooms_portabella_grilled");

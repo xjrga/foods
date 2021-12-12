@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Prickly_pears_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Prickly_pears_raw() {
         set_food_name("Prickly pears, raw");
         set_food_label("Prickly_pears_raw");

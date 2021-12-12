@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_lowfat_fluid_1_milkfat_protein_fortified_with_added_vitamin_a_and_vitamin_d extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_lowfat_fluid_1_milkfat_protein_fortified_with_added_vitamin_a_and_vitamin_d() {
         set_food_name("Milk, lowfat, fluid, 1% milkfat, protein fortified, with added vitamin A and vitamin D");
         set_food_label("Milk_lowfat_fluid_1_milkfat_protein_fortified_with_added_vitamin_a_and_vitamin_d");

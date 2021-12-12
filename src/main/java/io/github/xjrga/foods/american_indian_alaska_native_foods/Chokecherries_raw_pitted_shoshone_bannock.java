@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chokecherries_raw_pitted_shoshone_bannock extends Abstract_food {
 
+    /**
+     *
+     */
     public Chokecherries_raw_pitted_shoshone_bannock() {
         set_food_name("Chokecherries, raw, pitted (Shoshone Bannock)");
         set_food_label("Chokecherries_raw_pitted_shoshone_bannock");

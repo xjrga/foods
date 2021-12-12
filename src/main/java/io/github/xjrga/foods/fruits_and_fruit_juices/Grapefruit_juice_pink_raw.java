@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapefruit_juice_pink_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Grapefruit_juice_pink_raw() {
         set_food_name("Grapefruit juice, pink, raw");
         set_food_label("Grapefruit_juice_pink_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bagels_cinnamon_raisin extends Abstract_food {
 
+    /**
+     *
+     */
     public Bagels_cinnamon_raisin() {
         set_food_name("Bagels, cinnamon-raisin");
         set_food_label("Bagels_cinnamon_raisin");

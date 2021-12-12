@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nopales_cooked_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Nopales_cooked_without_salt() {
         set_food_name("Nopales, cooked, without salt");
         set_food_label("Nopales_cooked_without_salt");

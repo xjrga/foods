@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Onions_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Onions_raw() {
         set_food_name("Onions, raw");
         set_food_label("Onions_raw");

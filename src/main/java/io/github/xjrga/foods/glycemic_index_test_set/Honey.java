@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Honey extends Abstract_food {
 
+    /**
+     *
+     */
     public Honey() {
         set_food_name("Honey");
         set_food_label("Honey");

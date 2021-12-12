@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Celery_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Celery_cooked_boiled_drained_without_salt() {
         set_food_name("Celery, cooked, boiled, drained, without salt");
         set_food_label("Celery_cooked_boiled_drained_without_salt");

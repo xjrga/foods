@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweeteners_tabletop_sucralose_splenda_packets extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweeteners_tabletop_sucralose_splenda_packets() {
         set_food_name("Sweeteners, tabletop, sucralose, SPLENDA packets");
         set_food_label("Sweeteners_tabletop_sucralose_splenda_packets");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a() {
         set_food_name("Milk, canned, evaporated, with added vitamin D and without added vitamin A");
         set_food_label("Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a");

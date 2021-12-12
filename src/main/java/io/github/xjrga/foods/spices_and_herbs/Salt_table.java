@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Salt_table extends Abstract_food {
 
+    /**
+     *
+     */
     public Salt_table() {
         set_food_name("Salt, table");
         set_food_label("Salt_table");

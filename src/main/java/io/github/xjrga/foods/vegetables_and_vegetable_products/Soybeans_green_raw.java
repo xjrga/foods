@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soybeans_green_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Soybeans_green_raw() {
         set_food_name("Soybeans, green, raw");
         set_food_label("Soybeans_green_raw");

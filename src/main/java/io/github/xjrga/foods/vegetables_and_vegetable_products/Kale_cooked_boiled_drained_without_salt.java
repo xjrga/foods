@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Kale_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Kale_cooked_boiled_drained_without_salt() {
         set_food_name("Kale, cooked, boiled, drained, without salt");
         set_food_label("Kale_cooked_boiled_drained_without_salt");

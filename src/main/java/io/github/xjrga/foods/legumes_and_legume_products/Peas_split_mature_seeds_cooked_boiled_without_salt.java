@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_split_mature_seeds_cooked_boiled_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Peas_split_mature_seeds_cooked_boiled_without_salt() {
         set_food_name("Peas, split, mature seeds, cooked, boiled, without salt");
         set_food_label("Peas_split_mature_seeds_cooked_boiled_without_salt");

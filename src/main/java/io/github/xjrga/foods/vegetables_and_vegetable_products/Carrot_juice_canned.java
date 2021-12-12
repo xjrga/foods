@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Carrot_juice_canned extends Abstract_food {
 
+    /**
+     *
+     */
     public Carrot_juice_canned() {
         set_food_name("Carrot juice, canned");
         set_food_label("Carrot_juice_canned");

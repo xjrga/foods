@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Babyfood_dessert_custard_pudding_vanilla_junior extends Abstract_food {
 
+    /**
+     *
+     */
     public Babyfood_dessert_custard_pudding_vanilla_junior() {
         set_food_name("Babyfood, dessert, custard pudding, vanilla, junior");
         set_food_label("Babyfood_dessert_custard_pudding_vanilla_junior");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Plums_wild_northern_plains_indians extends Abstract_food {
 
+    /**
+     *
+     */
     public Plums_wild_northern_plains_indians() {
         set_food_name("Plums, wild (Northern Plains Indians)");
         set_food_label("Plums_wild_northern_plains_indians");

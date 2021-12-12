@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Guavas_common_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Guavas_common_raw() {
         set_food_name("Guavas, common, raw");
         set_food_label("Guavas_common_raw");

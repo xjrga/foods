@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Kiwifruit_green_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Kiwifruit_green_raw() {
         set_food_name("Kiwifruit, green, raw");
         set_food_label("Kiwifruit_green_raw");

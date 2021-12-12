@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Triticale extends Abstract_food {
 
+    /**
+     *
+     */
     public Triticale() {
         set_food_name("Triticale");
         set_food_label("Triticale");

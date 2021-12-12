@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapefruit_raw_pink_and_red_and_white_all_areas extends Abstract_food {
 
+    /**
+     *
+     */
     public Grapefruit_raw_pink_and_red_and_white_all_areas() {
         set_food_name("Grapefruit, raw, pink and red and white, all areas");
         set_food_label("Grapefruit_raw_pink_and_red_and_white_all_areas");

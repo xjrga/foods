@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_pistachio_nuts_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_pistachio_nuts_raw() {
         set_food_name("Nuts, pistachio nuts, raw");
         set_food_label("Nuts_pistachio_nuts_raw");

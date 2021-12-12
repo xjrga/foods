@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added() {
         set_food_name("Ham, sliced, pre-packaged, deli meat (96%fat free, water added)");
         set_food_label("Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added");

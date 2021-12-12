@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_oats_regular_and_quick_not_fortified_dry extends Abstract_food {
 
+    /**
+     *
+     */
     public Cereals_oats_regular_and_quick_not_fortified_dry() {
         set_food_name("Cereals, oats, regular and quick, not fortified, dry");
         set_food_label("Cereals_oats_regular_and_quick_not_fortified_dry");

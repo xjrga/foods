@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Alcoholic_beverage_wine_table_red extends Abstract_food {
 
+    /**
+     *
+     */
     public Alcoholic_beverage_wine_table_red() {
         set_food_name("Alcoholic beverage, wine, table, red");
         set_food_label("Alcoholic_beverage_wine_table_red");

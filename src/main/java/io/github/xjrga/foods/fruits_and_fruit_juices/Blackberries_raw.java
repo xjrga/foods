@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Blackberries_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Blackberries_raw() {
         set_food_name("Blackberries, raw");
         set_food_label("Blackberries_raw");

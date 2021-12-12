@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tortilla_blue_corn_sakwavikaviki_hopi extends Abstract_food {
 
+    /**
+     *
+     */
     public Tortilla_blue_corn_sakwavikaviki_hopi() {
         set_food_name("Tortilla, blue corn, Sakwavikaviki (Hopi)");
         set_food_label("Tortilla_blue_corn_sakwavikaviki_hopi");

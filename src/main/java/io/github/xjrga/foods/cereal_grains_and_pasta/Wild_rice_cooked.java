@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wild_rice_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Wild_rice_cooked() {
         set_food_name("Wild rice, cooked");
         set_food_label("Wild_rice_cooked");

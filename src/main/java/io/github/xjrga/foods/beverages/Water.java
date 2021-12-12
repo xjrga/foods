@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Water extends Abstract_food {
 
+    /**
+     *
+     */
     public Water() {
         set_food_name("Water");
         set_food_label("Water");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_popcorn_microwave_94_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_popcorn_microwave_94_fat_free() {
         set_food_name("Snacks, popcorn, microwave, 94% fat free");
         set_food_label("Snacks_popcorn_microwave_94_fat_free");

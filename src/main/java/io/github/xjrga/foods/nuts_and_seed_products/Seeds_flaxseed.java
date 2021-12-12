@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Seeds_flaxseed extends Abstract_food {
 
+    /**
+     *
+     */
     public Seeds_flaxseed() {
         set_food_name("Seeds, flaxseed");
         set_food_label("Seeds_flaxseed");

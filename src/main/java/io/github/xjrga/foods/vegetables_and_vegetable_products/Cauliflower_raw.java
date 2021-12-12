@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cauliflower_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Cauliflower_raw() {
         set_food_name("Cauliflower, raw");
         set_food_label("Cauliflower_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tomato_products_canned_puree_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Tomato_products_canned_puree_without_salt_added() {
         set_food_name("Tomato products, canned, puree, without salt added");
         set_food_label("Tomato_products_canned_puree_without_salt_added");

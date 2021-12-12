@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Ground_turkey_fat_free_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Ground_turkey_fat_free_raw() {
         set_food_name("Ground turkey, fat free, raw");
         set_food_label("Ground_turkey_fat_free_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_white_wheat extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_white_wheat() {
         set_food_name("Bread, white wheat");
         set_food_label("Bread_white_wheat");

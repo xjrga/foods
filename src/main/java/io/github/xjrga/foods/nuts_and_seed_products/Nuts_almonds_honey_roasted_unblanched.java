@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_almonds_honey_roasted_unblanched extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_almonds_honey_roasted_unblanched() {
         set_food_name("Nuts, almonds, honey roasted, unblanched");
         set_food_label("Nuts_almonds_honey_roasted_unblanched");

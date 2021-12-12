@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_sardine_pacific_canned_in_tomato_sauce_drained_solids_with_bone extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_sardine_pacific_canned_in_tomato_sauce_drained_solids_with_bone() {
         set_food_name("Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone");
         set_food_label("Fish_sardine_pacific_canned_in_tomato_sauce_drained_solids_with_bone");

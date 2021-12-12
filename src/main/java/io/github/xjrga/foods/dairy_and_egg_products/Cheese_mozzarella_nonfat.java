@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_mozzarella_nonfat extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_mozzarella_nonfat() {
         set_food_name("Cheese, mozzarella, nonfat");
         set_food_label("Cheese_mozzarella_nonfat");

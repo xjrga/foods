@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yogurt_greek_plain_nonfat extends Abstract_food {
 
+    /**
+     *
+     */
     public Yogurt_greek_plain_nonfat() {
         set_food_name("Yogurt, Greek, plain, nonfat");
         set_food_label("Yogurt_greek_plain_nonfat");

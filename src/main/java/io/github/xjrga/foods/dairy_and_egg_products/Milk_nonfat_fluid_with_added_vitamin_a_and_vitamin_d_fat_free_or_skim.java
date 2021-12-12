@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim() {
         set_food_name("Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)");
         set_food_label("Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim");

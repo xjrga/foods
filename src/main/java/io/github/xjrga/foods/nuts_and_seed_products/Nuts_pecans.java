@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_pecans extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_pecans() {
         set_food_name("Nuts, pecans");
         set_food_label("Nuts_pecans");

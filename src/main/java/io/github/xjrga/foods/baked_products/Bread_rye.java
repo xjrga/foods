@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_rye extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_rye() {
         set_food_name("Bread, rye");
         set_food_label("Bread_rye");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Vinegar_balsamic extends Abstract_food {
 
+    /**
+     *
+     */
     public Vinegar_balsamic() {
         set_food_name("Vinegar, balsamic");
         set_food_label("Vinegar_balsamic");

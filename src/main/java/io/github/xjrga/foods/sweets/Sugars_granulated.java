@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sugars_granulated extends Abstract_food {
 
+    /**
+     *
+     */
     public Sugars_granulated() {
         set_food_name("Sugars, granulated");
         set_food_label("Sugars_granulated");

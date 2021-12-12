@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweetener_herbal_extract_powder_from_stevia_leaf extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweetener_herbal_extract_powder_from_stevia_leaf() {
         set_food_name("Sweetener, herbal extract powder from Stevia leaf");
         set_food_label("Sweetener_herbal_extract_powder_from_stevia_leaf");

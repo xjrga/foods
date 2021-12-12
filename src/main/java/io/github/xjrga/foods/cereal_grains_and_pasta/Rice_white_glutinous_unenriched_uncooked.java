@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_white_glutinous_unenriched_uncooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_white_glutinous_unenriched_uncooked() {
         set_food_name("Rice, white, glutinous, unenriched, uncooked");
         set_food_label("Rice_white_glutinous_unenriched_uncooked");

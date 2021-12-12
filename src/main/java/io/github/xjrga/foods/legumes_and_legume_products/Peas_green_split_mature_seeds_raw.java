@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_green_split_mature_seeds_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Peas_green_split_mature_seeds_raw() {
         set_food_name("Peas, green, split, mature seeds, raw");
         set_food_label("Peas_green_split_mature_seeds_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweet_potato_cooked_baked_in_skin_flesh_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweet_potato_cooked_baked_in_skin_flesh_without_salt() {
         set_food_name("Sweet potato, cooked, baked in skin, flesh, without salt");
         set_food_label("Sweet_potato_cooked_baked_in_skin_flesh_without_salt");

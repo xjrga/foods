@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lentils_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Lentils_raw() {
         set_food_name("Lentils, raw");
         set_food_label("Lentils_raw");

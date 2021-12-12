@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beverages_tea_black_brewed_prepared_with_tap_water extends Abstract_food {
 
+    /**
+     *
+     */
     public Beverages_tea_black_brewed_prepared_with_tap_water() {
         set_food_name("Beverages, tea, black, brewed, prepared with tap water");
         set_food_label("Beverages_tea_black_brewed_prepared_with_tap_water");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tomatillos_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Tomatillos_raw() {
         set_food_name("Tomatillos, raw");
         set_food_label("Tomatillos_raw");

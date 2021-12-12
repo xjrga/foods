@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_cottonseed_salad_or_cooking extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_cottonseed_salad_or_cooking() {
         set_food_name("Oil, cottonseed, salad or cooking");
         set_food_label("Oil_cottonseed_salad_or_cooking");

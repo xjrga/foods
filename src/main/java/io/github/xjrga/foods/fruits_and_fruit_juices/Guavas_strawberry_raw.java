@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Guavas_strawberry_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Guavas_strawberry_raw() {
         set_food_name("Guavas, strawberry, raw");
         set_food_label("Guavas_strawberry_raw");

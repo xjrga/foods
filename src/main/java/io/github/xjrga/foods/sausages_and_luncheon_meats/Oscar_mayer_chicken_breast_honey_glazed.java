@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oscar_mayer_chicken_breast_honey_glazed extends Abstract_food {
 
+    /**
+     *
+     */
     public Oscar_mayer_chicken_breast_honey_glazed() {
         set_food_name("OSCAR MAYER, Chicken Breast (honey glazed)");
         set_food_label("Oscar_mayer_chicken_breast_honey_glazed");

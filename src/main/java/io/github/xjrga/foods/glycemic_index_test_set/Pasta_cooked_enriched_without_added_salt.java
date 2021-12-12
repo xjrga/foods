@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pasta_cooked_enriched_without_added_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Pasta_cooked_enriched_without_added_salt() {
         set_food_name("Pasta, cooked, enriched, without added salt");
         set_food_label("Pasta_cooked_enriched_without_added_salt");

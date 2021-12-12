@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Radishes_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Radishes_raw() {
         set_food_name("Radishes, raw");
         set_food_label("Radishes_raw");

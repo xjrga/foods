@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_red_flesh_and_skin_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Potatoes_red_flesh_and_skin_raw() {
         set_food_name("Potatoes, red, flesh and skin, raw");
         set_food_label("Potatoes_red_flesh_and_skin_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_green_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Peas_green_cooked_boiled_drained_without_salt() {
         set_food_name("Peas, green, cooked, boiled, drained, without salt");
         set_food_label("Peas_green_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_pita_white_enriched extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_pita_white_enriched() {
         set_food_name("Bread, pita, white, enriched");
         set_food_label("Bread_pita_white_enriched");

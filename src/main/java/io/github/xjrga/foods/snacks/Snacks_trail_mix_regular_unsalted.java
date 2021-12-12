@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_trail_mix_regular_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_trail_mix_regular_unsalted() {
         set_food_name("Snacks, trail mix, regular, unsalted");
         set_food_label("Snacks_trail_mix_regular_unsalted");

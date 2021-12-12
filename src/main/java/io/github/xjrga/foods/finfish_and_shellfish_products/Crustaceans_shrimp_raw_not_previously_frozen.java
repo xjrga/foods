@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Crustaceans_shrimp_raw_not_previously_frozen extends Abstract_food {
 
+    /**
+     *
+     */
     public Crustaceans_shrimp_raw_not_previously_frozen() {
         set_food_name("Crustaceans, shrimp, raw (not previously frozen)");
         set_food_label("Crustaceans_shrimp_raw_not_previously_frozen");

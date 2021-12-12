@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Melons_cantaloupe_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Melons_cantaloupe_raw() {
         set_food_name("Melons, cantaloupe, raw");
         set_food_label("Melons_cantaloupe_raw");

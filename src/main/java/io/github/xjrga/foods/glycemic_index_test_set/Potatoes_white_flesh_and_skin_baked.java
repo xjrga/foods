@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_white_flesh_and_skin_baked extends Abstract_food {
 
+    /**
+     *
+     */
     public Potatoes_white_flesh_and_skin_baked() {
         set_food_name("Potatoes, white, flesh and skin, baked");
         set_food_label("Potatoes_white_flesh_and_skin_baked");

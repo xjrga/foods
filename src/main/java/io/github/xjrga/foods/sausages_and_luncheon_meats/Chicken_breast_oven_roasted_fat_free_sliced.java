@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_breast_oven_roasted_fat_free_sliced extends Abstract_food {
 
+    /**
+     *
+     */
     public Chicken_breast_oven_roasted_fat_free_sliced() {
         set_food_name("Chicken breast, oven-roasted, fat-free, sliced");
         set_food_label("Chicken_breast_oven_roasted_fat_free_sliced");

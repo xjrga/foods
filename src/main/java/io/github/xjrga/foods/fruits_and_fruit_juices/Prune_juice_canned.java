@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Prune_juice_canned extends Abstract_food {
 
+    /**
+     *
+     */
     public Prune_juice_canned() {
         set_food_name("Prune juice, canned");
         set_food_label("Prune_juice_canned");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_10 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_10() {
         set_lifestage_id(10);
         set_lifestage_label("Females (9–13 y)");

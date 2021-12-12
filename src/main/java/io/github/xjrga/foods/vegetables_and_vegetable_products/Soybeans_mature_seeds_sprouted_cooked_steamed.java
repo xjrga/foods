@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soybeans_mature_seeds_sprouted_cooked_steamed extends Abstract_food {
 
+    /**
+     *
+     */
     public Soybeans_mature_seeds_sprouted_cooked_steamed() {
         set_food_name("Soybeans, mature seeds, sprouted, cooked, steamed");
         set_food_label("Soybeans_mature_seeds_sprouted_cooked_steamed");

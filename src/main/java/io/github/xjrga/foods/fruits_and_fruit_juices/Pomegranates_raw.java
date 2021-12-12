@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pomegranates_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Pomegranates_raw() {
         set_food_name("Pomegranates, raw");
         set_food_label("Pomegranates_raw");

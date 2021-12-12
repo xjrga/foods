@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Frankfurter_beef_pork_and_turkey_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Frankfurter_beef_pork_and_turkey_fat_free() {
         set_food_name("Frankfurter, beef, pork, and turkey, fat free");
         set_food_label("Frankfurter_beef_pork_and_turkey_fat_free");

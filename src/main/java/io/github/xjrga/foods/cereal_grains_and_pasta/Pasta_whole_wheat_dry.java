@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pasta_whole_wheat_dry extends Abstract_food {
 
+    /**
+     *
+     */
     public Pasta_whole_wheat_dry() {
         set_food_name("Pasta, whole-wheat, dry");
         set_food_label("Pasta_whole_wheat_dry");

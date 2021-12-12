@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spinach_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Spinach_cooked_boiled_drained_without_salt() {
         set_food_name("Spinach, cooked, boiled, drained, without salt");
         set_food_label("Spinach_cooked_boiled_drained_without_salt");

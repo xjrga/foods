@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tamarinds_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Tamarinds_raw() {
         set_food_name("Tamarinds, raw");
         set_food_label("Tamarinds_raw");

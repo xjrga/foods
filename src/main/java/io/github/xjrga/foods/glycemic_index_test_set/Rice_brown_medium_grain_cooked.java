@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_brown_medium_grain_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_brown_medium_grain_cooked() {
         set_food_name("Rice, brown, medium-grain, cooked");
         set_food_label("Rice_brown_medium_grain_cooked");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_rice_cakes_brown_rice_multigrain_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_rice_cakes_brown_rice_multigrain_unsalted() {
         set_food_name("Snacks, rice cakes, brown rice, multigrain, unsalted");
         set_food_label("Snacks_rice_cakes_brown_rice_multigrain_unsalted");

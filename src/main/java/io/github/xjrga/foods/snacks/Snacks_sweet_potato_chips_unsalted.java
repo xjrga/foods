@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_sweet_potato_chips_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_sweet_potato_chips_unsalted() {
         set_food_name("Snacks, sweet potato chips, unsalted");
         set_food_label("Snacks_sweet_potato_chips_unsalted");

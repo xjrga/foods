@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Celery_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Celery_raw() {
         set_food_name("Celery, raw");
         set_food_label("Celery_raw");

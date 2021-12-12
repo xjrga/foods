@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Broccoli_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Broccoli_cooked_boiled_drained_without_salt() {
         set_food_name("Broccoli, cooked, boiled, drained, without salt");
         set_food_label("Broccoli_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_oil_menhaden extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_oil_menhaden() {
         set_food_name("Fish oil, menhaden");
         set_food_label("Fish_oil_menhaden");

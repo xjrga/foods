@@ -23,6 +23,9 @@ package io.github.xjrga.foods;
  */
 public class Food_impl extends Abstract_food {
 
+    /**
+     *
+     */
     public Food_impl() {
         set_food_name("");
         set_food_label("");

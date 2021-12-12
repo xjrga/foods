@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Campbells_tomato_juice_low_sodium extends Abstract_food {
 
+    /**
+     *
+     */
     public Campbells_tomato_juice_low_sodium() {
         set_food_name("CAMPBELL'S, Tomato juice, low sodium");
         set_food_label("Campbell_s_tomato_juice_low_sodium");

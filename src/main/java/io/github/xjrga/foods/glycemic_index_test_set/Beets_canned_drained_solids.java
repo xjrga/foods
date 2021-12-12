@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beets_canned_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Beets_canned_drained_solids() {
         set_food_name("Beets, canned, drained solids");
         set_food_label("Beets_canned_drained_solids");

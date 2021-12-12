@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Whey_protein_concentrate extends Abstract_food {
 
+    /**
+     *
+     */
     public Whey_protein_concentrate() {
         set_food_name("Whey Protein Concentrate");
         set_food_label("Whey_protein_concentrate");

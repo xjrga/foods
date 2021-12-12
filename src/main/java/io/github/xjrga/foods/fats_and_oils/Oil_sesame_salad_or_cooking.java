@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_sesame_salad_or_cooking extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_sesame_salad_or_cooking() {
         set_food_name("Oil, sesame, salad or cooking");
         set_food_label("Oil_sesame_salad_or_cooking");

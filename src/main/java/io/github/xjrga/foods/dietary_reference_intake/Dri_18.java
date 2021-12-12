@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_18 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_18() {
         set_lifestage_id(18);
         set_lifestage_label("Pregnancy (31–50 y)");

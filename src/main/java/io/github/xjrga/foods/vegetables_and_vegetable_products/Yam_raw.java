@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yam_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Yam_raw() {
         set_food_name("Yam, raw");
         set_food_label("Yam_raw");

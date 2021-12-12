@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spinach_canned_regular_pack_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Spinach_canned_regular_pack_drained_solids() {
         set_food_name("Spinach, canned, regular pack, drained solids");
         set_food_label("Spinach_canned_regular_pack_drained_solids");

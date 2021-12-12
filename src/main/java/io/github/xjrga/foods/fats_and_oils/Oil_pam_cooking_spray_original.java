@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_pam_cooking_spray_original extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_pam_cooking_spray_original() {
         set_food_name("Oil, PAM cooking spray, original");
         set_food_label("Oil_pam_cooking_spray_original");

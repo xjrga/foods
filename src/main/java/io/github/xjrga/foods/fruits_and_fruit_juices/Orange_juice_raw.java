@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Orange_juice_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Orange_juice_raw() {
         set_food_name("Orange juice, raw");
         set_food_label("Orange_juice_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Kale_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Kale_raw() {
         set_food_name("Kale, raw");
         set_food_label("Kale_raw");

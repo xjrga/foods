@@ -6,11 +6,11 @@
 
     <groupId>io.github.xjrga</groupId>
     <artifactId>foods</artifactId>
-    <version>01-SNAPSHOT</version>
+    <version>01</version>
 
     <name>foods</name>
     
-    <description>Snackmix Foods Library</description>
+    <description>Snackmix Food Library</description>
 	    
     <url>https://github.com/xjrga/foods</url>
     

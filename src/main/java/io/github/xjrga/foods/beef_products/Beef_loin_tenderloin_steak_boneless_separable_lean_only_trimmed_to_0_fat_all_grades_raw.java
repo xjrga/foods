@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw() {
         set_food_name("Beef, loin, tenderloin steak, boneless, separable lean only, trimmed to 0' fat, all grades, raw");
         set_food_label("Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw");

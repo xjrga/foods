@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lemons_raw_without_peel extends Abstract_food {
 
+    /**
+     *
+     */
     public Lemons_raw_without_peel() {
         set_food_name("Lemons, raw, without peel");
         set_food_label("Lemons_raw_without_peel");

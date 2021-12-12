@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Campbells_v8_vegetable_juice_spicy_hot_v8 extends Abstract_food {
 
+    /**
+     *
+     */
     public Campbells_v8_vegetable_juice_spicy_hot_v8() {
         set_food_name("CAMPBELL'S, V8 Vegetable Juice, Spicy Hot V8");
         set_food_label("Campbell_s_v8_vegetable_juice_spicy_hot_v8");

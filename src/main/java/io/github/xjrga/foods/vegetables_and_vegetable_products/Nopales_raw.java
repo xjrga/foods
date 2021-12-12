@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nopales_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Nopales_raw() {
         set_food_name("Nopales, raw");
         set_food_label("Nopales_raw");

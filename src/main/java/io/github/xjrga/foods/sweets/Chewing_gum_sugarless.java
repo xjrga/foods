@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chewing_gum_sugarless extends Abstract_food {
 
+    /**
+     *
+     */
     public Chewing_gum_sugarless() {
         set_food_name("Chewing gum, sugarless");
         set_food_label("Chewing_gum_sugarless");

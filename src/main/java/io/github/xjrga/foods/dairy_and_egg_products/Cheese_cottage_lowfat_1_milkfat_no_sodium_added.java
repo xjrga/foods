@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_cottage_lowfat_1_milkfat_no_sodium_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_cottage_lowfat_1_milkfat_no_sodium_added() {
         set_food_name("Cheese, cottage, lowfat, 1% milkfat, no sodium added");
         set_food_label("Cheese_cottage_lowfat_1_milkfat_no_sodium_added");

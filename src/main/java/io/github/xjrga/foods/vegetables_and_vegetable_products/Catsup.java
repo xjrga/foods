@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Catsup extends Abstract_food {
 
+    /**
+     *
+     */
     public Catsup() {
         set_food_name("Catsup");
         set_food_label("Catsup");

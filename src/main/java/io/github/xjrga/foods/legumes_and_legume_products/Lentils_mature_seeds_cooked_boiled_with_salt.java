@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lentils_mature_seeds_cooked_boiled_with_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Lentils_mature_seeds_cooked_boiled_with_salt() {
         set_food_name("Lentils, mature seeds, cooked, boiled, with salt");
         set_food_label("Lentils_mature_seeds_cooked_boiled_with_salt");

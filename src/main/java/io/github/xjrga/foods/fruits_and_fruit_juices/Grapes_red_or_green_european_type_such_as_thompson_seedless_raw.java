@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Grapes_red_or_green_european_type_such_as_thompson_seedless_raw() {
         set_food_name("Grapes, red or green (European type, such as Thompson seedless), raw");
         set_food_label("Grapes_red_or_green_european_type_such_as_thompson_seedless_raw");

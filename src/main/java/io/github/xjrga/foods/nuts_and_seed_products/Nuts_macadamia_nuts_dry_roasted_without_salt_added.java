@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_macadamia_nuts_dry_roasted_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_macadamia_nuts_dry_roasted_without_salt_added() {
         set_food_name("Nuts, macadamia nuts, dry roasted, without salt added");
         set_food_label("Nuts_macadamia_nuts_dry_roasted_without_salt_added");

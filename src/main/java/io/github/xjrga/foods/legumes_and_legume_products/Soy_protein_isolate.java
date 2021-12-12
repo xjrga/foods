@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soy_protein_isolate extends Abstract_food {
 
+    /**
+     *
+     */
     public Soy_protein_isolate() {
         set_food_name("Soy protein isolate");
         set_food_label("Soy_protein_isolate");

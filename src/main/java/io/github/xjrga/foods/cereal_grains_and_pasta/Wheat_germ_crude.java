@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wheat_germ_crude extends Abstract_food {
 
+    /**
+     *
+     */
     public Wheat_germ_crude() {
         set_food_name("Wheat germ, crude");
         set_food_label("Wheat_germ_crude");

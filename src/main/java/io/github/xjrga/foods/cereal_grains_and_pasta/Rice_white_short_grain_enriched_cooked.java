@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_white_short_grain_enriched_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_white_short_grain_enriched_cooked() {
         set_food_name("Rice, white, short-grain, enriched, cooked");
         set_food_label("Rice_white_short_grain_enriched_cooked");

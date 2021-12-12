@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Generic_multivitamin extends Abstract_food {
 
+    /**
+     *
+     */
     public Generic_multivitamin() {
         set_food_name("Generic Multivitamin");
         set_food_label("Generic_multivitamin");

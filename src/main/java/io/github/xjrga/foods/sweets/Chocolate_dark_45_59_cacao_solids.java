@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chocolate_dark_45_59_cacao_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Chocolate_dark_45_59_cacao_solids() {
         set_food_name("Chocolate, dark, 45- 59% cacao solids");
         set_food_label("Chocolate_dark_45_59_cacao_solids");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapes_muscadine_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Grapes_muscadine_raw() {
         set_food_name("Grapes, muscadine, raw");
         set_food_label("Grapes_muscadine_raw");

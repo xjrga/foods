@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_pita_chips_salted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_pita_chips_salted() {
         set_food_name("Snacks, pita chips, salted");
         set_food_label("Snacks_pita_chips_salted");

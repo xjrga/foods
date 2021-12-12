@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Okra_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Okra_raw() {
         set_food_name("Okra, raw");
         set_food_label("Okra_raw");

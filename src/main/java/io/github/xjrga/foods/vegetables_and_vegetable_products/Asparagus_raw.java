@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Asparagus_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Asparagus_raw() {
         set_food_name("Asparagus, raw");
         set_food_label("Asparagus_raw");

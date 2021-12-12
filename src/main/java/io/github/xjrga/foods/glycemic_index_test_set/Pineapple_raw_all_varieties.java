@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pineapple_raw_all_varieties extends Abstract_food {
 
+    /**
+     *
+     */
     public Pineapple_raw_all_varieties() {
         set_food_name("Pineapple, raw, all varieties");
         set_food_label("Pineapple_raw_all_varieties");

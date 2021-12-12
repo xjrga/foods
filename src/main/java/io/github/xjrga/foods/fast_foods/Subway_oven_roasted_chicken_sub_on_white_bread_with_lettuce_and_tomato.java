@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato extends Abstract_food {
 
+    /**
+     *
+     */
     public Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato() {
         set_food_name("SUBWAY, oven roasted chicken sub on white bread with lettuce and tomato");
         set_food_label("Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato");

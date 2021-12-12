@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_cottage_lowfat_2_milkfat extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_cottage_lowfat_2_milkfat() {
         set_food_name("Cheese, cottage, lowfat, 2% milkfat");
         set_food_label("Cheese_cottage_lowfat_2_milkfat");

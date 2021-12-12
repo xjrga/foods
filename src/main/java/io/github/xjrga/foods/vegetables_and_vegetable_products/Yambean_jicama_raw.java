@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yambean_jicama_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Yambean_jicama_raw() {
         set_food_name("Yambean (jicama), raw");
         set_food_label("Yambean_jicama_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_oil_salmon extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_oil_salmon() {
         set_food_name("Fish oil, salmon");
         set_food_label("Fish_oil_salmon");

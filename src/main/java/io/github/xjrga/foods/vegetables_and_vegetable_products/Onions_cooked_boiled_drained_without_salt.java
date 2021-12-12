@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Onions_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Onions_cooked_boiled_drained_without_salt() {
         set_food_name("Onions, cooked, boiled, drained, without salt");
         set_food_label("Onions_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_choice_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_choice_raw() {
         set_food_name("Beef, round, tip round, roast, separable lean only, trimmed to 0' fat, choice, raw");
         set_food_label("Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_choice_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mushrooms_white_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Mushrooms_white_raw() {
         set_food_name("Mushrooms, white, raw");
         set_food_label("Mushrooms_white_raw");

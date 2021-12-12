@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soybeans_mature_cooked_boiled_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Soybeans_mature_cooked_boiled_without_salt() {
         set_food_name("Soybeans, mature cooked, boiled, without salt");
         set_food_label("Soybeans_mature_cooked_boiled_without_salt");

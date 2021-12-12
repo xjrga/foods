@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Prickly_pears_raw_northern_plains_indians extends Abstract_food {
 
+    /**
+     *
+     */
     public Prickly_pears_raw_northern_plains_indians() {
         set_food_name("Prickly pears, raw (Northern Plains Indians)");
         set_food_label("Prickly_pears_raw_northern_plains_indians");

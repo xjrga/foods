@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wheat_kamut_khorasan_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Wheat_kamut_khorasan_cooked() {
         set_food_name("Wheat, KAMUT khorasan, cooked");
         set_food_label("Wheat_kamut_khorasan_cooked");

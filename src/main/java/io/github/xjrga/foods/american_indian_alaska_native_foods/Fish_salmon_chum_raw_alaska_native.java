@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_salmon_chum_raw_alaska_native extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_salmon_chum_raw_alaska_native() {
         set_food_name("Fish, Salmon, Chum, raw (Alaska Native)");
         set_food_label("Fish_salmon_chum_raw_alaska_native");

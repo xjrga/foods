@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Alcoholic_beverage_liqueur_coffee_53_proof extends Abstract_food {
 
+    /**
+     *
+     */
     public Alcoholic_beverage_liqueur_coffee_53_proof() {
         set_food_name("Alcoholic beverage, liqueur, coffee, 53 proof");
         set_food_label("Alcoholic_beverage_liqueur_coffee_53_proof");

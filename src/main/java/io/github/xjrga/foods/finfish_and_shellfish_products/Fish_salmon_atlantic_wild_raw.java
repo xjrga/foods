@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_salmon_atlantic_wild_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_salmon_atlantic_wild_raw() {
         set_food_name("Fish, salmon, Atlantic, wild, raw");
         set_food_label("Fish_salmon_atlantic_wild_raw");

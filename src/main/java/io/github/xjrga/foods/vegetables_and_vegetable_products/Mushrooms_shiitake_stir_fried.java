@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mushrooms_shiitake_stir_fried extends Abstract_food {
 
+    /**
+     *
+     */
     public Mushrooms_shiitake_stir_fried() {
         set_food_name("Mushrooms, shiitake, stir-fried");
         set_food_label("Mushrooms_shiitake_stir_fried");

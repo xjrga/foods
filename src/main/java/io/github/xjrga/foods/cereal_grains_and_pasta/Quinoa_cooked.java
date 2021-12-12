@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Quinoa_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Quinoa_cooked() {
         set_food_name("Quinoa, cooked");
         set_food_label("Quinoa_cooked");

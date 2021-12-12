@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beverages_arizona_tea_ready_to_drink_lemon extends Abstract_food {
 
+    /**
+     *
+     */
     public Beverages_arizona_tea_ready_to_drink_lemon() {
         set_food_name("Beverages, ARIZONA, tea, ready-to-drink, lemon");
         set_food_label("Beverages_arizona_tea_ready_to_drink_lemon");

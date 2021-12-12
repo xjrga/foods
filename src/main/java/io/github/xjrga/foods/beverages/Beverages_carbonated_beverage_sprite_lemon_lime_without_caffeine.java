@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine extends Abstract_food {
 
+    /**
+     *
+     */
     public Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine() {
         set_food_name("Beverages, Carbonated beverage, SPRITE, lemon-lime, without caffeine");
         set_food_label("Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine");

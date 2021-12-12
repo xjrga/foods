@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_tuna_white_canned_in_water_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_tuna_white_canned_in_water_drained_solids() {
         set_food_name("Fish, tuna, white, canned in water, drained solids");
         set_food_label("Fish_tuna_white_canned_in_water_drained_solids");

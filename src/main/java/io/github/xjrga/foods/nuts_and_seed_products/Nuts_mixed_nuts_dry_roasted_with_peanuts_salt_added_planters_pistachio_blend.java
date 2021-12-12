@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend() {
         set_food_name("Nuts, mixed nuts, dry roasted, with peanuts, salt added, PLANTERS pistachio blend");
         set_food_label("Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend");

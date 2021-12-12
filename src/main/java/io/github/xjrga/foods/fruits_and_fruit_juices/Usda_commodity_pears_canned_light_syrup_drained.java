@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Usda_commodity_pears_canned_light_syrup_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Usda_commodity_pears_canned_light_syrup_drained() {
         set_food_name("USDA Commodity pears, canned, light syrup, drained");
         set_food_label("Usda_commodity_pears_canned_light_syrup_drained");

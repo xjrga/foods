@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wheat_bran_crude extends Abstract_food {
 
+    /**
+     *
+     */
     public Wheat_bran_crude() {
         set_food_name("Wheat bran, crude");
         set_food_label("Wheat_bran_crude");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Barley_pearled_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Barley_pearled_raw() {
         set_food_name("Barley, pearled, raw");
         set_food_label("Barley_pearled_raw");

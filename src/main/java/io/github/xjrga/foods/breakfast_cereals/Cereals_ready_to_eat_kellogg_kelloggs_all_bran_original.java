@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original extends Abstract_food {
 
+    /**
+     *
+     */
     public Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original() {
         set_food_name("Cereals ready-to-eat, KELLOGG, KELLOGG'S ALL-BRAN Original");
         set_food_label("Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original");

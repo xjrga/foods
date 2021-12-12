@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted extends Abstract_food {
 
+    /**
+     *
+     */
     public Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted() {
         set_food_name("Turkey, breast, from whole bird, non-enhanced, meat only, roasted");
         set_food_label("Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted");

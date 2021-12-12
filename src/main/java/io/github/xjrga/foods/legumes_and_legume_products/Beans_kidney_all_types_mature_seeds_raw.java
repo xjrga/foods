@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beans_kidney_all_types_mature_seeds_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beans_kidney_all_types_mature_seeds_raw() {
         set_food_name("Beans, kidney, all types, mature seeds, raw");
         set_food_label("Beans_kidney_all_types_mature_seeds_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Coriander_cilantro_leaves_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Coriander_cilantro_leaves_raw() {
         set_food_name("Coriander (cilantro) leaves, raw");
         set_food_label("Coriander_cilantro_leaves_raw");

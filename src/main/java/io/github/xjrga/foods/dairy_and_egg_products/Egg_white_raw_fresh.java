@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Egg_white_raw_fresh extends Abstract_food {
 
+    /**
+     *
+     */
     public Egg_white_raw_fresh() {
         set_food_name("Egg, white, raw, fresh");
         set_food_label("Egg_white_raw_fresh");

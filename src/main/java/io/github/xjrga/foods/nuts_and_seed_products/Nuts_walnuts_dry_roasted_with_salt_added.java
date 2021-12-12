@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_walnuts_dry_roasted_with_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_walnuts_dry_roasted_with_salt_added() {
         set_food_name("Nuts, walnuts, dry roasted, with salt added");
         set_food_label("Nuts_walnuts_dry_roasted_with_salt_added");

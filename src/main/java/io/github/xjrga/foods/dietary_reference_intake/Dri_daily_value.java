@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_daily_value extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_daily_value() {
         set_lifestage_id(22);
         set_lifestage_label("Daily Value");

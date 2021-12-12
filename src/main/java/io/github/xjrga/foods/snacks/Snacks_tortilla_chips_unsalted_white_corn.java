@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_tortilla_chips_unsalted_white_corn extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_tortilla_chips_unsalted_white_corn() {
         set_food_name("Snacks, tortilla chips, unsalted, white corn");
         set_food_label("Snacks_tortilla_chips_unsalted_white_corn");

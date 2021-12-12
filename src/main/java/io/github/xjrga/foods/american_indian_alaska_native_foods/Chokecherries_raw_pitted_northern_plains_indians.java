@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chokecherries_raw_pitted_northern_plains_indians extends Abstract_food {
 
+    /**
+     *
+     */
     public Chokecherries_raw_pitted_northern_plains_indians() {
         set_food_name("Chokecherries, raw, pitted (Northern Plains Indians)");
         set_food_label("Chokecherries_raw_pitted_northern_plains_indians");

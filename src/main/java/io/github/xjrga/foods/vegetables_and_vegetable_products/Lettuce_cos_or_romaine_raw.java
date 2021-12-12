@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lettuce_cos_or_romaine_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Lettuce_cos_or_romaine_raw() {
         set_food_name("Lettuce, cos or romaine, raw");
         set_food_label("Lettuce_cos_or_romaine_raw");

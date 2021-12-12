@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peppers_jalapeno_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Peppers_jalapeno_raw() {
         set_food_name("Peppers, jalapeno, raw");
         set_food_label("Peppers_jalapeno_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pork_fresh_loin_tenderloin_separable_lean_only_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Pork_fresh_loin_tenderloin_separable_lean_only_raw() {
         set_food_name("Pork, fresh, loin, tenderloin, separable lean only, raw");
         set_food_label("Pork_fresh_loin_tenderloin_separable_lean_only_raw");

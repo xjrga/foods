@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Vegetables_mixed_frozen_unprepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Vegetables_mixed_frozen_unprepared() {
         set_food_name("Vegetables, mixed, frozen, unprepared");
         set_food_label("Vegetables_mixed_frozen_unprepared");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Watermelon_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Watermelon_raw() {
         set_food_name("Watermelon, raw");
         set_food_label("Watermelon_raw");

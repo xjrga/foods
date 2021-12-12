@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added() {
         set_food_name("Vegetables, mixed (corn, lima beans, peas, green beans, carrots) canned, no salt added");
         set_food_label("Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added");

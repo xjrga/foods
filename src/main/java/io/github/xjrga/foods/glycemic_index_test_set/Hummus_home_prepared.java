@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Hummus_home_prepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Hummus_home_prepared() {
         set_food_name("Hummus, home prepared");
         set_food_label("Hummus_home_prepared");

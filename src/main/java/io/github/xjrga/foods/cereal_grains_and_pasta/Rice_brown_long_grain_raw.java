@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_brown_long_grain_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_brown_long_grain_raw() {
         set_food_name("Rice, brown, long-grain, raw");
         set_food_label("Rice_brown_long_grain_raw");

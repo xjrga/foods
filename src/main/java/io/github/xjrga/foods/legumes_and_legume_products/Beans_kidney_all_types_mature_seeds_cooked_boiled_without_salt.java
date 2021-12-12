@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt() {
         set_food_name("Beans, kidney, all types, mature seeds, cooked, boiled, without salt");
         set_food_label("Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt");

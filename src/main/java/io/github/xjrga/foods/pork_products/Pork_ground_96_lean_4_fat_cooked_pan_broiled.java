@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pork_ground_96_lean_4_fat_cooked_pan_broiled extends Abstract_food {
 
+    /**
+     *
+     */
     public Pork_ground_96_lean_4_fat_cooked_pan_broiled() {
         set_food_name("Pork, ground, 96% lean / 4% fat, cooked, pan-broiled");
         set_food_label("Pork_ground_96_lean_4_fat_cooked_pan_broiled");

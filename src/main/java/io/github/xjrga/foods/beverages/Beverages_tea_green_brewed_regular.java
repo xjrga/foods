@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beverages_tea_green_brewed_regular extends Abstract_food {
 
+    /**
+     *
+     */
     public Beverages_tea_green_brewed_regular() {
         set_food_name("Beverages, tea, green, brewed, regular");
         set_food_label("Beverages_tea_green_brewed_regular");

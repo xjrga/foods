@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peanut_butter_chunk_style_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Peanut_butter_chunk_style_without_salt() {
         set_food_name("Peanut butter, chunk style, without salt");
         set_food_label("Peanut_butter_chunk_style_without_salt");

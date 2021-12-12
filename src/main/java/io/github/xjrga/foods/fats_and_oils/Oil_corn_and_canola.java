@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_corn_and_canola extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_corn_and_canola() {
         set_food_name("Oil, corn and canola");
         set_food_label("Oil_corn_and_canola");

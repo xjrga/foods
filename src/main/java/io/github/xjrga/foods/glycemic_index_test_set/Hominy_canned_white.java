@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Hominy_canned_white extends Abstract_food {
 
+    /**
+     *
+     */
     public Hominy_canned_white() {
         set_food_name("Hominy, canned, white");
         set_food_label("Hominy_canned_white");

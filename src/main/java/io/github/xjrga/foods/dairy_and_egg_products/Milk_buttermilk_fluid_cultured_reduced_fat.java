@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_buttermilk_fluid_cultured_reduced_fat extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_buttermilk_fluid_cultured_reduced_fat() {
         set_food_name("Milk, buttermilk, fluid, cultured, reduced fat");
         set_food_label("Milk_buttermilk_fluid_cultured_reduced_fat");

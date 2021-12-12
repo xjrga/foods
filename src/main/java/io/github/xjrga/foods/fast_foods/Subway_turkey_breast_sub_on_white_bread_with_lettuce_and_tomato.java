@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato extends Abstract_food {
 
+    /**
+     *
+     */
     public Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato() {
         set_food_name("SUBWAY, turkey breast sub on white bread with lettuce and tomato");
         set_food_label("Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato");

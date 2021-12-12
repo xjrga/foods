@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_oil_herring extends Abstract_food {
 
+    /**
+     *
+     */
     public Fish_oil_herring() {
         set_food_name("Fish oil, herring");
         set_food_label("Fish_oil_herring");

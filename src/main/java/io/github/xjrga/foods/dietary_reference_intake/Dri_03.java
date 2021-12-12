@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_03 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_03() {
         set_lifestage_id(3);
         set_lifestage_label("Children (4–8 y)");

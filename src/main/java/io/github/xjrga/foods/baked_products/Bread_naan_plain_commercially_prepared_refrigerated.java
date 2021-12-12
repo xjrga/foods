@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_naan_plain_commercially_prepared_refrigerated extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_naan_plain_commercially_prepared_refrigerated() {
         set_food_name("Bread, naan, plain, commercially prepared, refrigerated");
         set_food_label("Bread_naan_plain_commercially_prepared_refrigerated");

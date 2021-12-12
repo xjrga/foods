@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spices_pepper_black extends Abstract_food {
 
+    /**
+     *
+     */
     public Spices_pepper_black() {
         set_food_name("Spices, pepper, black");
         set_food_label("Spices_pepper_black");

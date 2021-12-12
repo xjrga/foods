@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Lime_juice_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Lime_juice_raw() {
         set_food_name("Lime juice, raw");
         set_food_label("Lime_juice_raw");

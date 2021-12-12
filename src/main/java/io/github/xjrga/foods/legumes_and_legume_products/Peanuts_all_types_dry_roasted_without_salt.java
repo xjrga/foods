@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peanuts_all_types_dry_roasted_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Peanuts_all_types_dry_roasted_without_salt() {
         set_food_name("Peanuts, all types, dry-roasted, without salt");
         set_food_label("Peanuts_all_types_dry_roasted_without_salt");

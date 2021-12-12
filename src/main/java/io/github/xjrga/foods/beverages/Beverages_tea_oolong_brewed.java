@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beverages_tea_oolong_brewed extends Abstract_food {
 
+    /**
+     *
+     */
     public Beverages_tea_oolong_brewed() {
         set_food_name("Beverages, tea, Oolong, brewed");
         set_food_label("Beverages_tea_oolong_brewed");

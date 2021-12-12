@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce extends Abstract_food {
 
+    /**
+     *
+     */
     public Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce() {
         set_food_name("Yogurt, plain, skim milk, 13 grams protein per 8 ounce");
         set_food_label("Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce");

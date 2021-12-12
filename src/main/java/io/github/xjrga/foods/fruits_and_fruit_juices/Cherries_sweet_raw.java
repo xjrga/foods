@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cherries_sweet_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Cherries_sweet_raw() {
         set_food_name("Cherries, sweet, raw");
         set_food_label("Cherries_sweet_raw");

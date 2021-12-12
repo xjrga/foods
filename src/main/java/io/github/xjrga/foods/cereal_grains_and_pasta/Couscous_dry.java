@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Couscous_dry extends Abstract_food {
 
+    /**
+     *
+     */
     public Couscous_dry() {
         set_food_name("Couscous, dry");
         set_food_label("Couscous_dry");

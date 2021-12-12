@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_walnut extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_walnut() {
         set_food_name("Oil, walnut");
         set_food_label("Oil_walnut");

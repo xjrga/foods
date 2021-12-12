@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweeteners_tabletop_saccharin_sodium_saccharin extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweeteners_tabletop_saccharin_sodium_saccharin() {
         set_food_name("Sweeteners, tabletop, saccharin (sodium saccharin)");
         set_food_label("Sweeteners_tabletop_saccharin_sodium_saccharin");

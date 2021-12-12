@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_cooked_boiled_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_cooked_boiled_without_salt() {
         set_food_name("Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt");
         set_food_label("Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_cooked_boiled_without_salt");

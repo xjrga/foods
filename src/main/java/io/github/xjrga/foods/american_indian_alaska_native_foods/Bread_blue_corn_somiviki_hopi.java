@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_blue_corn_somiviki_hopi extends Abstract_food {
 
+    /**
+     *
+     */
     public Bread_blue_corn_somiviki_hopi() {
         set_food_name("Bread, blue corn, somiviki (Hopi)");
         set_food_label("Bread_blue_corn_somiviki_hopi");

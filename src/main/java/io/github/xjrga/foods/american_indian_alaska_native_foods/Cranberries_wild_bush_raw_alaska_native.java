@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cranberries_wild_bush_raw_alaska_native extends Abstract_food {
 
+    /**
+     *
+     */
     public Cranberries_wild_bush_raw_alaska_native() {
         set_food_name("Cranberries, wild, bush, raw (Alaska Native)");
         set_food_label("Cranberries_wild_bush_raw_alaska_native");

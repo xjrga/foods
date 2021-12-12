@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Raisins_golden_seedless extends Abstract_food {
 
+    /**
+     *
+     */
     public Raisins_golden_seedless() {
         set_food_name("Raisins, golden seedless");
         set_food_label("Raisins_golden_seedless");

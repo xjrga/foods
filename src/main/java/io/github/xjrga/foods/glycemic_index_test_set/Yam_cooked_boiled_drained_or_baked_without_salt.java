@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yam_cooked_boiled_drained_or_baked_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Yam_cooked_boiled_drained_or_baked_without_salt() {
         set_food_name("Yam, cooked, boiled, drained, or baked, without salt");
         set_food_label("Yam_cooked_boiled_drained_or_baked_without_salt");

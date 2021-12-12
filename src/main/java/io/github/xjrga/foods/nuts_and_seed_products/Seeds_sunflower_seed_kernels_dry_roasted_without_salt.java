@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Seeds_sunflower_seed_kernels_dry_roasted_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Seeds_sunflower_seed_kernels_dry_roasted_without_salt() {
         set_food_name("Seeds, sunflower seed kernels, dry roasted, without salt");
         set_food_label("Seeds_sunflower_seed_kernels_dry_roasted_without_salt");

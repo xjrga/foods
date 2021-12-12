@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_tortilla_chips_low_fat_unsalted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_tortilla_chips_low_fat_unsalted() {
         set_food_name("Snacks, tortilla chips, low fat, unsalted");
         set_food_label("Snacks_tortilla_chips_low_fat_unsalted");

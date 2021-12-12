@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_whole_3_25_milkfat_with_added_vitamin_d extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_whole_3_25_milkfat_with_added_vitamin_d() {
         set_food_name("Milk, whole, 3.25% milkfat, with added vitamin D");
         set_food_label("Milk_whole_3_25_milkfat_with_added_vitamin_d");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_cashew_nuts_dry_roasted_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_cashew_nuts_dry_roasted_without_salt_added() {
         set_food_name("Nuts, cashew nuts, dry roasted, without salt added");
         set_food_label("Nuts_cashew_nuts_dry_roasted_without_salt_added");

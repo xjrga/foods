@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Syrups_sugar_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Syrups_sugar_free() {
         set_food_name("Syrups, sugar free");
         set_food_label("Syrups_sugar_free");

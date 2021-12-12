@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_19 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_19() {
         set_lifestage_id(19);
         set_lifestage_label("Lactation (14–18 y)");

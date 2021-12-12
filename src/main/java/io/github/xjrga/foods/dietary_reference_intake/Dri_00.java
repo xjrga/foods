@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_00 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_00() {
         set_lifestage_id(0);
         set_lifestage_label("Infants (0–6 mo)");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spinach_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Spinach_raw() {
         set_food_name("Spinach, raw");
         set_food_label("Spinach_raw");

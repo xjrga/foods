@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peppers_sweet_red_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Peppers_sweet_red_raw() {
         set_food_name("Peppers, sweet, red, raw");
         set_food_label("Peppers_sweet_red_raw");

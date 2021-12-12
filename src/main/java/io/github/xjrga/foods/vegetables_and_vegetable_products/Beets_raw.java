@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beets_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beets_raw() {
         set_food_name("Beets, raw");
         set_food_label("Beets_raw");

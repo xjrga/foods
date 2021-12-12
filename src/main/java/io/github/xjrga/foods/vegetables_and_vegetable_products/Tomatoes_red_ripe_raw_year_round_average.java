@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tomatoes_red_ripe_raw_year_round_average extends Abstract_food {
 
+    /**
+     *
+     */
     public Tomatoes_red_ripe_raw_year_round_average() {
         set_food_name("Tomatoes, red, ripe, raw, year round average");
         set_food_label("Tomatoes_red_ripe_raw_year_round_average");

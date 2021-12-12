@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cauliflower_frozen_unprepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Cauliflower_frozen_unprepared() {
         set_food_name("Cauliflower, frozen, unprepared");
         set_food_label("Cauliflower_frozen_unprepared");

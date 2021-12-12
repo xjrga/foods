@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_pretzels_hard_plain_salted extends Abstract_food {
 
+    /**
+     *
+     */
     public Snacks_pretzels_hard_plain_salted() {
         set_food_name("Snacks, pretzels, hard, plain, salted");
         set_food_label("Snacks_pretzels_hard_plain_salted");

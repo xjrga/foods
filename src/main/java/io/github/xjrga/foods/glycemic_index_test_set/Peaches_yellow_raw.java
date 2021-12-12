@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peaches_yellow_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Peaches_yellow_raw() {
         set_food_name("Peaches, yellow, raw");
         set_food_label("Peaches_yellow_raw");

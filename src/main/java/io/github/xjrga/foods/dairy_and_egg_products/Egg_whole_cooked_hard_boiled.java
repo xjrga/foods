@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Egg_whole_cooked_hard_boiled extends Abstract_food {
 
+    /**
+     *
+     */
     public Egg_whole_cooked_hard_boiled() {
         set_food_name("Egg, whole, cooked, hard-boiled");
         set_food_label("Egg_whole_cooked_hard_boiled");

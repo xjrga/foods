@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Squash_summer_zucchini_includes_skin_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Squash_summer_zucchini_includes_skin_raw() {
         set_food_name("Squash, summer, zucchini, includes skin, raw");
         set_food_label("Squash_summer_zucchini_includes_skin_raw");

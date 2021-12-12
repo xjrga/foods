@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Millet_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Millet_raw() {
         set_food_name("Millet, raw");
         set_food_label("Millet_raw");

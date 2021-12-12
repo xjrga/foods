@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Sweet_potato_canned_syrup_pack_drained_solids extends Abstract_food {
 
+    /**
+     *
+     */
     public Sweet_potato_canned_syrup_pack_drained_solids() {
         set_food_name("Sweet potato, canned, syrup pack, drained solids");
         set_food_label("Sweet_potato_canned_syrup_pack_drained_solids");

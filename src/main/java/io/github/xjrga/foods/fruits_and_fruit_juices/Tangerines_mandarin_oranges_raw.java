@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tangerines_mandarin_oranges_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Tangerines_mandarin_oranges_raw() {
         set_food_name("Tangerines, (mandarin oranges), raw");
         set_food_label("Tangerines_mandarin_oranges_raw");

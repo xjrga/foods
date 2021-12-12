@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw() {
         set_food_name("Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw");
         set_food_label("Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_swiss_low_fat extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_swiss_low_fat() {
         set_food_name("Cheese, swiss, low fat");
         set_food_label("Cheese_swiss_low_fat");

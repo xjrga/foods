@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Amaranth_grain_uncooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Amaranth_grain_uncooked() {
         set_food_name("Amaranth grain, uncooked");
         set_food_label("Amaranth_grain_uncooked");

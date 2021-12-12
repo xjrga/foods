@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Carrots_baby_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Carrots_baby_raw() {
         set_food_name("Carrots, baby, raw");
         set_food_label("Carrots_baby_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_microwaved_cooked_in_skin_skin_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Potatoes_microwaved_cooked_in_skin_skin_without_salt() {
         set_food_name("Potatoes, microwaved, cooked in skin, skin, without salt");
         set_food_label("Potatoes_microwaved_cooked_in_skin_skin_without_salt");

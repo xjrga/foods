@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_walnuts_english extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_walnuts_english() {
         set_food_name("Nuts, walnuts, english");
         set_food_label("Nuts_walnuts_english");

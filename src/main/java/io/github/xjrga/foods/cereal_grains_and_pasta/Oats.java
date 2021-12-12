@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oats extends Abstract_food {
 
+    /**
+     *
+     */
     public Oats() {
         set_food_name("Oats");
         set_food_label("Oats");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Corn_bran_crude extends Abstract_food {
 
+    /**
+     *
+     */
     public Corn_bran_crude() {
         set_food_name("Corn bran, crude");
         set_food_label("Corn_bran_crude");

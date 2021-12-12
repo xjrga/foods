@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking() {
         set_food_name("Oil, corn, industrial and retail, all purpose salad or cooking");
         set_food_label("Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking");

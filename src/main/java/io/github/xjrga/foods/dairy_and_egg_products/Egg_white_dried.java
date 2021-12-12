@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Egg_white_dried extends Abstract_food {
 
+    /**
+     *
+     */
     public Egg_white_dried() {
         set_food_name("Egg, white, dried");
         set_food_label("Egg_white_dried");

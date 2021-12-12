@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Couscous_cooked extends Abstract_food {
 
+    /**
+     *
+     */
     public Couscous_cooked() {
         set_food_name("Couscous, cooked");
         set_food_label("Couscous_cooked");

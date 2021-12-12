@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pomegranate_juice_bottled extends Abstract_food {
 
+    /**
+     *
+     */
     public Pomegranate_juice_bottled() {
         set_food_name("Pomegranate juice, bottled");
         set_food_label("Pomegranate_juice_bottled");

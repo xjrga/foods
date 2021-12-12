@@ -25,6 +25,9 @@ import io.github.xjrga.foods.*;
  */
 public class Dri_08 extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_08() {
         set_lifestage_id(8);
         set_lifestage_label("Males (51–70 y)");

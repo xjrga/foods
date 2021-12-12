@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Squash_winter_all_varieties_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Squash_winter_all_varieties_raw() {
         set_food_name("Squash, winter, all varieties, raw");
         set_food_label("Squash_winter_all_varieties_raw");

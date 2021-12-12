@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yogurt_vanilla_non_fat extends Abstract_food {
 
+    /**
+     *
+     */
     public Yogurt_vanilla_non_fat() {
         set_food_name("Yogurt, vanilla, non-fat");
         set_food_label("Yogurt_vanilla_non_fat");

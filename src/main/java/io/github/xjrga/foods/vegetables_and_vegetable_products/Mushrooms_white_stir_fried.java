@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mushrooms_white_stir_fried extends Abstract_food {
 
+    /**
+     *
+     */
     public Mushrooms_white_stir_fried() {
         set_food_name("Mushrooms, white, stir-fried");
         set_food_label("Mushrooms_white_stir_fried");

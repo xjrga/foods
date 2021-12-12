@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged extends Abstract_food {
 
+    /**
+     *
+     */
     public Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged() {
         set_food_name("Chicken breast, deli, rotisserie seasoned, sliced, prepackaged");
         set_food_label("Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged");

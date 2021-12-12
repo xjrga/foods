@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Garlic_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Garlic_raw() {
         set_food_name("Garlic, raw");
         set_food_label("Garlic_raw");

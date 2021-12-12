@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_flaxseed_cold_pressed extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_flaxseed_cold_pressed() {
         set_food_name("Oil, flaxseed, cold pressed");
         set_food_label("Oil_flaxseed_cold_pressed");

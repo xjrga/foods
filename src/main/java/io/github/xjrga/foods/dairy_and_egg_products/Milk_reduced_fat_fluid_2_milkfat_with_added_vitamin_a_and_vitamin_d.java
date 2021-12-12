@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Milk_reduced_fat_fluid_2_milkfat_with_added_vitamin_a_and_vitamin_d extends Abstract_food {
 
+    /**
+     *
+     */
     public Milk_reduced_fat_fluid_2_milkfat_with_added_vitamin_a_and_vitamin_d() {
         set_food_name("Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D");
         set_food_label("Milk_reduced_fat_fluid_2_milkfat_with_added_vitamin_a_and_vitamin_d");

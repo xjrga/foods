@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Turkey_breast_smoked_lemon_pepper_flavor_97_fat_free extends Abstract_food {
 
+    /**
+     *
+     */
     public Turkey_breast_smoked_lemon_pepper_flavor_97_fat_free() {
         set_food_name("Turkey, breast, smoked, lemon pepper flavor, 97% fat-free");
         set_food_label("Turkey_breast_smoked_lemon_pepper_flavor_97_fat_free");

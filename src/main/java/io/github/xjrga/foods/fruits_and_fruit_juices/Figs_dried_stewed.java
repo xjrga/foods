@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Figs_dried_stewed extends Abstract_food {
 
+    /**
+     *
+     */
     public Figs_dried_stewed() {
         set_food_name("Figs, dried, stewed");
         set_food_label("Figs_dried_stewed");

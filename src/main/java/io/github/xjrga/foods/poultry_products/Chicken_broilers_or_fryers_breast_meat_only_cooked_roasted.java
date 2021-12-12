@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted extends Abstract_food {
 
+    /**
+     *
+     */
     public Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted() {
         set_food_name("Chicken, broilers or fryers, breast, meat only, cooked, roasted");
         set_food_label("Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted");

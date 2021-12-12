@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_and_carrots_frozen_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Peas_and_carrots_frozen_cooked_boiled_drained_without_salt() {
         set_food_name("Peas and carrots, frozen, cooked, boiled, drained, without salt");
         set_food_label("Peas_and_carrots_frozen_cooked_boiled_drained_without_salt");

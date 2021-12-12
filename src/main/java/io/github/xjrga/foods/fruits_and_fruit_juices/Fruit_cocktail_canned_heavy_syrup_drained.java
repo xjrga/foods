@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fruit_cocktail_canned_heavy_syrup_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Fruit_cocktail_canned_heavy_syrup_drained() {
         set_food_name("Fruit cocktail, canned, heavy syrup, drained");
         set_food_label("Fruit_cocktail_canned_heavy_syrup_drained");

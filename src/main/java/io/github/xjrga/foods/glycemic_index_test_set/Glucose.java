@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Glucose extends Abstract_food {
 
+    /**
+     *
+     */
     public Glucose() {
         set_food_name("Glucose");
         set_food_label("Glucose");

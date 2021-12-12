@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_provolone_reduced_fat extends Abstract_food {
 
+    /**
+     *
+     */
     public Cheese_provolone_reduced_fat() {
         set_food_name("Cheese, provolone, reduced fat");
         set_food_label("Cheese_provolone_reduced_fat");

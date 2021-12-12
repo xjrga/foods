@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Usda_commodity_peaches_canned_light_syrup_drained extends Abstract_food {
 
+    /**
+     *
+     */
     public Usda_commodity_peaches_canned_light_syrup_drained() {
         set_food_name("USDA Commodity peaches, canned, light syrup, drained");
         set_food_label("Usda_commodity_peaches_canned_light_syrup_drained");

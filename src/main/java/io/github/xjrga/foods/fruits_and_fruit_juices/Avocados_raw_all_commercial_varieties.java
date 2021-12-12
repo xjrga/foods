@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Avocados_raw_all_commercial_varieties extends Abstract_food {
 
+    /**
+     *
+     */
     public Avocados_raw_all_commercial_varieties() {
         set_food_name("Avocados, raw, all commercial varieties");
         set_food_label("Avocados_raw_all_commercial_varieties");

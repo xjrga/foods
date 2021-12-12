@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cauliflower_frozen_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Cauliflower_frozen_cooked_boiled_drained_without_salt() {
         set_food_name("Cauliflower, frozen, cooked, boiled, drained, without salt");
         set_food_label("Cauliflower_frozen_cooked_boiled_drained_without_salt");

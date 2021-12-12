@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beans_pinto_mature_seeds_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beans_pinto_mature_seeds_raw() {
         set_food_name("Beans, pinto, mature seeds, raw");
         set_food_label("Beans_pinto_mature_seeds_raw");

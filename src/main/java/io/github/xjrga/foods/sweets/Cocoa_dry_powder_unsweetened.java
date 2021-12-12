@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cocoa_dry_powder_unsweetened extends Abstract_food {
 
+    /**
+     *
+     */
     public Cocoa_dry_powder_unsweetened() {
         set_food_name("Cocoa, dry powder, unsweetened");
         set_food_label("Cocoa_dry_powder_unsweetened");

@@ -23,6 +23,9 @@ package io.github.xjrga.foods;
  */
 public class Dri_impl extends Abstract_dri {
 
+    /**
+     *
+     */
     public Dri_impl() {
         set_lifestage_id(0);
         set_lifestage_label("");

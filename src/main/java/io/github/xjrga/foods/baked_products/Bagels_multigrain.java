@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bagels_multigrain extends Abstract_food {
 
+    /**
+     *
+     */
     public Bagels_multigrain() {
         set_food_name("Bagels, multigrain");
         set_food_label("Bagels_multigrain");

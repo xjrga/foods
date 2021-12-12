@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_baked_flesh_and_skin_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Potatoes_baked_flesh_and_skin_without_salt() {
         set_food_name("Potatoes, baked, flesh and skin, without salt");
         set_food_label("Potatoes_baked_flesh_and_skin_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Apples_raw_with_skin extends Abstract_food {
 
+    /**
+     *
+     */
     public Apples_raw_with_skin() {
         set_food_name("Apples, raw, with skin");
         set_food_label("Apples_raw_with_skin");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Melons_honeydew_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Melons_honeydew_raw() {
         set_food_name("Melons, honeydew, raw");
         set_food_label("Melons_honeydew_raw");

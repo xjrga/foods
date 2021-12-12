@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cabbage_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Cabbage_raw() {
         set_food_name("Cabbage, raw");
         set_food_label("Cabbage_raw");

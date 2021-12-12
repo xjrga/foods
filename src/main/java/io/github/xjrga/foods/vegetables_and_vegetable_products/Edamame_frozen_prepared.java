@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Edamame_frozen_prepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Edamame_frozen_prepared() {
         set_food_name("Edamame, frozen, prepared");
         set_food_label("Edamame_frozen_prepared");

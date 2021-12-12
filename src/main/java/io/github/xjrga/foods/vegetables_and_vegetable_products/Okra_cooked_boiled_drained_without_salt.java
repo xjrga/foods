@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Okra_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Okra_cooked_boiled_drained_without_salt() {
         set_food_name("Okra, cooked, boiled, drained, without salt");
         set_food_label("Okra_cooked_boiled_drained_without_salt");

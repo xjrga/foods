@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_white_medium_grain_raw_enriched extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_white_medium_grain_raw_enriched() {
         set_food_name("Rice, white, medium-grain, raw, enriched");
         set_food_label("Rice_white_medium_grain_raw_enriched");

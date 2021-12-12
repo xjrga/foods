@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_bran_crude extends Abstract_food {
 
+    /**
+     *
+     */
     public Rice_bran_crude() {
         set_food_name("Rice bran, crude");
         set_food_label("Rice_bran_crude");

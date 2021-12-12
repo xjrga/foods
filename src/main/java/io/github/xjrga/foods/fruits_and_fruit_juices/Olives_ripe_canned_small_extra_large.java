@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Olives_ripe_canned_small_extra_large extends Abstract_food {
 
+    /**
+     *
+     */
     public Olives_ripe_canned_small_extra_large() {
         set_food_name("Olives, ripe, canned (small-extra large)");
         set_food_label("Olives_ripe_canned_small_extra_large");

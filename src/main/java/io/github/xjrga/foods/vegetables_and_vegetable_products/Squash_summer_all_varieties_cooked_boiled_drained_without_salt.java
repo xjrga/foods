@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Squash_summer_all_varieties_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Squash_summer_all_varieties_cooked_boiled_drained_without_salt() {
         set_food_name("Squash, summer, all varieties, cooked, boiled, drained, without salt");
         set_food_label("Squash_summer_all_varieties_cooked_boiled_drained_without_salt");

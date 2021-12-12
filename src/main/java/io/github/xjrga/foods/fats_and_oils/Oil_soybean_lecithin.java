@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oil_soybean_lecithin extends Abstract_food {
 
+    /**
+     *
+     */
     public Oil_soybean_lecithin() {
         set_food_name("Oil, soybean lecithin");
         set_food_label("Oil_soybean_lecithin");

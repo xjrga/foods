@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cocoa_dry_powder_unsweetened_hersheys_european_style_cocoa extends Abstract_food {
 
+    /**
+     *
+     */
     public Cocoa_dry_powder_unsweetened_hersheys_european_style_cocoa() {
         set_food_name("Cocoa, dry powder, unsweetened, HERSHEY'S European Style Cocoa");
         set_food_label("Cocoa_dry_powder_unsweetened_hershey_s_european_style_cocoa");

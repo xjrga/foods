@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Ginger_root_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Ginger_root_raw() {
         set_food_name("Ginger root, raw");
         set_food_label("Ginger_root_raw");

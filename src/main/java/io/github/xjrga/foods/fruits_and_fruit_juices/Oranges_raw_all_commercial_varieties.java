@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Oranges_raw_all_commercial_varieties extends Abstract_food {
 
+    /**
+     *
+     */
     public Oranges_raw_all_commercial_varieties() {
         set_food_name("Oranges, raw, all commercial varieties");
         set_food_label("Oranges_raw_all_commercial_varieties");

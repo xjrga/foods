@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soy_meal_defatted_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Soy_meal_defatted_raw() {
         set_food_name("Soy meal, defatted, raw");
         set_food_label("Soy_meal_defatted_raw");

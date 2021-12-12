@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_green_frozen_unprepared extends Abstract_food {
 
+    /**
+     *
+     */
     public Peas_green_frozen_unprepared() {
         set_food_name("Peas, green, frozen, unprepared");
         set_food_label("Peas_green_frozen_unprepared");

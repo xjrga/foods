@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Corn_sweet_yellow_cooked_boiled_drained_without_salt extends Abstract_food {
 
+    /**
+     *
+     */
     public Corn_sweet_yellow_cooked_boiled_drained_without_salt() {
         set_food_name("Corn, sweet, yellow, cooked, boiled, drained, without salt");
         set_food_label("Corn_sweet_yellow_cooked_boiled_drained_without_salt");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_round_bottom_round_roast_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw extends Abstract_food {
 
+    /**
+     *
+     */
     public Beef_round_bottom_round_roast_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw() {
         set_food_name("Beef, round, bottom round, roast, separable lean only, trimmed to 1/8' fat, all grades, raw");
         set_food_label("Beef_round_bottom_round_roast_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw");

@@ -25,6 +25,9 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Nuts_almonds_dry_roasted_without_salt_added extends Abstract_food {
 
+    /**
+     *
+     */
     public Nuts_almonds_dry_roasted_without_salt_added() {
         set_food_name("Nuts, almonds, dry roasted, without salt added");
         set_food_label("Nuts_almonds_dry_roasted_without_salt_added");
