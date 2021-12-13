@@ -29,7 +29,7 @@ Installing
 
 Build
 
-    01 - SNAPSHOT
+    01
 
 Authors
 
@@ -54,5 +54,5 @@ Snack uses a data subset from:
 
 Notes
     
-    Always double check the units when entering data
+    
               

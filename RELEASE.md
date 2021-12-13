@@ -3,5 +3,6 @@
 RELEASE NOTES
 
 01
-
+    
+    Easy to use food classes (523)
     

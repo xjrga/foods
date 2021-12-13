@@ -17,6 +17,8 @@
  */
 package io.github.xjrga.foods;
 
+import java.util.Objects;
+
 /**
  * This is an abstract food to extend from
  */
@@ -1482,5 +1484,30 @@ public abstract class Abstract_food implements Food {
     @Override
     public final Double get_energy_protein_coefficient() {
         return get_energy_protein() / weight;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Abstract_food other = (Abstract_food) obj;
+        return Objects.equals(name, other.name);
     }
 }
