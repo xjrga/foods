@@ -75,7 +75,7 @@ public abstract class Abstract_food implements Food {
     private Double cost;
 
     /**
-     * This is an abstract food to extend from
+     *
      */
     public Abstract_food() {
         set_food_name("");

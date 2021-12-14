@@ -37,7 +37,7 @@ public class Fish_salmon_king_chinook_raw_alaska_native extends Abstract_food {
         set_carbohydrate_by_difference(0.00000);
         set_cholesterol(61.00000);
         set_choline(0.00000);
-        set_complete_protein(0.00000);
+        set_complete_protein(20.25000);
         set_copper(0.00000);
         set_cost(0.00000);
         set_dha(0.71000);
