@@ -18,7 +18,9 @@
 package io.github.xjrga.foods;
 
 /**
- * This is a food implementation example
+ * This is a food implementation example. Weight and nutrient amounts are
+ * directly proportional. If weight changes, nutrient amounts must change
+ * proportionally.
  */
 public class Food_impl extends Abstract_food {
 
