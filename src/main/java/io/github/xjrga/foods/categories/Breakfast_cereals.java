@@ -25,7 +25,7 @@ import io.github.xjrga.foods.breakfast_cereals.*;
  */
 public class Breakfast_cereals extends Abstract_category {
 
-    private final Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original;
+    private final Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original cereals_ready_to_eat_kellogg_kelloggs_all_bran_original;
     private final Cereals_oats_regular_and_quick_not_fortified_dry cereals_oats_regular_and_quick_not_fortified_dry;
 
     /**
@@ -33,14 +33,14 @@ public class Breakfast_cereals extends Abstract_category {
      */
     public Breakfast_cereals() {
         set_name("Breakfast Cereals");
-        cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original = new Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original();
+        cereals_ready_to_eat_kellogg_kelloggs_all_bran_original = new Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original();
         cereals_oats_regular_and_quick_not_fortified_dry = new Cereals_oats_regular_and_quick_not_fortified_dry();
-        add(cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original);
+        add(cereals_ready_to_eat_kellogg_kelloggs_all_bran_original);
         add(cereals_oats_regular_and_quick_not_fortified_dry);
     }
 
     public Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original get_cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original() {
-        return cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original;
+        return cereals_ready_to_eat_kellogg_kelloggs_all_bran_original;
     }
 
     public Cereals_oats_regular_and_quick_not_fortified_dry get_cereals_oats_regular_and_quick_not_fortified_dry() {

@@ -46,7 +46,7 @@ public class Tomato_products_canned_puree_without_salt_addedNGTest {
     //food_label
     @Test(enabled = true)
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Tomato_products_canned_puree_without_salt_added");
+        assertEquals(food.get_food_label(), "tomato_products_canned_puree_without_salt_added");
     }
 
     //Alcohol, ethyl (g)

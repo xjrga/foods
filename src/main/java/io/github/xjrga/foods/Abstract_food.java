@@ -22,7 +22,7 @@ import java.util.Objects;
 /**
  * This is an abstract food to extend from
  */
-public abstract class Abstract_food implements Food {
+public abstract class Abstract_food implements Food_def, Food {
 
     private String name;
     private String label;

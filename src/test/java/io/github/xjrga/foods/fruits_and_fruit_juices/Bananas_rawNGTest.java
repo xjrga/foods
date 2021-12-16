@@ -46,7 +46,7 @@ public class Bananas_rawNGTest {
     //food_label
     @Test(enabled = true)
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Bananas_raw");
+        assertEquals(food.get_food_label(), "bananas_raw");
     }
 
     //Alcohol, ethyl (g)

@@ -78,11 +78,11 @@ public class American_indian_alaska_native_foods extends Abstract_category {
         add(tortilla_blue_corn_sakwavikaviki_hopi);
     }
 
-    public Food get_blackberries_wild_raw_alaska_native() {
+    public Blackberries_wild_raw_alaska_native get_blackberries_wild_raw_alaska_native() {
         return blackberries_wild_raw_alaska_native;
     }
 
-    public Food get_blueberries_wild_frozen_alaska_native() {
+    public Blueberries_wild_frozen_alaska_native get_blueberries_wild_frozen_alaska_native() {
         return blueberries_wild_frozen_alaska_native;
     }
 

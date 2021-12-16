@@ -46,7 +46,7 @@ public class Fish_sardine_atlantic_canned_in_oil_drained_solids_with_boneNGTest 
     //food_label
     @Test(enabled = true)
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone");
+        assertEquals(food.get_food_label(), "fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone");
     }
 
     //Alcohol, ethyl (g)

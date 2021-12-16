@@ -18,17 +18,9 @@
 package io.github.xjrga.foods;
 
 /**
- * This interface defines a food item
- *
+ * This interface is used to get food nutrition facts data
  */
 public interface Food {
-
-    /**
-     * Set food name
-     *
-     * @param name The name of food
-     */
-    void set_food_name(String name);
 
     /**
      * Get food name
@@ -36,14 +28,6 @@ public interface Food {
      * @return Double String
      */
     String get_food_name();
-
-    /**
-     * Set food label
-     *
-     * @param label The food name which uses these characters A-Z, a-z 0-9, _
-     * only
-     */
-    void set_food_label(String label);
 
     /**
      * Get food label
@@ -60,13 +44,6 @@ public interface Food {
     Double get_weight();
 
     /**
-     * Set serving size weight (g)
-     *
-     * @param quantity
-     */
-    void set_weight(Double quantity);
-
-    /**
      * Get gross energy (Kcal)
      *
      * @return Double
@@ -79,13 +56,6 @@ public interface Food {
      * @return Double
      */
     Double get_energy_gross_coefficient();
-
-    /**
-     * Set gross energy (Kcal)
-     *
-     * @param quantity
-     */
-    void set_gross_energy(Double quantity);
 
     //Macronutrients
     /**
@@ -108,20 +78,6 @@ public interface Food {
      * @return Double
      */
     Double get_protein_atwater_factor();
-
-    /**
-     * Set protein, includes both incomplete and complete (g)
-     *
-     * @param quantity
-     */
-    void set_protein(Double quantity);
-
-    /**
-     * Set protein atwater factor (Kcal / g of protein)
-     *
-     * @param quantity
-     */
-    void set_protein_atwater_factor(Double quantity);
 
     /**
      * Get carbohydrate by difference, includes digestible carbohydrate plus
@@ -148,22 +104,6 @@ public interface Food {
     Double get_carbohydrate_by_difference_atwater_factor();
 
     /**
-     * Set carbohydrate by difference, includes digestible carbohydrate plus
-     * fiber (g)
-     *
-     * @param quantity
-     */
-    void set_carbohydrate_by_difference(Double quantity);
-
-    /**
-     * Set carbohydrate by difference atwater factor (Kcal / g of carbohydrate
-     * by difference)
-     *
-     * @param quantity
-     */
-    void set_carbohydrate_by_difference_atwater_factor(Double quantity);
-
-    /**
      * Get fiber (g)
      *
      * @return Double
@@ -176,13 +116,6 @@ public interface Food {
      * @return Double
      */
     Double get_fiber_coefficient();
-
-    /**
-     * Set fiber (g)
-     *
-     * @param quantity
-     */
-    void set_fiber(Double quantity);
 
     //Calculate digestible carbs from carbohydrate_by_difference and fiber
     /**
@@ -208,21 +141,6 @@ public interface Food {
     Double get_fat_atwater_factor();
 
     /**
-     * Set total fat, includes saturated, polyunsaturated and monounsaturated
-     * (g)
-     *
-     * @param quantity
-     */
-    void set_fat(Double quantity);
-
-    /**
-     * Set fat atwater factor (Kcal / g of fat)
-     *
-     * @param quantity
-     */
-    void set_fat_atwater_factor(Double quantity);
-
-    /**
      * Get ethyl alcohol (g)
      *
      * @return Double
@@ -242,20 +160,6 @@ public interface Food {
      * @return Double
      */
     Double get_alcohol_atwater_factor();
-
-    /**
-     * Set ethyl alcohol (g)
-     *
-     * @param quantity
-     */
-    void set_alcohol(Double quantity);
-
-    /**
-     * Set ethyl alcohol atwater factor (Kcal / g of alcohol)
-     *
-     * @param quantity
-     */
-    void set_alcohol_atwater_factor(Double quantity);
 
     //calculated carbs
     /**
@@ -288,13 +192,6 @@ public interface Food {
     Double get_cholesterol_coefficient();
 
     /**
-     * Set cholesterol coefficient (mg of cholesterol / g of food)
-     *
-     * @param quantity
-     */
-    void set_cholesterol(Double quantity);
-
-    /**
      * Get monounsaturated fat (g)
      *
      * @return Double
@@ -307,13 +204,6 @@ public interface Food {
      * @return Double
      */
     Double get_monounsaturated_fat_coefficient();
-
-    /**
-     * Set monounsaturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_monounsaturated_fat(Double quantity);
 
     /**
      * Get polyunsaturated fat (g)
@@ -330,13 +220,6 @@ public interface Food {
     Double get_polyunsaturated_fat_coefficient();
 
     /**
-     * Set polyunsaturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_polyunsaturated_fat(Double quantity);
-
-    /**
      * Get saturated fat (g)
      *
      * @return Double
@@ -349,13 +232,6 @@ public interface Food {
      * @return Double
      */
     Double get_saturated_fat_coefficient();
-
-    /**
-     * Set saturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_saturated_fat(Double quantity);
 
     //protein
     /**
@@ -371,13 +247,6 @@ public interface Food {
      * @return Double
      */
     Double get_complete_protein_coefficient();
-
-    /**
-     * Set complete protein (g)
-     *
-     * @param quantity
-     */
-    void set_complete_protein(Double quantity);
 
     //minerals
     /**
@@ -395,13 +264,6 @@ public interface Food {
     Double get_calcium_coefficient();
 
     /**
-     * Set calcium (mg)
-     *
-     * @param quantity
-     */
-    void set_calcium(Double quantity);
-
-    /**
      * Get copper (mg)
      *
      * @return Double
@@ -414,13 +276,6 @@ public interface Food {
      * @return Double
      */
     Double get_copper_coefficient();
-
-    /**
-     * Set copper (mg)
-     *
-     * @param quantity
-     */
-    void set_copper(Double quantity);
 
     /**
      * Set flouride (µg)
@@ -437,13 +292,6 @@ public interface Food {
     Double get_fluoride_coefficient();
 
     /**
-     * Set flouride (µg)
-     *
-     * @param quantity
-     */
-    void set_fluoride(Double quantity);
-
-    /**
      * Get iron (mg)
      *
      * @return Double
@@ -456,13 +304,6 @@ public interface Food {
      * @return Double
      */
     Double get_iron_coefficient();
-
-    /**
-     * Set iron (mg)
-     *
-     * @param quantity
-     */
-    void set_iron(Double quantity);
 
     /**
      * Set magnesium (mg)
@@ -479,13 +320,6 @@ public interface Food {
     Double get_magnesium_coefficient();
 
     /**
-     * Set magnesium (mg)
-     *
-     * @param quantity
-     */
-    void set_magnesium(Double quantity);
-
-    /**
      * Get manganese (mg)
      *
      * @return Double
@@ -498,13 +332,6 @@ public interface Food {
      * @return Double
      */
     Double get_manganese_coefficient();
-
-    /**
-     * Set manganese (mg)
-     *
-     * @param quantity
-     */
-    void set_manganese(Double quantity);
 
     /**
      * Get phosphorus (mg)
@@ -521,13 +348,6 @@ public interface Food {
     Double get_phosphorus_coefficient();
 
     /**
-     * Set phosphorus (mg)
-     *
-     * @param quantity
-     */
-    void set_phosphorus(Double quantity);
-
-    /**
      * Get potassium (mg)
      *
      * @return Double
@@ -540,13 +360,6 @@ public interface Food {
      * @return Double
      */
     Double get_potassium_coefficient();
-
-    /**
-     * Set potassium (mg)
-     *
-     * @param quantity
-     */
-    void set_potassium(Double quantity);
 
     /**
      * Get selenium (µg)
@@ -563,13 +376,6 @@ public interface Food {
     Double get_selenium_coefficient();
 
     /**
-     * Set selenium (µg)
-     *
-     * @param quantity
-     */
-    void set_selenium(Double quantity);
-
-    /**
      * Get sodium (mg)
      *
      * @return Double
@@ -584,13 +390,6 @@ public interface Food {
     Double get_sodium_coefficient();
 
     /**
-     * Set sodium (mg)
-     *
-     * @param quantity
-     */
-    void set_sodium(Double quantity);
-
-    /**
      * Get zinc (mg)
      *
      * @return Double
@@ -603,13 +402,6 @@ public interface Food {
      * @return Double
      */
     Double get_zinc_coefficient();
-
-    /**
-     * Set zinc (mg)
-     *
-     * @param quantity
-     */
-    void set_zinc(Double quantity);
 
     //vitamins
     /**
@@ -627,13 +419,6 @@ public interface Food {
     Double get_folate_coefficient();
 
     /**
-     * Set folate (µg)
-     *
-     * @param quantity
-     */
-    void set_folate(Double quantity);
-
-    /**
      * Get niacin (mg)
      *
      * @return Double
@@ -646,13 +431,6 @@ public interface Food {
      * @return Double
      */
     Double get_niacin_coefficient();
-
-    /**
-     * Set niacin (mg)
-     *
-     * @param quantity
-     */
-    void set_niacin(Double quantity);
 
     /**
      * Get pantothenic acid (mg)
@@ -669,13 +447,6 @@ public interface Food {
     Double get_pantothenic_acid_coefficient();
 
     /**
-     * Set pantothenic acid (mg)
-     *
-     * @param quantity
-     */
-    void set_pantothenic_acid(Double quantity);
-
-    /**
      * Get riboflavin (mg)
      *
      * @return Double
@@ -688,13 +459,6 @@ public interface Food {
      * @return Double
      */
     Double get_riboflavin_coefficient();
-
-    /**
-     * Set riboflavin (mg)
-     *
-     * @param quantity
-     */
-    void set_riboflavin(Double quantity);
 
     /**
      * Get thiamin (mg)
@@ -711,13 +475,6 @@ public interface Food {
     Double get_thiamin_coefficient();
 
     /**
-     * Set thiamin (mg)
-     *
-     * @param quantity
-     */
-    void set_thiamin(Double quantity);
-
-    /**
      * Get vitamin a (µg)
      *
      * @return Double
@@ -730,13 +487,6 @@ public interface Food {
      * @return Double
      */
     Double get_vitamin_a_coefficient();
-
-    /**
-     * Set vitamin a (µg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_a(Double quantity);
 
     /**
      * Get vitamin b12 (µg)
@@ -753,13 +503,6 @@ public interface Food {
     Double get_vitamin_b12_coefficient();
 
     /**
-     * Set vitaming b12 (µg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_b12(Double quantity);
-
-    /**
      * Get vitamin b6 (mg)
      *
      * @return Double
@@ -772,13 +515,6 @@ public interface Food {
      * @return Double
      */
     Double get_vitamin_b6_coefficient();
-
-    /**
-     * Set vitamin b6 (mg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_b6(Double quantity);
 
     /**
      * Get vitamin c (mg)
@@ -795,13 +531,6 @@ public interface Food {
     Double get_vitamin_c_coefficient();
 
     /**
-     * Set vitamin c (mg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_c(Double quantity);
-
-    /**
      * Get vitamin d (µg)
      *
      * @return Double
@@ -814,13 +543,6 @@ public interface Food {
      * @return Double
      */
     Double get_vitamin_d_coefficient();
-
-    /**
-     * Set vitamin d (µg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_d(Double quantity);
 
     /**
      * Get vitamin e (mg)
@@ -837,13 +559,6 @@ public interface Food {
     Double get_vitamin_e_coefficient();
 
     /**
-     * Set vitamin e (mg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_e(Double quantity);
-
-    /**
      * Get vitamin k (µg)
      *
      * @return Double
@@ -856,13 +571,6 @@ public interface Food {
      * @return Double
      */
     Double get_vitamin_k_coefficient();
-
-    /**
-     * Set vitamin k (µg)
-     *
-     * @param quantity
-     */
-    void set_vitamin_k(Double quantity);
 
     /**
      * Get choline (mg)
@@ -878,13 +586,6 @@ public interface Food {
      */
     Double get_choline_coefficient();
 
-    /**
-     * Set choline (mg)
-     *
-     * @param quantity
-     */
-    void set_choline(Double quantity);
-
     //glycemic
     /**
      * Get glycemic index (0-100)
@@ -897,18 +598,6 @@ public interface Food {
      * @return Double
      */
     Double get_glycemic_index();
-
-    /**
-     * Set glycemic index (0-100)
-     * <p>
-     * Glycemic index is total glucose exposure delivered by test food (in two
-     * hours) divided by total glucose exposure delivered by standard food (in
-     * two hours) multiplied by 100. Either 50 g of glucose or white bread are
-     * used as the standard. It is a percentage of standard.
-     *
-     * @param quantity
-     */
-    void set_glycemic_index(Double quantity);
 
     /**
      * Get glycemic load (g of digestible carbohydrate)
@@ -944,13 +633,6 @@ public interface Food {
     Double get_alphalinolenic_acid_coefficient();
 
     /**
-     * Set alpha-linolenic acid (g)
-     *
-     * @param quantity
-     */
-    void set_alpha_linolenic_acid(Double quantity);
-
-    /**
      * Get linoleic acid (g)
      *
      * @return Double
@@ -963,13 +645,6 @@ public interface Food {
      * @return Double
      */
     Double get_linoleic_acid_coefficient();
-
-    /**
-     * Set linoleic acid (g)
-     *
-     * @param quantity
-     */
-    void set_linoleic_acid(Double quantity);
 
     /**
      * Get docosahexaenoic acid "dha" (g)
@@ -986,13 +661,6 @@ public interface Food {
     Double get_dha_coefficient();
 
     /**
-     * Set docosahexaenoic acid "dha" (g)
-     *
-     * @param quantity
-     */
-    void set_dha(Double quantity);
-
-    /**
      * Get eicosapentaenoic acid "epa" (g)
      *
      * @return Double
@@ -1005,13 +673,6 @@ public interface Food {
      * @return Double
      */
     Double get_epa_coefficient();
-
-    /**
-     * Set eicosapentaenoic acid "epa" (g)
-     *
-     * @param quantity
-     */
-    void set_epa(Double quantity);
 
     //water
     /**
@@ -1028,13 +689,6 @@ public interface Food {
      */
     Double get_water_coefficient();
 
-    /**
-     * Set water (g)
-     *
-     * @param quantity
-     */
-    void set_water(Double quantity);
-
     //cost
     /**
      * Get cost ($)
@@ -1049,13 +703,6 @@ public interface Food {
      * @return Double
      */
     Double get_cost_coefficient();
-
-    /**
-     * Set cost ($)
-     *
-     * @param quantity
-     */
-    void set_cost(Double quantity);
 
     //calculated energy
     /**

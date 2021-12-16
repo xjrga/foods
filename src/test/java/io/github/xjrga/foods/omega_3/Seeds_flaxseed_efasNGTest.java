@@ -46,7 +46,7 @@ public class Seeds_flaxseed_efasNGTest {
     //food_label
     @Test(enabled = true)
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Seeds_flaxseed_efas");
+        assertEquals(food.get_food_label(), "seeds_flaxseed_efas");
     }
 
     //Alcohol, ethyl (g)

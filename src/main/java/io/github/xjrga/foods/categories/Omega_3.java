@@ -17,8 +17,14 @@
  */
 package io.github.xjrga.foods.categories;
 
+import io.github.xjrga.foods.omega_3.Fish_oil_menhaden;
+import io.github.xjrga.foods.omega_3.Fish_oil_herring;
+import io.github.xjrga.foods.omega_3.Fish_oil_sardine;
+import io.github.xjrga.foods.omega_3.Seeds_flaxseed_efas;
+import io.github.xjrga.foods.omega_3.Oil_flaxseed_cold_pressed;
+import io.github.xjrga.foods.omega_3.Fish_oil_cod_liver;
+import io.github.xjrga.foods.omega_3.Fish_oil_salmon;
 import io.github.xjrga.foods.*;
-import io.github.xjrga.foods.omega_3.*;
 
 /**
  * This is omega-3 category
