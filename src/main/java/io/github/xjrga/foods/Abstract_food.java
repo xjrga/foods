@@ -44,7 +44,7 @@ public abstract class Abstract_food implements Food_def, Food {
     private Double complete_protein;
     private Double calcium;
     private Double copper;
-    private Double flouride;
+    private Double fluoride;
     private Double iron;
     private Double magnesium;
     private Double manganese;
@@ -579,7 +579,7 @@ public abstract class Abstract_food implements Food_def, Food {
      */
     @Override
     public final Double get_fluoride() {
-        return flouride;
+        return fluoride;
     }
 
     /**
@@ -588,7 +588,7 @@ public abstract class Abstract_food implements Food_def, Food {
      */
     @Override
     public final void set_fluoride(Double quantity) {
-        flouride = quantity;
+        fluoride = quantity;
     }
 
     /**
@@ -597,7 +597,7 @@ public abstract class Abstract_food implements Food_def, Food {
      */
     @Override
     public final Double get_fluoride_coefficient() {
-        return flouride / weight;
+        return fluoride / weight;
     }
 
     /**
