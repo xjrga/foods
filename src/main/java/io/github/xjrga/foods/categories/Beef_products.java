@@ -23,7 +23,7 @@ import io.github.xjrga.foods.beef_products.*;
 /**
  * This is Beef products category
  */
-public class Beef_products extends Abstract_category {
+public class Beef_products extends Category_abstract {
 
     private final Beef_loin_top_sirloin_petite_roast_filet_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw beef_loin_top_sirloin_petite_roast_filet_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
     private final Beef_round_top_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw beef_round_top_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;

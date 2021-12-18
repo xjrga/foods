@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd implements 
         return equals(obj);
     }
 
-    private class Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd_mutable extends Abstract_food {
+    private class Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

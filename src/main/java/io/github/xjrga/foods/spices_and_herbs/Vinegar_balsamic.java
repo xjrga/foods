@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.spices_and_herbs;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Vinegar_balsamic implements Food {
         return equals(obj);
     }
 
-    private class Vinegar_balsamic_mutable extends Abstract_food {
+    private class Vinegar_balsamic_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

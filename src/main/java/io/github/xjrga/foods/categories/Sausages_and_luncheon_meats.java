@@ -23,7 +23,7 @@ import io.github.xjrga.foods.sausages_and_luncheon_meats.*;
 /**
  * This is sausages and luncheon meats category
  */
-public class Sausages_and_luncheon_meats extends Abstract_category {
+public class Sausages_and_luncheon_meats extends Category_abstract {
 
     private final Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added;
     private final Oscar_mayer_chicken_breast_honey_glazed oscar_mayer_chicken_breast_honey_glazed;

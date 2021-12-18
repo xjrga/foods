@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.vegetables_and_vegetable_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no
         return equals(obj);
     }
 
-    private class Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added_mutable extends Abstract_food {
+    private class Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

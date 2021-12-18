@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fast_foods;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato implem
         return equals(obj);
     }
 
-    private class Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato_mutable extends Abstract_food {
+    private class Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

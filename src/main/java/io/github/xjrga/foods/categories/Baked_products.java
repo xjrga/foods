@@ -23,7 +23,7 @@ import io.github.xjrga.foods.baked_products.*;
 /**
  * This is baked products category
  */
-public class Baked_products extends Abstract_category {
+public class Baked_products extends Category_abstract {
 
     private final Bagels_cinnamon_raisin bagels_cinnamon_raisin;
     private final Bread_pita_white_enriched bread_pita_white_enriched;

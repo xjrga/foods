@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sweets;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Sweeteners_tabletop_saccharin_sodium_saccharin implements Food {
         return equals(obj);
     }
 
-    private class Sweeteners_tabletop_saccharin_sodium_saccharin_mutable extends Abstract_food {
+    private class Sweeteners_tabletop_saccharin_sodium_saccharin_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

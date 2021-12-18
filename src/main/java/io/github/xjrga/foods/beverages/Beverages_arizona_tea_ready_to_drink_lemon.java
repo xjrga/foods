@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.beverages;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Beverages_arizona_tea_ready_to_drink_lemon implements Food {
         return equals(obj);
     }
 
-    private class Beverages_arizona_tea_ready_to_drink_lemon_mutable extends Abstract_food {
+    private class Beverages_arizona_tea_ready_to_drink_lemon_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

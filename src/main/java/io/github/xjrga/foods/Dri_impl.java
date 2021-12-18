@@ -281,7 +281,7 @@ public class Dri_impl implements Dri {
         return dri.get_zinc_upper();
     }
 
-    private class Dri_impl_mutable extends Abstract_dri {
+    private class Dri_impl_mutable extends Dri_abstract {
 
         /**
          * Constructs a dri item

@@ -25,12 +25,12 @@ import java.util.Objects;
 /**
  * This is an abstract category to extend from
  */
-public class Abstract_category implements Category {
+public class Category_abstract implements Category {
 
     private final List<Food> list;
     private String name;
 
-    public Abstract_category() {
+    public Category_abstract() {
         list = new ArrayList();
     }
 
@@ -81,7 +81,7 @@ public class Abstract_category implements Category {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Abstract_category other = (Abstract_category) obj;
+        final Category_abstract other = (Category_abstract) obj;
         return Objects.equals(this.name, other.name);
     }
 }

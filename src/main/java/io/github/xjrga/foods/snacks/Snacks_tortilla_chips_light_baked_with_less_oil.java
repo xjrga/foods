@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.snacks;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Snacks_tortilla_chips_light_baked_with_less_oil implements Food {
         return equals(obj);
     }
 
-    private class Snacks_tortilla_chips_light_baked_with_less_oil_mutable extends Abstract_food {
+    private class Snacks_tortilla_chips_light_baked_with_less_oil_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

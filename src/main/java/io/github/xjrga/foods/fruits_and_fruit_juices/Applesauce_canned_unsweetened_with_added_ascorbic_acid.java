@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fruits_and_fruit_juices;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Applesauce_canned_unsweetened_with_added_ascorbic_acid implements F
         return equals(obj);
     }
 
-    private class Applesauce_canned_unsweetened_with_added_ascorbic_acid_mutable extends Abstract_food {
+    private class Applesauce_canned_unsweetened_with_added_ascorbic_acid_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

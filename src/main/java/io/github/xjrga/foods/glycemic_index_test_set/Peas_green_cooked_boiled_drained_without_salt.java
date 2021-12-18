@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Peas_green_cooked_boiled_drained_without_salt implements Food {
         return equals(obj);
     }
 
-    private class Peas_green_cooked_boiled_drained_without_salt_mutable extends Abstract_food {
+    private class Peas_green_cooked_boiled_drained_without_salt_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

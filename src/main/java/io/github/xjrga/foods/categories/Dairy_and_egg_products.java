@@ -23,7 +23,7 @@ import io.github.xjrga.foods.dairy_and_egg_products.*;
 /**
  * This is dairy and egg products category
  */
-public class Dairy_and_egg_products extends Abstract_category {
+public class Dairy_and_egg_products extends Category_abstract {
 
     private final Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd;
     private final Cheese_cottage_lowfat_2_milkfat cheese_cottage_lowfat_2_milkfat;

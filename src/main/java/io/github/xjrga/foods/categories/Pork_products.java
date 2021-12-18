@@ -23,7 +23,7 @@ import io.github.xjrga.foods.pork_products.*;
 /**
  * This is pork products category
  */
-public class Pork_products extends Abstract_category {
+public class Pork_products extends Category_abstract {
 
     private final Pork_fresh_loin_tenderloin_separable_lean_only_raw pork_fresh_loin_tenderloin_separable_lean_only_raw;
     private final Pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted;

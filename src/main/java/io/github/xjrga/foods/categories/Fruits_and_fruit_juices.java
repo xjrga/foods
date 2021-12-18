@@ -23,7 +23,7 @@ import io.github.xjrga.foods.fruits_and_fruit_juices.*;
 /**
  * This is fruits and fruit juices category
  */
-public class Fruits_and_fruit_juices extends Abstract_category {
+public class Fruits_and_fruit_juices extends Category_abstract {
 
     private final Apples_raw_with_skin apples_raw_with_skin;
     private final Apricots_raw apricots_raw;

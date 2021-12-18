@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.vegetables_and_vegetable_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Corn_sweet_yellow_cooked_boiled_drained_without_salt implements Foo
         return equals(obj);
     }
 
-    private class Corn_sweet_yellow_cooked_boiled_drained_without_salt_mutable extends Abstract_food {
+    private class Corn_sweet_yellow_cooked_boiled_drained_without_salt_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -23,7 +23,7 @@ import io.github.xjrga.foods.spices_and_herbs.*;
 /**
  * This is spices and herbs category
  */
-public class Spices_and_herbs extends Abstract_category {
+public class Spices_and_herbs extends Category_abstract {
 
     private final Spices_pepper_black spices_pepper_black;
     private final Salt_table salt_table;

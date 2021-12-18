@@ -23,7 +23,7 @@ import io.github.xjrga.foods.protein_powders.*;
 /**
  * This is protein powders category
  */
-public class Protein_powders extends Abstract_category {
+public class Protein_powders extends Category_abstract {
 
     private final Egg_white_dried egg_white_dried;
     private final Whey_protein_concentrate whey_protein_concentrate;

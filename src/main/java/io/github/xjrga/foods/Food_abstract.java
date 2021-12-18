@@ -22,7 +22,7 @@ import java.util.Objects;
 /**
  * This is an abstract food to extend from
  */
-public abstract class Abstract_food implements Food_def, Food {
+public abstract class Food_abstract implements Food_mutable, Food {
 
     private String name;
     private String label;
@@ -77,7 +77,7 @@ public abstract class Abstract_food implements Food_def, Food {
     /**
      *
      */
-    public Abstract_food() {
+    public Food_abstract() {
         set_food_name("");
         set_food_label("");
         set_weight(0.0);
@@ -1507,7 +1507,7 @@ public abstract class Abstract_food implements Food_def, Food {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Abstract_food other = (Abstract_food) obj;
+        final Food_abstract other = (Food_abstract) obj;
         return Objects.equals(name, other.name);
     }
 }

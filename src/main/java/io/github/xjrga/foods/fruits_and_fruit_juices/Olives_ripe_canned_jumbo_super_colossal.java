@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fruits_and_fruit_juices;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Olives_ripe_canned_jumbo_super_colossal implements Food {
         return equals(obj);
     }
 
-    private class Olives_ripe_canned_jumbo_super_colossal_mutable extends Abstract_food {
+    private class Olives_ripe_canned_jumbo_super_colossal_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -20,7 +20,7 @@ package io.github.xjrga.foods;
 /**
  * This is a category implementation example
  */
-public class Category_impl extends Abstract_category {
+public class Category_impl extends Category_abstract {
 
     /**
      * Constructs a category

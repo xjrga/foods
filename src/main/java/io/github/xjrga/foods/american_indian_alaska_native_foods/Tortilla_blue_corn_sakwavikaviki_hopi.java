@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.american_indian_alaska_native_foods;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Tortilla_blue_corn_sakwavikaviki_hopi implements Food {
         return equals(obj);
     }
 
-    private class Tortilla_blue_corn_sakwavikaviki_hopi_mutable extends Abstract_food {
+    private class Tortilla_blue_corn_sakwavikaviki_hopi_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

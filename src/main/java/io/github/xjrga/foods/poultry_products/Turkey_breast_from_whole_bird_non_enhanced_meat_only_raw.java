@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.poultry_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Turkey_breast_from_whole_bird_non_enhanced_meat_only_raw implements
         return equals(obj);
     }
 
-    private class Turkey_breast_from_whole_bird_non_enhanced_meat_only_raw_mutable extends Abstract_food {
+    private class Turkey_breast_from_whole_bird_non_enhanced_meat_only_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

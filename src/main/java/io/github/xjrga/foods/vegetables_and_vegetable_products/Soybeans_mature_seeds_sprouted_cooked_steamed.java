@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.vegetables_and_vegetable_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Soybeans_mature_seeds_sprouted_cooked_steamed implements Food {
         return equals(obj);
     }
 
-    private class Soybeans_mature_seeds_sprouted_cooked_steamed_mutable extends Abstract_food {
+    private class Soybeans_mature_seeds_sprouted_cooked_steamed_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

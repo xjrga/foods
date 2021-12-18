@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fruits_and_fruit_juices;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Pineapple_raw_all_varieties implements Food {
         return equals(obj);
     }
 
-    private class Pineapple_raw_all_varieties_mutable extends Abstract_food {
+    private class Pineapple_raw_all_varieties_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

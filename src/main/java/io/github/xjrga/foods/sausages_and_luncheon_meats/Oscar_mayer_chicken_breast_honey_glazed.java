@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sausages_and_luncheon_meats;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Oscar_mayer_chicken_breast_honey_glazed implements Food {
         return equals(obj);
     }
 
-    private class Oscar_mayer_chicken_breast_honey_glazed_mutable extends Abstract_food {
+    private class Oscar_mayer_chicken_breast_honey_glazed_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

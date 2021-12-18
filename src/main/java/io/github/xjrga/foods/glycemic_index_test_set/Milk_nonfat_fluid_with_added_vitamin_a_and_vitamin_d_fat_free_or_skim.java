@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_sk
         return equals(obj);
     }
 
-    private class Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim_mutable extends Abstract_food {
+    private class Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

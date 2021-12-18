@@ -23,7 +23,7 @@ import io.github.xjrga.foods.cereal_grains_and_pasta.*;
 /**
  * This is cereal grains and pasta category
  */
-public class Cereal_grains_and_pasta extends Abstract_category {
+public class Cereal_grains_and_pasta extends Category_abstract {
 
     private final Hominy_canned_yellow hominy_canned_yellow;
     private final Corn_grain_white corn_grain_white;

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.beef_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Beef_round_eye_of_round_steak_boneless_separable_lean_only_trimmed_
         return equals(obj);
     }
 
-    private class Beef_round_eye_of_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw_mutable extends Abstract_food {
+    private class Beef_round_eye_of_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -23,7 +23,7 @@ import io.github.xjrga.foods.nuts_and_seed_products.*;
 /**
  * This is nut and seed products category
  */
-public class Nuts_and_seed_products extends Abstract_category {
+public class Nuts_and_seed_products extends Category_abstract {
 
     private final Seeds_sunflower_seed_kernels_dry_roasted_without_salt seeds_sunflower_seed_kernels_dry_roasted_without_salt;
     private final Seeds_sunflower_seed_kernels_toasted_without_salt seeds_sunflower_seed_kernels_toasted_without_salt;

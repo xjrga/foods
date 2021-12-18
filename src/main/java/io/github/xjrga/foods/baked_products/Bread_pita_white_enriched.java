@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.baked_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Bread_pita_white_enriched implements Food {
         return equals(obj);
     }
 
-    private class Bread_pita_white_enriched_mutable extends Abstract_food {
+    private class Bread_pita_white_enriched_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

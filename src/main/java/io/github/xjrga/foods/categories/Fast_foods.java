@@ -23,7 +23,7 @@ import io.github.xjrga.foods.fast_foods.*;
 /**
  * This is fast foods category
  */
-public class Fast_foods extends Abstract_category {
+public class Fast_foods extends Category_abstract {
 
     private final Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato;
     private final Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato;

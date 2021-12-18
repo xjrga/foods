@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.baby_foods;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Babyfood_dessert_custard_pudding_vanilla_junior implements Food {
         return equals(obj);
     }
 
-    private class Babyfood_dessert_custard_pudding_vanilla_junior_mutable extends Abstract_food {
+    private class Babyfood_dessert_custard_pudding_vanilla_junior_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

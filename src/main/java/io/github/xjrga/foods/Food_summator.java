@@ -79,13 +79,13 @@ public class Food_summator {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Abstract_category other = (Abstract_category) obj;
+        final Category_abstract other = (Category_abstract) obj;
         return Objects.equals(this.name, other.get_name());
     }
 
     public Food get_total() {
         Iterator it = list.iterator();
-        Abstract_food foods = new Food_impl_mutable();
+        Food_abstract foods = new Food_mutable_impl();
         Double weight = 0.0;
         Double gross_energy = 0.0;
         Double protein = 0.0;

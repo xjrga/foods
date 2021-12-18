@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.nuts_and_seed_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistac
         return equals(obj);
     }
 
-    private class Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend_mutable extends Abstract_food {
+    private class Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

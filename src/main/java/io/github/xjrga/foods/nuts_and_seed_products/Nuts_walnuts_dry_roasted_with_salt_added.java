@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.nuts_and_seed_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Nuts_walnuts_dry_roasted_with_salt_added implements Food {
         return equals(obj);
     }
 
-    private class Nuts_walnuts_dry_roasted_with_salt_added_mutable extends Abstract_food {
+    private class Nuts_walnuts_dry_roasted_with_salt_added_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

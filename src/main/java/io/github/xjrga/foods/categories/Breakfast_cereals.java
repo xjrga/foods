@@ -23,7 +23,7 @@ import io.github.xjrga.foods.breakfast_cereals.*;
 /**
  * This is breakfast cereals category
  */
-public class Breakfast_cereals extends Abstract_category {
+public class Breakfast_cereals extends Category_abstract {
 
     private final Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original cereals_ready_to_eat_kellogg_kelloggs_all_bran_original;
     private final Cereals_oats_regular_and_quick_not_fortified_dry cereals_oats_regular_and_quick_not_fortified_dry;

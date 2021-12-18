@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Cereals_ready_to_eat_kellogg_kelloggs_all_bran_original implements 
         return equals(obj);
     }
 
-    private class Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original_mutable extends Abstract_food {
+    private class Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

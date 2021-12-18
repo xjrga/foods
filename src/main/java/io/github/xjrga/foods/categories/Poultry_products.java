@@ -23,7 +23,7 @@ import io.github.xjrga.foods.poultry_products.*;
 /**
  * This is poultry products category
  */
-public class Poultry_products extends Abstract_category {
+public class Poultry_products extends Category_abstract {
 
     private final Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw;
     private final Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted chicken_broilers_or_fryers_breast_meat_only_cooked_roasted;

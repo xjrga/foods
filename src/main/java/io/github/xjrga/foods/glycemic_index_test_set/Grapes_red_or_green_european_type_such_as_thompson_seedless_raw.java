@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw imp
         return equals(obj);
     }
 
-    private class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw_mutable extends Abstract_food {
+    private class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

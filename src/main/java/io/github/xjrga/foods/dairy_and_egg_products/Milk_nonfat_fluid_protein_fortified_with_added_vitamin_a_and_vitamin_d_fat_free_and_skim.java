@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Milk_nonfat_fluid_protein_fortified_with_added_vitamin_a_and_vitami
         return equals(obj);
     }
 
-    private class Milk_nonfat_fluid_protein_fortified_with_added_vitamin_a_and_vitamin_d_fat_free_and_skim_mutable extends Abstract_food {
+    private class Milk_nonfat_fluid_protein_fortified_with_added_vitamin_a_and_vitamin_d_fat_free_and_skim_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sweets;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Sweetener_herbal_extract_powder_from_stevia_leaf implements Food {
         return equals(obj);
     }
 
-    private class Sweetener_herbal_extract_powder_from_stevia_leaf_mutable extends Abstract_food {
+    private class Sweetener_herbal_extract_powder_from_stevia_leaf_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

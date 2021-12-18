@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sausages_and_luncheon_meats;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added implement
         return equals(obj);
     }
 
-    private class Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added_mutable extends Abstract_food {
+    private class Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

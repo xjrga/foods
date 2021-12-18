@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.cereal_grains_and_pasta;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Quinoa_cooked implements Food {
         return equals(obj);
     }
 
-    private class Quinoa_cooked_mutable extends Abstract_food {
+    private class Quinoa_cooked_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.vegetables_and_vegetable_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Nopales_cooked_without_salt implements Food {
         return equals(obj);
     }
 
-    private class Nopales_cooked_without_salt_mutable extends Abstract_food {
+    private class Nopales_cooked_without_salt_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

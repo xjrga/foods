@@ -558,7 +558,7 @@ public class Food_impl implements Food {
         return food.get_energy_protein_coefficient();
     }
 
-    private class Food_impl_mutable extends Abstract_food {
+    private class Food_impl_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -23,7 +23,7 @@ import io.github.xjrga.foods.american_indian_alaska_native_foods.*;
 /**
  * This is american indian/alaska native foods category
  */
-public class American_indian_alaska_native_foods extends Abstract_category {
+public class American_indian_alaska_native_foods extends Category_abstract {
 
     private final Blackberries_wild_raw_alaska_native blackberries_wild_raw_alaska_native;
     private final Blueberries_wild_frozen_alaska_native blueberries_wild_frozen_alaska_native;

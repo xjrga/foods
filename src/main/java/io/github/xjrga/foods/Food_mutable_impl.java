@@ -21,9 +21,9 @@ package io.github.xjrga.foods;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_impl_mutable extends Abstract_food {
+public class Food_mutable_impl extends Food_abstract {
 
-    public Food_impl_mutable() {
+    public Food_mutable_impl() {
 
     }
 

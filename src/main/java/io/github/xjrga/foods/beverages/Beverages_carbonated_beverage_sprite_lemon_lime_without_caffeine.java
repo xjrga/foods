@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.beverages;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine im
         return equals(obj);
     }
 
-    private class Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine_mutable extends Abstract_food {
+    private class Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

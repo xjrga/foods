@@ -23,7 +23,7 @@ import io.github.xjrga.foods.snacks.*;
 /**
  * This is snacks category
  */
-public class Snacks extends Abstract_category {
+public class Snacks extends Category_abstract {
 
     private final Snacks_pretzels_hard_plain_salted snacks_pretzels_hard_plain_salted;
     private final Snacks_trail_mix_regular snacks_trail_mix_regular;

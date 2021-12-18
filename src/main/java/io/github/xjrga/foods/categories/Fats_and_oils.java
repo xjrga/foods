@@ -23,7 +23,7 @@ import io.github.xjrga.foods.fats_and_oils.*;
 /**
  * This is fats and oils category
  */
-public class Fats_and_oils extends Abstract_category {
+public class Fats_and_oils extends Category_abstract {
 
     private final Oil_wheat_germ oil_wheat_germ;
     private final Oil_peanut_salad_or_cooking oil_peanut_salad_or_cooking;

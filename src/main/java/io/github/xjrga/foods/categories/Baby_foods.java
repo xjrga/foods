@@ -23,7 +23,7 @@ import io.github.xjrga.foods.baby_foods.*;
 /**
  * This is baby foods category
  */
-public class Baby_foods extends Abstract_category {
+public class Baby_foods extends Category_abstract {
 
     private final Babyfood_dessert_custard_pudding_vanilla_junior babyfood_dessert_custard_pudding_vanilla_junior;
 

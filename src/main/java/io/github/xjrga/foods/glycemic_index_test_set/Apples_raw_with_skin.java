@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Apples_raw_with_skin implements Food {
         return equals(obj);
     }
 
-    private class Apples_raw_with_skin_mutable extends Abstract_food {
+    private class Apples_raw_with_skin_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

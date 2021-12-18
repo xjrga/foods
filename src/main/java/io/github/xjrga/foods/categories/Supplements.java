@@ -23,7 +23,7 @@ import io.github.xjrga.foods.supplements.*;
 /**
  * This is supplements category
  */
-public class Supplements extends Abstract_category {
+public class Supplements extends Category_abstract {
 
     private final Glucose glucose;
     private final Generic_multivitamin generic_multivitamin;

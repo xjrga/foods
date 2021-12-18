@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_so
         return equals(obj);
     }
 
-    private class Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids_mutable extends Abstract_food {
+    private class Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

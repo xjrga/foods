@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fats_and_oils;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking impleme
         return equals(obj);
     }
 
-    private class Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking_mutable extends Abstract_food {
+    private class Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

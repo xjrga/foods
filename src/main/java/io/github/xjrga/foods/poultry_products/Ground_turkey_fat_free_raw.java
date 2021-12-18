@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.poultry_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Ground_turkey_fat_free_raw implements Food {
         return equals(obj);
     }
 
-    private class Ground_turkey_fat_free_raw_mutable extends Abstract_food {
+    private class Ground_turkey_fat_free_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

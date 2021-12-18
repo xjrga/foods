@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fruits_and_fruit_juices;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Lemons_raw_without_peel implements Food {
         return equals(obj);
     }
 
-    private class Lemons_raw_without_peel_mutable extends Abstract_food {
+    private class Lemons_raw_without_peel_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

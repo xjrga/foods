@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.american_indian_alaska_native_foods;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Fish_salmon_king_chinook_raw_alaska_native implements Food {
         return equals(obj);
     }
 
-    private class Fish_salmon_king_chinook_raw_alaska_native_mutable extends Abstract_food {
+    private class Fish_salmon_king_chinook_raw_alaska_native_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

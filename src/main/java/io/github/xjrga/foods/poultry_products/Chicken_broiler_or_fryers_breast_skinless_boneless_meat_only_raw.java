@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.poultry_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw im
         return equals(obj);
     }
 
-    private class Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw_mutable extends Abstract_food {
+    private class Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

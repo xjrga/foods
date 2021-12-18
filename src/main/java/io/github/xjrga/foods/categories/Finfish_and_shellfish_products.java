@@ -23,7 +23,7 @@ import io.github.xjrga.foods.finfish_and_shellfish_products.*;
 /**
  * This is finfish and shellfish products category
  */
-public class Finfish_and_shellfish_products extends Abstract_category {
+public class Finfish_and_shellfish_products extends Category_abstract {
 
     private final Fish_mahimahi_raw fish_mahimahi_raw;
     private final Fish_salmon_atlantic_wild_raw fish_salmon_atlantic_wild_raw;

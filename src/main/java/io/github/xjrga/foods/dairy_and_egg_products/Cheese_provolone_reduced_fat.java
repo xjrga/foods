@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Cheese_provolone_reduced_fat implements Food {
         return equals(obj);
     }
 
-    private class Cheese_provolone_reduced_fat_mutable extends Abstract_food {
+    private class Cheese_provolone_reduced_fat_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

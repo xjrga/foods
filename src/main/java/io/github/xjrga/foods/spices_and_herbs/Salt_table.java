@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.spices_and_herbs;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Salt_table implements Food {
         return equals(obj);
     }
 
-    private class Salt_table_mutable extends Abstract_food {
+    private class Salt_table_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

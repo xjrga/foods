@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sweets;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Syrups_sugar_free implements Food {
         return equals(obj);
     }
 
-    private class Syrups_sugar_free_mutable extends Abstract_food {
+    private class Syrups_sugar_free_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

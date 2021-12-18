@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.pork_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Pork_fresh_loin_tenderloin_separable_lean_only_raw implements Food 
         return equals(obj);
     }
 
-    private class Pork_fresh_loin_tenderloin_separable_lean_only_raw_mutable extends Abstract_food {
+    private class Pork_fresh_loin_tenderloin_separable_lean_only_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

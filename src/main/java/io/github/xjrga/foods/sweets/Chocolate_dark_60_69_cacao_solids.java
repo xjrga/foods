@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sweets;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Chocolate_dark_60_69_cacao_solids implements Food {
         return equals(obj);
     }
 
-    private class Chocolate_dark_60_69_cacao_solids_mutable extends Abstract_food {
+    private class Chocolate_dark_60_69_cacao_solids_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

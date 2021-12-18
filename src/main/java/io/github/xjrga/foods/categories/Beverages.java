@@ -23,7 +23,7 @@ import io.github.xjrga.foods.beverages.*;
 /**
  * This is beverages category
  */
-public class Beverages extends Abstract_category {
+public class Beverages extends Category_abstract {
 
     private final Water water;
     private final Alcoholic_beverage_beer_regular_all alcoholic_beverage_beer_regular_all;

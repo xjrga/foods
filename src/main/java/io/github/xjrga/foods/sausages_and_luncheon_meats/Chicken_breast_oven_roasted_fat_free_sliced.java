@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sausages_and_luncheon_meats;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Chicken_breast_oven_roasted_fat_free_sliced implements Food {
         return equals(obj);
     }
 
-    private class Chicken_breast_oven_roasted_fat_free_sliced_mutable extends Abstract_food {
+    private class Chicken_breast_oven_roasted_fat_free_sliced_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

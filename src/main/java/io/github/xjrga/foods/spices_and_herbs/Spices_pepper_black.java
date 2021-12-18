@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.spices_and_herbs;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Spices_pepper_black implements Food {
         return equals(obj);
     }
 
-    private class Spices_pepper_black_mutable extends Abstract_food {
+    private class Spices_pepper_black_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

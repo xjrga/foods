@@ -23,7 +23,7 @@ import io.github.xjrga.foods.sweets.*;
 /**
  * This is sweets category
  */
-public class Sweets extends Abstract_category {
+public class Sweets extends Category_abstract {
 
     private final Cocoa_dry_powder_unsweetened cocoa_dry_powder_unsweetened;
     private final Cocoa_dry_powder_unsweetened_processed_with_alkali cocoa_dry_powder_unsweetened_processed_with_alkali;

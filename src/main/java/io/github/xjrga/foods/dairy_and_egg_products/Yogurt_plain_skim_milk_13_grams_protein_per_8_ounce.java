@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce implements Food
         return equals(obj);
     }
 
-    private class Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce_mutable extends Abstract_food {
+    private class Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

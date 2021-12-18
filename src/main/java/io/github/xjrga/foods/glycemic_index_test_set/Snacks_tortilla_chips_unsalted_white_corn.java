@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.glycemic_index_test_set;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Snacks_tortilla_chips_unsalted_white_corn implements Food {
         return equals(obj);
     }
 
-    private class Snacks_tortilla_chips_unsalted_white_corn_mutable extends Abstract_food {
+    private class Snacks_tortilla_chips_unsalted_white_corn_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

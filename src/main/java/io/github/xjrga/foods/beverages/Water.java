@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.beverages;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Water implements Food {
         return equals(obj);
     }
 
-    private class Water_mutable extends Abstract_food {
+    private class Water_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

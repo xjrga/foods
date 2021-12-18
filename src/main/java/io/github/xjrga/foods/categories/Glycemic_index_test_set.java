@@ -23,7 +23,7 @@ import io.github.xjrga.foods.glycemic_index_test_set.*;
 /**
  * This is glycemic index test set category
  */
-public class Glycemic_index_test_set extends Abstract_category {
+public class Glycemic_index_test_set extends Category_abstract {
 
     private final Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim;
     private final Milk_canned_condensed_sweetened milk_canned_condensed_sweetened;

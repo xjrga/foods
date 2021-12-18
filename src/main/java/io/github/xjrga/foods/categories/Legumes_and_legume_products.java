@@ -23,7 +23,7 @@ import io.github.xjrga.foods.legumes_and_legume_products.*;
 /**
  * This is legumes and legume products category
  */
-public class Legumes_and_legume_products extends Abstract_category {
+public class Legumes_and_legume_products extends Category_abstract {
 
     private final Beans_black_mature_seeds_raw beans_black_mature_seeds_raw;
     private final Beans_black_mature_seeds_cooked_boiled_without_salt beans_black_mature_seeds_cooked_boiled_without_salt;

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.legumes_and_legume_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Beans_kidney_red_mature_seeds_raw implements Food {
         return equals(obj);
     }
 
-    private class Beans_kidney_red_mature_seeds_raw_mutable extends Abstract_food {
+    private class Beans_kidney_red_mature_seeds_raw_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.protein_powders;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Soy_protein_isolate implements Food {
         return equals(obj);
     }
 
-    private class Soy_protein_isolate_mutable extends Abstract_food {
+    private class Soy_protein_isolate_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

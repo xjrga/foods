@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.finfish_and_shellfish_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Fish_mahimahi_cooked_dry_heat implements Food {
         return equals(obj);
     }
 
-    private class Fish_mahimahi_cooked_dry_heat_mutable extends Abstract_food {
+    private class Fish_mahimahi_cooked_dry_heat_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

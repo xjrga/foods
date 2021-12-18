@@ -23,7 +23,7 @@ import io.github.xjrga.foods.vegetables_and_vegetable_products.*;
 /**
  * This is vegetables and vegetable products category
  */
-public class Vegetables_and_vegetable_products extends Abstract_category {
+public class Vegetables_and_vegetable_products extends Category_abstract {
 
     private final Asparagus_raw asparagus_raw;
     private final Asparagus_cooked_boiled_drained asparagus_cooked_boiled_drained;

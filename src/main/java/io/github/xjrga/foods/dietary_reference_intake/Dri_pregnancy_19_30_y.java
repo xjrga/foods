@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dietary_reference_intake;
 
-import io.github.xjrga.foods.Abstract_dri;
+import io.github.xjrga.foods.Dri_abstract;
 import io.github.xjrga.foods.Dri;
 
 /**
@@ -308,7 +308,7 @@ public class Dri_pregnancy_19_30_y implements Dri {
         return equals(obj);
     }
 
-    private class Dri_pregnancy_19_30_y_mutable extends Abstract_dri {
+    private class Dri_pregnancy_19_30_y_mutable extends Dri_abstract {
 
         /**
          * Constructs a dri item

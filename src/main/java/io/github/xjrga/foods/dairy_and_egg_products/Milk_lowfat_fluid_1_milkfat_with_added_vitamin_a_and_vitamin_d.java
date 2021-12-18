@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Milk_lowfat_fluid_1_milkfat_with_added_vitamin_a_and_vitamin_d impl
         return equals(obj);
     }
 
-    private class Milk_lowfat_fluid_1_milkfat_with_added_vitamin_a_and_vitamin_d_mutable extends Abstract_food {
+    private class Milk_lowfat_fluid_1_milkfat_with_added_vitamin_a_and_vitamin_d_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

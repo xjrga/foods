@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.sweets;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Cocoa_dry_powder_unsweetened_hersheys_european_style_cocoa implemen
         return equals(obj);
     }
 
-    private class Cocoa_dry_powder_unsweetened_hershey_s_european_style_cocoa_mutable extends Abstract_food {
+    private class Cocoa_dry_powder_unsweetened_hershey_s_european_style_cocoa_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

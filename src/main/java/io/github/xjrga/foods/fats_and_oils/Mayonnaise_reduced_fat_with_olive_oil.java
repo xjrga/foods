@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods.fats_and_oils;
 
-import io.github.xjrga.foods.Abstract_food;
+import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
 
 /**
@@ -586,7 +586,7 @@ public class Mayonnaise_reduced_fat_with_olive_oil implements Food {
         return equals(obj);
     }
 
-    private class Mayonnaise_reduced_fat_with_olive_oil_mutable extends Abstract_food {
+    private class Mayonnaise_reduced_fat_with_olive_oil_mutable extends Food_abstract {
 
         /**
          * Constructs a food item

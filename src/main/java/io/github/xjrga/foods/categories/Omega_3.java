@@ -29,7 +29,7 @@ import io.github.xjrga.foods.*;
 /**
  * This is omega-3 category
  */
-public class Omega_3 extends Abstract_category {
+public class Omega_3 extends Category_abstract {
 
     private final Fish_oil_cod_liver fish_oil_cod_liver;
     private final Fish_oil_herring fish_oil_herring;
