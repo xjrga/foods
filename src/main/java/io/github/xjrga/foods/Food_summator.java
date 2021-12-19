@@ -25,67 +25,551 @@ import java.util.Objects;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_summator {
+public class Food_summator implements Food {
 
-    private final ArrayList list;
-    private String name;
+    private final ArrayList<Food> list;
+    private final String name;
+    private final Food meal;
 
-    public Food_summator() {
-        list = new ArrayList();
-    }
-
-    public final void set_name(String name) {
+    public Food_summator(ArrayList<Food> food_list, String name) {
+        this.list = food_list;
         this.name = name;
-    }
-
-    public final String get_name() {
-        return name;
-    }
-
-    public void add(Food food) {
-        list.add(food);
-    }
-
-    public void remove(Food food) {
-        list.remove(food);
-    }
-
-    public final boolean contains(Food food) {
-        return list.contains(food);
-    }
-
-    public final Iterator<Food> iterator() {
-        return list.iterator();
+        meal = get_total();
     }
 
     @Override
-    public final String toString() {
-        return name;
+    public String get_food_name() {
+        return meal.get_food_name();
     }
 
     @Override
-    public final int hashCode() {
-        return name.hashCode();
+    public String get_food_label() {
+        return meal.get_food_label();
     }
 
     @Override
-    public final boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Category_abstract other = (Category_abstract) obj;
-        return Objects.equals(this.name, other.get_name());
+    public Double get_weight() {
+        return meal.get_weight();
     }
 
-    public Food get_total() {
+    @Override
+    public Double get_energy_gross() {
+        return meal.get_energy_gross();
+    }
+
+    @Override
+    public Double get_energy_gross_coefficient() {
+        return meal.get_energy_gross_coefficient();
+    }
+
+    @Override
+    public Double get_protein() {
+        return meal.get_protein();
+    }
+
+    @Override
+    public Double get_protein_coefficient() {
+        return meal.get_protein_coefficient();
+    }
+
+    @Override
+    public Double get_protein_atwater_factor() {
+        return meal.get_protein_atwater_factor();
+    }
+
+    @Override
+    public Double get_carbohydrate_by_difference() {
+        return meal.get_carbohydrate_by_difference();
+    }
+
+    @Override
+    public Double get_carbohydrate_by_difference_coefficient() {
+        return meal.get_carbohydrate_by_difference_coefficient();
+    }
+
+    @Override
+    public Double get_carbohydrate_by_difference_atwater_factor() {
+        return meal.get_carbohydrate_by_difference_atwater_factor();
+    }
+
+    @Override
+    public Double get_fiber() {
+        return meal.get_fiber();
+    }
+
+    @Override
+    public Double get_fiber_coefficient() {
+        return meal.get_fiber_coefficient();
+    }
+
+    @Override
+    public Double get_fat() {
+        return meal.get_fat();
+    }
+
+    @Override
+    public Double get_fat_coefficient() {
+        return meal.get_fat_coefficient();
+    }
+
+    @Override
+    public Double get_fat_atwater_factor() {
+        return meal.get_fat_atwater_factor();
+    }
+
+    @Override
+    public Double get_alcohol() {
+        return meal.get_alcohol();
+    }
+
+    @Override
+    public Double get_alcohol_coefficient() {
+        return meal.get_alcohol_coefficient();
+    }
+
+    @Override
+    public Double get_alcohol_atwater_factor() {
+        return meal.get_alcohol_atwater_factor();
+    }
+
+    @Override
+    public Double get_digestible_carbohydrate() {
+        return meal.get_digestible_carbohydrate();
+    }
+
+    @Override
+    public Double get_digestible_carbohydrate_coefficient() {
+        return meal.get_digestible_carbohydrate_coefficient();
+    }
+
+    @Override
+    public Double get_cholesterol() {
+        return meal.get_cholesterol();
+    }
+
+    @Override
+    public Double get_cholesterol_coefficient() {
+        return meal.get_cholesterol_coefficient();
+    }
+
+    @Override
+    public Double get_monounsaturated_fat() {
+        return meal.get_monounsaturated_fat();
+    }
+
+    @Override
+    public Double get_monounsaturated_fat_coefficient() {
+        return meal.get_monounsaturated_fat_coefficient();
+    }
+
+    @Override
+    public Double get_polyunsaturated_fat() {
+        return meal.get_polyunsaturated_fat();
+    }
+
+    @Override
+    public Double get_polyunsaturated_fat_coefficient() {
+        return meal.get_polyunsaturated_fat_coefficient();
+    }
+
+    @Override
+    public Double get_saturated_fat() {
+        return meal.get_saturated_fat();
+    }
+
+    @Override
+    public Double get_saturated_fat_coefficient() {
+        return meal.get_saturated_fat_coefficient();
+    }
+
+    @Override
+    public Double get_complete_protein() {
+        return meal.get_complete_protein();
+    }
+
+    @Override
+    public Double get_complete_protein_coefficient() {
+        return meal.get_complete_protein_coefficient();
+    }
+
+    @Override
+    public Double get_calcium() {
+        return meal.get_calcium();
+    }
+
+    @Override
+    public Double get_calcium_coefficient() {
+        return meal.get_calcium_coefficient();
+    }
+
+    @Override
+    public Double get_copper() {
+        return meal.get_copper();
+    }
+
+    @Override
+    public Double get_copper_coefficient() {
+        return meal.get_copper_coefficient();
+    }
+
+    @Override
+    public Double get_fluoride() {
+        return meal.get_fluoride();
+    }
+
+    @Override
+    public Double get_fluoride_coefficient() {
+        return meal.get_fluoride_coefficient();
+    }
+
+    @Override
+    public Double get_iron() {
+        return meal.get_iron();
+    }
+
+    @Override
+    public Double get_iron_coefficient() {
+        return meal.get_iron_coefficient();
+    }
+
+    @Override
+    public Double get_magnesium() {
+        return meal.get_magnesium();
+    }
+
+    @Override
+    public Double get_magnesium_coefficient() {
+        return meal.get_magnesium_coefficient();
+    }
+
+    @Override
+    public Double get_manganese() {
+        return meal.get_manganese();
+    }
+
+    @Override
+    public Double get_manganese_coefficient() {
+        return meal.get_manganese_coefficient();
+    }
+
+    @Override
+    public Double get_phosphorus() {
+        return meal.get_phosphorus();
+    }
+
+    @Override
+    public Double get_phosphorus_coefficient() {
+        return meal.get_phosphorus_coefficient();
+    }
+
+    @Override
+    public Double get_potassium() {
+        return meal.get_potassium();
+    }
+
+    @Override
+    public Double get_potassium_coefficient() {
+        return meal.get_potassium_coefficient();
+    }
+
+    @Override
+    public Double get_selenium() {
+        return meal.get_selenium();
+    }
+
+    @Override
+    public Double get_selenium_coefficient() {
+        return meal.get_selenium_coefficient();
+    }
+
+    @Override
+    public Double get_sodium() {
+        return meal.get_sodium();
+    }
+
+    @Override
+    public Double get_sodium_coefficient() {
+        return meal.get_sodium_coefficient();
+    }
+
+    @Override
+    public Double get_zinc() {
+        return meal.get_zinc();
+    }
+
+    @Override
+    public Double get_zinc_coefficient() {
+        return meal.get_zinc_coefficient();
+    }
+
+    @Override
+    public Double get_folate() {
+        return meal.get_folate();
+    }
+
+    @Override
+    public Double get_folate_coefficient() {
+        return meal.get_folate_coefficient();
+    }
+
+    @Override
+    public Double get_niacin() {
+        return meal.get_niacin();
+    }
+
+    @Override
+    public Double get_niacin_coefficient() {
+        return meal.get_niacin_coefficient();
+    }
+
+    @Override
+    public Double get_pantothenic_acid() {
+        return meal.get_pantothenic_acid();
+    }
+
+    @Override
+    public Double get_pantothenic_acid_coefficient() {
+        return meal.get_pantothenic_acid_coefficient();
+    }
+
+    @Override
+    public Double get_riboflavin() {
+        return meal.get_riboflavin();
+    }
+
+    @Override
+    public Double get_riboflavin_coefficient() {
+        return meal.get_riboflavin_coefficient();
+    }
+
+    @Override
+    public Double get_thiamin() {
+        return meal.get_thiamin();
+    }
+
+    @Override
+    public Double get_thiamin_coefficient() {
+        return meal.get_thiamin_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_a() {
+        return meal.get_vitamin_a();
+    }
+
+    @Override
+    public Double get_vitamin_a_coefficient() {
+        return meal.get_vitamin_a_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_b12() {
+        return meal.get_vitamin_b12();
+    }
+
+    @Override
+    public Double get_vitamin_b12_coefficient() {
+        return meal.get_vitamin_b12_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_b6() {
+        return meal.get_vitamin_b6();
+    }
+
+    @Override
+    public Double get_vitamin_b6_coefficient() {
+        return meal.get_vitamin_b6_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_c() {
+        return meal.get_vitamin_c();
+    }
+
+    @Override
+    public Double get_vitamin_c_coefficient() {
+        return meal.get_vitamin_c_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_d() {
+        return meal.get_vitamin_d();
+    }
+
+    @Override
+    public Double get_vitamin_d_coefficient() {
+        return meal.get_vitamin_d_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_e() {
+        return meal.get_vitamin_e();
+    }
+
+    @Override
+    public Double get_vitamin_e_coefficient() {
+        return meal.get_vitamin_e_coefficient();
+    }
+
+    @Override
+    public Double get_vitamin_k() {
+        return meal.get_vitamin_k();
+    }
+
+    @Override
+    public Double get_vitamin_k_coefficient() {
+        return meal.get_vitamin_k_coefficient();
+    }
+
+    @Override
+    public Double get_choline() {
+        return meal.get_choline();
+    }
+
+    @Override
+    public Double get_choline_coefficient() {
+        return meal.get_choline_coefficient();
+    }
+
+    @Override
+    public Double get_glycemic_index() {
+        return meal.get_glycemic_index();
+    }
+
+    @Override
+    public Double get_glycemic_load() {
+        return meal.get_glycemic_load();
+    }
+
+    @Override
+    public Double get_glycemic_load_coefficient() {
+        return meal.get_glycemic_load_coefficient();
+    }
+
+    @Override
+    public Double get_alpha_linolenic_acid() {
+        return meal.get_alpha_linolenic_acid();
+    }
+
+    @Override
+    public Double get_alphalinolenic_acid_coefficient() {
+        return meal.get_alphalinolenic_acid_coefficient();
+    }
+
+    @Override
+    public Double get_linoleic_acid() {
+        return meal.get_linoleic_acid();
+    }
+
+    @Override
+    public Double get_linoleic_acid_coefficient() {
+        return meal.get_linoleic_acid_coefficient();
+    }
+
+    @Override
+    public Double get_dha() {
+        return meal.get_dha();
+    }
+
+    @Override
+    public Double get_dha_coefficient() {
+        return meal.get_dha_coefficient();
+    }
+
+    @Override
+    public Double get_epa() {
+        return meal.get_epa();
+    }
+
+    @Override
+    public Double get_epa_coefficient() {
+        return meal.get_epa_coefficient();
+    }
+
+    @Override
+    public Double get_water() {
+        return meal.get_water();
+    }
+
+    @Override
+    public Double get_water_coefficient() {
+        return meal.get_water_coefficient();
+    }
+
+    @Override
+    public Double get_cost() {
+        return meal.get_cost();
+    }
+
+    @Override
+    public Double get_cost_coefficient() {
+        return meal.get_cost_coefficient();
+    }
+
+    @Override
+    public Double get_energy_alcohol() {
+        return meal.get_energy_alcohol();
+    }
+
+    @Override
+    public Double get_energy_alcohol_coefficient() {
+        return meal.get_energy_alcohol_coefficient();
+    }
+
+    @Override
+    public Double get_energy_digestible_carbohydrate() {
+        return meal.get_energy_digestible_carbohydrate();
+    }
+
+    @Override
+    public Double get_energy_digestible_carbohydrate_coefficient() {
+        return meal.get_energy_digestible_carbohydrate_coefficient();
+    }
+
+    @Override
+    public Double get_energy_digestible() {
+        return meal.get_energy_digestible();
+    }
+
+    @Override
+    public Double get_energy_digestible_coefficient() {
+        return meal.get_energy_digestible_coefficient();
+    }
+
+    @Override
+    public Double get_energy_fat() {
+        return meal.get_energy_fat();
+    }
+
+    @Override
+    public Double get_energy_fat_coefficient() {
+        return meal.get_energy_fat_coefficient();
+    }
+
+    @Override
+    public Double get_energy_no_protein() {
+        return meal.get_energy_no_protein();
+    }
+
+    @Override
+    public Double get_energy_no_protein_coefficient() {
+        return meal.get_energy_no_protein_coefficient();
+    }
+
+    @Override
+    public Double get_energy_protein() {
+        return meal.get_energy_protein();
+    }
+
+    @Override
+    public Double get_energy_protein_coefficient() {
+        return meal.get_energy_protein_coefficient();
+    }
+
+    private Food get_total() {
         Iterator it = list.iterator();
-        Food_abstract foods = new Food_mutable_impl();
+        Food_abstract happy_meal = new Food_mutable_impl();
         Double weight = 0.0;
         Double gross_energy = 0.0;
         Double protein = 0.0;
@@ -173,68 +657,89 @@ public class Food_summator {
             water += food.get_water();
             cost += food.get_cost();
         }
-        foods.set_food_name("Total");
-        foods.set_food_label("total");
-        foods.set_weight(weight);
-        foods.set_gross_energy(gross_energy);
-        foods.set_protein(protein);
-        foods.set_carbohydrate_by_difference(carbohydrate_by_difference);
-        foods.set_fiber(fiber);
-        foods.set_fat(fat);
-        foods.set_alcohol(alcohol);
-        foods.set_cholesterol(cholesterol);
-        foods.set_monounsaturated_fat(monounsaturated_fat);
-        foods.set_polyunsaturated_fat(polyunsaturated_fat);
-        foods.set_saturated_fat(saturated_fat);
-        foods.set_complete_protein(complete_protein);
-        foods.set_calcium(calcium);
-        foods.set_copper(copper);
-        foods.set_fluoride(fluoride);
-        foods.set_iron(iron);
-        foods.set_magnesium(magnesium);
-        foods.set_manganese(manganese);
-        foods.set_phosphorus(phosphorus);
-        foods.set_potassium(potassium);
-        foods.set_selenium(selenium);
-        foods.set_sodium(sodium);
-        foods.set_zinc(zinc);
-        foods.set_folate(folate);
-        foods.set_niacin(niacin);
-        foods.set_pantothenic_acid(pantothenic_acid);
-        foods.set_riboflavin(riboflavin);
-        foods.set_thiamin(thiamin);
-        foods.set_vitamin_a(vitamin_a);
-        foods.set_vitamin_b12(vitamin_b12);
-        foods.set_vitamin_b6(vitamin_b6);
-        foods.set_vitamin_c(vitamin_c);
-        foods.set_vitamin_d(vitamin_d);
-        foods.set_vitamin_e(vitamin_e);
-        foods.set_vitamin_k(vitamin_k);
-        foods.set_choline(choline);
-        foods.set_glycemic_index(get_adjusted_glycemic_index());
-        foods.set_alpha_linolenic_acid(alphalinolenic_acid);
-        foods.set_linoleic_acid(linoleic_acid);
-        foods.set_dha(dha);
-        foods.set_epa(epa);
-        foods.set_water(water);
-        foods.set_cost(cost);
-        return foods;
+        happy_meal.set_food_name(name);
+        happy_meal.set_food_label(name);
+        happy_meal.set_weight(weight);
+        happy_meal.set_gross_energy(gross_energy);
+        happy_meal.set_protein(protein);
+        happy_meal.set_carbohydrate_by_difference(carbohydrate_by_difference);
+        happy_meal.set_fiber(fiber);
+        happy_meal.set_fat(fat);
+        happy_meal.set_alcohol(alcohol);
+        happy_meal.set_cholesterol(cholesterol);
+        happy_meal.set_monounsaturated_fat(monounsaturated_fat);
+        happy_meal.set_polyunsaturated_fat(polyunsaturated_fat);
+        happy_meal.set_saturated_fat(saturated_fat);
+        happy_meal.set_complete_protein(complete_protein);
+        happy_meal.set_calcium(calcium);
+        happy_meal.set_copper(copper);
+        happy_meal.set_fluoride(fluoride);
+        happy_meal.set_iron(iron);
+        happy_meal.set_magnesium(magnesium);
+        happy_meal.set_manganese(manganese);
+        happy_meal.set_phosphorus(phosphorus);
+        happy_meal.set_potassium(potassium);
+        happy_meal.set_selenium(selenium);
+        happy_meal.set_sodium(sodium);
+        happy_meal.set_zinc(zinc);
+        happy_meal.set_folate(folate);
+        happy_meal.set_niacin(niacin);
+        happy_meal.set_pantothenic_acid(pantothenic_acid);
+        happy_meal.set_riboflavin(riboflavin);
+        happy_meal.set_thiamin(thiamin);
+        happy_meal.set_vitamin_a(vitamin_a);
+        happy_meal.set_vitamin_b12(vitamin_b12);
+        happy_meal.set_vitamin_b6(vitamin_b6);
+        happy_meal.set_vitamin_c(vitamin_c);
+        happy_meal.set_vitamin_d(vitamin_d);
+        happy_meal.set_vitamin_e(vitamin_e);
+        happy_meal.set_vitamin_k(vitamin_k);
+        happy_meal.set_choline(choline);
+        happy_meal.set_glycemic_index(get_meal_glycemic_index());
+        happy_meal.set_alpha_linolenic_acid(alphalinolenic_acid);
+        happy_meal.set_linoleic_acid(linoleic_acid);
+        happy_meal.set_dha(dha);
+        happy_meal.set_epa(epa);
+        happy_meal.set_water(water);
+        happy_meal.set_cost(cost);
+        return happy_meal;
     }
 
-    private Double get_adjusted_glycemic_index() {
-        Iterator it = list.iterator();
+    private Double get_meal_glycemic_index() {
         Double total_digestible_carbohydrate = 0.0;
-        Double adjusted_gi = 0.0;
-        while (it.hasNext()) {
-            Food food = (Food) it.next();
+        Double meal_gi = 0.0;
+        for (Food food : list) {
             total_digestible_carbohydrate += food.get_digestible_carbohydrate();
         }
-        Iterator it2 = list.iterator();
-        while (it2.hasNext()) {
-            Food food = (Food) it2.next();
-            adjusted_gi += (food.get_digestible_carbohydrate() / total_digestible_carbohydrate) * food.get_glycemic_index();
+        for (Food food : list) {
+            meal_gi += (food.get_digestible_carbohydrate() / total_digestible_carbohydrate) * food.get_glycemic_index();
         }
-        return adjusted_gi;
+        return meal_gi;
+    }
+
+    @Override
+    public final String toString() {
+        return name;
+    }
+
+    @Override
+    public final int hashCode() {
+        return name.hashCode();
+    }
+
+    @Override
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Category_abstract other = (Category_abstract) obj;
+        return Objects.equals(this.name, other.get_name());
     }
 
 }
