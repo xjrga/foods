@@ -32,7 +32,7 @@ public class Food_summator implements Food {
     private final Food meal;
 
     public Food_summator(ArrayList<Food> food_list, String name) {
-        this.list = food_list;
+        this.list = (ArrayList<Food>) food_list.clone();
         this.name = name;
         meal = get_total();
     }
