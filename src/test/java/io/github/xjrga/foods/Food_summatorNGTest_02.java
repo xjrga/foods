@@ -42,10 +42,8 @@ public class Food_summatorNGTest_02 {
         Chef chef = new Chef();
         Honey honey = chef.get_glycemic_index_test_set().get_honey();
         Yogurt_greek_plain_nonfat yogurt_greek_plain_nonfat = chef.get_glycemic_index_test_set().get_yogurt_greek_plain_nonfat();
-        Food_multiplier honey_multiplier = new Food_multiplier(honey);
-        honey_multiplier.set_food_quantity(1000.0);
-        Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt_greek_plain_nonfat);
-        yogurt_multiplier.set_food_quantity(1000.0);
+        Food_multiplier honey_multiplier = new Food_multiplier(honey, 1000.0);
+        Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt_greek_plain_nonfat, 1000.0);
         list.add(honey_multiplier);
         list.add(yogurt_multiplier);
         summator = new Food_summator(list, "Total");

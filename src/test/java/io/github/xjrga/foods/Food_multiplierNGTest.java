@@ -36,8 +36,7 @@ public class Food_multiplierNGTest {
     @BeforeClass
     public static void setUpClass() throws Exception {
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Food_multiplierNGTest.multiplier = new Food_multiplier(food);
-        multiplier.set_food_quantity(100.0);
+        Food_multiplierNGTest.multiplier = new Food_multiplier(food, 100.0);
     }
 
     //food_name

@@ -40,11 +40,9 @@ public class Food_summatorNGTest_01 {
     public static void setUpClass() throws Exception {
         ArrayList<Food> list = new ArrayList();
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Food_multiplier sardine_multiplier = new Food_multiplier(sardine);
-        sardine_multiplier.set_food_quantity(1000.0);
+        Food_multiplier sardine_multiplier = new Food_multiplier(sardine, 1000.0);
         Tomato_products_canned_puree_without_salt_added tomato = new Tomato_products_canned_puree_without_salt_added();
-        Food_multiplier tomato_multiplier = new Food_multiplier(tomato);
-        tomato_multiplier.set_food_quantity(1000.0);
+        Food_multiplier tomato_multiplier = new Food_multiplier(tomato, 1000.0);
         list.add(sardine_multiplier);
         list.add(tomato_multiplier);
         summator = new Food_summator(list, "Meal_01");

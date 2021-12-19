@@ -45,21 +45,17 @@ public class Food_summatorNGTest_03 {
         Chef chef = new Chef();
         Honey honey = chef.get_glycemic_index_test_set().get_honey();
         Yogurt_greek_plain_nonfat yogurt_greek_plain_nonfat = chef.get_glycemic_index_test_set().get_yogurt_greek_plain_nonfat();
-        Food_multiplier honey_multiplier = new Food_multiplier(honey);
-        honey_multiplier.set_food_quantity(1000.0);
-        Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt_greek_plain_nonfat);
-        yogurt_multiplier.set_food_quantity(1000.0);
+        Food_multiplier honey_multiplier = new Food_multiplier(honey, 1000.0);
+        Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt_greek_plain_nonfat, 1000.0);
         list_01.add(honey_multiplier);
         list_01.add(yogurt_multiplier);
         Food_summator summator_01 = new Food_summator(list_01, "Meal_01");
         //meal 02
         ArrayList<Food> list_02 = new ArrayList();
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Food_multiplier sardine_multiplier = new Food_multiplier(sardine);
-        sardine_multiplier.set_food_quantity(1000.0);
+        Food_multiplier sardine_multiplier = new Food_multiplier(sardine, 1000.0);
         Tomato_products_canned_puree_without_salt_added tomato = new Tomato_products_canned_puree_without_salt_added();
-        Food_multiplier tomato_multiplier = new Food_multiplier(tomato);
-        tomato_multiplier.set_food_quantity(1000.0);
+        Food_multiplier tomato_multiplier = new Food_multiplier(tomato, 1000.0);
         list_02.add(sardine_multiplier);
         list_02.add(tomato_multiplier);
         Food_summator summator_02 = new Food_summator(list_02, "Meal_02");

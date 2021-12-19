@@ -23,15 +23,11 @@ package io.github.xjrga.foods;
  */
 public class Food_multiplier implements Food {
 
-    private Double grams_of_food;
+    private final Double grams_of_food;
     private final Food food;
 
-    public Food_multiplier(Food food) {
+    public Food_multiplier(Food food, Double grams) {
         this.food = food;
-        grams_of_food = 0.0;
-    }
-
-    public void set_food_quantity(Double grams) {
         grams_of_food = grams;
     }
 
