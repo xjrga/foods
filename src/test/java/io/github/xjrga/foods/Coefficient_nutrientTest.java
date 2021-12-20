@@ -29,15 +29,19 @@ import org.junit.Test;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_coefficientsTest {
+public class Coefficient_nutrientTest {
 
-    private static Food_coefficients coefficients;
+    private static Coefficient_nutrient coefficients;
 
-    public Food_coefficientsTest() {
+    public Coefficient_nutrientTest() {
     }
 
     @BeforeClass
     public static void setUpClass() {
+        coefficients = instantiate_coefficient_nutrient();
+    }
+
+    private static Coefficient_nutrient instantiate_coefficient_nutrient() {
         //meal 01
         ArrayList<Food> list = new ArrayList();
         Chef chef = new Chef();
@@ -45,7 +49,8 @@ public class Food_coefficientsTest {
         Yogurt_greek_plain_nonfat yogurt_greek_plain_nonfat = chef.get_glycemic_index_test_set().get_yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt_greek_plain_nonfat);
-        coefficients = new Food_coefficients(list);
+        Coefficient_nutrient o = new Coefficient_nutrient(list);
+        return o;
     }
 
     /**
@@ -607,8 +612,7 @@ public class Food_coefficientsTest {
                 + "Vitamin_e:[0.0,1.0E-4]\n"
                 + "Vitamin_k:[0.0,0.0]\n"
                 + "Water:[0.171,0.851]\n"
-                + "Zinc:[0.0022,0.0052]\n"
-                + "";
+                + "Zinc:[0.0022,0.0052]";
         String result = coefficients.toString();
         assertEquals(expResult, result);
     }
@@ -618,7 +622,7 @@ public class Food_coefficientsTest {
      */
     @Test
     public void testHashCode() {
-        int expResult = -970949270;
+        int expResult = 522868384;
         int result = coefficients.hashCode();
         assertEquals(expResult, result);
     }
@@ -628,10 +632,8 @@ public class Food_coefficientsTest {
      */
     @Test
     public void testEquals() {
-        Object obj = "";
-        boolean expResult = false;
-        boolean result = coefficients.equals(obj);
-        assertEquals(expResult, result);
+        Coefficient_nutrient expResult = instantiate_coefficient_nutrient();
+        assertEquals(expResult, coefficients.toString());
     }
 
 }

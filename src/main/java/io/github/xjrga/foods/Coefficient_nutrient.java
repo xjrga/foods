@@ -23,7 +23,7 @@ import java.util.ArrayList;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_coefficients {
+public class Coefficient_nutrient {
 
     private final ArrayList<Food> list;
     private final double[] alcohol;
@@ -78,7 +78,7 @@ public class Food_coefficients {
     private final double[] zinc;
     private final int size;
 
-    public Food_coefficients(ArrayList<Food> food_list) {
+    public Coefficient_nutrient(ArrayList<Food> food_list) {
         this.list = (ArrayList<Food>) food_list.clone();
         size = list.size();
         alcohol = new double[size];
@@ -399,7 +399,6 @@ public class Food_coefficients {
             sb.setLength(sb.length() - 1);
         }
         sb.append("]");
-        sb.append("\n");
         return sb.toString();
     }
 
@@ -408,7 +407,6 @@ public class Food_coefficients {
         sb.append(id);
         sb.append(":");
         sb.append(print_array(arr));
-        sb.append("\n");
         return sb.toString();
     }
 
@@ -430,54 +428,103 @@ public class Food_coefficients {
     public final String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(print_food_names());
+        sb.append("\n");
         sb.append(print_coefficients("Alcohol", get_alcohol_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Alphalinolenic_acid", get_alphalinolenic_acid_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Calcium", get_calcium_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Carbohydrate_by_difference", get_carbohydrate_by_difference_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Cholesterol", get_cholesterol_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Choline", get_choline_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Complete_protein", get_complete_protein_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Copper", get_copper_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Cost", get_cost_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Dha", get_dha_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Digestible_carbohydrate", get_digestible_carbohydrate_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_alcohol", get_energy_alcohol_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_digestible_carbohydrate", get_energy_digestible_carbohydrate_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_digestible", get_energy_digestible_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_fat", get_energy_fat_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_no_protein", get_energy_no_protein_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Energy_protein", get_energy_protein_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Epa", get_epa_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Fat", get_fat_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Fiber", get_fiber_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Fluoride", get_fluoride_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Folate", get_folate_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Glycemic_load", get_glycemic_load_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Gross_energy", get_energy_gross_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Iron", get_iron_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Linoleic_acid", get_linoleic_acid_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Magnesium", get_magnesium_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Manganese", get_manganese_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Monounsaturated_fat", get_monounsaturated_fat_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Niacin", get_niacin_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Pantothenic_acid", get_pantothenic_acid_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Phosphorus", get_phosphorus_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Polyunsaturated_fat", get_polyunsaturated_fat_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Potassium", get_potassium_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Protein", get_protein_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Riboflavin", get_riboflavin_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Saturated_fat", get_saturated_fat_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Selenium", get_selenium_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Sodium", get_sodium_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Thiamin", get_thiamin_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_a", get_vitamin_a_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_b12", get_vitamin_b12_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_b6", get_vitamin_b6_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_c", get_vitamin_c_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_d", get_vitamin_d_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_e", get_vitamin_e_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Vitamin_k", get_vitamin_k_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Water", get_water_coefficients()));
+        sb.append("\n");
         sb.append(print_coefficients("Zinc", get_zinc_coefficients()));
         return sb.toString();
     }
@@ -489,17 +536,7 @@ public class Food_coefficients {
 
     @Override
     public final boolean equals(Object obj) {
-        boolean flag = false;
-        if (this == obj) {
-            flag = true;
-        }
-        if (obj == null) {
-            flag = false;
-        }
-        if (getClass() != obj.getClass()) {
-            flag = false;
-        }
-        return flag;
+        return hashCode() == obj.hashCode();
     }
 
 }
