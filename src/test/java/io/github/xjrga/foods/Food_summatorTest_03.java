@@ -22,19 +22,19 @@ import io.github.xjrga.foods.glycemic_index_test_set.Honey;
 import io.github.xjrga.foods.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
 import io.github.xjrga.foods.vegetables_and_vegetable_products.Tomato_products_canned_puree_without_salt_added;
 import java.util.ArrayList;
-import static org.testng.Assert.assertEquals;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 /**
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_summatorNGTest_03 {
+public class Food_summatorTest_03 {
 
     private static Food_summator summator_03;
 
-    public Food_summatorNGTest_03() {
+    public Food_summatorTest_03() {
 
     }
 
@@ -67,319 +67,319 @@ public class Food_summatorNGTest_03 {
     }
 
     //food_name
-    @Test(enabled = true)
+    @Test
     public void test_food_name() {
         assertEquals(summator_03.get_food_name(), "Total");
     }
 
     //food_label
-    @Test(enabled = true)
+    @Test
     public void test_food_label() {
         assertEquals(summator_03.get_food_label(), "Total");
     }
 
     //Alcohol, ethyl (g)
-    @Test(enabled = true)
+    @Test
     public void test_alcohol() {
         assertEquals(summator_03.get_alcohol(), 0.0, 0.00001);
     }
 
     //18:3 n-3 c,c,c (Alpha-Linolenic) (g)
-    @Test(enabled = true)
+    @Test
     public void test_alpha_linolenic_acid() {
         assertEquals(summator_03.get_alpha_linolenic_acid(), 0.01, 0.00001);
     }
 
     //calcium
-    @Test(enabled = true)
+    @Test
     public void test_calcium() {
         assertEquals(summator_03.get_calcium(), 5160.0, 0.00001);
     }
 
     //carbohydrate_by_difference
-    @Test(enabled = true)
+    @Test
     public void test_carbohydrate_by_difference() {
         assertEquals(summator_03.get_carbohydrate_by_difference(), 949.8, 0.00001);
     }
 
     //cholesterol
-    @Test(enabled = true)
+    @Test
     public void test_cholesterol() {
         assertEquals(summator_03.get_cholesterol(), 1470.0, 0.00001);
     }
 
     //choline
-    @Test(enabled = true)
+    @Test
     public void test_choline() {
         assertEquals(summator_03.get_choline(), 1099.0, 0.00001);
     }
 
     //complete_protein
-    @Test(enabled = true)
+    @Test
     public void test_complete_protein() {
         assertEquals(summator_03.get_complete_protein(), 348.09999, 0.00001);
     }
 
     //copper
-    @Test(enabled = true)
+    @Test
     public void test_copper() {
         assertEquals(summator_03.get_copper(), 5.00000, 0.00001);
     }
 
     //cost
-    @Test(enabled = true)
+    @Test
     public void test_cost() {
         assertEquals(summator_03.get_cost(), 0.0, 0.00001);
     }
 
     //dha
-    @Test(enabled = true)
+    @Test
     public void test_dha() {
         assertEquals(summator_03.get_dha(), 5.0, 0.00001);
     }
 
     //epa
-    @Test(enabled = true)
+    @Test
     public void test_epa() {
         assertEquals(summator_03.get_epa(), 4.69999, 0.00001);
     }
 
     //fat
-    @Test(enabled = true)
+    @Test
     public void test_fat() {
         assertEquals(summator_03.get_fat(), 120.49999, 0.00001);
     }
 
     //fiber
-    @Test(enabled = true)
+    @Test
     public void test_fiber() {
         assertEquals(summator_03.get_fiber(), 21.0, 0.00001);
     }
 
     //fluoride
-    @Test(enabled = true)
+    @Test
     public void test_fluoride() {
         assertEquals(summator_03.get_fluoride(), 70.0, 0.00001);
     }
 
     //folate
-    @Test(enabled = true)
+    @Test
     public void test_folate() {
         assertEquals(summator_03.get_folate(), 300.0, 0.00001);
     }
 
     //glycemic_index
-    @Test(enabled = true)
+    @Test
     public void test_glycemic_index() {
         assertEquals(summator_03.get_glycemic_index(), 49.21834, 0.00001);
     }
 
     //energy_gross
-    @Test(enabled = true)
+    @Test
     public void test_energy_gross() {
         assertEquals(summator_03.get_energy_gross(), 6090.0, 0.00001);
     }
 
     //iron
-    @Test(enabled = true)
+    @Test
     public void test_iron() {
         assertEquals(summator_03.get_iron(), 51.9, 0.00001);
     }
 
     //linoleic_acid
-    @Test(enabled = true)
+    @Test
     public void test_linoleic_acid() {
         assertEquals(summator_03.get_linoleic_acid(), 0.1, 0.00001);
     }
 
     //magnesium
-    @Test(enabled = true)
+    @Test
     public void test_magnesium() {
         assertEquals(summator_03.get_magnesium(), 750.0, 0.00001);
     }
 
     //manganese
-    @Test(enabled = true)
+    @Test
     public void test_manganese() {
         assertEquals(summator_03.get_manganese(), 3.49, 0.00001);
     }
 
     //monounsaturated_fat
-    @Test(enabled = true)
+    @Test
     public void test_monounsaturated_fat() {
         assertEquals(summator_03.get_monounsaturated_fat(), 39.39999, 0.00001);
     }
 
     //niacin
-    @Test(enabled = true)
+    @Test
     public void test_niacin() {
         assertEquals(summator_03.get_niacin(), 70.2, 0.00001);
     }
 
     //pantothenic_acid
-    @Test(enabled = true)
+    @Test
     public void test_pantothenic_acid() {
         assertEquals(summator_03.get_pantothenic_acid(), 14.70, 0.00001);
     }
 
     //phosphorus
-    @Test(enabled = true)
+    @Test
     public void test_phosphorus() {
         assertEquals(summator_03.get_phosphorus(), 6690.0, 0.00001);
     }
 
     //polyunsaturated_fat
-    @Test(enabled = true)
+    @Test
     public void test_polyunsaturated_fat() {
         assertEquals(summator_03.get_polyunsaturated_fat(), 52.29999, 0.00001);
     }
 
     //potassium
-    @Test(enabled = true)
+    @Test
     public void test_potassium() {
         assertEquals(summator_03.get_potassium(), 10290.0, 0.00001);
     }
 
     //protein
-    @Test(enabled = true)
+    @Test
     public void test_protein() {
         assertEquals(summator_03.get_protein(), 367.59999, 0.00001);
     }
 
     //riboflavin
-    @Test(enabled = true)
+    @Test
     public void test_riboflavin() {
         assertEquals(summator_03.get_riboflavin(), 6.0, 0.00001);
     }
 
     //saturated_fat
-    @Test(enabled = true)
+    @Test
     public void test_saturated_fat() {
         assertEquals(summator_03.get_saturated_fat(), 16.5, 0.00001);
     }
 
     //selenium
-    @Test(enabled = true)
+    @Test
     public void test_selenium() {
         assertEquals(summator_03.get_selenium(), 639.0, 0.00001);
     }
 
     //sodium
-    @Test(enabled = true)
+    @Test
     public void test_sodium() {
         assertEquals(summator_03.get_sodium(), 3750.0, 0.00001);
     }
 
     //thiamin
-    @Test(enabled = true)
+    @Test
     public void test_thiamin() {
         assertEquals(summator_03.get_thiamin(), 1.2, 0.00001);
     }
 
     //vitamin_a
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_a() {
         assertEquals(summator_03.get_vitamin_a(), 590.0, 0.00001);
     }
 
     //vitamin_b12
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_b12() {
         assertEquals(summator_03.get_vitamin_b12(), 96.89999, 0.00001);
     }
 
     //vitamin_b6
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_b6() {
         assertEquals(summator_03.get_vitamin_b6(), 3.59999, 0.00001);
     }
 
     //vitamin_c
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_c() {
         assertEquals(summator_03.get_vitamin_c(), 111.0, 0.00001);
     }
 
     //vitamin_d
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_d() {
         assertEquals(summator_03.get_vitamin_d(), 48.0, 0.00001);
     }
 
     //vitamin_e
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_e() {
         assertEquals(summator_03.get_vitamin_e(), 40.2, 0.00001);
     }
 
     //vitamin_k
-    @Test(enabled = true)
+    @Test
     public void test_vitamin_k() {
         assertEquals(summator_03.get_vitamin_k(), 60.0, 0.00001);
     }
 
     //water
-    @Test(enabled = true)
+    @Test
     public void test_water() {
         assertEquals(summator_03.get_water(), 2496.89999, 0.00001);
     }
 
     //weight
-    @Test(enabled = true)
+    @Test
     public void test_weight() {
         assertEquals(summator_03.get_weight(), 4000.0, 0.00001);
     }
 
     //zinc
-    @Test(enabled = true)
+    @Test
     public void test_zinc() {
         assertEquals(summator_03.get_zinc(), 24.1, 0.00001);
     }
 
     //glycemic load
-    @Test(enabled = true)
+    @Test
     public void test_glycemic_load() {
         assertEquals(summator_03.get_glycemic_load(), 457.14, 0.00001);
     }
 
     //energy_alcohol
-    @Test(enabled = true)
+    @Test
     public void test_energy_alcohol() {
         assertEquals(summator_03.get_energy_alcohol(), 0.0, 0.00001);
     }
 
     //energy_digestible_carbohydrate
-    @Test(enabled = true)
+    @Test
     public void test_energy_digestible_carbohydrate() {
         assertEquals(summator_03.get_energy_digestible_carbohydrate(), 3715.2, 0.00001);
     }
 
     //energy_digestible
-    @Test(enabled = true)
+    @Test
     public void test_energy_digestible() {
         assertEquals(summator_03.get_energy_digestible(), 6270.1, 0.00001);
     }
 
     //energy_fat
-    @Test(enabled = true)
+    @Test
     public void test_energy_fat() {
         assertEquals(summator_03.get_energy_fat(), 1084.49999, 0.00001);
     }
 
     //energy_no_protein
-    @Test(enabled = true)
+    @Test
     public void test_energy_no_protein() {
         assertEquals(summator_03.get_energy_no_protein(), 4799.7, 0.00001);
     }
 
     //energy_protein
-    @Test(enabled = true)
+    @Test
     public void test_energy_protein() {
         assertEquals(summator_03.get_energy_protein(), 1470.39999, 0.00001);
     }
 
     //digestible_carbohydrate
-    @Test(enabled = true)
+    @Test
     public void test_digestible_carbohydrate() {
         assertEquals(summator_03.get_digestible_carbohydrate(), 928.8, 0.00001);
     }
