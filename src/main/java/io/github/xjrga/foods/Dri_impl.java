@@ -22,13 +22,13 @@ package io.github.xjrga.foods;
  */
 public class Dri_impl implements Dri {
 
-    private final Dri_impl_mutable dri;
+    private final Dri_mutable_impl dri;
 
     /**
      * Constructs a dri item
      */
     public Dri_impl() {
-        dri = new Dri_impl_mutable();
+        dri = new Dri_mutable_impl();
     }
 
     @Override
@@ -281,12 +281,12 @@ public class Dri_impl implements Dri {
         return dri.get_zinc_upper();
     }
 
-    private class Dri_impl_mutable extends Dri_abstract {
+    private class Dri_mutable_impl extends Dri_abstract {
 
         /**
          * Constructs a dri item
          */
-        public Dri_impl_mutable() {
+        public Dri_mutable_impl() {
             set_lifestage_id(0);
             set_lifestage_label("");
             //Calcium, Ca (mg)

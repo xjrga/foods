@@ -25,7 +25,7 @@ import java.util.Objects;
 /**
  * This is an abstract category to extend from
  */
-public class Category_abstract implements Category {
+public abstract class Category_abstract implements Category {
 
     private final List<Food> list;
     private String name;

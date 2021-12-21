@@ -20,7 +20,7 @@ package io.github.xjrga.foods;
 /**
  * This is an abstract dri to extend from
  */
-public class Dri_abstract implements Dri_mutable, Dri {
+public abstract class Dri_abstract implements Dri_mutable, Dri {
 
     private Integer lifestage_id;
     private String lifestage_label;

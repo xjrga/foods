@@ -1,0 +1,41 @@
+@startuml
+interface io.github.xjrga.foods.Category
+interface io.github.xjrga.foods.Dri
+interface io.github.xjrga.foods.Dri_mutable
+interface io.github.xjrga.foods.Food
+interface io.github.xjrga.foods.Food_mutable
+abstract class io.github.xjrga.foods.Food_abstract
+abstract class io.github.xjrga.foods.Category_abstract
+abstract class io.github.xjrga.foods.Dri_abstract
+class io.github.xjrga.foods.Category_impl
+class io.github.xjrga.foods.Chef
+class io.github.xjrga.foods.Coefficient_food
+class io.github.xjrga.foods.Coefficient_nutrient
+class io.github.xjrga.foods.Dri_impl
+class io.github.xjrga.foods.Food_impl
+class io.github.xjrga.foods.Food_multiplier
+class io.github.xjrga.foods.Food_mutable_impl
+class io.github.xjrga.foods.Food_summator
+class io.github.xjrga.foods.Main
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_impl ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_multiplier ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_summator ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food_mutable
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_impl ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri_mutable
+io.github.xjrga.foods.Category_abstract ..|> io.github.xjrga.foods.Category
+io.github.xjrga.foods.Category_impl --|> io.github.xjrga.foods.Category_abstract
+io.github.xjrga.foods.Food_mutable_impl --|> io.github.xjrga.foods.Food_abstract
+ io.github.xjrga.foods.Dri_mutable_impl --+ io.github.xjrga.foods.Dri_impl
+ io.github.xjrga.foods.Food_mutable_impl --+ io.github.xjrga.foods.Food_impl
+io.github.xjrga.foods.Dri_mutable_impl --|> io.github.xjrga.foods.Dri_abstract
+io.github.xjrga.foods.Category_impl --* io.github.xjrga.foods.Chef
+/'
+class ArrayList implements List
+class ArrayList extends AbstractList
+'/
+@enduml
+
+@enduml

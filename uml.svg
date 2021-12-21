@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="328px" preserveAspectRatio="none" style="width:1276px;height:328px;" version="1.1" viewBox="0 0 1276 328" width="1276px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fk5dd3xgvorr2" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[1f10c24ee3bcbe65d3f72ed88b4c20d3]
+cluster io.github.xjrga.foods-->
+        <polygon fill="#FFFFFF" filter="url(#fk5dd3xgvorr2)" points="16,6,185,6,192,28.2969,1259,28.2969,1259,321,16,321,16,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="192" y1="28.2969" y2="28.2969"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="20" y="20.9951">io.github.xjrga.foods</text>
+        <!--MD5=[3802a8fa2784972e0e304922c2cdc915]
+class io.github.xjrga.foods.Category-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Category" style="stroke:#A80036;stroke-width:1.5;" width="89" x="1028.5" y="257"/>
+        <ellipse cx="1043.5" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1039.4219,268.7656 L1039.4219,266.6094 L1046.8125,266.6094 L1046.8125,268.7656 L1044.3438,268.7656 L1044.3438,276.8438 L1046.8125,276.8438 L1046.8125,279 L1039.4219,279 L1039.4219,276.8438 L1041.8906,276.8438 L1041.8906,268.7656 L1039.4219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1057.5" y="277.1543">Category</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1029.5" x2="1116.5" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1029.5" x2="1116.5" y1="297" y2="297"/>
+        <!--MD5=[e46f80e19078360b57b2613987cd3961]
+class io.github.xjrga.foods.Dri-->
+        <rect codeLine="2" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Dri" style="stroke:#A80036;stroke-width:1.5;" width="49" x="55.5" y="257"/>
+        <ellipse cx="70.5" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M66.4219,268.7656 L66.4219,266.6094 L73.8125,266.6094 L73.8125,268.7656 L71.3438,268.7656 L71.3438,276.8438 L73.8125,276.8438 L73.8125,279 L66.4219,279 L66.4219,276.8438 L68.8906,276.8438 L68.8906,268.7656 L66.4219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="17" x="84.5" y="277.1543">Dri</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="56.5" x2="103.5" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="56.5" x2="103.5" y1="297" y2="297"/>
+        <!--MD5=[ddb8284ef900ccaab39ccf7437b8590b]
+class io.github.xjrga.foods.Dri_mutable-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Dri_mutable" style="stroke:#A80036;stroke-width:1.5;" width="106" x="148" y="257"/>
+        <ellipse cx="163" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M158.9219,268.7656 L158.9219,266.6094 L166.3125,266.6094 L166.3125,268.7656 L163.8438,268.7656 L163.8438,276.8438 L166.3125,276.8438 L166.3125,279 L158.9219,279 L158.9219,276.8438 L161.3906,276.8438 L161.3906,268.7656 L158.9219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="177" y="277.1543">Dri_mutable</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="149" x2="253" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="149" x2="253" y1="297" y2="297"/>
+        <!--MD5=[7c9196262ebc078710eb219e84105d34]
+class io.github.xjrga.foods.Food-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food" style="stroke:#A80036;stroke-width:1.5;" width="63" x="544.5" y="257"/>
+        <ellipse cx="559.5" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M555.4219,268.7656 L555.4219,266.6094 L562.8125,266.6094 L562.8125,268.7656 L560.3438,268.7656 L560.3438,276.8438 L562.8125,276.8438 L562.8125,279 L555.4219,279 L555.4219,276.8438 L557.8906,276.8438 L557.8906,268.7656 L555.4219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="573.5" y="277.1543">Food</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="545.5" x2="606.5" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="545.5" x2="606.5" y1="297" y2="297"/>
+        <!--MD5=[e2a86503eba7d2970b27dafcc613458c]
+class io.github.xjrga.foods.Food_mutable-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_mutable" style="stroke:#A80036;stroke-width:1.5;" width="120" x="748" y="257"/>
+        <ellipse cx="763" cy="273" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M758.9219,268.7656 L758.9219,266.6094 L766.3125,266.6094 L766.3125,268.7656 L763.8438,268.7656 L763.8438,276.8438 L766.3125,276.8438 L766.3125,279 L758.9219,279 L758.9219,276.8438 L761.3906,276.8438 L761.3906,268.7656 L758.9219,268.7656 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="88" x="777" y="277.1543">Food_mutable</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="749" x2="867" y1="289" y2="289"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="749" x2="867" y1="297" y2="297"/>
+        <!--MD5=[6a31e39d08717926b9f8ea9e34551f95]
+class io.github.xjrga.foods.Food_abstract-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_abstract" style="stroke:#A80036;stroke-width:1.5;" width="121" x="747.5" y="149"/>
+        <ellipse cx="762.5" cy="165" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M762.6094,160.3438 L761.4531,165.4219 L763.7813,165.4219 L762.6094,160.3438 Z M761.125,158.1094 L764.1094,158.1094 L767.4688,170.5 L765.0156,170.5 L764.25,167.4375 L760.9688,167.4375 L760.2188,170.5 L757.7813,170.5 L761.125,158.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="89" x="776.5" y="169.1543">Food_abstract</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="748.5" x2="867.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="748.5" x2="867.5" y1="189" y2="189"/>
+        <!--MD5=[c984fdc5a2ad1c7ee5d8c8e39eb1367d]
+class io.github.xjrga.foods.Category_abstract-->
+        <rect codeLine="7" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Category_abstract" style="stroke:#A80036;stroke-width:1.5;" width="147" x="999.5" y="149"/>
+        <ellipse cx="1014.5" cy="165" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1014.6094,160.3438 L1013.4531,165.4219 L1015.7813,165.4219 L1014.6094,160.3438 Z M1013.125,158.1094 L1016.1094,158.1094 L1019.4688,170.5 L1017.0156,170.5 L1016.25,167.4375 L1012.9688,167.4375 L1012.2188,170.5 L1009.7813,170.5 L1013.125,158.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="1028.5" y="169.1543">Category_abstract</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1000.5" x2="1145.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1000.5" x2="1145.5" y1="189" y2="189"/>
+        <!--MD5=[e323d7179500a62da1b42273de59b0fd]
+class io.github.xjrga.foods.Dri_abstract-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Dri_abstract" style="stroke:#A80036;stroke-width:1.5;" width="107" x="147.5" y="149"/>
+        <ellipse cx="162.5" cy="165" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M162.6094,160.3438 L161.4531,165.4219 L163.7813,165.4219 L162.6094,160.3438 Z M161.125,158.1094 L164.1094,158.1094 L167.4688,170.5 L165.0156,170.5 L164.25,167.4375 L160.9688,167.4375 L160.2188,170.5 L157.7813,170.5 L161.125,158.1094 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="75" x="176.5" y="169.1543">Dri_abstract</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="148.5" x2="253.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="148.5" x2="253.5" y1="189" y2="189"/>
+        <!--MD5=[096efee89e975347bc20f14a6fc6b167]
+class io.github.xjrga.foods.Category_impl-->
+        <rect codeLine="9" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Category_impl" style="stroke:#A80036;stroke-width:1.5;" width="119" x="767.5" y="41"/>
+        <ellipse cx="782.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M785.4688,62.6406 Q784.8906,62.9375 784.25,63.0781 Q783.6094,63.2344 782.9063,63.2344 Q780.4063,63.2344 779.0781,61.5938 Q777.7656,59.9375 777.7656,56.8125 Q777.7656,53.6875 779.0781,52.0313 Q780.4063,50.375 782.9063,50.375 Q783.6094,50.375 784.25,50.5313 Q784.9063,50.6875 785.4688,50.9844 L785.4688,53.7031 Q784.8438,53.125 784.25,52.8594 Q783.6563,52.5781 783.0313,52.5781 Q781.6875,52.5781 781,53.6563 Q780.3125,54.7188 780.3125,56.8125 Q780.3125,58.9063 781,59.9844 Q781.6875,61.0469 783.0313,61.0469 Q783.6563,61.0469 784.25,60.7813 Q784.8438,60.5 785.4688,59.9219 L785.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="796.5" y="61.1543">Category_impl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="768.5" x2="885.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="768.5" x2="885.5" y1="81" y2="81"/>
+        <!--MD5=[3d09552a1e5e53c15c8ae4d52d183b26]
+class io.github.xjrga.foods.Chef-->
+        <rect codeLine="10" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Chef" style="stroke:#A80036;stroke-width:1.5;" width="60" x="904" y="149"/>
+        <ellipse cx="919" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M921.9688,170.6406 Q921.3906,170.9375 920.75,171.0781 Q920.1094,171.2344 919.4063,171.2344 Q916.9063,171.2344 915.5781,169.5938 Q914.2656,167.9375 914.2656,164.8125 Q914.2656,161.6875 915.5781,160.0313 Q916.9063,158.375 919.4063,158.375 Q920.1094,158.375 920.75,158.5313 Q921.4063,158.6875 921.9688,158.9844 L921.9688,161.7031 Q921.3438,161.125 920.75,160.8594 Q920.1563,160.5781 919.5313,160.5781 Q918.1875,160.5781 917.5,161.6563 Q916.8125,162.7188 916.8125,164.8125 Q916.8125,166.9063 917.5,167.9844 Q918.1875,169.0469 919.5313,169.0469 Q920.1563,169.0469 920.75,168.7813 Q921.3438,168.5 921.9688,167.9219 L921.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="933" y="169.1543">Chef</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="905" x2="963" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="905" x2="963" y1="189" y2="189"/>
+        <!--MD5=[810f3ee04e7cb186e92b907d981bc880]
+class io.github.xjrga.foods.Coefficient_food-->
+        <rect codeLine="11" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Coefficient_food" style="stroke:#A80036;stroke-width:1.5;" width="132" x="922" y="41"/>
+        <ellipse cx="937" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M939.9688,62.6406 Q939.3906,62.9375 938.75,63.0781 Q938.1094,63.2344 937.4063,63.2344 Q934.9063,63.2344 933.5781,61.5938 Q932.2656,59.9375 932.2656,56.8125 Q932.2656,53.6875 933.5781,52.0313 Q934.9063,50.375 937.4063,50.375 Q938.1094,50.375 938.75,50.5313 Q939.4063,50.6875 939.9688,50.9844 L939.9688,53.7031 Q939.3438,53.125 938.75,52.8594 Q938.1563,52.5781 937.5313,52.5781 Q936.1875,52.5781 935.5,53.6563 Q934.8125,54.7188 934.8125,56.8125 Q934.8125,58.9063 935.5,59.9844 Q936.1875,61.0469 937.5313,61.0469 Q938.1563,61.0469 938.75,60.7813 Q939.3438,60.5 939.9688,59.9219 L939.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="951" y="61.1543">Coefficient_food</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="923" x2="1053" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="923" x2="1053" y1="81" y2="81"/>
+        <!--MD5=[ba5044e77b68fa983ebd462853f0c1f9]
+class io.github.xjrga.foods.Coefficient_nutrient-->
+        <rect codeLine="12" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Coefficient_nutrient" style="stroke:#A80036;stroke-width:1.5;" width="154" x="1089" y="41"/>
+        <ellipse cx="1104" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1106.9688,62.6406 Q1106.3906,62.9375 1105.75,63.0781 Q1105.1094,63.2344 1104.4063,63.2344 Q1101.9063,63.2344 1100.5781,61.5938 Q1099.2656,59.9375 1099.2656,56.8125 Q1099.2656,53.6875 1100.5781,52.0313 Q1101.9063,50.375 1104.4063,50.375 Q1105.1094,50.375 1105.75,50.5313 Q1106.4063,50.6875 1106.9688,50.9844 L1106.9688,53.7031 Q1106.3438,53.125 1105.75,52.8594 Q1105.1563,52.5781 1104.5313,52.5781 Q1103.1875,52.5781 1102.5,53.6563 Q1101.8125,54.7188 1101.8125,56.8125 Q1101.8125,58.9063 1102.5,59.9844 Q1103.1875,61.0469 1104.5313,61.0469 Q1105.1563,61.0469 1105.75,60.7813 Q1106.3438,60.5 1106.9688,59.9219 L1106.9688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="1118" y="61.1543">Coefficient_nutrient</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1090" x2="1242" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1090" x2="1242" y1="81" y2="81"/>
+        <!--MD5=[bc33e2ac1838f732f96474ab78d5044f]
+class io.github.xjrga.foods.Dri_impl-->
+        <rect codeLine="13" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Dri_impl" style="stroke:#A80036;stroke-width:1.5;" width="80" x="32" y="149"/>
+        <ellipse cx="47" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M49.9688,170.6406 Q49.3906,170.9375 48.75,171.0781 Q48.1094,171.2344 47.4063,171.2344 Q44.9063,171.2344 43.5781,169.5938 Q42.2656,167.9375 42.2656,164.8125 Q42.2656,161.6875 43.5781,160.0313 Q44.9063,158.375 47.4063,158.375 Q48.1094,158.375 48.75,158.5313 Q49.4063,158.6875 49.9688,158.9844 L49.9688,161.7031 Q49.3438,161.125 48.75,160.8594 Q48.1563,160.5781 47.5313,160.5781 Q46.1875,160.5781 45.5,161.6563 Q44.8125,162.7188 44.8125,164.8125 Q44.8125,166.9063 45.5,167.9844 Q46.1875,169.0469 47.5313,169.0469 Q48.1563,169.0469 48.75,168.7813 Q49.3438,168.5 49.9688,167.9219 L49.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="61" y="169.1543">Dri_impl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="111" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="111" y1="189" y2="189"/>
+        <!--MD5=[c564b2af20a71fa1ac090aaab55ad5e4]
+class io.github.xjrga.foods.Food_impl-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_impl" style="stroke:#A80036;stroke-width:1.5;" width="94" x="457" y="149"/>
+        <ellipse cx="472" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M474.9688,170.6406 Q474.3906,170.9375 473.75,171.0781 Q473.1094,171.2344 472.4063,171.2344 Q469.9063,171.2344 468.5781,169.5938 Q467.2656,167.9375 467.2656,164.8125 Q467.2656,161.6875 468.5781,160.0313 Q469.9063,158.375 472.4063,158.375 Q473.1094,158.375 473.75,158.5313 Q474.4063,158.6875 474.9688,158.9844 L474.9688,161.7031 Q474.3438,161.125 473.75,160.8594 Q473.1563,160.5781 472.5313,160.5781 Q471.1875,160.5781 470.5,161.6563 Q469.8125,162.7188 469.8125,164.8125 Q469.8125,166.9063 470.5,167.9844 Q471.1875,169.0469 472.5313,169.0469 Q473.1563,169.0469 473.75,168.7813 Q474.3438,168.5 474.9688,167.9219 L474.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="486" y="169.1543">Food_impl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="458" x2="550" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="458" x2="550" y1="189" y2="189"/>
+        <!--MD5=[0be62221c98dc9d463d100b352db8c1f]
+class io.github.xjrga.foods.Food_multiplier-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_multiplier" style="stroke:#A80036;stroke-width:1.5;" width="126" x="586" y="149"/>
+        <ellipse cx="601" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M603.9688,170.6406 Q603.3906,170.9375 602.75,171.0781 Q602.1094,171.2344 601.4063,171.2344 Q598.9063,171.2344 597.5781,169.5938 Q596.2656,167.9375 596.2656,164.8125 Q596.2656,161.6875 597.5781,160.0313 Q598.9063,158.375 601.4063,158.375 Q602.1094,158.375 602.75,158.5313 Q603.4063,158.6875 603.9688,158.9844 L603.9688,161.7031 Q603.3438,161.125 602.75,160.8594 Q602.1563,160.5781 601.5313,160.5781 Q600.1875,160.5781 599.5,161.6563 Q598.8125,162.7188 598.8125,164.8125 Q598.8125,166.9063 599.5,167.9844 Q600.1875,169.0469 601.5313,169.0469 Q602.1563,169.0469 602.75,168.7813 Q603.3438,168.5 603.9688,167.9219 L603.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="94" x="615" y="169.1543">Food_multiplier</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="587" x2="711" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="587" x2="711" y1="189" y2="189"/>
+        <!--MD5=[7dd47cae734d85a865a618403d815121]
+class io.github.xjrga.foods.Food_mutable_impl-->
+        <rect codeLine="16" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_mutable_impl" style="stroke:#A80036;stroke-width:1.5;" width="151" x="504.5" y="41"/>
+        <ellipse cx="519.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M522.4688,62.6406 Q521.8906,62.9375 521.25,63.0781 Q520.6094,63.2344 519.9063,63.2344 Q517.4063,63.2344 516.0781,61.5938 Q514.7656,59.9375 514.7656,56.8125 Q514.7656,53.6875 516.0781,52.0313 Q517.4063,50.375 519.9063,50.375 Q520.6094,50.375 521.25,50.5313 Q521.9063,50.6875 522.4688,50.9844 L522.4688,53.7031 Q521.8438,53.125 521.25,52.8594 Q520.6563,52.5781 520.0313,52.5781 Q518.6875,52.5781 518,53.6563 Q517.3125,54.7188 517.3125,56.8125 Q517.3125,58.9063 518,59.9844 Q518.6875,61.0469 520.0313,61.0469 Q520.6563,61.0469 521.25,60.7813 Q521.8438,60.5 522.4688,59.9219 L522.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="533.5" y="61.1543">Food_mutable_impl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="505.5" x2="654.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="505.5" x2="654.5" y1="81" y2="81"/>
+        <!--MD5=[00902a87e02705cc65597b01a52f1d89]
+class io.github.xjrga.foods.Food_summator-->
+        <rect codeLine="17" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Food_summator" style="stroke:#A80036;stroke-width:1.5;" width="132" x="290" y="149"/>
+        <ellipse cx="305" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M307.9688,170.6406 Q307.3906,170.9375 306.75,171.0781 Q306.1094,171.2344 305.4063,171.2344 Q302.9063,171.2344 301.5781,169.5938 Q300.2656,167.9375 300.2656,164.8125 Q300.2656,161.6875 301.5781,160.0313 Q302.9063,158.375 305.4063,158.375 Q306.1094,158.375 306.75,158.5313 Q307.4063,158.6875 307.9688,158.9844 L307.9688,161.7031 Q307.3438,161.125 306.75,160.8594 Q306.1563,160.5781 305.5313,160.5781 Q304.1875,160.5781 303.5,161.6563 Q302.8125,162.7188 302.8125,164.8125 Q302.8125,166.9063 303.5,167.9844 Q304.1875,169.0469 305.5313,169.0469 Q306.1563,169.0469 306.75,168.7813 Q307.3438,168.5 307.9688,167.9219 L307.9688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="100" x="319" y="169.1543">Food_summator</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="291" x2="421" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="291" x2="421" y1="189" y2="189"/>
+        <!--MD5=[b24984adf7e740fb65355c49a6f849df]
+class io.github.xjrga.foods.Main-->
+        <rect codeLine="18" fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Main" style="stroke:#A80036;stroke-width:1.5;" width="61" x="1181.5" y="149"/>
+        <ellipse cx="1196.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1199.4688,170.6406 Q1198.8906,170.9375 1198.25,171.0781 Q1197.6094,171.2344 1196.9063,171.2344 Q1194.4063,171.2344 1193.0781,169.5938 Q1191.7656,167.9375 1191.7656,164.8125 Q1191.7656,161.6875 1193.0781,160.0313 Q1194.4063,158.375 1196.9063,158.375 Q1197.6094,158.375 1198.25,158.5313 Q1198.9063,158.6875 1199.4688,158.9844 L1199.4688,161.7031 Q1198.8438,161.125 1198.25,160.8594 Q1197.6563,160.5781 1197.0313,160.5781 Q1195.6875,160.5781 1195,161.6563 Q1194.3125,162.7188 1194.3125,164.8125 Q1194.3125,166.9063 1195,167.9844 Q1195.6875,169.0469 1197.0313,169.0469 Q1197.6563,169.0469 1198.25,168.7813 Q1198.8438,168.5 1199.4688,167.9219 L1199.4688,170.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="1210.5" y="169.1543">Main</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1182.5" x2="1241.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1182.5" x2="1241.5" y1="189" y2="189"/>
+        <!--MD5=[a60eea334085699ab43677e61597e74c]
+class io.github.xjrga.foods.Dri_mutable_impl-->
+        <rect fill="#FEFECE" filter="url(#fk5dd3xgvorr2)" height="48" id="io.github.xjrga.foods.Dri_mutable_impl" style="stroke:#A80036;stroke-width:1.5;" width="137" x="82.5" y="41"/>
+        <ellipse cx="97.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M100.4688,62.6406 Q99.8906,62.9375 99.25,63.0781 Q98.6094,63.2344 97.9063,63.2344 Q95.4063,63.2344 94.0781,61.5938 Q92.7656,59.9375 92.7656,56.8125 Q92.7656,53.6875 94.0781,52.0313 Q95.4063,50.375 97.9063,50.375 Q98.6094,50.375 99.25,50.5313 Q99.9063,50.6875 100.4688,50.9844 L100.4688,53.7031 Q99.8438,53.125 99.25,52.8594 Q98.6563,52.5781 98.0313,52.5781 Q96.6875,52.5781 96,53.6563 Q95.3125,54.7188 95.3125,56.8125 Q95.3125,58.9063 96,59.9844 Q96.6875,61.0469 98.0313,61.0469 Q98.6563,61.0469 99.25,60.7813 Q99.8438,60.5 100.4688,59.9219 L100.4688,62.6406 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="105" x="111.5" y="61.1543">Dri_mutable_impl</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="83.5" x2="218.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="83.5" x2="218.5" y1="81" y2="81"/>
+        <!--MD5=[977516b64a71d121c58b40261adc0c75]
+link io.github.xjrga.foods.Food_abstract to io.github.xjrga.foods.Food-->
+        <path codeLine="19" d="M757.66,197 C718.67,214.81 664.92,239.37 626.01,257.15 " fill="none" id="io.github.xjrga.foods.Food_abstract-to-io.github.xjrga.foods.Food" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="628.81,263.57,607.71,265.51,622.99,250.83,628.81,263.57" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f98ba95e041816873bb5ec8da6a4cfb0]
+link io.github.xjrga.foods.Food_impl to io.github.xjrga.foods.Food-->
+        <path codeLine="20" d="M519.62,197 C528.15,209.55 538.95,225.46 548.81,239.97 " fill="none" id="io.github.xjrga.foods.Food_impl-to-io.github.xjrga.foods.Food" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="554.71,236.2,560.16,256.68,543.13,244.07,554.71,236.2" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[b65a1a9c17b5cbd43552db4e94074aeb]
+link io.github.xjrga.foods.Food_multiplier to io.github.xjrga.foods.Food-->
+        <path codeLine="21" d="M633.16,197 C624.51,209.55 613.56,225.46 603.57,239.97 " fill="none" id="io.github.xjrga.foods.Food_multiplier-to-io.github.xjrga.foods.Food" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="609.17,244.18,592.06,256.68,597.64,236.24,609.17,244.18" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[aeb6400d620678ad90aed9a292a1e0d2]
+link io.github.xjrga.foods.Food_summator to io.github.xjrga.foods.Food-->
+        <path codeLine="22" d="M403.74,197 C439.92,214.43 489.51,238.33 526.19,256 " fill="none" id="io.github.xjrga.foods.Food_summator-to-io.github.xjrga.foods.Food" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="529.33,249.74,544.31,264.73,523.25,262.36,529.33,249.74" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[6f610050a5067eedc4db3622e636c7b6]
+link io.github.xjrga.foods.Food_abstract to io.github.xjrga.foods.Food_mutable-->
+        <path codeLine="23" d="M808,197 C808,208.59 808,223.03 808,236.6 " fill="none" id="io.github.xjrga.foods.Food_abstract-to-io.github.xjrga.foods.Food_mutable" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="815,236.68,808,256.68,801,236.68,815,236.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f277de22c25231bf632e13c9f7d6e390]
+link io.github.xjrga.foods.Dri_abstract to io.github.xjrga.foods.Dri-->
+        <path codeLine="24" d="M174.74,197 C158.7,211.06 137.86,229.31 119.81,245.12 " fill="none" id="io.github.xjrga.foods.Dri_abstract-to-io.github.xjrga.foods.Dri" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="124.21,250.58,104.55,258.49,114.99,240.05,124.21,250.58" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[64ba55118b27140e5e8f98fe7b840e29]
+link io.github.xjrga.foods.Dri_impl to io.github.xjrga.foods.Dri-->
+        <path codeLine="25" d="M73.74,197 C74.61,208.59 75.7,223.03 76.72,236.6 " fill="none" id="io.github.xjrga.foods.Dri_impl-to-io.github.xjrga.foods.Dri" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="83.71,236.21,78.24,256.68,69.75,237.26,83.71,236.21" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2f93bb15bc67fbd5468f310d214fcf78]
+link io.github.xjrga.foods.Dri_abstract to io.github.xjrga.foods.Dri_mutable-->
+        <path codeLine="26" d="M201,197 C201,208.59 201,223.03 201,236.6 " fill="none" id="io.github.xjrga.foods.Dri_abstract-to-io.github.xjrga.foods.Dri_mutable" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="208,236.68,201,256.68,194,236.68,208,236.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1515e7c729f922d91bd58d2a80ef6994]
+link io.github.xjrga.foods.Category_abstract to io.github.xjrga.foods.Category-->
+        <path codeLine="27" d="M1073,197 C1073,208.59 1073,223.03 1073,236.6 " fill="none" id="io.github.xjrga.foods.Category_abstract-to-io.github.xjrga.foods.Category" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="1080,236.68,1073,256.68,1066,236.68,1080,236.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8f42f4a5ba2956c85b5268164e29e60c]
+link io.github.xjrga.foods.Category_impl to io.github.xjrga.foods.Category_abstract-->
+        <path codeLine="28" d="M880.38,89 C915.64,104.19 962.28,124.29 1000.83,140.9 " fill="none" id="io.github.xjrga.foods.Category_impl-to-io.github.xjrga.foods.Category_abstract" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="1003.7,134.52,1019.3,148.86,998.16,147.38,1003.7,134.52" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e9102ca2f5e1e9185c832a7a1243b85c]
+link io.github.xjrga.foods.Food_mutable_impl to io.github.xjrga.foods.Food_abstract-->
+        <path codeLine="29" d="M629.47,89 C661.78,104.02 704.39,123.83 739.89,140.33 " fill="none" id="io.github.xjrga.foods.Food_mutable_impl-to-io.github.xjrga.foods.Food_abstract" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="743.05,134.08,758.23,148.86,737.14,146.78,743.05,134.08" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[4538ae70f0a7717dd1f91a6030944415]
+link io.github.xjrga.foods.Dri_mutable_impl to io.github.xjrga.foods.Dri_impl-->
+        <path codeLine="30" d="M133.86,89 C123.58,102.8 110.28,120.63 98.65,136.24 " fill="none" id="io.github.xjrga.foods.Dri_mutable_impl-to-io.github.xjrga.foods.Dri_impl" style="stroke:#A80036;stroke-width:1.0;"/>
+        <ellipse cx="94.1666" cy="142.27" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="98.9531" x2="89.38" y1="135.8599" y2="148.68"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="100.5766" x2="87.7565" y1="147.0565" y2="137.4834"/>
+        <!--MD5=[ec497ae26de752fa9b520c908d620e18]
+link io.github.xjrga.foods.Food_mutable_impl to io.github.xjrga.foods.Food_impl-->
+        <path codeLine="31" d="M563.51,89 C553.62,102.8 540.83,120.63 529.64,136.24 " fill="none" id="io.github.xjrga.foods.Food_mutable_impl-to-io.github.xjrga.foods.Food_impl" style="stroke:#A80036;stroke-width:1.0;"/>
+        <ellipse cx="525.38" cy="142.1773" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="530.04" x2="520.72" y1="135.6747" y2="148.68"/>
+        <line style="stroke:#A80036;stroke-width:1.0;" x1="531.8826" x2="518.8773" y1="146.8373" y2="137.5174"/>
+        <!--MD5=[134b262c52b3c813fa1a07bbf9ee5b43]
+link io.github.xjrga.foods.Dri_mutable_impl to io.github.xjrga.foods.Dri_abstract-->
+        <path codeLine="32" d="M161.85,89 C167.58,101.14 174.78,116.41 181.44,130.53 " fill="none" id="io.github.xjrga.foods.Dri_mutable_impl-to-io.github.xjrga.foods.Dri_abstract" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="187.8,127.6,190,148.68,175.14,133.58,187.8,127.6" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[0cc1e2576c9d074e88dac9f00d18691d]
+link io.github.xjrga.foods.Category_impl to io.github.xjrga.foods.Chef-->
+        <path codeLine="33" d="M850.22,89 C865.12,103.76 884.69,123.15 901.17,139.48 " fill="none" id="io.github.xjrga.foods.Category_impl-to-io.github.xjrga.foods.Chef" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="910.46,148.68,909.0183,141.6145,901.9418,140.2277,903.3835,147.2933,910.46,148.68" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[be36153c0d884a9211042a6a5be1b45f]
+link io.github.xjrga.foods.Coefficient_food to io.github.xjrga.foods.Coefficient_nutrient-->
+        <!--MD5=[284a7d2ffad60d136789081cae72ce69]
+link io.github.xjrga.foods.Coefficient_food to io.github.xjrga.foods.Main-->
+        <!--MD5=[5dcf7359fb95ae639b145e2fdf826558]
+@startuml
+interface io.github.xjrga.foods.Category
+interface io.github.xjrga.foods.Dri
+interface io.github.xjrga.foods.Dri_mutable
+interface io.github.xjrga.foods.Food
+interface io.github.xjrga.foods.Food_mutable
+abstract class io.github.xjrga.foods.Food_abstract
+abstract class io.github.xjrga.foods.Category_abstract
+abstract class io.github.xjrga.foods.Dri_abstract
+class io.github.xjrga.foods.Category_impl
+class io.github.xjrga.foods.Chef
+class io.github.xjrga.foods.Coefficient_food
+class io.github.xjrga.foods.Coefficient_nutrient
+class io.github.xjrga.foods.Dri_impl
+class io.github.xjrga.foods.Food_impl
+class io.github.xjrga.foods.Food_multiplier
+class io.github.xjrga.foods.Food_mutable_impl
+class io.github.xjrga.foods.Food_summator
+class io.github.xjrga.foods.Main
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_impl ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_multiplier ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_summator ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food_mutable
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_impl ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri_mutable
+io.github.xjrga.foods.Category_abstract ..|> io.github.xjrga.foods.Category
+io.github.xjrga.foods.Category_impl - -|> io.github.xjrga.foods.Category_abstract
+io.github.xjrga.foods.Food_mutable_impl - -|> io.github.xjrga.foods.Food_abstract
+ io.github.xjrga.foods.Dri_mutable_impl - -+ io.github.xjrga.foods.Dri_impl
+ io.github.xjrga.foods.Food_mutable_impl - -+ io.github.xjrga.foods.Food_impl
+io.github.xjrga.foods.Dri_mutable_impl - -|> io.github.xjrga.foods.Dri_abstract
+io.github.xjrga.foods.Category_impl - -* io.github.xjrga.foods.Chef
+/'
+class ArrayList implements List
+class ArrayList extends AbstractList
+'/
+@enduml
+
+@startuml
+interface io.github.xjrga.foods.Category
+interface io.github.xjrga.foods.Dri
+interface io.github.xjrga.foods.Dri_mutable
+interface io.github.xjrga.foods.Food
+interface io.github.xjrga.foods.Food_mutable
+abstract class io.github.xjrga.foods.Food_abstract
+abstract class io.github.xjrga.foods.Category_abstract
+abstract class io.github.xjrga.foods.Dri_abstract
+class io.github.xjrga.foods.Category_impl
+class io.github.xjrga.foods.Chef
+class io.github.xjrga.foods.Coefficient_food
+class io.github.xjrga.foods.Coefficient_nutrient
+class io.github.xjrga.foods.Dri_impl
+class io.github.xjrga.foods.Food_impl
+class io.github.xjrga.foods.Food_multiplier
+class io.github.xjrga.foods.Food_mutable_impl
+class io.github.xjrga.foods.Food_summator
+class io.github.xjrga.foods.Main
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_impl ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_multiplier ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_summator ..|> io.github.xjrga.foods.Food
+io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food_mutable
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_impl ..|> io.github.xjrga.foods.Dri
+io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri_mutable
+io.github.xjrga.foods.Category_abstract ..|> io.github.xjrga.foods.Category
+io.github.xjrga.foods.Category_impl - -|> io.github.xjrga.foods.Category_abstract
+io.github.xjrga.foods.Food_mutable_impl - -|> io.github.xjrga.foods.Food_abstract
+ io.github.xjrga.foods.Dri_mutable_impl - -+ io.github.xjrga.foods.Dri_impl
+ io.github.xjrga.foods.Food_mutable_impl - -+ io.github.xjrga.foods.Food_impl
+io.github.xjrga.foods.Dri_mutable_impl - -|> io.github.xjrga.foods.Dri_abstract
+io.github.xjrga.foods.Category_impl - -* io.github.xjrga.foods.Chef
+@enduml
+
+PlantUML version 1.2021.3(Mon Mar 22 11:53:19 CDT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

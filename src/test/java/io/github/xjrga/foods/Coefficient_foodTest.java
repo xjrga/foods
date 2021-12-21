@@ -92,8 +92,6 @@ public class Coefficient_foodTest {
     @Test
     public void testEquals() {
         Coefficient_food expResult = instantiate_coefficient_food();
-        System.out.println(expResult.hashCode());
-        System.out.println(coefficients.toString().hashCode());
         assertEquals(expResult, coefficients.toString());
     }
 

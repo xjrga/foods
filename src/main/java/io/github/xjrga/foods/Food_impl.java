@@ -22,10 +22,10 @@ package io.github.xjrga.foods;
  */
 public class Food_impl implements Food {
 
-    private final Food_impl_mutable food;
+    private final Food_mutable_impl food;
 
     public Food_impl() {
-        food = new Food_impl_mutable();
+        food = new Food_mutable_impl();
     }
 
     @Override
@@ -558,12 +558,12 @@ public class Food_impl implements Food {
         return food.get_energy_protein_coefficient();
     }
 
-    private class Food_impl_mutable extends Food_abstract {
+    private class Food_mutable_impl extends Food_abstract {
 
         /**
          * Constructs a food item
          */
-        public Food_impl_mutable() {
+        public Food_mutable_impl() {
             set_food_name("");
             set_food_label("");
             //Weight (g)
