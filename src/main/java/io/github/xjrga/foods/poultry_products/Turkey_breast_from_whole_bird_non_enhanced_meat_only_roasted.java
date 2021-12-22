@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods.poultry_products;
 
-import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
+import io.github.xjrga.foods.Food_abstract;
 
 /**
  *
@@ -560,6 +560,11 @@ public class Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted implem
     @Override
     public Double get_energy_protein_coefficient() {
         return food.get_energy_protein_coefficient();
+    }
+
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
     }
 
     @Override

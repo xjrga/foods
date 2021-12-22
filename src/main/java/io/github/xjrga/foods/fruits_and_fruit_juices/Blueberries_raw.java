@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods.fruits_and_fruit_juices;
 
-import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
+import io.github.xjrga.foods.Food_abstract;
 
 /**
  *
@@ -560,6 +560,11 @@ public class Blueberries_raw implements Food {
     @Override
     public Double get_energy_protein_coefficient() {
         return food.get_energy_protein_coefficient();
+    }
+
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
     }
 
     @Override

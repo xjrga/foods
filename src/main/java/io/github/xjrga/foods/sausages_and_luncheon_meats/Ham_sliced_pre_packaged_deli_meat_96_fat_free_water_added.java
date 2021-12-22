@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods.sausages_and_luncheon_meats;
 
-import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
+import io.github.xjrga.foods.Food_abstract;
 
 /**
  *
@@ -560,6 +560,11 @@ public class Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added implement
     @Override
     public Double get_energy_protein_coefficient() {
         return food.get_energy_protein_coefficient();
+    }
+
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
     }
 
     @Override

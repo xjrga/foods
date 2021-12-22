@@ -567,6 +567,11 @@ public class Food_summator implements Food {
         return meal.get_energy_protein_coefficient();
     }
 
+    @Override
+    public Double get_food_quotient() {
+        return meal.get_food_quotient();
+    }
+
     private Food get_total() {
         Iterator it = list.iterator();
         Food_abstract happy_meal = new Food_mutable_impl();

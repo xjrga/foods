@@ -21,7 +21,6 @@ import io.github.xjrga.foods.glycemic_index_test_set.Honey;
 import io.github.xjrga.foods.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
 import java.util.ArrayList;
 import org.junit.Assert;
-import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -37,7 +36,7 @@ public class Coefficient_foodTest {
     }
 
     @BeforeClass
-    public static void setUpClass() {
+    public static void one_time_setup() {
         coefficients = instantiate_coefficient_food();
     }
 
@@ -92,7 +91,7 @@ public class Coefficient_foodTest {
     @Test
     public void testEquals() {
         Coefficient_food expResult = instantiate_coefficient_food();
-        assertEquals(expResult, coefficients.toString());
+        Assert.assertEquals(expResult, coefficients.toString());
     }
 
 }

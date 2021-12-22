@@ -34,7 +34,7 @@ public class Food_multiplierTest {
     }
 
     @BeforeClass
-    public static void setUpClass() throws Exception {
+    public static void one_time_setup() {
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         Food_multiplierTest.multiplier = new Food_multiplier(food, 100.0);
     }
@@ -649,6 +649,12 @@ public class Food_multiplierTest {
     @Test
     public void test_digestible_carbohydrate() {
         assertEquals(multiplier.get_digestible_carbohydrate(), 0.0, 0.00001);
+    }
+
+    //food_quotient
+    @Test
+    public void test_food_quotient() {
+        assertEquals(multiplier.get_food_quotient(), 0.75886, 0.00001);
     }
 
 }

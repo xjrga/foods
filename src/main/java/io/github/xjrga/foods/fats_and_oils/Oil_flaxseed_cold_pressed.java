@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods.fats_and_oils;
 
-import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
+import io.github.xjrga.foods.Food_abstract;
 
 /**
  *
@@ -560,6 +560,11 @@ public class Oil_flaxseed_cold_pressed implements Food {
     @Override
     public Double get_energy_protein_coefficient() {
         return food.get_energy_protein_coefficient();
+    }
+
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
     }
 
     @Override

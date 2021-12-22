@@ -561,4 +561,9 @@ public class Food_multiplier implements Food {
         return food.get_energy_protein_coefficient();
     }
 
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
+    }
+
 }

@@ -1510,4 +1510,16 @@ public abstract class Food_abstract implements Food_mutable, Food {
         final Food_abstract other = (Food_abstract) obj;
         return Objects.equals(name, other.name);
     }
+
+    /**
+     *
+     * @return
+     */
+    public final Double get_food_quotient() {
+        Double fq = get_energy_digestible_carbohydrate() / get_energy_digestible() * 1.00
+                + get_energy_fat() / get_energy_digestible() * 0.71
+                + get_energy_protein() / get_energy_digestible() * 0.81
+                + get_energy_alcohol() / get_energy_digestible() * 0.667;
+        return fq;
+    }
 }

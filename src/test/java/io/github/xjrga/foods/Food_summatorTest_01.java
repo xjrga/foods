@@ -37,7 +37,7 @@ public class Food_summatorTest_01 {
     }
 
     @BeforeClass
-    public static void setUpClass() throws Exception {
+    public static void one_time_setup() {
         ArrayList<Food> list = new ArrayList();
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         Food_multiplier sardine_multiplier = new Food_multiplier(sardine, 1000.0);
@@ -364,6 +364,12 @@ public class Food_summatorTest_01 {
     @Test
     public void test_digestible_carbohydrate() {
         assertEquals(summator.get_digestible_carbohydrate(), 70.8, 0.00001);
+    }
+
+    //food_quotient
+    @Test
+    public void test_food_quotient() {
+        assertEquals(summator.get_food_quotient(), 0.78854, 0.00001);
     }
 
 }

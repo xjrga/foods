@@ -558,6 +558,11 @@ public class Food_impl implements Food {
         return food.get_energy_protein_coefficient();
     }
 
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
+    }
+
     private class Food_mutable_impl extends Food_abstract {
 
         /**

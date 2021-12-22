@@ -37,7 +37,7 @@ public class Food_summatorTest_02 {
     }
 
     @BeforeClass
-    public static void setUpClass() throws Exception {
+    public static void one_time_setup() {
         ArrayList<Food> list = new ArrayList();
         Chef chef = new Chef();
         Honey honey = chef.get_glycemic_index_test_set().get_honey();
@@ -367,4 +367,9 @@ public class Food_summatorTest_02 {
         assertEquals(summator.get_digestible_carbohydrate(), 858.0, 0.00001);
     }
 
+    //food_quotient
+    @Test
+    public void test_food_quotient() {
+        assertEquals(summator.get_food_quotient(), 0.97686, 0.00001);
+    }
 }

@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods.dairy_and_egg_products;
 
-import io.github.xjrga.foods.Food_abstract;
 import io.github.xjrga.foods.Food;
+import io.github.xjrga.foods.Food_abstract;
 
 /**
  *
@@ -560,6 +560,11 @@ public class Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_sk
     @Override
     public Double get_energy_protein_coefficient() {
         return food.get_energy_protein_coefficient();
+    }
+
+    @Override
+    public Double get_food_quotient() {
+        return food.get_food_quotient();
     }
 
     @Override

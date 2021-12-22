@@ -37,7 +37,7 @@ public class Coefficient_nutrientTest {
     }
 
     @BeforeClass
-    public static void setUpClass() {
+    public static void one_time_setup() {
         coefficients = instantiate_coefficient_nutrient();
     }
 

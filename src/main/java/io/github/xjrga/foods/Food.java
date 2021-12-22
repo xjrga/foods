@@ -791,6 +791,15 @@ public interface Food {
      */
     Double get_energy_protein_coefficient();
 
+    /**
+     * Food Quotient (FQ) expresses dietary macronutrient composition and is a
+     * value between 0.70 and 1.00. It is the theoretical Respiratory Quotient
+     * (RQ) produced by the diet.
+     *
+     * @return Double
+     */
+    Double get_food_quotient();
+
 }
 
 //https://www.fao.org/3/y5022e/y5022e04.htm
@@ -848,3 +857,4 @@ public interface Food {
 //Energy, protein (Kcal)
 //Energy, fat (Kcal)
 //Energy, alcohol (Kcal);
+//Food quotient
