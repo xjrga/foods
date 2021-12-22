@@ -36,7 +36,7 @@ public class Food_multiplierTest {
     @BeforeClass
     public static void one_time_setup() {
         Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Food_multiplierTest.multiplier = new Food_multiplier(food, 100.0);
+        multiplier = new Food_multiplier(food, 100.0);
     }
 
     //food_name
