@@ -60,7 +60,8 @@ public interface Food_mutable {
     void set_protein(Double quantity);
 
     /**
-     * Set protein atwater factor (Kcal / g of protein)
+     * Set 'protein' atwater specific energy conversion factor (Kcal / g of
+     * protein)
      *
      * @param quantity
      */
@@ -75,8 +76,8 @@ public interface Food_mutable {
     void set_carbohydrate_by_difference(Double quantity);
 
     /**
-     * Set carbohydrate by difference atwater factor (Kcal / g of carbohydrate
-     * by difference)
+     * Set 'carbohydrate by difference' atwater specific energy conversion
+     * factor (Kcal / g of carbohydrate by difference)
      *
      * @param quantity
      */
@@ -98,7 +99,7 @@ public interface Food_mutable {
     void set_fat(Double quantity);
 
     /**
-     * Set fat atwater factor (Kcal / g of fat)
+     * Set 'fat' atwater specific energy conversion factor (Kcal / g of fat)
      *
      * @param quantity
      */
@@ -112,7 +113,8 @@ public interface Food_mutable {
     void set_alcohol(Double quantity);
 
     /**
-     * Set ethyl alcohol atwater factor (Kcal / g of alcohol)
+     * Set 'ethyl alcohol' atwater specific energy conversion factor (Kcal / g
+     * of alcohol)
      *
      * @param quantity
      */

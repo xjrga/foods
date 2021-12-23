@@ -74,7 +74,6 @@ public class Cereal_grains_and_pasta extends Category_abstract {
      */
     public Cereal_grains_and_pasta() {
         set_name("Cereal Grains and Pasta");
-        add(new Food_impl());
         amaranth_grain_uncooked = new Amaranth_grain_uncooked();
         amaranth_grain_cooked = new Amaranth_grain_cooked();
         barley_pearled_raw = new Barley_pearled_raw();
