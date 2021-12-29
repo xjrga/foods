@@ -17,233 +17,90 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.categories.American_indian_alaska_native_foods;
-import io.github.xjrga.foods.categories.Baby_foods;
-import io.github.xjrga.foods.categories.Baked_products;
-import io.github.xjrga.foods.categories.Beef_products;
-import io.github.xjrga.foods.categories.Beverages;
-import io.github.xjrga.foods.categories.Breakfast_cereals;
-import io.github.xjrga.foods.categories.Cereal_grains_and_pasta;
-import io.github.xjrga.foods.categories.Dairy_and_egg_products;
-import io.github.xjrga.foods.categories.Fast_foods;
-import io.github.xjrga.foods.categories.Fats_and_oils;
-import io.github.xjrga.foods.categories.Finfish_and_shellfish_products;
-import io.github.xjrga.foods.categories.Fruits_and_fruit_juices;
-import io.github.xjrga.foods.categories.Glycemic_index_test_set;
-import io.github.xjrga.foods.categories.Legumes_and_legume_products;
-import io.github.xjrga.foods.categories.Nuts_and_seed_products;
-import io.github.xjrga.foods.categories.Omega_3;
-import io.github.xjrga.foods.categories.Pork_products;
-import io.github.xjrga.foods.categories.Poultry_products;
-import io.github.xjrga.foods.categories.Protein_powders;
-import io.github.xjrga.foods.categories.Sausages_and_luncheon_meats;
-import io.github.xjrga.foods.categories.Snacks;
-import io.github.xjrga.foods.categories.Spices_and_herbs;
-import io.github.xjrga.foods.categories.Supplements;
-import io.github.xjrga.foods.categories.Sweets;
-import io.github.xjrga.foods.categories.Vegetables_and_vegetable_products;
+import io.github.xjrga.foods.data.American_indian_alaska_native_foods;
+import io.github.xjrga.foods.data.Baby_foods;
+import io.github.xjrga.foods.data.Baked_products;
+import io.github.xjrga.foods.data.Beef_products;
+import io.github.xjrga.foods.data.Beverages;
+import io.github.xjrga.foods.data.Breakfast_cereals;
+import io.github.xjrga.foods.data.Cereal_grains_and_pasta;
+import io.github.xjrga.foods.data.Dairy_and_egg_products;
+import io.github.xjrga.foods.data.Fast_foods;
+import io.github.xjrga.foods.data.Fats_and_oils;
+import io.github.xjrga.foods.data.Finfish_and_shellfish_products;
+import io.github.xjrga.foods.data.Fruits_and_fruit_juices;
+import io.github.xjrga.foods.data.Glycemic_index_test_set;
+import io.github.xjrga.foods.data.Legumes_and_legume_products;
+import io.github.xjrga.foods.data.Nut_and_seed_products;
+import io.github.xjrga.foods.data.Omega_3;
+import io.github.xjrga.foods.data.Pork_products;
+import io.github.xjrga.foods.data.Poultry_products;
+import io.github.xjrga.foods.data.Protein_powders;
+import io.github.xjrga.foods.data.Sausages_and_luncheon_meats;
+import io.github.xjrga.foods.data.Snacks;
+import io.github.xjrga.foods.data.Spices_and_herbs;
+import io.github.xjrga.foods.data.Supplements;
+import io.github.xjrga.foods.data.Sweets;
+import io.github.xjrga.foods.data.Vegetables_and_vegetable_products;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.Map.Entry;
 
 /**
- * Gives easy access to all food categories and foods
+ *
+ * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
 public class Chef {
 
-    private final List<Category> list;
-    private final American_indian_alaska_native_foods american_indian_alaska_native_foods;
-    private final Baby_foods baby_foods;
-    private final Baked_products baked_products;
-    private final Beef_products beef_products;
-    private final Beverages beverages;
-    private final Breakfast_cereals breakfast_cereals;
-    private final Cereal_grains_and_pasta cereal_grains_and_pasta;
-    private final Dairy_and_egg_products dairy_and_egg_products;
-    private final Fast_foods fast_foods;
-    private final Fats_and_oils fats_and_oils;
-    private final Finfish_and_shellfish_products finfish_and_shellfish_products;
-    private final Fruits_and_fruit_juices fruits_and_fruit_juices;
-    private final Glycemic_index_test_set glycemic_index_test_set;
-    private final Legumes_and_legume_products legumes_and_legume_products;
-    private final Nuts_and_seed_products nuts_and_seed_products;
-    private final Omega_3 omega_3;
-    private final Pork_products pork_products;
-    private final Poultry_products poultry_products;
-    private final Protein_powders protein_powders;
-    private final Sausages_and_luncheon_meats sausages_and_luncheon_meats;
-    private final Snacks snacks;
-    private final Spices_and_herbs spices_and_herbs;
-    private final Supplements supplements;
-    private final Sweets sweets;
-    private final Vegetables_and_vegetable_products vegetables_and_vegetable_products;
+    private final HashMap<String, ArrayList<Interface_food>> map;
 
     public Chef() {
-        list = new ArrayList();
-        american_indian_alaska_native_foods = new American_indian_alaska_native_foods();
-        baby_foods = new Baby_foods();
-        baked_products = new Baked_products();
-        beef_products = new Beef_products();
-        beverages = new Beverages();
-        breakfast_cereals = new Breakfast_cereals();
-        cereal_grains_and_pasta = new Cereal_grains_and_pasta();
-        dairy_and_egg_products = new Dairy_and_egg_products();
-        fast_foods = new Fast_foods();
-        fats_and_oils = new Fats_and_oils();
-        finfish_and_shellfish_products = new Finfish_and_shellfish_products();
-        fruits_and_fruit_juices = new Fruits_and_fruit_juices();
-        glycemic_index_test_set = new Glycemic_index_test_set();
-        legumes_and_legume_products = new Legumes_and_legume_products();
-        nuts_and_seed_products = new Nuts_and_seed_products();
-        omega_3 = new Omega_3();
-        pork_products = new Pork_products();
-        poultry_products = new Poultry_products();
-        protein_powders = new Protein_powders();
-        sausages_and_luncheon_meats = new Sausages_and_luncheon_meats();
-        snacks = new Snacks();
-        spices_and_herbs = new Spices_and_herbs();
-        supplements = new Supplements();
-        sweets = new Sweets();
-        vegetables_and_vegetable_products = new Vegetables_and_vegetable_products();
-        list.add(american_indian_alaska_native_foods);
-        list.add(baby_foods);
-        list.add(baked_products);
-        list.add(beef_products);
-        list.add(beverages);
-        list.add(breakfast_cereals);
-        list.add(cereal_grains_and_pasta);
-        list.add(dairy_and_egg_products);
-        list.add(fast_foods);
-        list.add(fats_and_oils);
-        list.add(finfish_and_shellfish_products);
-        list.add(fruits_and_fruit_juices);
-        list.add(glycemic_index_test_set);
-        list.add(legumes_and_legume_products);
-        list.add(nuts_and_seed_products);
-        list.add(omega_3);
-        list.add(pork_products);
-        list.add(poultry_products);
-        list.add(protein_powders);
-        list.add(sausages_and_luncheon_meats);
-        list.add(snacks);
-        list.add(spices_and_herbs);
-        list.add(supplements);
-        list.add(sweets);
-        list.add(vegetables_and_vegetable_products);
+        map = new HashMap();
+        map.put("American Indian/Alaska Native Foods", create_American_indian_alaska_native_foods());
+        map.put("Baby Foods", create_Baby_foods());
+        map.put("Baked Products", create_Baked_products());
+        map.put("Beef Products", create_Beef_products());
+        map.put("Beverages", create_Beverages());
+        map.put("Breakfast Cereals", create_Breakfast_cereals());
+        map.put("Cereal Grains and Pasta", create_Cereal_grains_and_pasta());
+        map.put("Dairy and Egg Products", create_Dairy_and_egg_products());
+        map.put("Fast Foods", create_Fast_foods());
+        map.put("Fats and Oils", create_Fats_and_oils());
+        map.put("Finfish and Shellfish Products", create_Finfish_and_shellfish_products());
+        map.put("Fruits and Fruit Juices", create_Fruits_and_fruit_juices());
+        map.put("Glycemic Index Test Set", create_Glycemic_index_test_set());
+        map.put("Legumes and Legume Products", create_Legumes_and_legume_products());
+        map.put("Nut and Seed Products", create_Nut_and_seed_products());
+        map.put("Omega_3", create_Omega_3());
+        map.put("Pork Products", create_Pork_products());
+        map.put("Poultry Products", create_Poultry_products());
+        map.put("Protein Powders", create_Protein_powders());
+        map.put("Sausages and Luncheon Meats", create_Sausages_and_luncheon_meats());
+        map.put("Snacks", create_Snacks());
+        map.put("Spices and Herbs", create_Spices_and_herbs());
+        map.put("Supplements", create_Supplements());
+        map.put("Sweets", create_Sweets());
+        map.put("Vegetables and Vegetable Products", create_Vegetables_and_vegetable_products());
     }
 
-    public American_indian_alaska_native_foods get_american_indian_alaska_native_foods() {
-        return american_indian_alaska_native_foods;
+    public Iterator<String> get_categories() {
+        return map.keySet().iterator();
     }
 
-    public Baby_foods get_baby_foods() {
-        return baby_foods;
+    public Iterator<Interface_food> get_foods(String category) {
+        return map.get(category).iterator();
     }
 
-    public Baked_products get_baked_products() {
-        return baked_products;
-    }
-
-    public Beef_products get_beef_products() {
-        return beef_products;
-    }
-
-    public Beverages get_beverages() {
-        return beverages;
-    }
-
-    public Breakfast_cereals get_breakfast_cereals() {
-        return breakfast_cereals;
-    }
-
-    public Cereal_grains_and_pasta get_cereal_grains_and_pasta() {
-        return cereal_grains_and_pasta;
-    }
-
-    public Dairy_and_egg_products get_dairy_and_egg_products() {
-        return dairy_and_egg_products;
-    }
-
-    public Fast_foods get_fast_foods() {
-        return fast_foods;
-    }
-
-    public Fats_and_oils get_fats_and_oils() {
-        return fats_and_oils;
-    }
-
-    public Finfish_and_shellfish_products get_finfish_and_shellfish_products() {
-        return finfish_and_shellfish_products;
-    }
-
-    public Fruits_and_fruit_juices get_fruits_and_fruit_juices() {
-        return fruits_and_fruit_juices;
-    }
-
-    public Glycemic_index_test_set get_glycemic_index_test_set() {
-        return glycemic_index_test_set;
-    }
-
-    public Legumes_and_legume_products get_legumes_and_legume_products() {
-        return legumes_and_legume_products;
-    }
-
-    public Nuts_and_seed_products get_nuts_and_seed_products() {
-        return nuts_and_seed_products;
-    }
-
-    public Omega_3 get_omega_3() {
-        return omega_3;
-    }
-
-    public Pork_products get_pork_products() {
-        return pork_products;
-    }
-
-    public Poultry_products get_poultry_products() {
-        return poultry_products;
-    }
-
-    public Protein_powders get_protein_powders() {
-        return protein_powders;
-    }
-
-    public Sausages_and_luncheon_meats get_sausages_and_luncheon_meats() {
-        return sausages_and_luncheon_meats;
-    }
-
-    public Snacks get_snacks() {
-        return snacks;
-    }
-
-    public Spices_and_herbs get_spices_and_herbs() {
-        return spices_and_herbs;
-    }
-
-    public Supplements get_supplements() {
-        return supplements;
-    }
-
-    public Sweets get_sweets() {
-        return sweets;
-    }
-
-    public Vegetables_and_vegetable_products get_vegetables_and_vegetable_products() {
-        return vegetables_and_vegetable_products;
-    }
-
-    public final Iterator<Category> iterator() {
-        return list.iterator();
-    }
-
-    public Food find(String food_name) {
-        Food found = null;
-        Iterator<Category> it = iterator();
+    public Interface_food find_food(String food_name) {
+        Interface_food found = null;
+        Iterator<Entry<String, ArrayList<Interface_food>>> it = map.entrySet().iterator();
         while (it.hasNext()) {
-            Category category = it.next();
-            Iterator<Food> it2 = category.iterator();
+            Entry<String, ArrayList<Interface_food>> entry = it.next();
+            ArrayList<Interface_food> food_list = entry.getValue();
+            Iterator<Interface_food> it2 = food_list.iterator();
             while (it2.hasNext()) {
-                Food food = it2.next();
+                Interface_food food = it2.next();
                 if (food.get_food_name().equals(food_name)) {
                     found = food;
                     break;
@@ -252,6 +109,229 @@ public class Chef {
         }
         return found;
     }
-}
 
-//Design change alert...
+    private ArrayList<Interface_food> create_American_indian_alaska_native_foods() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (American_indian_alaska_native_foods f : American_indian_alaska_native_foods.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Baby_foods() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Baby_foods f : Baby_foods.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Baked_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Baked_products f : Baked_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Beef_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Beef_products f : Beef_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Beverages() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Beverages f : Beverages.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Breakfast_cereals() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Breakfast_cereals f : Breakfast_cereals.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Cereal_grains_and_pasta() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Cereal_grains_and_pasta f : Cereal_grains_and_pasta.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Dairy_and_egg_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Dairy_and_egg_products f : Dairy_and_egg_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Fast_foods() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Fast_foods f : Fast_foods.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Fats_and_oils() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Fats_and_oils f : Fats_and_oils.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Finfish_and_shellfish_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Finfish_and_shellfish_products f : Finfish_and_shellfish_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Fruits_and_fruit_juices() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Fruits_and_fruit_juices f : Fruits_and_fruit_juices.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Glycemic_index_test_set() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Glycemic_index_test_set f : Glycemic_index_test_set.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Legumes_and_legume_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Legumes_and_legume_products f : Legumes_and_legume_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Nut_and_seed_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Nut_and_seed_products f : Nut_and_seed_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Omega_3() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Omega_3 f : Omega_3.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Pork_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Pork_products f : Pork_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Poultry_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Poultry_products f : Poultry_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Protein_powders() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Protein_powders f : Protein_powders.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Sausages_and_luncheon_meats() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Sausages_and_luncheon_meats f : Sausages_and_luncheon_meats.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Snacks() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Snacks f : Snacks.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Spices_and_herbs() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Spices_and_herbs f : Spices_and_herbs.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Supplements() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Supplements f : Supplements.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Sweets() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Sweets f : Sweets.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+
+    private ArrayList<Interface_food> create_Vegetables_and_vegetable_products() {
+        ArrayList<Interface_food> list = new ArrayList();
+        for (Vegetables_and_vegetable_products f : Vegetables_and_vegetable_products.values()) {
+            Food food = Food_creator.make_food_from_food_enum(f);
+            list.add(food);
+        }
+        return list;
+    }
+}

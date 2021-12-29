@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
+ * Copyright (C) 2021 Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -17,427 +17,1676 @@
  */
 package io.github.xjrga.foods;
 
+import java.util.Objects;
+
 /**
- * This interface is used to set food nutrition facts data
+ * This is a food object to set nutrition fact values. Nutrient values are
+ * directly proportional to weight, if weight changes, nutrient values must
+ * change.
  */
-public interface Food_mutable {
+public class Food_mutable implements Interface_food_mutable, Interface_food {
+
+    private String name;
+    private String label;
+    private Double weight;
+    private Double gross_energy;
+    private Double protein;
+    private Double protein_atwater_factor;
+    private Double carbohydrate_by_difference;
+    private Double carbohydrate_by_difference_atwater_factor;
+    private Double fiber;
+    private Double fat;
+    private Double fat_atwater_factor;
+    private Double alcohol;
+    private Double alcohol_atwater_factor;
+    private Double cholesterol;
+    private Double monounsaturated_fat;
+    private Double polyunsaturated_fat;
+    private Double saturated_fat;
+    private Double complete_protein;
+    private Double calcium;
+    private Double copper;
+    private Double fluoride;
+    private Double iron;
+    private Double magnesium;
+    private Double manganese;
+    private Double phosphorus;
+    private Double potassium;
+    private Double selenium;
+    private Double sodium;
+    private Double zinc;
+    private Double folate;
+    private Double niacin;
+    private Double pantothenic_acid;
+    private Double riboflavin;
+    private Double thiamin;
+    private Double vitamin_a;
+    private Double vitamin_b12;
+    private Double vitamin_b6;
+    private Double vitamin_c;
+    private Double vitamin_d;
+    private Double vitamin_e;
+    private Double vitamin_k;
+    private Double choline;
+    private Double glycemic_index;
+    private Double alpha_linolenic_acid;
+    private Double linoleic_acid;
+    private Double dha;
+    private Double epa;
+    private Double water;
+    private Double cost;
+    private Double energy_alcohol;
+    private Double energy_digestible_carbohydrate;
+    private Double energy_digestible;
+    private Double energy_fat;
+    private Double energy_protein;
 
     /**
-     * Set food name
      *
-     * @param name The name of food
      */
-    void set_food_name(String name);
+    public Food_mutable() {
+        set_food_name("");
+        set_food_label("");
+        set_weight(0.0);
+        set_energy_gross(0.0);
+        set_protein(0.0);
+        set_carbohydrate_by_difference(0.0);
+        set_fiber(0.0);
+        set_fat(0.0);
+        set_alcohol(0.0);
+        set_cholesterol(0.0);
+        set_monounsaturated_fat(0.0);
+        set_polyunsaturated_fat(0.0);
+        set_saturated_fat(0.0);
+        set_complete_protein(0.0);
+        set_calcium(0.0);
+        set_copper(0.0);
+        set_fluoride(0.0);
+        set_iron(0.0);
+        set_magnesium(0.0);
+        set_manganese(0.0);
+        set_phosphorus(0.0);
+        set_potassium(0.0);
+        set_selenium(0.0);
+        set_sodium(0.0);
+        set_zinc(0.0);
+        set_folate(0.0);
+        set_niacin(0.0);
+        set_pantothenic_acid(0.0);
+        set_riboflavin(0.0);
+        set_thiamin(0.0);
+        set_vitamin_a(0.0);
+        set_vitamin_b12(0.0);
+        set_vitamin_b6(0.0);
+        set_vitamin_c(0.0);
+        set_vitamin_d(0.0);
+        set_vitamin_e(0.0);
+        set_vitamin_k(0.0);
+        set_choline(0.0);
+        set_glycemic_index(0.0);
+        set_alpha_linolenic_acid(0.0);
+        set_linoleic_acid(0.0);
+        set_dha(0.0);
+        set_epa(0.0);
+        set_water(0.0);
+        set_cost(0.0);
+        set_energy_alcohol(-1.0);
+        set_energy_digestible_carbohydrate(-1.0);
+        set_energy_digestible(-1.0);
+        set_energy_fat(-1.0);
+        set_energy_protein(-1.0);
+        set_protein_atwater_factor(0.0);
+        set_carbohydrate_by_difference_atwater_factor(0.0);
+        set_fat_atwater_factor(0.0);
+        set_alcohol_atwater_factor(0.0);
+    }
+
+    @Override
+    public final void set_food_name(String text) {
+        name = text;
+    }
+
+    @Override
+    public final String get_food_name() {
+        return name;
+    }
+
+    @Override
+    public final void set_food_label(String text) {
+        label = text;
+    }
+
+    @Override
+    public final String get_food_label() {
+        return label;
+    }
+
+    @Override
+    public final Double get_weight() {
+        return weight;
+    }
+
+    @Override
+    public final void set_weight(Double quantity) {
+        weight = quantity;
+    }
+
+    @Override
+    public final Double get_energy_gross() {
+        return gross_energy;
+    }
+
+    @Override
+    public final void set_energy_gross(Double quantity) {
+        gross_energy = quantity;
+    }
+
+    @Override
+    public final Double get_energy_gross_coefficient() {
+        return gross_energy / weight;
+    }
+
+    @Override
+    public final Double get_protein() {
+        return protein;
+    }
+
+    @Override
+    public final void set_protein(Double quantity) {
+        protein = quantity;
+    }
+
+    @Override
+    public final Double get_protein_coefficient() {
+        return protein / weight;
+    }
+
+    @Override
+    public final Double get_protein_atwater_factor() {
+        return protein_atwater_factor;
+    }
+
+    @Override
+    public final void set_protein_atwater_factor(Double quantity) {
+        protein_atwater_factor = quantity;
+    }
 
     /**
-     * Set food label
      *
-     * @param label The food name which uses these characters A-Z, a-z 0-9, _
-     * only
+     * @return
      */
-    void set_food_label(String label);
+    @Override
+    public final Double get_carbohydrate_by_difference() {
+        return carbohydrate_by_difference;
+    }
 
     /**
-     * Set serving size weight (g)
      *
      * @param quantity
      */
-    void set_weight(Double quantity);
+    @Override
+    public final void set_carbohydrate_by_difference(Double quantity) {
+        carbohydrate_by_difference = quantity;
+    }
 
     /**
-     * Set gross energy (Kcal)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_carbohydrate_by_difference_coefficient() {
+        return carbohydrate_by_difference / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_carbohydrate_by_difference_atwater_factor() {
+        return carbohydrate_by_difference_atwater_factor;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_gross_energy(Double quantity);
+    @Override
+    public final void set_carbohydrate_by_difference_atwater_factor(Double quantity) {
+        carbohydrate_by_difference_atwater_factor = quantity;
+    }
 
-    //Macronutrients
     /**
-     * Set protein, includes both incomplete and complete (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_fiber() {
+        return fiber;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_protein(Double quantity);
+    @Override
+    public final void set_fiber(Double quantity) {
+        fiber = quantity;
+    }
 
     /**
-     * Set 'protein' atwater specific energy conversion factor (Kcal / g of
-     * protein)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_fiber_coefficient() {
+        return fiber / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_fat() {
+        return fat;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_protein_atwater_factor(Double quantity);
+    @Override
+    public final void set_fat(Double quantity) {
+        fat = quantity;
+    }
 
     /**
-     * Set carbohydrate by difference, includes digestible carbohydrate plus
-     * fiber (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_fat_coefficient() {
+        return fat / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_fat_atwater_factor() {
+        return fat_atwater_factor;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_carbohydrate_by_difference(Double quantity);
+    @Override
+    public final void set_fat_atwater_factor(Double quantity) {
+        fat_atwater_factor = quantity;
+    }
 
     /**
-     * Set 'carbohydrate by difference' atwater specific energy conversion
-     * factor (Kcal / g of carbohydrate by difference)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_alcohol() {
+        return alcohol;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_carbohydrate_by_difference_atwater_factor(Double quantity);
+    @Override
+    public final void set_alcohol(Double quantity) {
+        alcohol = quantity;
+    }
 
     /**
-     * Set fiber (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_alcohol_coefficient() {
+        return alcohol / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_alcohol_atwater_factor() {
+        return alcohol_atwater_factor;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_fiber(Double quantity);
+    @Override
+    public final void set_alcohol_atwater_factor(Double quantity) {
+        alcohol_atwater_factor = quantity;
+    }
+
+    //calculated carbs
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_digestible_carbohydrate() {
+        return carbohydrate_by_difference - fiber;
+    }
 
     /**
-     * Set total fat, includes saturated, polyunsaturated and monounsaturated
-     * (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_digestible_carbohydrate_coefficient() {
+        return get_digestible_carbohydrate() / weight;
+    }
+
+    //fats
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_cholesterol() {
+        return cholesterol;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_fat(Double quantity);
+    @Override
+    public final void set_cholesterol(Double quantity) {
+        cholesterol = quantity;
+    }
 
     /**
-     * Set 'fat' atwater specific energy conversion factor (Kcal / g of fat)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_cholesterol_coefficient() {
+        return cholesterol / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_monounsaturated_fat() {
+        return monounsaturated_fat;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_fat_atwater_factor(Double quantity);
+    @Override
+    public final void set_monounsaturated_fat(Double quantity) {
+        monounsaturated_fat = quantity;
+    }
 
     /**
-     * Set ethyl alcohol (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_monounsaturated_fat_coefficient() {
+        return monounsaturated_fat / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_polyunsaturated_fat() {
+        return polyunsaturated_fat;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_alcohol(Double quantity);
+    @Override
+    public final void set_polyunsaturated_fat(Double quantity) {
+        polyunsaturated_fat = quantity;
+    }
 
     /**
-     * Set 'ethyl alcohol' atwater specific energy conversion factor (Kcal / g
-     * of alcohol)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_polyunsaturated_fat_coefficient() {
+        return polyunsaturated_fat / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_saturated_fat() {
+        return saturated_fat;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_alcohol_atwater_factor(Double quantity);
+    @Override
+    public final void set_saturated_fat(Double quantity) {
+        saturated_fat = quantity;
+    }
 
     /**
-     * Set cholesterol coefficient (mg of cholesterol / g of food)
      *
-     * @param quantity
+     * @return
      */
-    void set_cholesterol(Double quantity);
-
-    /**
-     * Set monounsaturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_monounsaturated_fat(Double quantity);
-
-    /**
-     * Set polyunsaturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_polyunsaturated_fat(Double quantity);
-
-    /**
-     * Set saturated fat (g)
-     *
-     * @param quantity
-     */
-    void set_saturated_fat(Double quantity);
+    @Override
+    public final Double get_saturated_fat_coefficient() {
+        return saturated_fat / weight;
+    }
 
     //protein
     /**
-     * Set complete protein (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_complete_protein() {
+        return complete_protein;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_complete_protein(Double quantity);
+    @Override
+    public final void set_complete_protein(Double quantity) {
+        complete_protein = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_complete_protein_coefficient() {
+        return complete_protein / weight;
+    }
 
     //minerals
     /**
-     * Set calcium (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_calcium(Double quantity);
+    @Override
+    public final Double get_calcium() {
+        return calcium;
+    }
 
     /**
-     * Set copper (mg)
      *
      * @param quantity
      */
-    void set_copper(Double quantity);
+    @Override
+    public final void set_calcium(Double quantity) {
+        calcium = quantity;
+    }
 
     /**
-     * Set flouride (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_fluoride(Double quantity);
+    @Override
+    public final Double get_calcium_coefficient() {
+        return calcium / weight;
+    }
 
     /**
-     * Set iron (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_iron(Double quantity);
+    @Override
+    public final Double get_copper() {
+        return copper;
+    }
 
     /**
-     * Set magnesium (mg)
      *
      * @param quantity
      */
-    void set_magnesium(Double quantity);
+    @Override
+    public final void set_copper(Double quantity) {
+        copper = quantity;
+    }
 
     /**
-     * Set manganese (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_manganese(Double quantity);
+    @Override
+    public final Double get_copper_coefficient() {
+        return copper / weight;
+    }
 
     /**
-     * Set phosphorus (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_phosphorus(Double quantity);
+    @Override
+    public final Double get_fluoride() {
+        return fluoride;
+    }
 
     /**
-     * Set potassium (mg)
      *
      * @param quantity
      */
-    void set_potassium(Double quantity);
+    @Override
+    public final void set_fluoride(Double quantity) {
+        fluoride = quantity;
+    }
 
     /**
-     * Set selenium (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_selenium(Double quantity);
+    @Override
+    public final Double get_fluoride_coefficient() {
+        return fluoride / weight;
+    }
 
     /**
-     * Set sodium (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_sodium(Double quantity);
+    @Override
+    public final Double get_iron() {
+        return iron;
+    }
 
     /**
-     * Set zinc (mg)
      *
      * @param quantity
      */
-    void set_zinc(Double quantity);
+    @Override
+    public final void set_iron(Double quantity) {
+        iron = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_iron_coefficient() {
+        return iron / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_magnesium() {
+        return magnesium;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_magnesium(Double quantity) {
+        magnesium = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_magnesium_coefficient() {
+        return magnesium / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_manganese() {
+        return manganese;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_manganese(Double quantity) {
+        manganese = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_manganese_coefficient() {
+        return manganese / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_phosphorus() {
+        return phosphorus;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_phosphorus(Double quantity) {
+        phosphorus = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_phosphorus_coefficient() {
+        return phosphorus / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_potassium() {
+        return potassium;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_potassium(Double quantity) {
+        potassium = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_potassium_coefficient() {
+        return potassium / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_selenium() {
+        return selenium;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_selenium(Double quantity) {
+        selenium = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_selenium_coefficient() {
+        return selenium / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_sodium() {
+        return sodium;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_sodium(Double quantity) {
+        sodium = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_sodium_coefficient() {
+        return sodium / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_zinc() {
+        return zinc;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_zinc(Double quantity) {
+        zinc = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_zinc_coefficient() {
+        return zinc / weight;
+    }
 
     //vitamins
     /**
-     * Set folate (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_folate(Double quantity);
+    @Override
+    public final Double get_folate() {
+        return folate;
+    }
 
     /**
-     * Set niacin (mg)
      *
      * @param quantity
      */
-    void set_niacin(Double quantity);
+    @Override
+    public final void set_folate(Double quantity) {
+        folate = quantity;
+    }
 
     /**
-     * Set pantothenic acid (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_pantothenic_acid(Double quantity);
+    @Override
+    public final Double get_folate_coefficient() {
+        return folate / weight;
+    }
 
     /**
-     * Set riboflavin (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_riboflavin(Double quantity);
+    @Override
+    public final Double get_niacin() {
+        return niacin;
+    }
 
     /**
-     * Set thiamin (mg)
      *
      * @param quantity
      */
-    void set_thiamin(Double quantity);
+    @Override
+    public final void set_niacin(Double quantity) {
+        niacin = quantity;
+    }
 
     /**
-     * Set vitamin a (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_vitamin_a(Double quantity);
+    @Override
+    public final Double get_niacin_coefficient() {
+        return niacin / weight;
+    }
 
     /**
-     * Set vitaming b12 (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_vitamin_b12(Double quantity);
+    @Override
+    public final Double get_pantothenic_acid() {
+        return pantothenic_acid;
+    }
 
     /**
-     * Set vitamin b6 (mg)
      *
      * @param quantity
      */
-    void set_vitamin_b6(Double quantity);
+    @Override
+    public final void set_pantothenic_acid(Double quantity) {
+        pantothenic_acid = quantity;
+    }
 
     /**
-     * Set vitamin c (mg)
      *
-     * @param quantity
+     * @return
      */
-    void set_vitamin_c(Double quantity);
+    @Override
+    public final Double get_pantothenic_acid_coefficient() {
+        return pantothenic_acid / weight;
+    }
 
     /**
-     * Set vitamin d (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_vitamin_d(Double quantity);
+    @Override
+    public final Double get_riboflavin() {
+        return riboflavin;
+    }
 
     /**
-     * Set vitamin e (mg)
      *
      * @param quantity
      */
-    void set_vitamin_e(Double quantity);
+    @Override
+    public final void set_riboflavin(Double quantity) {
+        riboflavin = quantity;
+    }
 
     /**
-     * Set vitamin k (µg)
      *
-     * @param quantity
+     * @return
      */
-    void set_vitamin_k(Double quantity);
+    @Override
+    public final Double get_riboflavin_coefficient() {
+        return riboflavin / weight;
+    }
 
     /**
-     * Set choline (mg)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_thiamin() {
+        return thiamin;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_choline(Double quantity);
+    @Override
+    public final void set_thiamin(Double quantity) {
+        thiamin = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_thiamin_coefficient() {
+        return thiamin / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_a() {
+        return vitamin_a;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_a(Double quantity) {
+        vitamin_a = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_a_coefficient() {
+        return vitamin_a / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_b12() {
+        return vitamin_b12;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_b12(Double quantity) {
+        vitamin_b12 = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_b12_coefficient() {
+        return vitamin_b12 / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_b6() {
+        return vitamin_b6;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_b6(Double quantity) {
+        vitamin_b6 = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_b6_coefficient() {
+        return vitamin_b6 / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_c() {
+        return vitamin_c;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_c(Double quantity) {
+        vitamin_c = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_c_coefficient() {
+        return vitamin_c / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_d() {
+        return vitamin_d;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_d(Double quantity) {
+        vitamin_d = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_d_coefficient() {
+        return vitamin_d / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_e() {
+        return vitamin_e;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_e(Double quantity) {
+        vitamin_e = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_e_coefficient() {
+        return vitamin_e / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_k() {
+        return vitamin_k;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_vitamin_k(Double quantity) {
+        vitamin_k = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_vitamin_k_coefficient() {
+        return vitamin_k / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_choline() {
+        return choline;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_choline(Double quantity) {
+        choline = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_choline_coefficient() {
+        return choline / weight;
+    }
 
     //glycemic
     /**
-     * Set glycemic index (0-100)
+     * Get glycemic index (0-100)
      * <p>
      * Glycemic index is total glucose exposure delivered by test food (in two
      * hours) divided by total glucose exposure delivered by standard food (in
      * two hours) multiplied by 100. Either 50 g of glucose or white bread are
      * used as the standard. It is a percentage of standard.
      *
+     * @return
+     */
+    @Override
+    public final Double get_glycemic_index() {
+        return glycemic_index;
+    }
+
+    /**
+     * Set glycemic index (0-100)
+     *
      * @param quantity
      */
-    void set_glycemic_index(Double quantity);
+    @Override
+    public final void set_glycemic_index(Double quantity) {
+        glycemic_index = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_glycemic_load() {
+        return get_digestible_carbohydrate() * (get_glycemic_index() / 100);
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_glycemic_load_coefficient() {
+        return get_glycemic_load() / weight;
+    }
 
     //omega-3
     /**
-     * Set alpha-linolenic acid (g)
      *
-     * @param quantity
+     * @return
      */
-    void set_alpha_linolenic_acid(Double quantity);
+    @Override
+    public final Double get_alpha_linolenic_acid() {
+        return alpha_linolenic_acid;
+    }
 
     /**
-     * Set linoleic acid (g)
      *
      * @param quantity
      */
-    void set_linoleic_acid(Double quantity);
+    @Override
+    public final void set_alpha_linolenic_acid(Double quantity) {
+        alpha_linolenic_acid = quantity;
+    }
 
     /**
-     * Set docosahexaenoic acid "dha" (g)
      *
-     * @param quantity
+     * @return
      */
-    void set_dha(Double quantity);
+    @Override
+    public final Double get_alpha_linolenic_acid_coefficient() {
+        return alpha_linolenic_acid / weight;
+    }
 
     /**
-     * Set eicosapentaenoic acid "epa" (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_linoleic_acid() {
+        return linoleic_acid;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_epa(Double quantity);
+    @Override
+    public final void set_linoleic_acid(Double quantity) {
+        linoleic_acid = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_linoleic_acid_coefficient() {
+        return linoleic_acid / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_dha() {
+        return dha;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_dha(Double quantity) {
+        dha = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_dha_coefficient() {
+        return dha / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_epa() {
+        return epa;
+    }
+
+    /**
+     *
+     * @param quantity
+     */
+    @Override
+    public final void set_epa(Double quantity) {
+        epa = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_epa_coefficient() {
+        return epa / weight;
+    }
 
     //water
     /**
-     * Set water (g)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_water() {
+        return water;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_water(Double quantity);
+    @Override
+    public final void set_water(Double quantity) {
+        water = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_water_coefficient() {
+        return water / weight;
+    }
 
     //cost
     /**
-     * Set cost ($)
+     *
+     * @return
+     */
+    @Override
+    public final Double get_cost() {
+        return cost;
+    }
+
+    /**
      *
      * @param quantity
      */
-    void set_cost(Double quantity);
+    @Override
+    public final void set_cost(Double quantity) {
+        cost = quantity;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_cost_coefficient() {
+        return cost / weight;
+    }
+
+    @Override
+    public final void set_energy_alcohol(Double energy_alcohol) {
+        this.energy_alcohol = energy_alcohol;
+    }
+
+    @Override
+    public final void set_energy_digestible_carbohydrate(Double energy_digestible_carbohydrate) {
+        this.energy_digestible_carbohydrate = energy_digestible_carbohydrate;
+    }
+
+    @Override
+    public final void set_energy_digestible(Double energy_digestible) {
+        this.energy_digestible = energy_digestible;
+    }
+
+    @Override
+    public final void set_energy_fat(Double energy_fat) {
+        this.energy_fat = energy_fat;
+    }
+
+    @Override
+    public final void set_energy_protein(Double energy_protein) {
+        this.energy_protein = energy_protein;
+    }
+
+    //calculated energy
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_alcohol() {
+        return energy_alcohol == -1 ? get_alcohol() * get_alcohol_atwater_factor() : energy_alcohol;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_alcohol_coefficient() {
+        return get_energy_alcohol() / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_digestible_carbohydrate() {
+        return energy_digestible_carbohydrate == -1 ? get_digestible_carbohydrate() * get_carbohydrate_by_difference_atwater_factor() : energy_digestible_carbohydrate;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_digestible_carbohydrate_coefficient() {
+        return get_energy_digestible_carbohydrate() / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_digestible() {
+        return energy_digestible == -1 ? get_energy_protein() + get_energy_fat() + get_energy_digestible_carbohydrate() : energy_digestible;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_digestible_coefficient() {
+        return get_energy_digestible() / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_fat() {
+        return energy_fat == -1 ? get_fat() * get_fat_atwater_factor() : energy_fat;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_fat_coefficient() {
+        return get_energy_fat() / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_protein() {
+        return energy_protein == -1 ? get_protein() * get_protein_atwater_factor() : energy_protein;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_energy_protein_coefficient() {
+        return get_energy_protein() / weight;
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public final Double get_food_quotient() {
+        Double fq = get_energy_digestible_carbohydrate() / get_energy_digestible() * 1.00
+                + get_energy_fat() / get_energy_digestible() * 0.71
+                + get_energy_protein() / get_energy_digestible() * 0.81
+                + get_energy_alcohol() / get_energy_digestible() * 0.667;
+        return fq;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    @Override
+    public int hashCode() {
+        return name.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Food_mutable other = (Food_mutable) obj;
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        if (!Objects.equals(this.label, other.label)) {
+            return false;
+        }
+        if (!Objects.equals(this.weight, other.weight)) {
+            return false;
+        }
+        if (!Objects.equals(this.gross_energy, other.gross_energy)) {
+            return false;
+        }
+        if (!Objects.equals(this.protein, other.protein)) {
+            return false;
+        }
+        if (!Objects.equals(this.protein_atwater_factor, other.protein_atwater_factor)) {
+            return false;
+        }
+        if (!Objects.equals(this.carbohydrate_by_difference, other.carbohydrate_by_difference)) {
+            return false;
+        }
+        if (!Objects.equals(this.carbohydrate_by_difference_atwater_factor, other.carbohydrate_by_difference_atwater_factor)) {
+            return false;
+        }
+        if (!Objects.equals(this.fiber, other.fiber)) {
+            return false;
+        }
+        if (!Objects.equals(this.fat, other.fat)) {
+            return false;
+        }
+        if (!Objects.equals(this.fat_atwater_factor, other.fat_atwater_factor)) {
+            return false;
+        }
+        if (!Objects.equals(this.alcohol, other.alcohol)) {
+            return false;
+        }
+        if (!Objects.equals(this.alcohol_atwater_factor, other.alcohol_atwater_factor)) {
+            return false;
+        }
+        if (!Objects.equals(this.cholesterol, other.cholesterol)) {
+            return false;
+        }
+        if (!Objects.equals(this.monounsaturated_fat, other.monounsaturated_fat)) {
+            return false;
+        }
+        if (!Objects.equals(this.polyunsaturated_fat, other.polyunsaturated_fat)) {
+            return false;
+        }
+        if (!Objects.equals(this.saturated_fat, other.saturated_fat)) {
+            return false;
+        }
+        if (!Objects.equals(this.complete_protein, other.complete_protein)) {
+            return false;
+        }
+        if (!Objects.equals(this.calcium, other.calcium)) {
+            return false;
+        }
+        if (!Objects.equals(this.copper, other.copper)) {
+            return false;
+        }
+        if (!Objects.equals(this.fluoride, other.fluoride)) {
+            return false;
+        }
+        if (!Objects.equals(this.iron, other.iron)) {
+            return false;
+        }
+        if (!Objects.equals(this.magnesium, other.magnesium)) {
+            return false;
+        }
+        if (!Objects.equals(this.manganese, other.manganese)) {
+            return false;
+        }
+        if (!Objects.equals(this.phosphorus, other.phosphorus)) {
+            return false;
+        }
+        if (!Objects.equals(this.potassium, other.potassium)) {
+            return false;
+        }
+        if (!Objects.equals(this.selenium, other.selenium)) {
+            return false;
+        }
+        if (!Objects.equals(this.sodium, other.sodium)) {
+            return false;
+        }
+        if (!Objects.equals(this.zinc, other.zinc)) {
+            return false;
+        }
+        if (!Objects.equals(this.folate, other.folate)) {
+            return false;
+        }
+        if (!Objects.equals(this.niacin, other.niacin)) {
+            return false;
+        }
+        if (!Objects.equals(this.pantothenic_acid, other.pantothenic_acid)) {
+            return false;
+        }
+        if (!Objects.equals(this.riboflavin, other.riboflavin)) {
+            return false;
+        }
+        if (!Objects.equals(this.thiamin, other.thiamin)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_a, other.vitamin_a)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_b12, other.vitamin_b12)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_b6, other.vitamin_b6)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_c, other.vitamin_c)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_d, other.vitamin_d)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_e, other.vitamin_e)) {
+            return false;
+        }
+        if (!Objects.equals(this.vitamin_k, other.vitamin_k)) {
+            return false;
+        }
+        if (!Objects.equals(this.choline, other.choline)) {
+            return false;
+        }
+        if (!Objects.equals(this.glycemic_index, other.glycemic_index)) {
+            return false;
+        }
+        if (!Objects.equals(this.alpha_linolenic_acid, other.alpha_linolenic_acid)) {
+            return false;
+        }
+        if (!Objects.equals(this.linoleic_acid, other.linoleic_acid)) {
+            return false;
+        }
+        if (!Objects.equals(this.dha, other.dha)) {
+            return false;
+        }
+        if (!Objects.equals(this.epa, other.epa)) {
+            return false;
+        }
+        if (!Objects.equals(this.water, other.water)) {
+            return false;
+        }
+        if (!Objects.equals(this.cost, other.cost)) {
+            return false;
+        }
+        return true;
+    }
 
 }
-
-//https://www.fao.org/3/y5022e/y5022e04.htm
-//https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Classics/ah74.pdf
-//https://en.wikipedia.org/wiki/Atwater_system
-//https://academic.oup.com/ajcn/article/86/6/1649/4649752
-//https://en.wikipedia.org/wiki/Glycemic_index
-//
-///Protein (g)
-//Total lipid (Fat) (g)
-//Carbohydrate, by difference (g)
-//Energy, gross (Kcal)
-//Alcohol, ethyl (g)
-//Water (g)
-//Fiber, total dietary (g)
-//Calcium, Ca (mg)
-//Iron, Fe (mg)
-//Magnesium, Mg (mg)
-//Phosphorus, P (mg)
-//Potassium, K (mg)
-//Sodium, Na (mg)
-//Zinc, Zn (mg)
-//Copper, Cu (mg)
-//Fluoride, F (µg)
-//Manganese, Mn (mg)
-//Selenium, Se (µg)
-//Vitamin A, RAE (µg)
-//Vitamin E (Alpha-Tocopherol) (mg)
-//Vitamin D (D2 + D3) (µg)
-//Vitamin C, total (Ascorbic Acid) (mg)
-//Thiamin (mg)
-//Riboflavin (mg)
-//Niacin (mg)
-//Pantothenic acid (mg)
-//Vitamin B-6 (mg)
-//Vitamin B-12 (µg)
-//Choline, total (mg)
-//Vitamin K (Phylloquinone) (µg)
-//Folate, DFE (µg)
-//Cholesterol (mg)
-//Fatty acids, total saturated (g)
-//22:6 n-3 (DHA) (g)
-//20:5 n-3 (EPA) (g)
-//Fatty acids, total monounsaturated (g)
-//Fatty acids, total polyunsaturated (g)
-//18:2 n-6 c,c (Linoleic) (g)
-//18:3 n-3 c,c,c (Alpha-Linolenic) (g)
-//Weight (g)
-//Complete Protein  (g)
-//Digestible Carbs (g)
-//Cost  ($)
-//Energy, digestible (Kcal)
-//Energy, no protein (Kcal)
-//Energy, carbohydrate (Kcal)
-//Energy, protein (Kcal)
-//Energy, fat (Kcal)
-//Energy, alcohol (Kcal);

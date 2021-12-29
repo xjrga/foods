@@ -18,6 +18,7 @@
 package io.github.xjrga.foods;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  *
@@ -25,9 +26,9 @@ import java.util.ArrayList;
  */
 public class Coefficient_nutrient {
 
-    private final ArrayList<Food> list;
+    private final ArrayList<Interface_food> list;
     private final double[] alcohol;
-    private final double[] alphalinolenic_acid;
+    private final double[] alpha_linolenic_acid;
     private final double[] calcium;
     private final double[] carbohydrate_by_difference;
     private final double[] cholesterol;
@@ -41,7 +42,6 @@ public class Coefficient_nutrient {
     private final double[] energy_digestible;
     private final double[] energy_digestible_carbohydrate;
     private final double[] energy_fat;
-    private final double[] energy_no_protein;
     private final double[] energy_protein;
     private final double[] epa;
     private final double[] fat;
@@ -78,11 +78,11 @@ public class Coefficient_nutrient {
     private final double[] zinc;
     private final int size;
 
-    public Coefficient_nutrient(ArrayList<Food> food_list) {
-        this.list = (ArrayList<Food>) food_list.clone();
+    public Coefficient_nutrient(ArrayList<Interface_food> food_list) {
+        this.list = (ArrayList<Interface_food>) food_list.clone();
         size = list.size();
         alcohol = new double[size];
-        alphalinolenic_acid = new double[size];
+        alpha_linolenic_acid = new double[size];
         calcium = new double[size];
         carbohydrate_by_difference = new double[size];
         cholesterol = new double[size];
@@ -96,7 +96,6 @@ public class Coefficient_nutrient {
         energy_digestible_carbohydrate = new double[size];
         energy_digestible = new double[size];
         energy_fat = new double[size];
-        energy_no_protein = new double[size];
         energy_protein = new double[size];
         epa = new double[size];
         fat = new double[size];
@@ -134,207 +133,203 @@ public class Coefficient_nutrient {
         populate_coefficient_arrays();
     }
 
-    public double[] get_energy_gross_coefficients() {
+    public final double[] get_energy_gross_coefficients() {
         return gross_energy;
     }
 
-    public double[] get_protein_coefficients() {
+    public final double[] get_protein_coefficients() {
         return protein;
     }
 
-    public double[] get_carbohydrate_by_difference_coefficients() {
+    public final double[] get_carbohydrate_by_difference_coefficients() {
         return carbohydrate_by_difference;
     }
 
-    public double[] get_fiber_coefficients() {
+    public final double[] get_fiber_coefficients() {
         return fiber;
     }
 
-    public double[] get_fat_coefficients() {
+    public final double[] get_fat_coefficients() {
         return fat;
     }
 
-    public double[] get_alcohol_coefficients() {
+    public final double[] get_alcohol_coefficients() {
         return alcohol;
     }
 
-    public double[] get_digestible_carbohydrate_coefficients() {
+    public final double[] get_digestible_carbohydrate_coefficients() {
         return digestible_carbohydrate;
     }
 
-    public double[] get_cholesterol_coefficients() {
+    public final double[] get_cholesterol_coefficients() {
         return cholesterol;
     }
 
-    public double[] get_monounsaturated_fat_coefficients() {
+    public final double[] get_monounsaturated_fat_coefficients() {
         return monounsaturated_fat;
     }
 
-    public double[] get_polyunsaturated_fat_coefficients() {
+    public final double[] get_polyunsaturated_fat_coefficients() {
         return polyunsaturated_fat;
     }
 
-    public double[] get_saturated_fat_coefficients() {
+    public final double[] get_saturated_fat_coefficients() {
         return saturated_fat;
     }
 
-    public double[] get_complete_protein_coefficients() {
+    public final double[] get_complete_protein_coefficients() {
         return complete_protein;
     }
 
-    public double[] get_calcium_coefficients() {
+    public final double[] get_calcium_coefficients() {
         return calcium;
     }
 
-    public double[] get_copper_coefficients() {
+    public final double[] get_copper_coefficients() {
         return copper;
     }
 
-    public double[] get_fluoride_coefficients() {
+    public final double[] get_fluoride_coefficients() {
         return fluoride;
     }
 
-    public double[] get_iron_coefficients() {
+    public final double[] get_iron_coefficients() {
         return iron;
     }
 
-    public double[] get_magnesium_coefficients() {
+    public final double[] get_magnesium_coefficients() {
         return magnesium;
     }
 
-    public double[] get_manganese_coefficients() {
+    public final double[] get_manganese_coefficients() {
         return manganese;
     }
 
-    public double[] get_phosphorus_coefficients() {
+    public final double[] get_phosphorus_coefficients() {
         return phosphorus;
     }
 
-    public double[] get_potassium_coefficients() {
+    public final double[] get_potassium_coefficients() {
         return potassium;
     }
 
-    public double[] get_selenium_coefficients() {
+    public final double[] get_selenium_coefficients() {
         return selenium;
     }
 
-    public double[] get_sodium_coefficients() {
+    public final double[] get_sodium_coefficients() {
         return sodium;
     }
 
-    public double[] get_zinc_coefficients() {
+    public final double[] get_zinc_coefficients() {
         return zinc;
     }
 
-    public double[] get_folate_coefficients() {
+    public final double[] get_folate_coefficients() {
         return folate;
     }
 
-    public double[] get_niacin_coefficients() {
+    public final double[] get_niacin_coefficients() {
         return niacin;
     }
 
-    public double[] get_pantothenic_acid_coefficients() {
+    public final double[] get_pantothenic_acid_coefficients() {
         return pantothenic_acid;
     }
 
-    public double[] get_riboflavin_coefficients() {
+    public final double[] get_riboflavin_coefficients() {
         return riboflavin;
     }
 
-    public double[] get_thiamin_coefficients() {
+    public final double[] get_thiamin_coefficients() {
         return thiamin;
     }
 
-    public double[] get_vitamin_a_coefficients() {
+    public final double[] get_vitamin_a_coefficients() {
         return vitamin_a;
     }
 
-    public double[] get_vitamin_b12_coefficients() {
+    public final double[] get_vitamin_b12_coefficients() {
         return vitamin_b12;
     }
 
-    public double[] get_vitamin_b6_coefficients() {
+    public final double[] get_vitamin_b6_coefficients() {
         return vitamin_b6;
     }
 
-    public double[] get_vitamin_c_coefficients() {
+    public final double[] get_vitamin_c_coefficients() {
         return vitamin_c;
     }
 
-    public double[] get_vitamin_d_coefficients() {
+    public final double[] get_vitamin_d_coefficients() {
         return vitamin_d;
     }
 
-    public double[] get_vitamin_e_coefficients() {
+    public final double[] get_vitamin_e_coefficients() {
         return vitamin_e;
     }
 
-    public double[] get_vitamin_k_coefficients() {
+    public final double[] get_vitamin_k_coefficients() {
         return vitamin_k;
     }
 
-    public double[] get_choline_coefficients() {
+    public final double[] get_choline_coefficients() {
         return choline;
     }
 
-    public double[] get_glycemic_load_coefficients() {
+    public final double[] get_glycemic_load_coefficients() {
         return glycemic_load;
     }
 
-    public double[] get_alphalinolenic_acid_coefficients() {
-        return alphalinolenic_acid;
+    public final double[] get_alphalinolenic_acid_coefficients() {
+        return alpha_linolenic_acid;
     }
 
-    public double[] get_linoleic_acid_coefficients() {
+    public final double[] get_linoleic_acid_coefficients() {
         return linoleic_acid;
     }
 
-    public double[] get_dha_coefficients() {
+    public final double[] get_dha_coefficients() {
         return dha;
     }
 
-    public double[] get_epa_coefficients() {
+    public final double[] get_epa_coefficients() {
         return epa;
     }
 
-    public double[] get_water_coefficients() {
+    public final double[] get_water_coefficients() {
         return water;
     }
 
-    public double[] get_cost_coefficients() {
+    public final double[] get_cost_coefficients() {
         return cost;
     }
 
-    public double[] get_energy_alcohol_coefficients() {
+    public final double[] get_energy_alcohol_coefficients() {
         return energy_alcohol;
     }
 
-    public double[] get_energy_digestible_carbohydrate_coefficients() {
+    public final double[] get_energy_digestible_carbohydrate_coefficients() {
         return energy_digestible_carbohydrate;
     }
 
-    public double[] get_energy_digestible_coefficients() {
+    public final double[] get_energy_digestible_coefficients() {
         return energy_digestible;
     }
 
-    public double[] get_energy_fat_coefficients() {
+    public final double[] get_energy_fat_coefficients() {
         return energy_fat;
     }
 
-    public double[] get_energy_no_protein_coefficients() {
-        return energy_no_protein;
-    }
-
-    public double[] get_energy_protein_coefficients() {
+    public final double[] get_energy_protein_coefficients() {
         return energy_protein;
     }
 
     private void populate_coefficient_arrays() {
         for (int i = 0; i < size; i++) {
-            Food food = list.get(i);
+            Interface_food food = list.get(i);
             alcohol[i] = food.get_alcohol_coefficient();
-            alphalinolenic_acid[i] = food.get_alphalinolenic_acid_coefficient();
+            alpha_linolenic_acid[i] = food.get_alpha_linolenic_acid_coefficient();
             calcium[i] = food.get_calcium_coefficient();
             carbohydrate_by_difference[i] = food.get_carbohydrate_by_difference_coefficient();
             cholesterol[i] = food.get_cholesterol_coefficient();
@@ -348,7 +343,6 @@ public class Coefficient_nutrient {
             energy_digestible_carbohydrate[i] = food.get_energy_digestible_carbohydrate_coefficient();
             energy_digestible[i] = food.get_energy_digestible_coefficient();
             energy_fat[i] = food.get_energy_fat_coefficient();
-            energy_no_protein[i] = food.get_energy_no_protein_coefficient();
             energy_protein[i] = food.get_energy_protein_coefficient();
             epa[i] = food.get_epa_coefficient();
             fat[i] = food.get_fat_coefficient();
@@ -391,7 +385,7 @@ public class Coefficient_nutrient {
         sb.append("Foods:");
         sb.append("[");
         for (int i = 0; i < size; i++) {
-            Food food = list.get(i);
+            Interface_food food = list.get(i);
             sb.append(food.get_food_name());
             sb.append("|");
         }
@@ -458,8 +452,6 @@ public class Coefficient_nutrient {
         sb.append(print_coefficients("Energy_digestible", get_energy_digestible_coefficients()));
         sb.append("\n");
         sb.append(print_coefficients("Energy_fat", get_energy_fat_coefficients()));
-        sb.append("\n");
-        sb.append(print_coefficients("Energy_no_protein", get_energy_no_protein_coefficients()));
         sb.append("\n");
         sb.append(print_coefficients("Energy_protein", get_energy_protein_coefficients()));
         sb.append("\n");
@@ -535,8 +527,18 @@ public class Coefficient_nutrient {
     }
 
     @Override
-    public final boolean equals(Object obj) {
-        return hashCode() == obj.hashCode();
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Coefficient_nutrient other = (Coefficient_nutrient) obj;
+        return Objects.equals(this.toString(), other.toString());
     }
 
 }

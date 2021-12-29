@@ -17,8 +17,9 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.glycemic_index_test_set.Honey;
-import io.github.xjrga.foods.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
+import io.github.xjrga.foods.data.Dairy_and_egg_products;
+import io.github.xjrga.foods.data.Finfish_and_shellfish_products;
+import io.github.xjrga.foods.data.Sweets;
 import java.util.ArrayList;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -30,68 +31,104 @@ import org.junit.Test;
  */
 public class Coefficient_foodTest {
 
-    private static Coefficient_food coefficients;
-
     public Coefficient_foodTest() {
     }
 
     @BeforeClass
     public static void one_time_setup() {
-        coefficients = instantiate_coefficient_food();
+
     }
 
-    private static Coefficient_food instantiate_coefficient_food() {
-        ArrayList<Food> list = new ArrayList();
-        Chef chef = new Chef();
-        Honey honey = chef.get_glycemic_index_test_set().get_honey();
-        Yogurt_greek_plain_nonfat yogurt_greek_plain_nonfat = chef.get_glycemic_index_test_set().get_yogurt_greek_plain_nonfat();
+    @Test
+    public void test_coefficients_01() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
         list.add(honey);
-        list.add(yogurt_greek_plain_nonfat);
+        list.add(yogurt);
+        list.add(sardine);
         Coefficient_food o = new Coefficient_food(list, honey);
-        return o;
-    }
-
-    /**
-     * Test of get_coefficients method, of class Food_coefficients_02.
-     */
-    @Test
-    public void testGet_coefficients() {
-        double[] expResult = new double[]{1, 0};
-        double[] result = coefficients.get_coefficients();
+        double[] expResult = new double[]{1, 0, 0};
+        double[] result = o.get_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
-
     }
 
-    /**
-     * Test of toString method, of class Food_coefficients_02.
-     */
     @Test
-    public void testToString() {
-        String expResult = "Foods:[Honey|Yogurt, Greek, plain, nonfat]\n"
-                + "Food:[1.0,0.0]";
-        String result = coefficients.toString();
+    public void test_toString_01() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        list.add(honey);
+        list.add(yogurt);
+        list.add(sardine);
+        Coefficient_food o = new Coefficient_food(list, honey);
+        String expResult = "[Honey|Yogurt, Greek, plain, nonfat|Fish, sardine, Atlantic, canned in oil, drained solids with bone]\n"
+                + "[1.0,0.0,0.0]";
+        String result = o.toString();
         Assert.assertEquals(expResult, result);
-
     }
 
-    /**
-     * Test of hashCode method, of class Food_coefficients_02.
-     */
     @Test
-    public void testHashCode() {
-        int expResult = 1493821687;
-        int result = coefficients.hashCode();
+    public void test_coefficients_02() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        list.add(honey);
+        list.add(yogurt);
+        list.add(sardine);
+        Coefficient_food o = new Coefficient_food(list, yogurt);
+        double[] expResult = new double[]{0, 1, 0};
+        double[] result = o.get_coefficients();
+        Assert.assertArrayEquals(expResult, result, 0.00001);
+    }
+
+    @Test
+    public void test_toString_02() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        list.add(honey);
+        list.add(yogurt);
+        list.add(sardine);
+        Coefficient_food o = new Coefficient_food(list, yogurt);
+        String expResult = "[Honey|Yogurt, Greek, plain, nonfat|Fish, sardine, Atlantic, canned in oil, drained solids with bone]\n"
+                + "[0.0,1.0,0.0]";
+        String result = o.toString();
         Assert.assertEquals(expResult, result);
-
     }
 
-    /**
-     * Test of equals method, of class Food_coefficients_02.
-     */
     @Test
-    public void testEquals() {
-        Coefficient_food expResult = instantiate_coefficient_food();
-        Assert.assertEquals(expResult, coefficients.toString());
+    public void test_coefficients_03() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        list.add(honey);
+        list.add(yogurt);
+        list.add(sardine);
+        Coefficient_food o = new Coefficient_food(list, sardine);
+        double[] expResult = new double[]{0, 0, 1};
+        double[] result = o.get_coefficients();
+        Assert.assertArrayEquals(expResult, result, 0.00001);
     }
 
+    @Test
+    public void test_toString_03() {
+        ArrayList<Interface_food> list = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
+        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        list.add(honey);
+        list.add(yogurt);
+        list.add(sardine);
+        Coefficient_food o = new Coefficient_food(list, sardine);
+        String expResult = "[Honey|Yogurt, Greek, plain, nonfat|Fish, sardine, Atlantic, canned in oil, drained solids with bone]\n"
+                + "[0.0,0.0,1.0]";
+        String result = o.toString();
+        Assert.assertEquals(expResult, result);
+    }
 }

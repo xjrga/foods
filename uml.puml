@@ -1,41 +1,81 @@
 @startuml
-interface io.github.xjrga.foods.Category
-interface io.github.xjrga.foods.Dri
-interface io.github.xjrga.foods.Dri_mutable
-interface io.github.xjrga.foods.Food
-interface io.github.xjrga.foods.Food_mutable
-abstract class io.github.xjrga.foods.Food_abstract
-abstract class io.github.xjrga.foods.Category_abstract
-abstract class io.github.xjrga.foods.Dri_abstract
-class io.github.xjrga.foods.Category_impl
-class io.github.xjrga.foods.Chef
-class io.github.xjrga.foods.Coefficient_food
-class io.github.xjrga.foods.Coefficient_nutrient
-class io.github.xjrga.foods.Dri_impl
-class io.github.xjrga.foods.Food_impl
-class io.github.xjrga.foods.Food_multiplier
-class io.github.xjrga.foods.Food_mutable_impl
-class io.github.xjrga.foods.Food_summator
-class io.github.xjrga.foods.Main
-io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food
-io.github.xjrga.foods.Food_impl ..|> io.github.xjrga.foods.Food
-io.github.xjrga.foods.Food_multiplier ..|> io.github.xjrga.foods.Food
-io.github.xjrga.foods.Food_summator ..|> io.github.xjrga.foods.Food
-io.github.xjrga.foods.Food_abstract ..|> io.github.xjrga.foods.Food_mutable
-io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri
-io.github.xjrga.foods.Dri_impl ..|> io.github.xjrga.foods.Dri
-io.github.xjrga.foods.Dri_abstract ..|> io.github.xjrga.foods.Dri_mutable
-io.github.xjrga.foods.Category_abstract ..|> io.github.xjrga.foods.Category
-io.github.xjrga.foods.Category_impl --|> io.github.xjrga.foods.Category_abstract
-io.github.xjrga.foods.Food_mutable_impl --|> io.github.xjrga.foods.Food_abstract
- io.github.xjrga.foods.Dri_mutable_impl --+ io.github.xjrga.foods.Dri_impl
- io.github.xjrga.foods.Food_mutable_impl --+ io.github.xjrga.foods.Food_impl
-io.github.xjrga.foods.Dri_mutable_impl --|> io.github.xjrga.foods.Dri_abstract
-io.github.xjrga.foods.Category_impl --* io.github.xjrga.foods.Chef
-/'
-class ArrayList implements List
-class ArrayList extends AbstractList
-'/
-@enduml
-
+title Simple Uml Diagram For Foods Library (Not all relationships shown)
+<style>
+title {
+  HorizontalAlignment center
+  FontSize 24
+}
+</style>
+class java.util.ArrayList<Interface_food>
+class io.github.xjrga.foods.Food_creator
+'enum io.github.xjrga.foods.data.Atwater
+enum io.github.xjrga.foods.data.Dietary_reference_intake
+interface io.github.xjrga.foods.Interface_food
+interface io.github.xjrga.foods.Interface_food_mutable
+'enum io.github.xjrga.foods.data..data.American_indian_alaska_native_foods
+'enum io.github.xjrga.foods.data..data.Baby_foods
+'enum io.github.xjrga.foods.data..data.Baked_products
+'enum io.github.xjrga.food.data.Beef_products
+'enum io.github.xjrga.foods.data..data.Beverages
+'enum io.github.xjrga.food.data.Breakfast_cereals
+'enum io.github.xjrga.foods.data..data.Cereal_grains_and_pasta
+'enum io.github.xjrga.food.data.Dairy_and_egg_products
+'enum io.github.xjrga.foods.data..data.Fast_foods
+'enum io.github.xjrga.foods.data..data.Fats_and_oils
+'enum io.github.xjrga.food.data.Finfish_and_shellfish_products
+'enum io.github.xjrga.foods.data..data.Fruits_and_fruit_juices
+'enum io.github.xjrga.food.data.Glycemic_index_test_set
+'enum io.github.xjrga.foods.data..data.Legumes_and_legume_products
+'enum io.github.xjrga.food.data.Nut_and_seed_products
+'enum io.github.xjrga.foods.data..data.Omega3
+'enum io.github.xjrga.food.data.Pork_products
+'enum io.github.xjrga.foods.data..data.Poultry_products
+'enum io.github.xjrga.food.data.Protein_powders
+'enum io.github.xjrga.foods.data..data.Sausages_and_luncheon_meats
+'enum io.github.xjrga.food.data.Snacks
+'enum io.github.xjrga.foods.data..data.Spices_and_herbs
+'enum io.github.xjrga.food.data.Supplements
+'enum io.github.xjrga.foods.data..data.Sweets
+'enum io.github.xjrga.food.data.Vegetables_and_vegetable_products
+'enum io.github.xjrga.foods.data..data.Atwater
+class io.github.xjrga.foods.Food implements io.github.xjrga.foods.Interface_food
+class io.github.xjrga.foods.Food_multiplier implements io.github.xjrga.foods.Interface_food
+class io.github.xjrga.foods.Food_mutable implements io.github.xjrga.foods.Interface_food
+class io.github.xjrga.foods.Food_mutable implements io.github.xjrga.foods.Interface_food_mutable
+class io.github.xjrga.foods.Food_summator implements io.github.xjrga.foods.Interface_food
+io.github.xjrga.foods.Food_mutable <.. io.github.xjrga.foods.Food
+io.github.xjrga.foods.Interface_food <.. io.github.xjrga.foods.Food_multiplier
+enum io.github.xjrga.foods.data.Snacks implements io.github.xjrga.foods.Interface_food
+io.github.xjrga.foods.Food_summator ..> java.util.ArrayList 
+io.github.xjrga.foods.Coefficient_food ..> java.util.ArrayList 
+io.github.xjrga.foods.Coefficient_nutrient ..> java.util.ArrayList
+io.github.xjrga.foods.Chef o.. java.util.ArrayList
+io.github.xjrga.foods.Food_creator ..> io.github.xjrga.foods.Food_mutable
+io.github.xjrga.foods.Food_creator ..> io.github.xjrga.foods.Interface_food
+'io.github.xjrga.foods.Food_creator --o io.github.xjrga.foods.Chef
+'enum io.github.xjrga.foods.data.American_indian_alaska_native_foods --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Baby_foods --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Baked_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Beef_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Beverages --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Breakfast_cereals --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Cereal_grains_and_pasta --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Dairy_and_egg_products implements io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Fast_foods --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Fats_and_oils --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Finfish_and_shellfish_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Fruits_and_fruit_juices --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Glycemic_index_test_set --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Legumes_and_legume_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Nut_and_seed_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Omega3 --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Pork_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Poultry_products --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Protein_powders --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Sausages_and_luncheon_meats --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Snacks --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Spices_and_herbs --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Supplements --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Sweets --|> io.github.xjrga.foods.Interface_food
+'enum io.github.xjrga.foods.data.Vegetables_and_vegetable_products --|> io.github.xjrga.foods.Interface_food
 @enduml
