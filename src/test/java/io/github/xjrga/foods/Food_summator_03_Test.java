@@ -30,11 +30,11 @@ import org.junit.Test;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_summator_02Test {
+public class Food_summator_03_Test {
 
     private static Food_summator summator;
 
-    public Food_summator_02Test() {
+    public Food_summator_03_Test() {
 
     }
 

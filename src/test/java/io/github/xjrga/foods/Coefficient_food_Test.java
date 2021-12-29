@@ -29,9 +29,9 @@ import org.junit.Test;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Coefficient_foodTest {
+public class Coefficient_food_Test {
 
-    public Coefficient_foodTest() {
+    public Coefficient_food_Test() {
     }
 
     @BeforeClass

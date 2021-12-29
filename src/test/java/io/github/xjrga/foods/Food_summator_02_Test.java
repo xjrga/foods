@@ -30,11 +30,11 @@ import org.junit.Test;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_summator_04Test {
+public class Food_summator_02_Test {
 
     private static Food_summator summator;
 
-    public Food_summator_04Test() {
+    public Food_summator_02_Test() {
 
     }
 
@@ -42,16 +42,18 @@ public class Food_summator_04Test {
     public static void one_time_setup() {
         //meal 01
         ArrayList<Interface_food> list_01 = new ArrayList();
+        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
         Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food_multiplier honey_multiplier = new Food_multiplier(Sweets.Honey, 1000.0);
+        Food_multiplier honey_multiplier = new Food_multiplier(honey, 1000.0);
         Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt, 1000.0);
         list_01.add(honey_multiplier);
         list_01.add(yogurt_multiplier);
         Food_summator summator_01 = new Food_summator(list_01, "Meal_01");
         //meal 02
         ArrayList<Interface_food> list_02 = new ArrayList();
+        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
         Food tomato = Food_creator.make_food_from_food_enum(Vegetables_and_vegetable_products.Tomato_products_canned_puree_without_salt_added);
-        Food_multiplier sardine_multiplier = new Food_multiplier(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone, 1000.0);
+        Food_multiplier sardine_multiplier = new Food_multiplier(sardine, 1000.0);
         Food_multiplier tomato_multiplier = new Food_multiplier(tomato, 1000.0);
         list_02.add(sardine_multiplier);
         list_02.add(tomato_multiplier);

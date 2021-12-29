@@ -29,9 +29,9 @@ import org.junit.Test;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Coefficient_nutrientTest {
+public class Coefficient_nutrient_Test {
 
-    public Coefficient_nutrientTest() {
+    public Coefficient_nutrient_Test() {
     }
 
     @BeforeClass
