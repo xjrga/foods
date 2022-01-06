@@ -32,12 +32,12 @@ public class Food_creator {
         mutable.set_cost_in_dollars(product.get_cost_in_dollars());
         mutable.set_glycemic_index(product.get_glycemic_index());
         mutable.set_protein_in_grams(product.get_protein_in_grams());
-        mutable.set_fat(product.get_fat_in_grams());
-        mutable.set_carbohydrate_by_difference(product.get_carbohydrate_by_difference_in_grams());
+        mutable.set_fat_in_grams(product.get_fat_in_grams());
+        mutable.set_carbohydrate_by_difference_in_grams(product.get_carbohydrate_by_difference_in_grams());
         mutable.set_energy_gross_in_kilocalories(product.get_energy_gross_in_kilocalories());
         mutable.set_alcohol_in_grams(product.get_alcohol_in_grams());
         mutable.set_water_in_grams(product.get_water_in_grams());
-        mutable.set_fiber(product.get_fiber_in_grams());
+        mutable.set_fiber_in_grams(product.get_fiber_in_grams());
         mutable.set_calcium_in_milligrams(product.get_calcium_in_milligrams());
         mutable.set_iron_in_milligrams(product.get_iron_in_milligrams());
         mutable.set_magnesium_in_milligrams(product.get_magnesium_in_milligrams());

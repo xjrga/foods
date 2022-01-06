@@ -667,9 +667,9 @@ public class Food_summator implements Interface_food {
         mutable.set_weight_in_grams(weight);
         mutable.set_energy_gross_in_kilocalories(energy_gross);
         mutable.set_protein_in_grams(protein);
-        mutable.set_carbohydrate_by_difference(carbohydrate_by_difference);
-        mutable.set_fiber(fiber);
-        mutable.set_fat(fat);
+        mutable.set_carbohydrate_by_difference_in_grams(carbohydrate_by_difference);
+        mutable.set_fiber_in_grams(fiber);
+        mutable.set_fat_in_grams(fat);
         mutable.set_alcohol_in_grams(alcohol);
         mutable.set_cholesterol_in_milligrams(cholesterol);
         mutable.set_monounsaturated_fat_in_grams(monounsaturated_fat);

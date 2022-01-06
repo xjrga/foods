@@ -73,6 +73,11 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
     private Double epa;
     private Double water;
     private Double cost;
+    private Double energy_alcohol = -1.0;
+    private Double energy_digestible_carbohydrate = -1.0;
+    private Double energy_digestible = -1.0;
+    private Double energy_fat = -1.0;
+    private Double energy_protein = -1.0;
 
     /**
      *
@@ -83,9 +88,9 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
         set_weight_in_grams(0.0);
         set_energy_gross_in_kilocalories(0.0);
         set_protein_in_grams(0.0);
-        set_carbohydrate_by_difference(0.0);
-        set_fiber(0.0);
-        set_fat(0.0);
+        set_carbohydrate_by_difference_in_grams(0.0);
+        set_fiber_in_grams(0.0);
+        set_fat_in_grams(0.0);
         set_alcohol_in_grams(0.0);
         set_cholesterol_in_milligrams(0.0);
         set_monounsaturated_fat_in_grams(0.0);
@@ -214,7 +219,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      * @param quantity
      */
     @Override
-    public final void set_carbohydrate_by_difference(Double quantity) {
+    public final void set_carbohydrate_by_difference_in_grams(Double quantity) {
         carbohydrate_by_difference = quantity;
     }
 
@@ -259,7 +264,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      * @param quantity
      */
     @Override
-    public final void set_fiber(Double quantity) {
+    public final void set_fiber_in_grams(Double quantity) {
         fiber = quantity;
     }
 
@@ -286,7 +291,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      * @param quantity
      */
     @Override
-    public final void set_fat(Double quantity) {
+    public final void set_fat_in_grams(Double quantity) {
         fat = quantity;
     }
 
@@ -1384,7 +1389,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      */
     @Override
     public final Double get_energy_alcohol_in_kilocalories() {
-        return get_alcohol_in_grams() * get_alcohol_atwater_factor();
+        return energy_alcohol == -1 ? get_alcohol_in_grams() * get_alcohol_atwater_factor() : energy_alcohol;
     }
 
     /**
@@ -1402,7 +1407,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      */
     @Override
     public final Double get_energy_digestible_carbohydrate_in_kilocalories() {
-        return get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor();
+        return energy_digestible_carbohydrate == -1 ? get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor() : energy_digestible_carbohydrate;
     }
 
     /**
@@ -1420,7 +1425,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      */
     @Override
     public final Double get_energy_digestible_in_kilocalories() {
-        return get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories();
+        return energy_digestible == -1 ? get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories() : energy_digestible;
     }
 
     /**
@@ -1438,7 +1443,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      */
     @Override
     public final Double get_energy_fat_in_kilocalories() {
-        return get_fat_in_grams() * get_fat_atwater_factor();
+        return energy_fat == -1 ? get_fat_in_grams() * get_fat_atwater_factor() : energy_fat;
     }
 
     /**
@@ -1456,7 +1461,7 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
      */
     @Override
     public final Double get_energy_protein_in_kilocalories() {
-        return get_protein_in_grams() * get_protein_atwater_factor();
+        return energy_protein == -1 ? get_protein_in_grams() * get_protein_atwater_factor() : energy_protein;
     }
 
     /**
@@ -1466,6 +1471,31 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
     @Override
     public final Double get_energy_protein_coefficient() {
         return get_energy_protein_in_kilocalories() / weight;
+    }
+
+    @Override
+    public final void set_energy_alcohol_in_kilocalories(Double energy_alcohol) {
+        this.energy_alcohol = energy_alcohol;
+    }
+
+    @Override
+    public final void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate) {
+        this.energy_digestible_carbohydrate = energy_digestible_carbohydrate;
+    }
+
+    @Override
+    public final void set_energy_digestible_in_kilocalories(Double energy_digestible) {
+        this.energy_digestible = energy_digestible;
+    }
+
+    @Override
+    public final void set_energy_fat_in_kilocalories(Double energy_fat) {
+        this.energy_fat = energy_fat;
+    }
+
+    @Override
+    public final void set_energy_protein_in_kilocalories(Double energy_protein) {
+        this.energy_protein = energy_protein;
     }
 
     /**

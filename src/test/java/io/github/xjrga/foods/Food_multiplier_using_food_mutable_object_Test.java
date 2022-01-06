@@ -655,12 +655,12 @@ public class Food_multiplier_using_food_mutable_object_Test {
         food.set_cost_in_dollars(f.get_cost_in_dollars());
         food.set_glycemic_index(f.get_glycemic_index());
         food.set_protein_in_grams(f.get_protein_in_grams());
-        food.set_fat(f.get_fat_in_grams());
-        food.set_carbohydrate_by_difference(f.get_carbohydrate_by_difference_in_grams());
+        food.set_fat_in_grams(f.get_fat_in_grams());
+        food.set_carbohydrate_by_difference_in_grams(f.get_carbohydrate_by_difference_in_grams());
         food.set_energy_gross_in_kilocalories(f.get_energy_gross_in_kilocalories());
         food.set_alcohol_in_grams(f.get_alcohol_in_grams());
         food.set_water_in_grams(f.get_water_in_grams());
-        food.set_fiber(f.get_fiber_in_grams());
+        food.set_fiber_in_grams(f.get_fiber_in_grams());
         food.set_calcium_in_milligrams(f.get_calcium_in_milligrams());
         food.set_iron_in_milligrams(f.get_iron_in_milligrams());
         food.set_magnesium_in_milligrams(f.get_magnesium_in_milligrams());

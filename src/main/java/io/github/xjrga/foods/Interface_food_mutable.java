@@ -73,7 +73,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_carbohydrate_by_difference(Double quantity);
+    void set_carbohydrate_by_difference_in_grams(Double quantity);
 
     /**
      * Set 'carbohydrate by difference' atwater specific energy conversion
@@ -88,7 +88,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_fiber(Double quantity);
+    void set_fiber_in_grams(Double quantity);
 
     /**
      * Set total fat, includes saturated, polyunsaturated and monounsaturated
@@ -96,7 +96,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_fat(Double quantity);
+    void set_fat_in_grams(Double quantity);
 
     /**
      * Set 'fat' atwater specific energy conversion factor (Kcal / g of fat)

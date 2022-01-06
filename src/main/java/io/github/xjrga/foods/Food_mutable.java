@@ -90,9 +90,9 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         set_weight_in_grams(0.0);
         set_energy_gross_in_kilocalories(0.0);
         set_protein_in_grams(0.0);
-        set_carbohydrate_by_difference(0.0);
-        set_fiber(0.0);
-        set_fat(0.0);
+        set_carbohydrate_by_difference_in_grams(0.0);
+        set_fiber_in_grams(0.0);
+        set_fat_in_grams(0.0);
         set_alcohol_in_grams(0.0);
         set_cholesterol_in_milligrams(0.0);
         set_monounsaturated_fat_in_grams(0.0);
@@ -225,7 +225,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @param quantity
      */
     @Override
-    public final void set_carbohydrate_by_difference(Double quantity) {
+    public final void set_carbohydrate_by_difference_in_grams(Double quantity) {
         carbohydrate_by_difference = quantity;
     }
 
@@ -270,7 +270,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @param quantity
      */
     @Override
-    public final void set_fiber(Double quantity) {
+    public final void set_fiber_in_grams(Double quantity) {
         fiber = quantity;
     }
 
@@ -297,7 +297,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @param quantity
      */
     @Override
-    public final void set_fat(Double quantity) {
+    public final void set_fat_in_grams(Double quantity) {
         fat = quantity;
     }
 
