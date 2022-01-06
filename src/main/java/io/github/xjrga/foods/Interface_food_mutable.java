@@ -42,14 +42,14 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_weight(Double quantity);
+    void set_weight_in_grams(Double quantity);
 
     /**
      * Set gross energy (Kcal)
      *
      * @param quantity
      */
-    void set_energy_gross(Double quantity);
+    void set_energy_gross_in_kilocalories(Double quantity);
 
     //Macronutrients
     /**
@@ -57,7 +57,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_protein(Double quantity);
+    void set_protein_in_grams(Double quantity);
 
     /**
      * Set 'protein' atwater specific energy conversion factor (Kcal / g of
@@ -110,7 +110,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_alcohol(Double quantity);
+    void set_alcohol_in_grams(Double quantity);
 
     /**
      * Set 'ethyl alcohol' atwater specific energy conversion factor (Kcal / g
@@ -125,28 +125,28 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_cholesterol(Double quantity);
+    void set_cholesterol_in_milligrams(Double quantity);
 
     /**
      * Set monounsaturated fat (g)
      *
      * @param quantity
      */
-    void set_monounsaturated_fat(Double quantity);
+    void set_monounsaturated_fat_in_grams(Double quantity);
 
     /**
      * Set polyunsaturated fat (g)
      *
      * @param quantity
      */
-    void set_polyunsaturated_fat(Double quantity);
+    void set_polyunsaturated_fat_in_grams(Double quantity);
 
     /**
      * Set saturated fat (g)
      *
      * @param quantity
      */
-    void set_saturated_fat(Double quantity);
+    void set_saturated_fat_in_grams(Double quantity);
 
     //protein
     /**
@@ -154,7 +154,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_complete_protein(Double quantity);
+    void set_complete_protein_in_grams(Double quantity);
 
     //minerals
     /**
@@ -162,77 +162,77 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_calcium(Double quantity);
+    void set_calcium_in_milligrams(Double quantity);
 
     /**
      * Set copper (mg)
      *
      * @param quantity
      */
-    void set_copper(Double quantity);
+    void set_copper_in_milligrams(Double quantity);
 
     /**
      * Set flouride (µg)
      *
      * @param quantity
      */
-    void set_fluoride(Double quantity);
+    void set_fluoride_in_micrograms(Double quantity);
 
     /**
      * Set iron (mg)
      *
      * @param quantity
      */
-    void set_iron(Double quantity);
+    void set_iron_in_milligrams(Double quantity);
 
     /**
      * Set magnesium (mg)
      *
      * @param quantity
      */
-    void set_magnesium(Double quantity);
+    void set_magnesium_in_milligrams(Double quantity);
 
     /**
      * Set manganese (mg)
      *
      * @param quantity
      */
-    void set_manganese(Double quantity);
+    void set_manganese_in_milligrams(Double quantity);
 
     /**
      * Set phosphorus (mg)
      *
      * @param quantity
      */
-    void set_phosphorus(Double quantity);
+    void set_phosphorus_in_milligrams(Double quantity);
 
     /**
      * Set potassium (mg)
      *
      * @param quantity
      */
-    void set_potassium(Double quantity);
+    void set_potassium_in_milligrams(Double quantity);
 
     /**
      * Set selenium (µg)
      *
      * @param quantity
      */
-    void set_selenium(Double quantity);
+    void set_selenium_in_micrograms(Double quantity);
 
     /**
      * Set sodium (mg)
      *
      * @param quantity
      */
-    void set_sodium(Double quantity);
+    void set_sodium_in_milligrams(Double quantity);
 
     /**
      * Set zinc (mg)
      *
      * @param quantity
      */
-    void set_zinc(Double quantity);
+    void set_zinc_in_milligrams(Double quantity);
 
     //vitamins
     /**
@@ -240,91 +240,91 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_folate(Double quantity);
+    void set_folate_in_micrograms(Double quantity);
 
     /**
      * Set niacin (mg)
      *
      * @param quantity
      */
-    void set_niacin(Double quantity);
+    void set_niacin_in_milligrams(Double quantity);
 
     /**
      * Set pantothenic acid (mg)
      *
      * @param quantity
      */
-    void set_pantothenic_acid(Double quantity);
+    void set_pantothenic_acid_in_milligrams(Double quantity);
 
     /**
      * Set riboflavin (mg)
      *
      * @param quantity
      */
-    void set_riboflavin(Double quantity);
+    void set_riboflavin_in_milligrams(Double quantity);
 
     /**
      * Set thiamin (mg)
      *
      * @param quantity
      */
-    void set_thiamin(Double quantity);
+    void set_thiamin_in_milligrams(Double quantity);
 
     /**
      * Set vitamin a (µg)
      *
      * @param quantity
      */
-    void set_vitamin_a(Double quantity);
+    void set_vitamin_a_in_micrograms(Double quantity);
 
     /**
      * Set vitaming b12 (µg)
      *
      * @param quantity
      */
-    void set_vitamin_b12(Double quantity);
+    void set_vitamin_b12_in_micrograms(Double quantity);
 
     /**
      * Set vitamin b6 (mg)
      *
      * @param quantity
      */
-    void set_vitamin_b6(Double quantity);
+    void set_vitamin_b6_in_milligrams(Double quantity);
 
     /**
      * Set vitamin c (mg)
      *
      * @param quantity
      */
-    void set_vitamin_c(Double quantity);
+    void set_vitamin_c_in_milligrams(Double quantity);
 
     /**
      * Set vitamin d (µg)
      *
      * @param quantity
      */
-    void set_vitamin_d(Double quantity);
+    void set_vitamin_d_in_micrograms(Double quantity);
 
     /**
      * Set vitamin e (mg)
      *
      * @param quantity
      */
-    void set_vitamin_e(Double quantity);
+    void set_vitamin_e_in_milligrams(Double quantity);
 
     /**
      * Set vitamin k (µg)
      *
      * @param quantity
      */
-    void set_vitamin_k(Double quantity);
+    void set_vitamin_k_in_micrograms(Double quantity);
 
     /**
      * Set choline (mg)
      *
      * @param quantity
      */
-    void set_choline(Double quantity);
+    void set_choline_in_milligrams(Double quantity);
 
     //glycemic
     /**
@@ -345,28 +345,28 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_alpha_linolenic_acid(Double quantity);
+    void set_alpha_linolenic_acid_in_grams(Double quantity);
 
     /**
      * Set linoleic acid (g)
      *
      * @param quantity
      */
-    void set_linoleic_acid(Double quantity);
+    void set_linoleic_acid_in_grams(Double quantity);
 
     /**
      * Set docosahexaenoic acid "dha" (g)
      *
      * @param quantity
      */
-    void set_dha(Double quantity);
+    void set_dha_in_grams(Double quantity);
 
     /**
      * Set eicosapentaenoic acid "epa" (g)
      *
      * @param quantity
      */
-    void set_epa(Double quantity);
+    void set_epa_in_grams(Double quantity);
 
     //water
     /**
@@ -374,7 +374,7 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_water(Double quantity);
+    void set_water_in_grams(Double quantity);
 
     //cost
     /**
@@ -382,17 +382,17 @@ public interface Interface_food_mutable {
      *
      * @param quantity
      */
-    void set_cost(Double quantity);
+    void set_cost_in_dollars(Double quantity);
 
-    void set_energy_alcohol(Double energy_alcohol);
+    void set_energy_alcohol_in_kilocalories(Double energy_alcohol);
 
-    void set_energy_digestible(Double energy_digestible);
+    void set_energy_digestible_in_kilocalories(Double energy_digestible);
 
-    void set_energy_digestible_carbohydrate(Double energy_digestible_carbohydrate);
+    void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate);
 
-    void set_energy_fat(Double energy_fat);
+    void set_energy_fat_in_kilocalories(Double energy_fat);
 
-    void set_energy_protein(Double energy_protein);
+    void set_energy_protein_in_kilocalories(Double energy_protein);
 }
 
 //https://www.fao.org/3/y5022e/y5022e04.htm

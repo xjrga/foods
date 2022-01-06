@@ -44,22 +44,22 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_weight() {
+    public final Double get_weight_in_grams() {
         return grams_of_food;
     }
 
     @Override
-    public final Double get_energy_gross() {
-        return food.get_energy_gross_coefficient() * grams_of_food;
+    public final Double get_energy_gross_in_kilocalories() {
+        return food.get_energy_gross_coefficient_in_kilocalories() * grams_of_food;
     }
 
     @Override
-    public final Double get_energy_gross_coefficient() {
-        return food.get_energy_gross_coefficient();
+    public final Double get_energy_gross_coefficient_in_kilocalories() {
+        return food.get_energy_gross_coefficient_in_kilocalories();
     }
 
     @Override
-    public final Double get_protein() {
+    public final Double get_protein_in_grams() {
         return food.get_protein_coefficient() * grams_of_food;
     }
 
@@ -74,7 +74,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_carbohydrate_by_difference() {
+    public final Double get_carbohydrate_by_difference_in_grams() {
         return food.get_carbohydrate_by_difference_coefficient() * grams_of_food;
     }
 
@@ -89,7 +89,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_fiber() {
+    public final Double get_fiber_in_grams() {
         return food.get_fiber_coefficient() * grams_of_food;
     }
 
@@ -99,7 +99,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_fat() {
+    public final Double get_fat_in_grams() {
         return food.get_fat_coefficient() * grams_of_food;
     }
 
@@ -114,7 +114,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_alcohol() {
+    public final Double get_alcohol_in_grams() {
         return food.get_alcohol_coefficient() * grams_of_food;
     }
 
@@ -129,7 +129,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_digestible_carbohydrate() {
+    public final Double get_digestible_carbohydrate_in_grams() {
         return food.get_digestible_carbohydrate_coefficient() * grams_of_food;
     }
 
@@ -139,7 +139,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_cholesterol() {
+    public final Double get_cholesterol_in_milligrams() {
         return food.get_cholesterol_coefficient() * grams_of_food;
     }
 
@@ -149,7 +149,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_monounsaturated_fat() {
+    public final Double get_monounsaturated_fat_in_grams() {
         return food.get_monounsaturated_fat_coefficient() * grams_of_food;
     }
 
@@ -159,7 +159,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_polyunsaturated_fat() {
+    public final Double get_polyunsaturated_fat_in_grams() {
         return food.get_polyunsaturated_fat_coefficient() * grams_of_food;
     }
 
@@ -169,7 +169,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_saturated_fat() {
+    public final Double get_saturated_fat_in_grams() {
         return food.get_saturated_fat_coefficient() * grams_of_food;
     }
 
@@ -179,7 +179,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_complete_protein() {
+    public final Double get_complete_protein_in_grams() {
         return food.get_complete_protein_coefficient() * grams_of_food;
     }
 
@@ -189,7 +189,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_calcium() {
+    public final Double get_calcium_in_milligrams() {
         return food.get_calcium_coefficient() * grams_of_food;
     }
 
@@ -199,7 +199,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_copper() {
+    public final Double get_copper_in_milligrams() {
         return food.get_copper_coefficient() * grams_of_food;
     }
 
@@ -209,7 +209,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_fluoride() {
+    public final Double get_fluoride_in_micrograms() {
         return food.get_fluoride_coefficient() * grams_of_food;
     }
 
@@ -219,7 +219,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_iron() {
+    public final Double get_iron_in_milligrams() {
         return food.get_iron_coefficient() * grams_of_food;
     }
 
@@ -229,7 +229,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_magnesium() {
+    public final Double get_magnesium_in_milligrams() {
         return food.get_magnesium_coefficient() * grams_of_food;
     }
 
@@ -239,7 +239,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_manganese() {
+    public final Double get_manganese_in_milligrams() {
         return food.get_manganese_coefficient() * grams_of_food;
     }
 
@@ -249,7 +249,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_phosphorus() {
+    public final Double get_phosphorus_in_milligrams() {
         return food.get_phosphorus_coefficient() * grams_of_food;
     }
 
@@ -259,7 +259,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_potassium() {
+    public final Double get_potassium_in_milligrams() {
         return food.get_potassium_coefficient() * grams_of_food;
     }
 
@@ -269,7 +269,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_selenium() {
+    public final Double get_selenium_in_micrograms() {
         return food.get_selenium_coefficient() * grams_of_food;
     }
 
@@ -279,7 +279,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_sodium() {
+    public final Double get_sodium_in_milligrams() {
         return food.get_sodium_coefficient() * grams_of_food;
     }
 
@@ -289,7 +289,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_zinc() {
+    public final Double get_zinc_in_milligrams() {
         return food.get_zinc_coefficient() * grams_of_food;
     }
 
@@ -299,7 +299,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_folate() {
+    public final Double get_folate_in_micrograms() {
         return food.get_folate_coefficient() * grams_of_food;
     }
 
@@ -309,7 +309,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_niacin() {
+    public final Double get_niacin_in_milligrams() {
         return food.get_niacin_coefficient() * grams_of_food;
     }
 
@@ -319,7 +319,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_pantothenic_acid() {
+    public final Double get_pantothenic_acid_in_milligrams() {
         return food.get_pantothenic_acid_coefficient() * grams_of_food;
     }
 
@@ -329,7 +329,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_riboflavin() {
+    public final Double get_riboflavin_in_milligrams() {
         return food.get_riboflavin_coefficient() * grams_of_food;
     }
 
@@ -339,7 +339,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_thiamin() {
+    public final Double get_thiamin_in_milligrams() {
         return food.get_thiamin_coefficient() * grams_of_food;
     }
 
@@ -349,7 +349,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_a() {
+    public final Double get_vitamin_a_in_micrograms() {
         return food.get_vitamin_a_coefficient() * grams_of_food;
     }
 
@@ -359,7 +359,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_b12() {
+    public final Double get_vitamin_b12_in_micrograms() {
         return food.get_vitamin_b12_coefficient() * grams_of_food;
     }
 
@@ -369,7 +369,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_b6() {
+    public final Double get_vitamin_b6_in_milligrams() {
         return food.get_vitamin_b6_coefficient() * grams_of_food;
     }
 
@@ -379,7 +379,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_c() {
+    public final Double get_vitamin_c_in_milligrams() {
         return food.get_vitamin_c_coefficient() * grams_of_food;
     }
 
@@ -389,7 +389,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_d() {
+    public final Double get_vitamin_d_in_micrograms() {
         return food.get_vitamin_d_coefficient() * grams_of_food;
     }
 
@@ -399,7 +399,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_e() {
+    public final Double get_vitamin_e_in_milligrams() {
         return food.get_vitamin_e_coefficient() * grams_of_food;
     }
 
@@ -409,7 +409,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_vitamin_k() {
+    public final Double get_vitamin_k_in_micrograms() {
         return food.get_vitamin_k_coefficient() * grams_of_food;
     }
 
@@ -419,7 +419,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_choline() {
+    public final Double get_choline_in_milligrams() {
         return food.get_choline_coefficient() * grams_of_food;
     }
 
@@ -444,7 +444,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_alpha_linolenic_acid() {
+    public final Double get_alpha_linolenic_acid_in_grams() {
         return food.get_alpha_linolenic_acid_coefficient() * grams_of_food;
     }
 
@@ -454,7 +454,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_linoleic_acid() {
+    public final Double get_linoleic_acid_in_grams() {
         return food.get_linoleic_acid_coefficient() * grams_of_food;
     }
 
@@ -464,7 +464,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_dha() {
+    public final Double get_dha_in_grams() {
         return food.get_dha_coefficient() * grams_of_food;
     }
 
@@ -474,7 +474,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_epa() {
+    public final Double get_epa_in_grams() {
         return food.get_epa_coefficient() * grams_of_food;
     }
 
@@ -484,7 +484,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_water() {
+    public final Double get_water_in_grams() {
         return food.get_water_coefficient() * grams_of_food;
     }
 
@@ -494,7 +494,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_cost() {
+    public final Double get_cost_in_dollars() {
         return food.get_cost_coefficient() * grams_of_food;
     }
 
@@ -504,7 +504,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_energy_alcohol() {
+    public final Double get_energy_alcohol_in_kilocalories() {
         return food.get_energy_alcohol_coefficient() * grams_of_food;
     }
 
@@ -514,7 +514,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_energy_digestible_carbohydrate() {
+    public final Double get_energy_digestible_carbohydrate_in_kilocalories() {
         return food.get_energy_digestible_carbohydrate_coefficient() * grams_of_food;
     }
 
@@ -524,7 +524,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_energy_digestible() {
+    public final Double get_energy_digestible_in_kilocalories() {
         return food.get_energy_digestible_coefficient() * grams_of_food;
     }
 
@@ -534,7 +534,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_energy_fat() {
+    public final Double get_energy_fat_in_kilocalories() {
         return food.get_energy_fat_coefficient() * grams_of_food;
     }
 
@@ -544,7 +544,7 @@ public class Food_multiplier implements Interface_food {
     }
 
     @Override
-    public final Double get_energy_protein() {
+    public final Double get_energy_protein_in_kilocalories() {
         return food.get_energy_protein_coefficient() * grams_of_food;
     }
 
@@ -586,148 +586,148 @@ public class Food_multiplier implements Interface_food {
         if (!Objects.equals(this.get_food_name(), other.get_food_name())) {
             return false;
         }
-        if (!Objects.equals(this.get_alcohol(), other.get_alcohol())) {
+        if (!Objects.equals(this.get_alcohol_in_grams(), other.get_alcohol_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_alpha_linolenic_acid(), other.get_alpha_linolenic_acid())) {
+        if (!Objects.equals(this.get_alpha_linolenic_acid_in_grams(), other.get_alpha_linolenic_acid_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_calcium(), other.get_calcium())) {
+        if (!Objects.equals(this.get_calcium_in_milligrams(), other.get_calcium_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_carbohydrate_by_difference(), other.get_carbohydrate_by_difference())) {
+        if (!Objects.equals(this.get_carbohydrate_by_difference_in_grams(), other.get_carbohydrate_by_difference_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_cholesterol(), other.get_cholesterol())) {
+        if (!Objects.equals(this.get_cholesterol_in_milligrams(), other.get_cholesterol_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_choline(), other.get_choline())) {
+        if (!Objects.equals(this.get_choline_in_milligrams(), other.get_choline_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_complete_protein(), other.get_complete_protein())) {
+        if (!Objects.equals(this.get_complete_protein_in_grams(), other.get_complete_protein_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_copper(), other.get_copper())) {
+        if (!Objects.equals(this.get_copper_in_milligrams(), other.get_copper_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_cost(), other.get_cost())) {
+        if (!Objects.equals(this.get_cost_in_dollars(), other.get_cost_in_dollars())) {
             return false;
         }
-        if (!Objects.equals(this.get_dha(), other.get_dha())) {
+        if (!Objects.equals(this.get_dha_in_grams(), other.get_dha_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_digestible_carbohydrate(), other.get_digestible_carbohydrate())) {
+        if (!Objects.equals(this.get_digestible_carbohydrate_in_grams(), other.get_digestible_carbohydrate_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_alcohol(), other.get_energy_alcohol())) {
+        if (!Objects.equals(this.get_energy_alcohol_in_kilocalories(), other.get_energy_alcohol_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_digestible(), other.get_energy_digestible())) {
+        if (!Objects.equals(this.get_energy_digestible_in_kilocalories(), other.get_energy_digestible_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_digestible_carbohydrate(), other.get_energy_digestible_carbohydrate())) {
+        if (!Objects.equals(this.get_energy_digestible_carbohydrate_in_kilocalories(), other.get_energy_digestible_carbohydrate_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_fat(), other.get_energy_fat())) {
+        if (!Objects.equals(this.get_energy_fat_in_kilocalories(), other.get_energy_fat_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_gross(), other.get_energy_gross())) {
+        if (!Objects.equals(this.get_energy_gross_in_kilocalories(), other.get_energy_gross_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_energy_protein(), other.get_energy_protein())) {
+        if (!Objects.equals(this.get_energy_protein_in_kilocalories(), other.get_energy_protein_in_kilocalories())) {
             return false;
         }
-        if (!Objects.equals(this.get_epa(), other.get_epa())) {
+        if (!Objects.equals(this.get_epa_in_grams(), other.get_epa_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_fat(), other.get_fat())) {
+        if (!Objects.equals(this.get_fat_in_grams(), other.get_fat_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_fiber(), other.get_fiber())) {
+        if (!Objects.equals(this.get_fiber_in_grams(), other.get_fiber_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_fluoride(), other.get_fluoride())) {
+        if (!Objects.equals(this.get_fluoride_in_micrograms(), other.get_fluoride_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_folate(), other.get_folate())) {
+        if (!Objects.equals(this.get_folate_in_micrograms(), other.get_folate_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_iron(), other.get_iron())) {
+        if (!Objects.equals(this.get_iron_in_milligrams(), other.get_iron_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_linoleic_acid(), other.get_linoleic_acid())) {
+        if (!Objects.equals(this.get_linoleic_acid_in_grams(), other.get_linoleic_acid_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_magnesium(), other.get_magnesium())) {
+        if (!Objects.equals(this.get_magnesium_in_milligrams(), other.get_magnesium_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_manganese(), other.get_manganese())) {
+        if (!Objects.equals(this.get_manganese_in_milligrams(), other.get_manganese_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_monounsaturated_fat(), other.get_monounsaturated_fat())) {
+        if (!Objects.equals(this.get_monounsaturated_fat_in_grams(), other.get_monounsaturated_fat_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_niacin(), other.get_niacin())) {
+        if (!Objects.equals(this.get_niacin_in_milligrams(), other.get_niacin_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_pantothenic_acid(), other.get_pantothenic_acid())) {
+        if (!Objects.equals(this.get_pantothenic_acid_in_milligrams(), other.get_pantothenic_acid_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_phosphorus(), other.get_phosphorus())) {
+        if (!Objects.equals(this.get_phosphorus_in_milligrams(), other.get_phosphorus_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_polyunsaturated_fat(), other.get_polyunsaturated_fat())) {
+        if (!Objects.equals(this.get_polyunsaturated_fat_in_grams(), other.get_polyunsaturated_fat_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_potassium(), other.get_potassium())) {
+        if (!Objects.equals(this.get_potassium_in_milligrams(), other.get_potassium_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_protein(), other.get_protein())) {
+        if (!Objects.equals(this.get_protein_in_grams(), other.get_protein_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_riboflavin(), other.get_riboflavin())) {
+        if (!Objects.equals(this.get_riboflavin_in_milligrams(), other.get_riboflavin_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_saturated_fat(), other.get_saturated_fat())) {
+        if (!Objects.equals(this.get_saturated_fat_in_grams(), other.get_saturated_fat_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_selenium(), other.get_selenium())) {
+        if (!Objects.equals(this.get_selenium_in_micrograms(), other.get_selenium_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_sodium(), other.get_sodium())) {
+        if (!Objects.equals(this.get_sodium_in_milligrams(), other.get_sodium_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_thiamin(), other.get_thiamin())) {
+        if (!Objects.equals(this.get_thiamin_in_milligrams(), other.get_thiamin_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_a(), other.get_vitamin_a())) {
+        if (!Objects.equals(this.get_vitamin_a_in_micrograms(), other.get_vitamin_a_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_b6(), other.get_vitamin_b6())) {
+        if (!Objects.equals(this.get_vitamin_b6_in_milligrams(), other.get_vitamin_b6_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_b12(), other.get_vitamin_b12())) {
+        if (!Objects.equals(this.get_vitamin_b12_in_micrograms(), other.get_vitamin_b12_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_c(), other.get_vitamin_c())) {
+        if (!Objects.equals(this.get_vitamin_c_in_milligrams(), other.get_vitamin_c_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_d(), other.get_vitamin_d())) {
+        if (!Objects.equals(this.get_vitamin_d_in_micrograms(), other.get_vitamin_d_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_e(), other.get_vitamin_e())) {
+        if (!Objects.equals(this.get_vitamin_e_in_milligrams(), other.get_vitamin_e_in_milligrams())) {
             return false;
         }
-        if (!Objects.equals(this.get_vitamin_k(), other.get_vitamin_k())) {
+        if (!Objects.equals(this.get_vitamin_k_in_micrograms(), other.get_vitamin_k_in_micrograms())) {
             return false;
         }
-        if (!Objects.equals(this.get_water(), other.get_water())) {
+        if (!Objects.equals(this.get_water_in_grams(), other.get_water_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_weight(), other.get_weight())) {
+        if (!Objects.equals(this.get_weight_in_grams(), other.get_weight_in_grams())) {
             return false;
         }
-        if (!Objects.equals(this.get_zinc(), other.get_zinc())) {
+        if (!Objects.equals(this.get_zinc_in_milligrams(), other.get_zinc_in_milligrams())) {
             return false;
         }
         return true;

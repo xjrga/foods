@@ -41,21 +41,21 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_weight();
+    Double get_weight_in_grams();
 
     /**
      * Get gross energy (Kcal)
      *
      * @return Double
      */
-    Double get_energy_gross();
+    Double get_energy_gross_in_kilocalories();
 
     /**
      * Get gross energy coefficent (Kcal / g of food)
      *
      * @return Double
      */
-    Double get_energy_gross_coefficient();
+    Double get_energy_gross_coefficient_in_kilocalories();
 
     //Macronutrients
     /**
@@ -63,7 +63,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_protein();
+    Double get_protein_in_grams();
 
     /**
      * Get protein coefficient (g of protein / g of food)
@@ -85,7 +85,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_carbohydrate_by_difference();
+    Double get_carbohydrate_by_difference_in_grams();
 
     /**
      * Get carbohydrate by difference coefficient (g of carbohydrate by
@@ -108,7 +108,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_fiber();
+    Double get_fiber_in_grams();
 
     /**
      * Get fiber coefficient (g of fiber / g of food)
@@ -124,7 +124,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_fat();
+    Double get_fat_in_grams();
 
     /**
      * Get total fat coefficient (g of fat / g of food)
@@ -145,7 +145,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_alcohol();
+    Double get_alcohol_in_grams();
 
     /**
      * Get ethyl alcohol coefficient (g of alcohol / g of food)
@@ -167,7 +167,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_digestible_carbohydrate();
+    Double get_digestible_carbohydrate_in_grams();
 
     /**
      * Get digestible carbohydrate coefficient (g)
@@ -182,7 +182,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_cholesterol();
+    Double get_cholesterol_in_milligrams();
 
     /**
      * Get cholesterol coefficient (mg of cholesterol / g of food)
@@ -196,7 +196,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_monounsaturated_fat();
+    Double get_monounsaturated_fat_in_grams();
 
     /**
      * Get monounsaturated fat coefficient (g of fat / g of food)
@@ -210,7 +210,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_polyunsaturated_fat();
+    Double get_polyunsaturated_fat_in_grams();
 
     /**
      * Get polyunsaturated fat coefficient (g of fat / g of food)
@@ -224,7 +224,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_saturated_fat();
+    Double get_saturated_fat_in_grams();
 
     /**
      * Get saturated fat coefficient (g of fat / g of food)
@@ -239,7 +239,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_complete_protein();
+    Double get_complete_protein_in_grams();
 
     /**
      * Get complete protein coefficient (g of protein / g of food)
@@ -254,7 +254,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_calcium();
+    Double get_calcium_in_milligrams();
 
     /**
      * Get calcium coefficient (mg of calcium / g of food)
@@ -268,7 +268,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_copper();
+    Double get_copper_in_milligrams();
 
     /**
      * Get copper coefficient (mg of copper / g of food)
@@ -282,7 +282,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_fluoride();
+    Double get_fluoride_in_micrograms();
 
     /**
      * Get flouride coefficient (µg of flouride / g of food)
@@ -296,7 +296,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_iron();
+    Double get_iron_in_milligrams();
 
     /**
      * Get iron coefficient (mg of iron / g of food)
@@ -310,7 +310,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_magnesium();
+    Double get_magnesium_in_milligrams();
 
     /**
      * Get magnesium coefficient (mg of magnesium / g of food)
@@ -324,7 +324,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_manganese();
+    Double get_manganese_in_milligrams();
 
     /**
      * Get manganese coefficient (mg of manganese / g of food)
@@ -338,7 +338,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_phosphorus();
+    Double get_phosphorus_in_milligrams();
 
     /**
      * Get phosphorus coefficient (mg of phosphorus / g of food)
@@ -352,7 +352,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_potassium();
+    Double get_potassium_in_milligrams();
 
     /**
      * Get potassium coefficient (mg of potassium / g of food)
@@ -366,7 +366,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_selenium();
+    Double get_selenium_in_micrograms();
 
     /**
      * Get selenium coefficient (µg of selenium / g of food)
@@ -380,7 +380,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_sodium();
+    Double get_sodium_in_milligrams();
 
     /**
      * Get sodium coefficient (mg of sodium / g of food)
@@ -394,7 +394,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_zinc();
+    Double get_zinc_in_milligrams();
 
     /**
      * Get zinc coefficient (mg of zinc / g of food)
@@ -409,7 +409,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_folate();
+    Double get_folate_in_micrograms();
 
     /**
      * Get folate coefficient (µg of folate / g of food)
@@ -423,7 +423,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_niacin();
+    Double get_niacin_in_milligrams();
 
     /**
      * Get niacin coefficient (mg of niacin / g of food)
@@ -437,7 +437,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_pantothenic_acid();
+    Double get_pantothenic_acid_in_milligrams();
 
     /**
      * Get pantothenic acid coefficient (mg of pantothenic acid / g of food)
@@ -451,7 +451,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_riboflavin();
+    Double get_riboflavin_in_milligrams();
 
     /**
      * Get riboflavin coefficient (mg of riboflavin / g of food)
@@ -465,7 +465,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_thiamin();
+    Double get_thiamin_in_milligrams();
 
     /**
      * Get thiamin coefficient (mg of thiamin / g of food)
@@ -479,7 +479,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_a();
+    Double get_vitamin_a_in_micrograms();
 
     /**
      * Get vitamin a coefficient (µg of vitamin a / g of food)
@@ -493,7 +493,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_b12();
+    Double get_vitamin_b12_in_micrograms();
 
     /**
      * Get vitamin b12 coefficient (µg of vitamin b12 / g of food)
@@ -507,7 +507,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_b6();
+    Double get_vitamin_b6_in_milligrams();
 
     /**
      * Get vitamin b6 coefficient (mg of vitamin b6 / g of food)
@@ -521,7 +521,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_c();
+    Double get_vitamin_c_in_milligrams();
 
     /**
      * Get vitamin c coefficient (mg of vitamin c / g of food)
@@ -535,7 +535,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_d();
+    Double get_vitamin_d_in_micrograms();
 
     /**
      * Get vitamin d coefficient (µg of vitamin d / g of food)
@@ -549,7 +549,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_e();
+    Double get_vitamin_e_in_milligrams();
 
     /**
      * Get vitamin e coefficient (mg of vitamin e / g of food)
@@ -563,7 +563,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_vitamin_k();
+    Double get_vitamin_k_in_micrograms();
 
     /**
      * Get vitamin k coefficient (µg of vitamin k / g of food)
@@ -577,7 +577,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_choline();
+    Double get_choline_in_milligrams();
 
     /**
      * Get choline coefficient (mg of choline / g of food)
@@ -622,7 +622,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_alpha_linolenic_acid();
+    Double get_alpha_linolenic_acid_in_grams();
 
     /**
      * Get alpha-linolenic acid coefficient (g of alpha-linolenic acid / g of
@@ -637,7 +637,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_linoleic_acid();
+    Double get_linoleic_acid_in_grams();
 
     /**
      * Get linoleic acid coefficient (g of linoleic acid / g of food)
@@ -651,7 +651,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_dha();
+    Double get_dha_in_grams();
 
     /**
      * Get docosahexaenoic acid "dha" coefficient (g of dha / g of food)
@@ -665,7 +665,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_epa();
+    Double get_epa_in_grams();
 
     /**
      * Get eicosapentaenoic acid "epa" coefficient (g of epa / g of food)
@@ -680,7 +680,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_water();
+    Double get_water_in_grams();
 
     /**
      * Get water coefficient (g of water / g of food)
@@ -695,7 +695,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_cost();
+    Double get_cost_in_dollars();
 
     /**
      * Get cost coefficient ($ / g of food)
@@ -710,7 +710,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_energy_alcohol();
+    Double get_energy_alcohol_in_kilocalories();
 
     /**
      * Get energy provided by alcohol coefficient (Kcal / g of food)
@@ -724,7 +724,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_energy_digestible_carbohydrate();
+    Double get_energy_digestible_carbohydrate_in_kilocalories();
 
     /**
      * Get energy provided by digestible carbohydrates coefficient (Kcal / g of
@@ -739,7 +739,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_energy_digestible();
+    Double get_energy_digestible_in_kilocalories();
 
     /**
      * Get gross energy minus fiber energy coefficient (Kcal / g of food)
@@ -753,7 +753,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_energy_fat();
+    Double get_energy_fat_in_kilocalories();
 
     /**
      * Get energy provided by total fat coefficient (Kcal / g of food)
@@ -767,7 +767,7 @@ public interface Interface_food {
      *
      * @return Double
      */
-    Double get_energy_protein();
+    Double get_energy_protein_in_kilocalories();
 
     /**
      * Get energy provide by protein coefficient (Kcal / g of food)

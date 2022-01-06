@@ -350,7 +350,7 @@ public class Coefficient_nutrient {
             fluoride[i] = food.get_fluoride_coefficient();
             folate[i] = food.get_folate_coefficient();
             glycemic_load[i] = food.get_glycemic_load_coefficient();
-            gross_energy[i] = food.get_energy_gross_coefficient();
+            gross_energy[i] = food.get_energy_gross_coefficient_in_kilocalories();
             iron[i] = food.get_iron_coefficient();
             linoleic_acid[i] = food.get_linoleic_acid_coefficient();
             magnesium[i] = food.get_magnesium_coefficient();

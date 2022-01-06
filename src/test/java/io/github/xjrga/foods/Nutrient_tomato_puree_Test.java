@@ -53,91 +53,91 @@ public class Nutrient_tomato_puree_Test {
     //Alcohol, ethyl (g)
     @Test
     public void test_alcohol() {
-        assertEquals(food.get_alcohol(), 0.0, 0.00001);
+        assertEquals(food.get_alcohol_in_grams(), 0.0, 0.00001);
     }
 
     //18:3 n-3 c,c,c (Alpha-Linolenic) (g)
     @Test
     public void test_alpha_linolenic_acid() {
-        assertEquals(food.get_alpha_linolenic_acid(), 0.0, 0.00001);
+        assertEquals(food.get_alpha_linolenic_acid_in_grams(), 0.0, 0.00001);
     }
 
     //calcium
     @Test
     public void test_calcium() {
-        assertEquals(food.get_calcium(), 18.0, 0.00001);
+        assertEquals(food.get_calcium_in_milligrams(), 18.0, 0.00001);
     }
 
     //carbohydrate_by_difference
     @Test
     public void test_carbohydrate_by_difference() {
-        assertEquals(food.get_carbohydrate_by_difference(), 8.98, 0.00001);
+        assertEquals(food.get_carbohydrate_by_difference_in_grams(), 8.98, 0.00001);
     }
 
     //cholesterol
     @Test
     public void test_cholesterol() {
-        assertEquals(food.get_cholesterol(), 0.0, 0.00001);
+        assertEquals(food.get_cholesterol_in_milligrams(), 0.0, 0.00001);
     }
 
     //choline
     @Test
     public void test_choline() {
-        assertEquals(food.get_choline(), 17.60, 0.00001);
+        assertEquals(food.get_choline_in_milligrams(), 17.60, 0.00001);
     }
 
     //complete_protein
     @Test
     public void test_complete_protein() {
-        assertEquals(food.get_complete_protein(), 0.0, 0.00001);
+        assertEquals(food.get_complete_protein_in_grams(), 0.0, 0.00001);
     }
 
     //copper
     @Test
     public void test_copper() {
-        assertEquals(food.get_copper(), 0.28, 0.00001);
+        assertEquals(food.get_copper_in_milligrams(), 0.28, 0.00001);
     }
 
     //cost
     @Test
     public void test_cost() {
-        assertEquals(food.get_cost(), 0.0, 0.00001);
+        assertEquals(food.get_cost_in_dollars(), 0.0, 0.00001);
     }
 
     //dha
     @Test
     public void test_dha() {
-        assertEquals(food.get_dha(), 0.0, 0.00001);
+        assertEquals(food.get_dha_in_grams(), 0.0, 0.00001);
     }
 
     //epa
     @Test
     public void test_epa() {
-        assertEquals(food.get_epa(), 0.0, 0.00001);
+        assertEquals(food.get_epa_in_grams(), 0.0, 0.00001);
     }
 
     //fat
     @Test
     public void test_fat() {
-        assertEquals(food.get_fat(), 0.21, 0.00001);
+        assertEquals(food.get_fat_in_grams(), 0.21, 0.00001);
     }
 
     //fiber
     @Test
     public void test_fiber() {
-        assertEquals(food.get_fiber(), 1.9, 0.00001);
+        assertEquals(food.get_fiber_in_grams(), 1.9, 0.00001);
     }
 
     //fluoride
     @Test
     public void test_fluoride() {
-        assertEquals(food.get_fluoride(), 0.0, 0.00001);
+        assertEquals(food.get_fluoride_in_micrograms(), 0.0, 0.00001);
     }
 
     //folate
     @Test
     public void test_folate() {
-        assertEquals(food.get_folate(), 11.0, 0.00001);
+        assertEquals(food.get_folate_in_micrograms(), 11.0, 0.00001);
     }
 
     //glycemic_index
@@ -149,163 +149,163 @@ public class Nutrient_tomato_puree_Test {
     //energy_gross
     @Test
     public void test_energy_gross() {
-        assertEquals(food.get_energy_gross(), 38.0, 0.00001);
+        assertEquals(food.get_energy_gross_in_kilocalories(), 38.0, 0.00001);
     }
 
     //iron
     @Test
     public void test_iron() {
-        assertEquals(food.get_iron(), 1.78, 0.00001);
+        assertEquals(food.get_iron_in_milligrams(), 1.78, 0.00001);
     }
 
     //linoleic_acid
     @Test
     public void test_linoleic_acid() {
-        assertEquals(food.get_linoleic_acid(), 0.0, 0.00001);
+        assertEquals(food.get_linoleic_acid_in_grams(), 0.0, 0.00001);
     }
 
     //magnesium
     @Test
     public void test_magnesium() {
-        assertEquals(food.get_magnesium(), 23.0, 0.00001);
+        assertEquals(food.get_magnesium_in_milligrams(), 23.0, 0.00001);
     }
 
     //manganese
     @Test
     public void test_manganese() {
-        assertEquals(food.get_manganese(), 0.16, 0.00001);
+        assertEquals(food.get_manganese_in_milligrams(), 0.16, 0.00001);
     }
 
     //monounsaturated_fat
     @Test
     public void test_monounsaturated_fat() {
-        assertEquals(food.get_monounsaturated_fat(), 0.03, 0.00001);
+        assertEquals(food.get_monounsaturated_fat_in_grams(), 0.03, 0.00001);
     }
 
     //niacin
     @Test
     public void test_niacin() {
-        assertEquals(food.get_niacin(), 1.46, 0.00001);
+        assertEquals(food.get_niacin_in_milligrams(), 1.46, 0.00001);
     }
 
     //pantothenic_acid
     @Test
     public void test_pantothenic_acid() {
-        assertEquals(food.get_pantothenic_acid(), 0.44, 0.00001);
+        assertEquals(food.get_pantothenic_acid_in_milligrams(), 0.44, 0.00001);
     }
 
     //phosphorus
     @Test
     public void test_phosphorus() {
-        assertEquals(food.get_phosphorus(), 40.0, 0.00001);
+        assertEquals(food.get_phosphorus_in_milligrams(), 40.0, 0.00001);
     }
 
     //polyunsaturated_fat
     @Test
     public void test_polyunsaturated_fat() {
-        assertEquals(food.get_polyunsaturated_fat(), 0.08, 0.00001);
+        assertEquals(food.get_polyunsaturated_fat_in_grams(), 0.08, 0.00001);
     }
 
     //potassium
     @Test
     public void test_potassium() {
-        assertEquals(food.get_potassium(), 439.0, 0.00001);
+        assertEquals(food.get_potassium_in_milligrams(), 439.0, 0.00001);
     }
 
     //protein
     @Test
     public void test_protein() {
-        assertEquals(food.get_protein(), 1.65, 0.00001);
+        assertEquals(food.get_protein_in_grams(), 1.65, 0.00001);
     }
 
     //riboflavin
     @Test
     public void test_riboflavin() {
-        assertEquals(food.get_riboflavin(), 0.08, 0.00001);
+        assertEquals(food.get_riboflavin_in_milligrams(), 0.08, 0.00001);
     }
 
     //saturated_fat
     @Test
     public void test_saturated_fat() {
-        assertEquals(food.get_saturated_fat(), 0.02, 0.00001);
+        assertEquals(food.get_saturated_fat_in_grams(), 0.02, 0.00001);
     }
 
     //selenium
     @Test
     public void test_selenium() {
-        assertEquals(food.get_selenium(), 0.70, 0.00001);
+        assertEquals(food.get_selenium_in_micrograms(), 0.70, 0.00001);
     }
 
     //sodium
     @Test
     public void test_sodium() {
-        assertEquals(food.get_sodium(), 28.0, 0.00001);
+        assertEquals(food.get_sodium_in_milligrams(), 28.0, 0.00001);
     }
 
     //thiamin
     @Test
     public void test_thiamin() {
-        assertEquals(food.get_thiamin(), 0.02, 0.00001);
+        assertEquals(food.get_thiamin_in_milligrams(), 0.02, 0.00001);
     }
 
     //vitamin_a
     @Test
     public void test_vitamin_a() {
-        assertEquals(food.get_vitamin_a(), 26.0, 0.00001);
+        assertEquals(food.get_vitamin_a_in_micrograms(), 26.0, 0.00001);
     }
 
     //vitamin_b12
     @Test
     public void test_vitamin_b12() {
-        assertEquals(food.get_vitamin_b12(), 0.0, 0.00001);
+        assertEquals(food.get_vitamin_b12_in_micrograms(), 0.0, 0.00001);
     }
 
     //vitamin_b6
     @Test
     public void test_vitamin_b6() {
-        assertEquals(food.get_vitamin_b6(), 0.12, 0.00001);
+        assertEquals(food.get_vitamin_b6_in_milligrams(), 0.12, 0.00001);
     }
 
     //vitamin_c
     @Test
     public void test_vitamin_c() {
-        assertEquals(food.get_vitamin_c(), 10.60, 0.00001);
+        assertEquals(food.get_vitamin_c_in_milligrams(), 10.60, 0.00001);
     }
 
     //vitamin_d
     @Test
     public void test_vitamin_d() {
-        assertEquals(food.get_vitamin_d(), 0.0, 0.00001);
+        assertEquals(food.get_vitamin_d_in_micrograms(), 0.0, 0.00001);
     }
 
     //vitamin_e
     @Test
     public void test_vitamin_e() {
-        assertEquals(food.get_vitamin_e(), 1.97, 0.00001);
+        assertEquals(food.get_vitamin_e_in_milligrams(), 1.97, 0.00001);
     }
 
     //vitamin_k
     @Test
     public void test_vitamin_k() {
-        assertEquals(food.get_vitamin_k(), 3.40, 0.00001);
+        assertEquals(food.get_vitamin_k_in_micrograms(), 3.40, 0.00001);
     }
 
     //water
     @Test
     public void test_water() {
-        assertEquals(food.get_water(), 87.88, 0.00001);
+        assertEquals(food.get_water_in_grams(), 87.88, 0.00001);
     }
 
     //weight
     @Test
     public void test_weight() {
-        assertEquals(food.get_weight(), 100.0, 0.00001);
+        assertEquals(food.get_weight_in_grams(), 100.0, 0.00001);
     }
 
     //zinc
     @Test
     public void test_zinc() {
-        assertEquals(food.get_zinc(), 0.36, 0.00001);
+        assertEquals(food.get_zinc_in_milligrams(), 0.36, 0.00001);
     }
 
     //glycemic load
@@ -317,13 +317,13 @@ public class Nutrient_tomato_puree_Test {
     //energy_alcohol
     @Test
     public void test_energy_alcohol() {
-        assertEquals(food.get_energy_alcohol(), 0.0, 0.00001);
+        assertEquals(food.get_energy_alcohol_in_kilocalories(), 0.0, 0.00001);
     }
 
     //energy_digestible_carbohydrate
     @Test
     public void test_energy_digestible_carbohydrate() {
-        assertEquals(food.get_energy_digestible_carbohydrate(), 28.32, 0.00001);
+        assertEquals(food.get_energy_digestible_carbohydrate_in_kilocalories(), 28.32, 0.00001);
     }
 
     //energy_digestible_carbohydrate_coefficient
@@ -335,25 +335,25 @@ public class Nutrient_tomato_puree_Test {
     //energy_digestible
     @Test
     public void test_energy_digestible() {
-        assertEquals(food.get_energy_digestible(), 36.81, 0.00001);
+        assertEquals(food.get_energy_digestible_in_kilocalories(), 36.81, 0.00001);
     }
 
     //energy_fat
     @Test
     public void test_energy_fat() {
-        assertEquals(food.get_energy_fat(), 1.89, 0.00001);
+        assertEquals(food.get_energy_fat_in_kilocalories(), 1.89, 0.00001);
     }
 
     //energy_protein
     @Test
     public void test_energy_protein() {
-        assertEquals(food.get_energy_protein(), 6.6, 0.00001);
+        assertEquals(food.get_energy_protein_in_kilocalories(), 6.6, 0.00001);
     }
 
     //
     @Test
     public void test_energy_gross_coefficient() {
-        assertEquals(food.get_energy_gross_coefficient(), 0.38, 0.00001);
+        assertEquals(food.get_energy_gross_coefficient_in_kilocalories(), 0.38, 0.00001);
     }
 
     //
@@ -635,7 +635,7 @@ public class Nutrient_tomato_puree_Test {
     //digestible_carbohydrate
     @Test
     public void test_digestible_carbohydrate() {
-        assertEquals(food.get_digestible_carbohydrate(), 7.08, 0.00001);
+        assertEquals(food.get_digestible_carbohydrate_in_grams(), 7.08, 0.00001);
     }
 
     //food_quotient

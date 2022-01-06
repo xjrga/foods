@@ -53,91 +53,91 @@ public class Food_multiplier_using_food_enum_object_Test {
     //Alcohol, ethyl (g)
     @Test
     public void test_alcohol() {
-        assertEquals(multiplier.get_alcohol(), 0.0, 0.00001);
+        assertEquals(multiplier.get_alcohol_in_grams(), 0.0, 0.00001);
     }
 
     //18:3 n-3 c,c,c (Alpha-Linolenic) (g)
     @Test
     public void test_alpha_linolenic_acid() {
-        assertEquals(multiplier.get_alpha_linolenic_acid(), 0.0, 0.00001);
+        assertEquals(multiplier.get_alpha_linolenic_acid_in_grams(), 0.0, 0.00001);
     }
 
     //calcium
     @Test
     public void test_calcium() {
-        assertEquals(multiplier.get_calcium(), 382.0, 0.00001);
+        assertEquals(multiplier.get_calcium_in_milligrams(), 382.0, 0.00001);
     }
 
     //carbohydrate_by_difference
     @Test
     public void test_carbohydrate_by_difference() {
-        assertEquals(multiplier.get_carbohydrate_by_difference(), 0.0, 0.00001);
+        assertEquals(multiplier.get_carbohydrate_by_difference_in_grams(), 0.0, 0.00001);
     }
 
     //cholesterol
     @Test
     public void test_cholesterol() {
-        assertEquals(multiplier.get_cholesterol(), 142.0, 0.00001);
+        assertEquals(multiplier.get_cholesterol_in_milligrams(), 142.0, 0.00001);
     }
 
     //choline
     @Test
     public void test_choline() {
-        assertEquals(multiplier.get_choline(), 75.00, 0.00001);
+        assertEquals(multiplier.get_choline_in_milligrams(), 75.00, 0.00001);
     }
 
     //complete_protein
     @Test
     public void test_complete_protein() {
-        assertEquals(multiplier.get_complete_protein(), 24.62, 0.00001);
+        assertEquals(multiplier.get_complete_protein_in_grams(), 24.62, 0.00001);
     }
 
     //copper
     @Test
     public void test_copper() {
-        assertEquals(multiplier.get_copper(), 0.18, 0.00001);
+        assertEquals(multiplier.get_copper_in_milligrams(), 0.18, 0.00001);
     }
 
     //cost
     @Test
     public void test_cost() {
-        assertEquals(multiplier.get_cost(), 0.0, 0.00001);
+        assertEquals(multiplier.get_cost_in_dollars(), 0.0, 0.00001);
     }
 
     //dha
     @Test
     public void test_dha() {
-        assertEquals(multiplier.get_dha(), 0.50, 0.00001);
+        assertEquals(multiplier.get_dha_in_grams(), 0.50, 0.00001);
     }
 
     //epa
     @Test
     public void test_epa() {
-        assertEquals(multiplier.get_epa(), 0.47, 0.00001);
+        assertEquals(multiplier.get_epa_in_grams(), 0.47, 0.00001);
     }
 
     //fat
     @Test
     public void test_fat() {
-        assertEquals(multiplier.get_fat(), 11.45, 0.00001);
+        assertEquals(multiplier.get_fat_in_grams(), 11.45, 0.00001);
     }
 
     //fiber
     @Test
     public void test_fiber() {
-        assertEquals(multiplier.get_fiber(), 0.0, 0.00001);
+        assertEquals(multiplier.get_fiber_in_grams(), 0.0, 0.00001);
     }
 
     //fluoride
     @Test
     public void test_fluoride() {
-        assertEquals(multiplier.get_fluoride(), 0.0, 0.00001);
+        assertEquals(multiplier.get_fluoride_in_micrograms(), 0.0, 0.00001);
     }
 
     //folate
     @Test
     public void test_folate() {
-        assertEquals(multiplier.get_folate(), 10.0, 0.00001);
+        assertEquals(multiplier.get_folate_in_micrograms(), 10.0, 0.00001);
     }
 
     //glycemic_index
@@ -149,163 +149,163 @@ public class Food_multiplier_using_food_enum_object_Test {
     //energy_gross
     @Test
     public void test_energy_gross() {
-        assertEquals(multiplier.get_energy_gross(), 208.0, 0.00001);
+        assertEquals(multiplier.get_energy_gross_in_kilocalories(), 208.0, 0.00001);
     }
 
     //iron
     @Test
     public void test_iron() {
-        assertEquals(multiplier.get_iron(), 2.92, 0.00001);
+        assertEquals(multiplier.get_iron_in_milligrams(), 2.92, 0.00001);
     }
 
     //linoleic_acid
     @Test
     public void test_linoleic_acid() {
-        assertEquals(multiplier.get_linoleic_acid(), 0.0, 0.00001);
+        assertEquals(multiplier.get_linoleic_acid_in_grams(), 0.0, 0.00001);
     }
 
     //magnesium
     @Test
     public void test_magnesium() {
-        assertEquals(multiplier.get_magnesium(), 39.0, 0.00001);
+        assertEquals(multiplier.get_magnesium_in_milligrams(), 39.0, 0.00001);
     }
 
     //manganese
     @Test
     public void test_manganese() {
-        assertEquals(multiplier.get_manganese(), 0.10, 0.00001);
+        assertEquals(multiplier.get_manganese_in_milligrams(), 0.10, 0.00001);
     }
 
     //monounsaturated_fat
     @Test
     public void test_monounsaturated_fat() {
-        assertEquals(multiplier.get_monounsaturated_fat(), 3.86, 0.00001);
+        assertEquals(multiplier.get_monounsaturated_fat_in_grams(), 3.86, 0.00001);
     }
 
     //niacin
     @Test
     public void test_niacin() {
-        assertEquals(multiplier.get_niacin(), 5.24, 0.00001);
+        assertEquals(multiplier.get_niacin_in_milligrams(), 5.24, 0.00001);
     }
 
     //pantothenic_acid
     @Test
     public void test_pantothenic_acid() {
-        assertEquals(multiplier.get_pantothenic_acid(), 0.64, 0.00001);
+        assertEquals(multiplier.get_pantothenic_acid_in_milligrams(), 0.64, 0.00001);
     }
 
     //phosphorus
     @Test
     public void test_phosphorus() {
-        assertEquals(multiplier.get_phosphorus(), 490.0, 0.00001);
+        assertEquals(multiplier.get_phosphorus_in_milligrams(), 490.0, 0.00001);
     }
 
     //polyunsaturated_fat
     @Test
     public void test_polyunsaturated_fat() {
-        assertEquals(multiplier.get_polyunsaturated_fat(), 5.14, 0.00001);
+        assertEquals(multiplier.get_polyunsaturated_fat_in_grams(), 5.14, 0.00001);
     }
 
     //potassium
     @Test
     public void test_potassium() {
-        assertEquals(multiplier.get_potassium(), 397.0, 0.00001);
+        assertEquals(multiplier.get_potassium_in_milligrams(), 397.0, 0.00001);
     }
 
     //protein
     @Test
     public void test_protein() {
-        assertEquals(multiplier.get_protein(), 24.62, 0.00001);
+        assertEquals(multiplier.get_protein_in_grams(), 24.62, 0.00001);
     }
 
     //riboflavin
     @Test
     public void test_riboflavin() {
-        assertEquals(multiplier.get_riboflavin(), 0.22, 0.00001);
+        assertEquals(multiplier.get_riboflavin_in_milligrams(), 0.22, 0.00001);
     }
 
     //saturated_fat
     @Test
     public void test_saturated_fat() {
-        assertEquals(multiplier.get_saturated_fat(), 1.52, 0.00001);
+        assertEquals(multiplier.get_saturated_fat_in_grams(), 1.52, 0.00001);
     }
 
     //selenium
     @Test
     public void test_selenium() {
-        assertEquals(multiplier.get_selenium(), 52.70, 0.00001);
+        assertEquals(multiplier.get_selenium_in_micrograms(), 52.70, 0.00001);
     }
 
     //sodium
     @Test
     public void test_sodium() {
-        assertEquals(multiplier.get_sodium(), 307.0, 0.00001);
+        assertEquals(multiplier.get_sodium_in_milligrams(), 307.0, 0.00001);
     }
 
     //thiamin
     @Test
     public void test_thiamin() {
-        assertEquals(multiplier.get_thiamin(), 0.08, 0.00001);
+        assertEquals(multiplier.get_thiamin_in_milligrams(), 0.08, 0.00001);
     }
 
     //vitamin_a
     @Test
     public void test_vitamin_a() {
-        assertEquals(multiplier.get_vitamin_a(), 32.0, 0.00001);
+        assertEquals(multiplier.get_vitamin_a_in_micrograms(), 32.0, 0.00001);
     }
 
     //vitamin_b12
     @Test
     public void test_vitamin_b12() {
-        assertEquals(multiplier.get_vitamin_b12(), 8.94, 0.00001);
+        assertEquals(multiplier.get_vitamin_b12_in_micrograms(), 8.94, 0.00001);
     }
 
     //vitamin_b6
     @Test
     public void test_vitamin_b6() {
-        assertEquals(multiplier.get_vitamin_b6(), 0.16, 0.00001);
+        assertEquals(multiplier.get_vitamin_b6_in_milligrams(), 0.16, 0.00001);
     }
 
     //vitamin_c
     @Test
     public void test_vitamin_c() {
-        assertEquals(multiplier.get_vitamin_c(), 0.0, 0.00001);
+        assertEquals(multiplier.get_vitamin_c_in_milligrams(), 0.0, 0.00001);
     }
 
     //vitamin_d
     @Test
     public void test_vitamin_d() {
-        assertEquals(multiplier.get_vitamin_d(), 4.8, 0.00001);
+        assertEquals(multiplier.get_vitamin_d_in_micrograms(), 4.8, 0.00001);
     }
 
     //vitamin_e
     @Test
     public void test_vitamin_e() {
-        assertEquals(multiplier.get_vitamin_e(), 2.04, 0.00001);
+        assertEquals(multiplier.get_vitamin_e_in_milligrams(), 2.04, 0.00001);
     }
 
     //vitamin_k
     @Test
     public void test_vitamin_k() {
-        assertEquals(multiplier.get_vitamin_k(), 2.60, 0.00001);
+        assertEquals(multiplier.get_vitamin_k_in_micrograms(), 2.60, 0.00001);
     }
 
     //water
     @Test
     public void test_water() {
-        assertEquals(multiplier.get_water(), 59.61, 0.00001);
+        assertEquals(multiplier.get_water_in_grams(), 59.61, 0.00001);
     }
 
     //weight
     @Test
     public void test_weight() {
-        assertEquals(multiplier.get_weight(), 100.0, 0.00001);
+        assertEquals(multiplier.get_weight_in_grams(), 100.0, 0.00001);
     }
 
     //zinc
     @Test
     public void test_zinc() {
-        assertEquals(multiplier.get_zinc(), 1.31, 0.00001);
+        assertEquals(multiplier.get_zinc_in_milligrams(), 1.31, 0.00001);
     }
 
     //glycemic load
@@ -317,13 +317,13 @@ public class Food_multiplier_using_food_enum_object_Test {
     //energy_alcohol
     @Test
     public void test_energy_alcohol() {
-        assertEquals(multiplier.get_energy_alcohol(), 0.0, 0.00001);
+        assertEquals(multiplier.get_energy_alcohol_in_kilocalories(), 0.0, 0.00001);
     }
 
     //energy_digestible_carbohydrate
     @Test
     public void test_energy_digestible_carbohydrate() {
-        assertEquals(multiplier.get_energy_digestible_carbohydrate(), 0.0, 0.00001);
+        assertEquals(multiplier.get_energy_digestible_carbohydrate_in_kilocalories(), 0.0, 0.00001);
     }
 
     //energy_digestible_carbohydrate_coefficient
@@ -335,25 +335,25 @@ public class Food_multiplier_using_food_enum_object_Test {
     //energy_digestible
     @Test
     public void test_energy_digestible() {
-        assertEquals(multiplier.get_energy_digestible(), 201.53, 0.00001);
+        assertEquals(multiplier.get_energy_digestible_in_kilocalories(), 201.53, 0.00001);
     }
 
     //energy_fat
     @Test
     public void test_energy_fat() {
-        assertEquals(multiplier.get_energy_fat(), 103.05, 0.00001);
+        assertEquals(multiplier.get_energy_fat_in_kilocalories(), 103.05, 0.00001);
     }
 
     //energy_protein
     @Test
     public void test_energy_protein() {
-        assertEquals(multiplier.get_energy_protein(), 98.48, 0.00001);
+        assertEquals(multiplier.get_energy_protein_in_kilocalories(), 98.48, 0.00001);
     }
 
     //
     @Test
     public void test_energy_gross_coefficient() {
-        assertEquals(multiplier.get_energy_gross_coefficient(), 2.08, 0.00001);
+        assertEquals(multiplier.get_energy_gross_coefficient_in_kilocalories(), 2.08, 0.00001);
     }
 
     //
@@ -635,7 +635,7 @@ public class Food_multiplier_using_food_enum_object_Test {
     //digestible_carbohydrate
     @Test
     public void test_digestible_carbohydrate() {
-        assertEquals(multiplier.get_digestible_carbohydrate(), 0.0, 0.00001);
+        assertEquals(multiplier.get_digestible_carbohydrate_in_grams(), 0.0, 0.00001);
     }
 
     //food_quotient
@@ -649,49 +649,49 @@ public class Food_multiplier_using_food_enum_object_Test {
         Food_mutable food = new Food_mutable();
         food.set_food_name(f.get_food_name());
         food.set_food_label(f.get_food_label());
-        food.set_weight(f.get_weight());
-        food.set_complete_protein(f.get_complete_protein());
-        food.set_cost(f.get_cost());
+        food.set_weight_in_grams(f.get_weight_in_grams());
+        food.set_complete_protein_in_grams(f.get_complete_protein_in_grams());
+        food.set_cost_in_dollars(f.get_cost_in_dollars());
         food.set_glycemic_index(f.get_glycemic_index());
-        food.set_protein(f.get_protein());
-        food.set_fat(f.get_fat());
-        food.set_carbohydrate_by_difference(f.get_carbohydrate_by_difference());
-        food.set_energy_gross(f.get_energy_gross());
-        food.set_alcohol(f.get_alcohol());
-        food.set_water(f.get_water());
-        food.set_fiber(f.get_fiber());
-        food.set_calcium(f.get_calcium());
-        food.set_iron(f.get_iron());
-        food.set_magnesium(f.get_magnesium());
-        food.set_phosphorus(f.get_phosphorus());
-        food.set_potassium(f.get_potassium());
-        food.set_sodium(f.get_sodium());
-        food.set_zinc(f.get_zinc());
-        food.set_copper(f.get_copper());
-        food.set_fluoride(f.get_fluoride());
-        food.set_manganese(f.get_manganese());
-        food.set_selenium(f.get_selenium());
-        food.set_vitamin_a(f.get_vitamin_a());
-        food.set_vitamin_e(f.get_vitamin_e());
-        food.set_vitamin_d(f.get_vitamin_d());
-        food.set_vitamin_c(f.get_vitamin_c());
-        food.set_thiamin(f.get_thiamin());
-        food.set_riboflavin(f.get_riboflavin());
-        food.set_niacin(f.get_niacin());
-        food.set_pantothenic_acid(f.get_pantothenic_acid());
-        food.set_vitamin_b6(f.get_vitamin_b6());
-        food.set_vitamin_b12(f.get_vitamin_b12());
-        food.set_choline(f.get_choline());
-        food.set_vitamin_k(f.get_vitamin_k());
-        food.set_folate(f.get_folate());
-        food.set_cholesterol(f.get_cholesterol());
-        food.set_saturated_fat(f.get_saturated_fat());
-        food.set_dha(f.get_dha());
-        food.set_epa(f.get_epa());
-        food.set_monounsaturated_fat(f.get_monounsaturated_fat());
-        food.set_polyunsaturated_fat(f.get_polyunsaturated_fat());
-        food.set_linoleic_acid(f.get_linoleic_acid());
-        food.set_alpha_linolenic_acid(f.get_alpha_linolenic_acid());
+        food.set_protein_in_grams(f.get_protein_in_grams());
+        food.set_fat(f.get_fat_in_grams());
+        food.set_carbohydrate_by_difference(f.get_carbohydrate_by_difference_in_grams());
+        food.set_energy_gross_in_kilocalories(f.get_energy_gross_in_kilocalories());
+        food.set_alcohol_in_grams(f.get_alcohol_in_grams());
+        food.set_water_in_grams(f.get_water_in_grams());
+        food.set_fiber(f.get_fiber_in_grams());
+        food.set_calcium_in_milligrams(f.get_calcium_in_milligrams());
+        food.set_iron_in_milligrams(f.get_iron_in_milligrams());
+        food.set_magnesium_in_milligrams(f.get_magnesium_in_milligrams());
+        food.set_phosphorus_in_milligrams(f.get_phosphorus_in_milligrams());
+        food.set_potassium_in_milligrams(f.get_potassium_in_milligrams());
+        food.set_sodium_in_milligrams(f.get_sodium_in_milligrams());
+        food.set_zinc_in_milligrams(f.get_zinc_in_milligrams());
+        food.set_copper_in_milligrams(f.get_copper_in_milligrams());
+        food.set_fluoride_in_micrograms(f.get_fluoride_in_micrograms());
+        food.set_manganese_in_milligrams(f.get_manganese_in_milligrams());
+        food.set_selenium_in_micrograms(f.get_selenium_in_micrograms());
+        food.set_vitamin_a_in_micrograms(f.get_vitamin_a_in_micrograms());
+        food.set_vitamin_e_in_milligrams(f.get_vitamin_e_in_milligrams());
+        food.set_vitamin_d_in_micrograms(f.get_vitamin_d_in_micrograms());
+        food.set_vitamin_c_in_milligrams(f.get_vitamin_c_in_milligrams());
+        food.set_thiamin_in_milligrams(f.get_thiamin_in_milligrams());
+        food.set_riboflavin_in_milligrams(f.get_riboflavin_in_milligrams());
+        food.set_niacin_in_milligrams(f.get_niacin_in_milligrams());
+        food.set_pantothenic_acid_in_milligrams(f.get_pantothenic_acid_in_milligrams());
+        food.set_vitamin_b6_in_milligrams(f.get_vitamin_b6_in_milligrams());
+        food.set_vitamin_b12_in_micrograms(f.get_vitamin_b12_in_micrograms());
+        food.set_choline_in_milligrams(f.get_choline_in_milligrams());
+        food.set_vitamin_k_in_micrograms(f.get_vitamin_k_in_micrograms());
+        food.set_folate_in_micrograms(f.get_folate_in_micrograms());
+        food.set_cholesterol_in_milligrams(f.get_cholesterol_in_milligrams());
+        food.set_saturated_fat_in_grams(f.get_saturated_fat_in_grams());
+        food.set_dha_in_grams(f.get_dha_in_grams());
+        food.set_epa_in_grams(f.get_epa_in_grams());
+        food.set_monounsaturated_fat_in_grams(f.get_monounsaturated_fat_in_grams());
+        food.set_polyunsaturated_fat_in_grams(f.get_polyunsaturated_fat_in_grams());
+        food.set_linoleic_acid_in_grams(f.get_linoleic_acid_in_grams());
+        food.set_alpha_linolenic_acid_in_grams(f.get_alpha_linolenic_acid_in_grams());
         food.set_protein_atwater_factor(f.get_protein_atwater_factor());
         food.set_carbohydrate_by_difference_atwater_factor(f.get_carbohydrate_by_difference_atwater_factor());
         food.set_fat_atwater_factor(f.get_fat_atwater_factor());

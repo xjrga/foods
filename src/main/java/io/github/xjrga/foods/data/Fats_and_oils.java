@@ -209,7 +209,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_weight() {
+    public Double get_weight_in_grams() {
         return weight;
     }
 
@@ -218,7 +218,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_complete_protein() {
+    public Double get_complete_protein_in_grams() {
         return complete_protein;
     }
 
@@ -228,17 +228,17 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_digestible_carbohydrate() {
+    public Double get_digestible_carbohydrate_in_grams() {
         return carbohydrate_by_difference - fiber;
     }
 
     @Override
     public Double get_digestible_carbohydrate_coefficient() {
-        return get_digestible_carbohydrate() / weight;
+        return get_digestible_carbohydrate_in_grams() / weight;
     }
 
     @Override
-    public Double get_cost() {
+    public Double get_cost_in_dollars() {
         return cost;
     }
 
@@ -249,7 +249,7 @@ public enum Fats_and_oils implements Interface_food {
 
     @Override
     public Double get_glycemic_load() {
-        return get_digestible_carbohydrate() * (get_glycemic_index() / 100);
+        return get_digestible_carbohydrate_in_grams() * (get_glycemic_index() / 100);
     }
 
     @Override
@@ -258,17 +258,17 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_energy_digestible() {
-        return get_energy_protein() + get_energy_fat() + get_energy_digestible_carbohydrate() + get_energy_alcohol();
+    public Double get_energy_digestible_in_kilocalories() {
+        return get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories() + get_energy_alcohol_in_kilocalories();
     }
 
     @Override
     public Double get_energy_digestible_coefficient() {
-        return get_energy_digestible() / weight;
+        return get_energy_digestible_in_kilocalories() / weight;
     }
 
     public Double get_energy_no_protein() {
-        return get_energy_fat() + get_energy_digestible_carbohydrate() + get_energy_alcohol();
+        return get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories() + get_energy_alcohol_in_kilocalories();
     }
 
     public Double get_energy_no_protein_coefficient() {
@@ -276,47 +276,47 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_energy_digestible_carbohydrate() {
-        return get_digestible_carbohydrate() * carbohydrate_by_difference_atwater_factor;
+    public Double get_energy_digestible_carbohydrate_in_kilocalories() {
+        return get_digestible_carbohydrate_in_grams() * carbohydrate_by_difference_atwater_factor;
     }
 
     @Override
     public Double get_energy_digestible_carbohydrate_coefficient() {
-        return get_energy_digestible_carbohydrate() / weight;
+        return get_energy_digestible_carbohydrate_in_kilocalories() / weight;
     }
 
     @Override
-    public Double get_energy_protein() {
+    public Double get_energy_protein_in_kilocalories() {
         return protein * protein_atwater_factor;
     }
 
     @Override
     public Double get_energy_protein_coefficient() {
-        return get_energy_protein() / weight;
+        return get_energy_protein_in_kilocalories() / weight;
     }
 
     @Override
-    public Double get_energy_fat() {
+    public Double get_energy_fat_in_kilocalories() {
         return fat * fat_atwater_factor;
     }
 
     @Override
     public Double get_energy_fat_coefficient() {
-        return get_energy_fat() / weight;
+        return get_energy_fat_in_kilocalories() / weight;
     }
 
     @Override
-    public Double get_energy_alcohol() {
+    public Double get_energy_alcohol_in_kilocalories() {
         return alcohol * alcohol_atwater_factor;
     }
 
     @Override
     public Double get_energy_alcohol_coefficient() {
-        return get_energy_alcohol() / weight;
+        return get_energy_alcohol_in_kilocalories() / weight;
     }
 
     @Override
-    public Double get_protein() {
+    public Double get_protein_in_grams() {
         return protein;
     }
 
@@ -326,7 +326,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_fat() {
+    public Double get_fat_in_grams() {
         return fat;
     }
 
@@ -336,7 +336,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_carbohydrate_by_difference() {
+    public Double get_carbohydrate_by_difference_in_grams() {
         return carbohydrate_by_difference;
     }
 
@@ -346,17 +346,17 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_energy_gross() {
+    public Double get_energy_gross_in_kilocalories() {
         return energy_gross;
     }
 
     @Override
-    public Double get_energy_gross_coefficient() {
+    public Double get_energy_gross_coefficient_in_kilocalories() {
         return energy_gross / weight;
     }
 
     @Override
-    public Double get_alcohol() {
+    public Double get_alcohol_in_grams() {
         return alcohol;
     }
 
@@ -366,7 +366,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_water() {
+    public Double get_water_in_grams() {
         return water;
     }
 
@@ -376,7 +376,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_fiber() {
+    public Double get_fiber_in_grams() {
         return fiber;
     }
 
@@ -386,7 +386,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_calcium() {
+    public Double get_calcium_in_milligrams() {
         return calcium;
     }
 
@@ -396,7 +396,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_iron() {
+    public Double get_iron_in_milligrams() {
         return iron;
     }
 
@@ -406,7 +406,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_magnesium() {
+    public Double get_magnesium_in_milligrams() {
         return magnesium;
     }
 
@@ -416,7 +416,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_phosphorus() {
+    public Double get_phosphorus_in_milligrams() {
         return phosphorus;
     }
 
@@ -426,7 +426,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_potassium() {
+    public Double get_potassium_in_milligrams() {
         return potassium;
     }
 
@@ -436,7 +436,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_sodium() {
+    public Double get_sodium_in_milligrams() {
         return sodium;
     }
 
@@ -446,7 +446,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_zinc() {
+    public Double get_zinc_in_milligrams() {
         return zinc;
     }
 
@@ -456,7 +456,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_copper() {
+    public Double get_copper_in_milligrams() {
         return copper;
     }
 
@@ -466,7 +466,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_fluoride() {
+    public Double get_fluoride_in_micrograms() {
         return fluoride;
     }
 
@@ -476,7 +476,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_manganese() {
+    public Double get_manganese_in_milligrams() {
         return manganese;
     }
 
@@ -486,7 +486,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_selenium() {
+    public Double get_selenium_in_micrograms() {
         return selenium;
     }
 
@@ -496,7 +496,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_a() {
+    public Double get_vitamin_a_in_micrograms() {
         return vitamin_a;
     }
 
@@ -506,7 +506,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_e() {
+    public Double get_vitamin_e_in_milligrams() {
         return vitamin_e;
     }
 
@@ -516,7 +516,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_d() {
+    public Double get_vitamin_d_in_micrograms() {
         return vitamin_d;
     }
 
@@ -526,7 +526,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_c() {
+    public Double get_vitamin_c_in_milligrams() {
         return vitamin_c;
     }
 
@@ -536,7 +536,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_thiamin() {
+    public Double get_thiamin_in_milligrams() {
         return thiamin;
     }
 
@@ -546,7 +546,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_riboflavin() {
+    public Double get_riboflavin_in_milligrams() {
         return riboflavin;
     }
 
@@ -556,7 +556,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_niacin() {
+    public Double get_niacin_in_milligrams() {
         return niacin;
     }
 
@@ -566,7 +566,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_pantothenic_acid() {
+    public Double get_pantothenic_acid_in_milligrams() {
         return pantothenic_acid;
     }
 
@@ -576,7 +576,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_b6() {
+    public Double get_vitamin_b6_in_milligrams() {
         return vitamin_b6;
     }
 
@@ -586,7 +586,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_b12() {
+    public Double get_vitamin_b12_in_micrograms() {
         return vitamin_b12;
     }
 
@@ -596,7 +596,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_choline() {
+    public Double get_choline_in_milligrams() {
         return choline;
     }
 
@@ -606,7 +606,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_k() {
+    public Double get_vitamin_k_in_micrograms() {
         return vitamin_k;
     }
 
@@ -616,7 +616,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_folate() {
+    public Double get_folate_in_micrograms() {
         return folate;
     }
 
@@ -626,7 +626,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_cholesterol() {
+    public Double get_cholesterol_in_milligrams() {
         return cholesterol;
     }
 
@@ -636,7 +636,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_saturated_fat() {
+    public Double get_saturated_fat_in_grams() {
         return saturated_fat;
     }
 
@@ -646,7 +646,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_dha() {
+    public Double get_dha_in_grams() {
         return dha;
     }
 
@@ -656,7 +656,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_epa() {
+    public Double get_epa_in_grams() {
         return epa;
     }
 
@@ -666,7 +666,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_monounsaturated_fat() {
+    public Double get_monounsaturated_fat_in_grams() {
         return monounsaturated_fat;
     }
 
@@ -676,7 +676,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_polyunsaturated_fat() {
+    public Double get_polyunsaturated_fat_in_grams() {
         return polyunsaturated_fat;
     }
 
@@ -686,7 +686,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_linoleic_acid() {
+    public Double get_linoleic_acid_in_grams() {
         return linoleic_acid;
     }
 
@@ -696,7 +696,7 @@ public enum Fats_and_oils implements Interface_food {
     }
 
     @Override
-    public Double get_alpha_linolenic_acid() {
+    public Double get_alpha_linolenic_acid_in_grams() {
         return alpha_linolenic_acid;
     }
 
@@ -741,10 +741,10 @@ public enum Fats_and_oils implements Interface_food {
 
     @Override
     public Double get_food_quotient() {
-        Double fq = get_energy_digestible_carbohydrate() / get_energy_digestible() * 1.00
-                + get_energy_fat() / get_energy_digestible() * 0.71
-                + get_energy_protein() / get_energy_digestible() * 0.81
-                + get_energy_alcohol() / get_energy_digestible() * 0.667;
+        Double fq = get_energy_digestible_carbohydrate_in_kilocalories() / get_energy_digestible_in_kilocalories() * 1.00
+                + get_energy_fat_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.71
+                + get_energy_protein_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.81
+                + get_energy_alcohol_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.667;
         return fq;
     }
 }

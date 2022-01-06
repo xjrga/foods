@@ -20,11 +20,9 @@ package io.github.xjrga.foods;
 import java.util.Objects;
 
 /**
- * This is a food object to set nutrition fact values. Nutrient values are
- * directly proportional to weight, if weight changes, nutrient values must
- * change.
+ * This is an abstract food to extend from
  */
-public class Food_mutable implements Interface_food_mutable, Interface_food {
+public abstract class Abstract_food implements Interface_food_mutable, Interface_food {
 
     private String name;
     private String label;
@@ -69,22 +67,17 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     private Double vitamin_k;
     private Double choline;
     private Double glycemic_index;
-    private Double alpha_linolenic_acid;
+    private Double alphalinolenic_acid;
     private Double linoleic_acid;
     private Double dha;
     private Double epa;
     private Double water;
     private Double cost;
-    private Double energy_alcohol;
-    private Double energy_digestible_carbohydrate;
-    private Double energy_digestible;
-    private Double energy_fat;
-    private Double energy_protein;
 
     /**
      *
      */
-    public Food_mutable() {
+    public Abstract_food() {
         set_food_name("");
         set_food_label("");
         set_weight_in_grams(0.0);
@@ -130,15 +123,11 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         set_epa_in_grams(0.0);
         set_water_in_grams(0.0);
         set_cost_in_dollars(0.0);
-        set_energy_alcohol_in_kilocalories(-1.0);
-        set_energy_digestible_carbohydrate_in_kilocalories(-1.0);
-        set_energy_digestible_in_kilocalories(-1.0);
-        set_energy_fat_in_kilocalories(-1.0);
-        set_energy_protein_in_kilocalories(-1.0);
-        set_protein_atwater_factor(0.0);
-        set_carbohydrate_by_difference_atwater_factor(0.0);
-        set_fat_atwater_factor(0.0);
-        set_alcohol_atwater_factor(0.0);
+        //
+        set_protein_atwater_factor(4.0);
+        set_carbohydrate_by_difference_atwater_factor(4.0);
+        set_fat_atwater_factor(9.0);
+        set_alcohol_atwater_factor(6.93);
     }
 
     @Override
@@ -1230,7 +1219,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_alpha_linolenic_acid_in_grams() {
-        return alpha_linolenic_acid;
+        return alphalinolenic_acid;
     }
 
     /**
@@ -1239,7 +1228,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final void set_alpha_linolenic_acid_in_grams(Double quantity) {
-        alpha_linolenic_acid = quantity;
+        alphalinolenic_acid = quantity;
     }
 
     /**
@@ -1248,7 +1237,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_alpha_linolenic_acid_coefficient() {
-        return alpha_linolenic_acid / weight;
+        return alphalinolenic_acid / weight;
     }
 
     /**
@@ -1388,31 +1377,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         return cost / weight;
     }
 
-    @Override
-    public final void set_energy_alcohol_in_kilocalories(Double energy_alcohol) {
-        this.energy_alcohol = energy_alcohol;
-    }
-
-    @Override
-    public final void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate) {
-        this.energy_digestible_carbohydrate = energy_digestible_carbohydrate;
-    }
-
-    @Override
-    public final void set_energy_digestible_in_kilocalories(Double energy_digestible) {
-        this.energy_digestible = energy_digestible;
-    }
-
-    @Override
-    public final void set_energy_fat_in_kilocalories(Double energy_fat) {
-        this.energy_fat = energy_fat;
-    }
-
-    @Override
-    public final void set_energy_protein_in_kilocalories(Double energy_protein) {
-        this.energy_protein = energy_protein;
-    }
-
     //calculated energy
     /**
      *
@@ -1420,7 +1384,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_energy_alcohol_in_kilocalories() {
-        return energy_alcohol == -1 ? get_alcohol_in_grams() * get_alcohol_atwater_factor() : energy_alcohol;
+        return get_alcohol_in_grams() * get_alcohol_atwater_factor();
     }
 
     /**
@@ -1438,7 +1402,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_energy_digestible_carbohydrate_in_kilocalories() {
-        return energy_digestible_carbohydrate == -1 ? get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor() : energy_digestible_carbohydrate;
+        return get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor();
     }
 
     /**
@@ -1456,7 +1420,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_energy_digestible_in_kilocalories() {
-        return energy_digestible == -1 ? get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories() : energy_digestible;
+        return get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories();
     }
 
     /**
@@ -1474,7 +1438,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_energy_fat_in_kilocalories() {
-        return energy_fat == -1 ? get_fat_in_grams() * get_fat_atwater_factor() : energy_fat;
+        return get_fat_in_grams() * get_fat_atwater_factor();
     }
 
     /**
@@ -1492,7 +1456,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      */
     @Override
     public final Double get_energy_protein_in_kilocalories() {
-        return energy_protein == -1 ? get_protein_in_grams() * get_protein_atwater_factor() : energy_protein;
+        return get_protein_in_grams() * get_protein_atwater_factor();
     }
 
     /**
@@ -1538,155 +1502,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Food_mutable other = (Food_mutable) obj;
-        if (!Objects.equals(this.name, other.name)) {
-            return false;
-        }
-        if (!Objects.equals(this.label, other.label)) {
-            return false;
-        }
-        if (!Objects.equals(this.weight, other.weight)) {
-            return false;
-        }
-        if (!Objects.equals(this.gross_energy, other.gross_energy)) {
-            return false;
-        }
-        if (!Objects.equals(this.protein, other.protein)) {
-            return false;
-        }
-        if (!Objects.equals(this.protein_atwater_factor, other.protein_atwater_factor)) {
-            return false;
-        }
-        if (!Objects.equals(this.carbohydrate_by_difference, other.carbohydrate_by_difference)) {
-            return false;
-        }
-        if (!Objects.equals(this.carbohydrate_by_difference_atwater_factor, other.carbohydrate_by_difference_atwater_factor)) {
-            return false;
-        }
-        if (!Objects.equals(this.fiber, other.fiber)) {
-            return false;
-        }
-        if (!Objects.equals(this.fat, other.fat)) {
-            return false;
-        }
-        if (!Objects.equals(this.fat_atwater_factor, other.fat_atwater_factor)) {
-            return false;
-        }
-        if (!Objects.equals(this.alcohol, other.alcohol)) {
-            return false;
-        }
-        if (!Objects.equals(this.alcohol_atwater_factor, other.alcohol_atwater_factor)) {
-            return false;
-        }
-        if (!Objects.equals(this.cholesterol, other.cholesterol)) {
-            return false;
-        }
-        if (!Objects.equals(this.monounsaturated_fat, other.monounsaturated_fat)) {
-            return false;
-        }
-        if (!Objects.equals(this.polyunsaturated_fat, other.polyunsaturated_fat)) {
-            return false;
-        }
-        if (!Objects.equals(this.saturated_fat, other.saturated_fat)) {
-            return false;
-        }
-        if (!Objects.equals(this.complete_protein, other.complete_protein)) {
-            return false;
-        }
-        if (!Objects.equals(this.calcium, other.calcium)) {
-            return false;
-        }
-        if (!Objects.equals(this.copper, other.copper)) {
-            return false;
-        }
-        if (!Objects.equals(this.fluoride, other.fluoride)) {
-            return false;
-        }
-        if (!Objects.equals(this.iron, other.iron)) {
-            return false;
-        }
-        if (!Objects.equals(this.magnesium, other.magnesium)) {
-            return false;
-        }
-        if (!Objects.equals(this.manganese, other.manganese)) {
-            return false;
-        }
-        if (!Objects.equals(this.phosphorus, other.phosphorus)) {
-            return false;
-        }
-        if (!Objects.equals(this.potassium, other.potassium)) {
-            return false;
-        }
-        if (!Objects.equals(this.selenium, other.selenium)) {
-            return false;
-        }
-        if (!Objects.equals(this.sodium, other.sodium)) {
-            return false;
-        }
-        if (!Objects.equals(this.zinc, other.zinc)) {
-            return false;
-        }
-        if (!Objects.equals(this.folate, other.folate)) {
-            return false;
-        }
-        if (!Objects.equals(this.niacin, other.niacin)) {
-            return false;
-        }
-        if (!Objects.equals(this.pantothenic_acid, other.pantothenic_acid)) {
-            return false;
-        }
-        if (!Objects.equals(this.riboflavin, other.riboflavin)) {
-            return false;
-        }
-        if (!Objects.equals(this.thiamin, other.thiamin)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_a, other.vitamin_a)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_b12, other.vitamin_b12)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_b6, other.vitamin_b6)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_c, other.vitamin_c)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_d, other.vitamin_d)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_e, other.vitamin_e)) {
-            return false;
-        }
-        if (!Objects.equals(this.vitamin_k, other.vitamin_k)) {
-            return false;
-        }
-        if (!Objects.equals(this.choline, other.choline)) {
-            return false;
-        }
-        if (!Objects.equals(this.glycemic_index, other.glycemic_index)) {
-            return false;
-        }
-        if (!Objects.equals(this.alpha_linolenic_acid, other.alpha_linolenic_acid)) {
-            return false;
-        }
-        if (!Objects.equals(this.linoleic_acid, other.linoleic_acid)) {
-            return false;
-        }
-        if (!Objects.equals(this.dha, other.dha)) {
-            return false;
-        }
-        if (!Objects.equals(this.epa, other.epa)) {
-            return false;
-        }
-        if (!Objects.equals(this.water, other.water)) {
-            return false;
-        }
-        if (!Objects.equals(this.cost, other.cost)) {
-            return false;
-        }
-        return true;
+        final Abstract_food other = (Abstract_food) obj;
+        return Objects.equals(name, other.name);
     }
-
 }

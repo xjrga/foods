@@ -133,110 +133,110 @@ public class Food implements Interface_food {
 
     public Food(Food_mutable food) {
         this.food = food;
-        alcohol = Double.valueOf(food.get_alcohol());
+        alcohol = Double.valueOf(food.get_alcohol_in_grams());
         alcohol_atwater_factor = Double.valueOf(food.get_alcohol_atwater_factor());
         alcohol_coefficient = Double.valueOf(food.get_alcohol_coefficient());
-        alpha_linolenic_acid = Double.valueOf(food.get_alpha_linolenic_acid());
+        alpha_linolenic_acid = Double.valueOf(food.get_alpha_linolenic_acid_in_grams());
         alpha_linolenic_acid_coefficient = Double.valueOf(food.get_alpha_linolenic_acid_coefficient());
-        calcium = Double.valueOf(food.get_calcium());
+        calcium = Double.valueOf(food.get_calcium_in_milligrams());
         calcium_coefficient = Double.valueOf(food.get_calcium_coefficient());
-        carbohydrate_by_difference = Double.valueOf(food.get_carbohydrate_by_difference());
+        carbohydrate_by_difference = Double.valueOf(food.get_carbohydrate_by_difference_in_grams());
         carbohydrate_by_difference_atwater_factor = Double.valueOf(food.get_carbohydrate_by_difference_atwater_factor());
         carbohydrate_by_difference_coefficient = Double.valueOf(food.get_carbohydrate_by_difference_coefficient());
-        cholesterol = Double.valueOf(food.get_cholesterol());
+        cholesterol = Double.valueOf(food.get_cholesterol_in_milligrams());
         cholesterol_coefficient = Double.valueOf(food.get_cholesterol_coefficient());
-        choline = Double.valueOf(food.get_choline());
+        choline = Double.valueOf(food.get_choline_in_milligrams());
         choline_coefficient = Double.valueOf(food.get_choline_coefficient());
-        complete_protein = Double.valueOf(food.get_complete_protein());
+        complete_protein = Double.valueOf(food.get_complete_protein_in_grams());
         complete_protein_coefficient = Double.valueOf(food.get_complete_protein_coefficient());
-        copper = Double.valueOf(food.get_copper());
+        copper = Double.valueOf(food.get_copper_in_milligrams());
         copper_coefficient = Double.valueOf(food.get_copper_coefficient());
-        cost = Double.valueOf(food.get_cost());
+        cost = Double.valueOf(food.get_cost_in_dollars());
         cost_coefficient = Double.valueOf(food.get_cost_coefficient());
-        dha = Double.valueOf(food.get_dha());
+        dha = Double.valueOf(food.get_dha_in_grams());
         dha_coefficient = Double.valueOf(food.get_dha_coefficient());
-        digestible_carbohydrate = Double.valueOf(food.get_digestible_carbohydrate());
+        digestible_carbohydrate = Double.valueOf(food.get_digestible_carbohydrate_in_grams());
         digestible_carbohydrate_coefficient = Double.valueOf(food.get_digestible_carbohydrate_coefficient());
-        energy_alcohol = Double.valueOf(food.get_energy_alcohol());
+        energy_alcohol = Double.valueOf(food.get_energy_alcohol_in_kilocalories());
         energy_alcohol_coefficient = Double.valueOf(food.get_energy_alcohol_coefficient());
-        energy_digestible = Double.valueOf(food.get_energy_digestible());
-        energy_digestible_carbohydrate = Double.valueOf(food.get_energy_digestible_carbohydrate());
+        energy_digestible = Double.valueOf(food.get_energy_digestible_in_kilocalories());
+        energy_digestible_carbohydrate = Double.valueOf(food.get_energy_digestible_carbohydrate_in_kilocalories());
         energy_digestible_carbohydrate_coefficient = Double.valueOf(food.get_energy_digestible_carbohydrate_coefficient());
         energy_digestible_coefficient = Double.valueOf(food.get_energy_digestible_coefficient());
-        energy_fat = Double.valueOf(food.get_energy_fat());
+        energy_fat = Double.valueOf(food.get_energy_fat_in_kilocalories());
         energy_fat_coefficient = Double.valueOf(food.get_energy_fat_coefficient());
-        energy_gross = Double.valueOf(food.get_energy_gross());
-        energy_gross_coefficient = Double.valueOf(food.get_energy_gross_coefficient());
-        energy_protein = Double.valueOf(food.get_energy_protein());
+        energy_gross = Double.valueOf(food.get_energy_gross_in_kilocalories());
+        energy_gross_coefficient = Double.valueOf(food.get_energy_gross_coefficient_in_kilocalories());
+        energy_protein = Double.valueOf(food.get_energy_protein_in_kilocalories());
         energy_protein_coefficient = Double.valueOf(food.get_energy_protein_coefficient());
-        epa = Double.valueOf(food.get_epa());
+        epa = Double.valueOf(food.get_epa_in_grams());
         epa_coefficient = Double.valueOf(food.get_epa_coefficient());
-        fat = Double.valueOf(food.get_fat());
+        fat = Double.valueOf(food.get_fat_in_grams());
         fat_atwater_factor = Double.valueOf(food.get_fat_atwater_factor());
         fat_coefficient = Double.valueOf(food.get_fat_coefficient());
-        fiber = Double.valueOf(food.get_fiber());
+        fiber = Double.valueOf(food.get_fiber_in_grams());
         fiber_coefficient = Double.valueOf(food.get_fiber_coefficient());
-        fluoride = Double.valueOf(food.get_fluoride());
+        fluoride = Double.valueOf(food.get_fluoride_in_micrograms());
         fluoride_coefficient = Double.valueOf(food.get_fluoride_coefficient());
-        folate = Double.valueOf(food.get_folate());
+        folate = Double.valueOf(food.get_folate_in_micrograms());
         folate_coefficient = Double.valueOf(food.get_folate_coefficient());
         food_quotient = Double.valueOf(food.get_food_quotient());
         glycemic_index = Double.valueOf(food.get_glycemic_index());
         glycemic_load = Double.valueOf(food.get_glycemic_load());
         glycemic_load_coefficient = Double.valueOf(food.get_glycemic_load_coefficient());
-        iron = Double.valueOf(food.get_iron());
+        iron = Double.valueOf(food.get_iron_in_milligrams());
         iron_coefficient = Double.valueOf(food.get_iron_coefficient());
         label = new String(food.get_food_label());
-        linoleic_acid = Double.valueOf(food.get_linoleic_acid());
+        linoleic_acid = Double.valueOf(food.get_linoleic_acid_in_grams());
         linoleic_acid_coefficient = Double.valueOf(food.get_linoleic_acid_coefficient());
-        magnesium = Double.valueOf(food.get_magnesium());
+        magnesium = Double.valueOf(food.get_magnesium_in_milligrams());
         magnesium_coefficient = Double.valueOf(food.get_magnesium_coefficient());
-        manganese = Double.valueOf(food.get_manganese());
+        manganese = Double.valueOf(food.get_manganese_in_milligrams());
         manganese_coefficient = Double.valueOf(food.get_manganese_coefficient());
-        monounsaturated_fat = Double.valueOf(food.get_monounsaturated_fat());
+        monounsaturated_fat = Double.valueOf(food.get_monounsaturated_fat_in_grams());
         monounsaturated_fat_coefficient = Double.valueOf(food.get_monounsaturated_fat_coefficient());
         name = new String(food.get_food_name());
-        niacin = Double.valueOf(food.get_niacin());
+        niacin = Double.valueOf(food.get_niacin_in_milligrams());
         niacin_coefficient = Double.valueOf(food.get_niacin_coefficient());
-        pantothenic_acid = Double.valueOf(food.get_pantothenic_acid());
+        pantothenic_acid = Double.valueOf(food.get_pantothenic_acid_in_milligrams());
         pantothenic_acid_coefficient = Double.valueOf(food.get_pantothenic_acid_coefficient());
-        phosphorus = Double.valueOf(food.get_phosphorus());
+        phosphorus = Double.valueOf(food.get_phosphorus_in_milligrams());
         phosphorus_coefficient = Double.valueOf(food.get_phosphorus_coefficient());
-        polyunsaturated_fat = Double.valueOf(food.get_polyunsaturated_fat());
+        polyunsaturated_fat = Double.valueOf(food.get_polyunsaturated_fat_in_grams());
         polyunsaturated_fat_coefficient = Double.valueOf(food.get_polyunsaturated_fat_coefficient());
-        potassium = Double.valueOf(food.get_potassium());
+        potassium = Double.valueOf(food.get_potassium_in_milligrams());
         potassium_coefficient = Double.valueOf(food.get_potassium_coefficient());
-        protein = Double.valueOf(food.get_protein());
+        protein = Double.valueOf(food.get_protein_in_grams());
         protein_atwater_factor = Double.valueOf(food.get_protein_atwater_factor());
         protein_coefficient = Double.valueOf(food.get_protein_coefficient());
-        riboflavin = Double.valueOf(food.get_riboflavin());
+        riboflavin = Double.valueOf(food.get_riboflavin_in_milligrams());
         riboflavin_coefficient = Double.valueOf(food.get_riboflavin_coefficient());
-        saturated_fat = Double.valueOf(food.get_saturated_fat());
+        saturated_fat = Double.valueOf(food.get_saturated_fat_in_grams());
         saturated_fat_coefficient = Double.valueOf(food.get_saturated_fat_coefficient());
-        selenium = Double.valueOf(food.get_selenium());
+        selenium = Double.valueOf(food.get_selenium_in_micrograms());
         selenium_coefficient = Double.valueOf(food.get_selenium_coefficient());
-        sodium = Double.valueOf(food.get_sodium());
+        sodium = Double.valueOf(food.get_sodium_in_milligrams());
         sodium_coefficient = Double.valueOf(food.get_sodium_coefficient());
-        thiamin = Double.valueOf(food.get_thiamin());
+        thiamin = Double.valueOf(food.get_thiamin_in_milligrams());
         thiamin_coefficient = Double.valueOf(food.get_thiamin_coefficient());
-        vitamin_a = Double.valueOf(food.get_vitamin_a());
+        vitamin_a = Double.valueOf(food.get_vitamin_a_in_micrograms());
         vitamin_a_coefficient = Double.valueOf(food.get_vitamin_a_coefficient());
-        vitamin_b6 = Double.valueOf(food.get_vitamin_b6());
+        vitamin_b6 = Double.valueOf(food.get_vitamin_b6_in_milligrams());
         vitamin_b6_coefficient = Double.valueOf(food.get_vitamin_b6_coefficient());
-        vitamin_b12 = Double.valueOf(food.get_vitamin_b12());
+        vitamin_b12 = Double.valueOf(food.get_vitamin_b12_in_micrograms());
         vitamin_b12_coefficient = Double.valueOf(food.get_vitamin_b12_coefficient());
-        vitamin_c = Double.valueOf(food.get_vitamin_c());
+        vitamin_c = Double.valueOf(food.get_vitamin_c_in_milligrams());
         vitamin_c_coefficient = Double.valueOf(food.get_vitamin_c_coefficient());
-        vitamin_d = Double.valueOf(food.get_vitamin_d());
+        vitamin_d = Double.valueOf(food.get_vitamin_d_in_micrograms());
         vitamin_d_coefficient = Double.valueOf(food.get_vitamin_d_coefficient());
-        vitamin_e = Double.valueOf(food.get_vitamin_e());
+        vitamin_e = Double.valueOf(food.get_vitamin_e_in_milligrams());
         vitamin_e_coefficient = Double.valueOf(food.get_vitamin_e_coefficient());
-        vitamin_k = Double.valueOf(food.get_vitamin_k());
+        vitamin_k = Double.valueOf(food.get_vitamin_k_in_micrograms());
         vitamin_k_coefficient = Double.valueOf(food.get_vitamin_k_coefficient());
-        water = Double.valueOf(food.get_water());
+        water = Double.valueOf(food.get_water_in_grams());
         water_coefficient = Double.valueOf(food.get_water_coefficient());
-        weight = Double.valueOf(food.get_weight());
-        zinc = Double.valueOf(food.get_zinc());
+        weight = Double.valueOf(food.get_weight_in_grams());
+        zinc = Double.valueOf(food.get_zinc_in_milligrams());
         zinc_coefficient = Double.valueOf(food.get_zinc_coefficient());
     }
 
@@ -251,22 +251,22 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_weight() {
+    public Double get_weight_in_grams() {
         return weight;
     }
 
     @Override
-    public Double get_energy_gross() {
+    public Double get_energy_gross_in_kilocalories() {
         return energy_gross;
     }
 
     @Override
-    public Double get_energy_gross_coefficient() {
+    public Double get_energy_gross_coefficient_in_kilocalories() {
         return energy_gross_coefficient;
     }
 
     @Override
-    public Double get_protein() {
+    public Double get_protein_in_grams() {
         return protein;
     }
 
@@ -281,7 +281,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_carbohydrate_by_difference() {
+    public Double get_carbohydrate_by_difference_in_grams() {
         return carbohydrate_by_difference;
     }
 
@@ -296,7 +296,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_fiber() {
+    public Double get_fiber_in_grams() {
         return fiber;
     }
 
@@ -306,7 +306,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_fat() {
+    public Double get_fat_in_grams() {
         return fat;
     }
 
@@ -321,7 +321,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_alcohol() {
+    public Double get_alcohol_in_grams() {
         return alcohol;
     }
 
@@ -336,7 +336,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_digestible_carbohydrate() {
+    public Double get_digestible_carbohydrate_in_grams() {
         return digestible_carbohydrate;
     }
 
@@ -346,7 +346,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_cholesterol() {
+    public Double get_cholesterol_in_milligrams() {
         return cholesterol;
     }
 
@@ -356,7 +356,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_monounsaturated_fat() {
+    public Double get_monounsaturated_fat_in_grams() {
         return monounsaturated_fat;
     }
 
@@ -366,7 +366,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_polyunsaturated_fat() {
+    public Double get_polyunsaturated_fat_in_grams() {
         return polyunsaturated_fat;
     }
 
@@ -376,7 +376,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_saturated_fat() {
+    public Double get_saturated_fat_in_grams() {
         return saturated_fat;
     }
 
@@ -386,7 +386,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_complete_protein() {
+    public Double get_complete_protein_in_grams() {
         return complete_protein;
     }
 
@@ -396,7 +396,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_calcium() {
+    public Double get_calcium_in_milligrams() {
         return calcium;
     }
 
@@ -406,7 +406,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_copper() {
+    public Double get_copper_in_milligrams() {
         return copper;
     }
 
@@ -416,7 +416,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_fluoride() {
+    public Double get_fluoride_in_micrograms() {
         return fluoride;
     }
 
@@ -426,7 +426,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_iron() {
+    public Double get_iron_in_milligrams() {
         return iron;
     }
 
@@ -436,7 +436,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_magnesium() {
+    public Double get_magnesium_in_milligrams() {
         return magnesium;
     }
 
@@ -446,7 +446,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_manganese() {
+    public Double get_manganese_in_milligrams() {
         return manganese;
     }
 
@@ -456,7 +456,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_phosphorus() {
+    public Double get_phosphorus_in_milligrams() {
         return phosphorus;
     }
 
@@ -466,7 +466,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_potassium() {
+    public Double get_potassium_in_milligrams() {
         return potassium;
     }
 
@@ -476,7 +476,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_selenium() {
+    public Double get_selenium_in_micrograms() {
         return selenium;
     }
 
@@ -486,7 +486,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_sodium() {
+    public Double get_sodium_in_milligrams() {
         return sodium;
     }
 
@@ -496,7 +496,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_zinc() {
+    public Double get_zinc_in_milligrams() {
         return zinc;
     }
 
@@ -506,7 +506,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_folate() {
+    public Double get_folate_in_micrograms() {
         return folate;
     }
 
@@ -516,7 +516,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_niacin() {
+    public Double get_niacin_in_milligrams() {
         return niacin;
     }
 
@@ -526,7 +526,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_pantothenic_acid() {
+    public Double get_pantothenic_acid_in_milligrams() {
         return pantothenic_acid;
     }
 
@@ -536,7 +536,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_riboflavin() {
+    public Double get_riboflavin_in_milligrams() {
         return riboflavin;
     }
 
@@ -546,7 +546,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_thiamin() {
+    public Double get_thiamin_in_milligrams() {
         return thiamin;
     }
 
@@ -556,7 +556,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_a() {
+    public Double get_vitamin_a_in_micrograms() {
         return vitamin_a;
     }
 
@@ -566,7 +566,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_b12() {
+    public Double get_vitamin_b12_in_micrograms() {
         return vitamin_b12;
     }
 
@@ -576,7 +576,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_b6() {
+    public Double get_vitamin_b6_in_milligrams() {
         return vitamin_b6;
     }
 
@@ -586,7 +586,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_c() {
+    public Double get_vitamin_c_in_milligrams() {
         return vitamin_c;
     }
 
@@ -596,7 +596,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_d() {
+    public Double get_vitamin_d_in_micrograms() {
         return vitamin_d;
     }
 
@@ -606,7 +606,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_e() {
+    public Double get_vitamin_e_in_milligrams() {
         return vitamin_e;
     }
 
@@ -616,7 +616,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_vitamin_k() {
+    public Double get_vitamin_k_in_micrograms() {
         return vitamin_k;
     }
 
@@ -626,7 +626,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_choline() {
+    public Double get_choline_in_milligrams() {
         return choline;
     }
 
@@ -651,7 +651,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_alpha_linolenic_acid() {
+    public Double get_alpha_linolenic_acid_in_grams() {
         return alpha_linolenic_acid;
     }
 
@@ -661,7 +661,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_linoleic_acid() {
+    public Double get_linoleic_acid_in_grams() {
         return linoleic_acid;
     }
 
@@ -671,7 +671,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_dha() {
+    public Double get_dha_in_grams() {
         return dha;
     }
 
@@ -681,7 +681,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_epa() {
+    public Double get_epa_in_grams() {
         return epa;
     }
 
@@ -691,7 +691,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_water() {
+    public Double get_water_in_grams() {
         return water;
     }
 
@@ -701,7 +701,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_cost() {
+    public Double get_cost_in_dollars() {
         return cost;
     }
 
@@ -711,7 +711,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_energy_alcohol() {
+    public Double get_energy_alcohol_in_kilocalories() {
         return energy_alcohol;
     }
 
@@ -721,7 +721,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_energy_digestible_carbohydrate() {
+    public Double get_energy_digestible_carbohydrate_in_kilocalories() {
         return energy_digestible_carbohydrate;
     }
 
@@ -731,7 +731,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_energy_digestible() {
+    public Double get_energy_digestible_in_kilocalories() {
         return energy_digestible;
     }
 
@@ -741,7 +741,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_energy_fat() {
+    public Double get_energy_fat_in_kilocalories() {
         return energy_fat;
     }
 
@@ -751,7 +751,7 @@ public class Food implements Interface_food {
     }
 
     @Override
-    public Double get_energy_protein() {
+    public Double get_energy_protein_in_kilocalories() {
         return energy_protein;
     }
 
