@@ -15,6 +15,8 @@ abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foo
 abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foods.Interface_dri_mutable
 abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food
 abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_mutable
+class io.github.xjrga.foods.Food_mutable implements io.github.xjrga.foods.Interface_food
+class io.github.xjrga.foods.Food_mutable implements io.github.xjrga.foods.Interface_food_mutable
 class io.github.xjrga.foods.Food_multiplier implements io.github.xjrga.foods.Interface_food
 class io.github.xjrga.foods.Food_summator implements io.github.xjrga.foods.Interface_food
 class io.github.xjrga.foods.Mangos_raw extends io.github.xjrga.foods.Abstract_food
