@@ -23,12 +23,12 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Campbell_s_v8_100_vegetable_juice extends Abstract_food {
+public class Campbells_v8_100_vegetable_juice extends Abstract_food {
 
     /**
      * Constructs a food item
      */
-    public Campbell_s_v8_100_vegetable_juice() {
+    public Campbells_v8_100_vegetable_juice() {
         set_food_name("CAMPBELL'S, V8 100% Vegetable Juice");
         set_food_label("campbell_s_v8_100_vegetable_juice");
         set_alcohol_in_grams(0.00000);

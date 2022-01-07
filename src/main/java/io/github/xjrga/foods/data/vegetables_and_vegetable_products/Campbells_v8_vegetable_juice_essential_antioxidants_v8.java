@@ -23,12 +23,12 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Campbell_s_v8_vegetable_juice_essential_antioxidants_v8 extends Abstract_food {
+public class Campbells_v8_vegetable_juice_essential_antioxidants_v8 extends Abstract_food {
 
     /**
      * Constructs a food item
      */
-    public Campbell_s_v8_vegetable_juice_essential_antioxidants_v8() {
+    public Campbells_v8_vegetable_juice_essential_antioxidants_v8() {
         set_food_name("CAMPBELL'S, V8 Vegetable Juice, Essential Antioxidants V8");
         set_food_label("campbell_s_v8_vegetable_juice_essential_antioxidants_v8");
         set_alcohol_in_grams(0.00000);

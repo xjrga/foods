@@ -23,12 +23,12 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Campbell_s_tomato_juice extends Abstract_food {
+public class Campbells_tomato_juice extends Abstract_food {
 
     /**
      * Constructs a food item
      */
-    public Campbell_s_tomato_juice() {
+    public Campbells_tomato_juice() {
         set_food_name("CAMPBELL'S, Tomato juice");
         set_food_label("campbell_s_tomato_juice");
         set_alcohol_in_grams(0.00000);
