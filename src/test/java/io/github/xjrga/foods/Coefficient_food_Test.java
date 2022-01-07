@@ -17,9 +17,9 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.Dairy_and_egg_products;
-import io.github.xjrga.foods.data.Finfish_and_shellfish_products;
-import io.github.xjrga.foods.data.Sweets;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Honey;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
 import java.util.ArrayList;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -42,9 +42,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_coefficients_01() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -57,9 +57,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_toString_01() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -73,9 +73,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_coefficients_02() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -88,9 +88,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_toString_02() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -104,9 +104,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_coefficients_03() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -119,9 +119,9 @@ public class Coefficient_food_Test {
     @Test
     public void test_toString_03() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
-        Food sardine = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);

@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.Fruits_and_fruit_juices;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Bananas_raw;
 import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -35,7 +35,7 @@ public class Nutrient_bananas_raw_Test {
 
     @BeforeClass
     public static void one_time_setup() {
-        food = Food_creator.make_food_from_food_enum(Fruits_and_fruit_juices.Bananas_raw);
+        food = new Bananas_raw();
     }
 
     //food_name
@@ -47,7 +47,7 @@ public class Nutrient_bananas_raw_Test {
     //food_label
     @Test
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Bananas_raw");
+        assertEquals(food.get_food_label(), "bananas_raw");
     }
 
     //Alcohol, ethyl (g)

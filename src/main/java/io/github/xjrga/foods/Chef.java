@@ -17,31 +17,426 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.American_indian_alaska_native_foods;
-import io.github.xjrga.foods.data.Baby_foods;
-import io.github.xjrga.foods.data.Baked_products;
-import io.github.xjrga.foods.data.Beef_products;
-import io.github.xjrga.foods.data.Beverages;
-import io.github.xjrga.foods.data.Breakfast_cereals;
-import io.github.xjrga.foods.data.Cereal_grains_and_pasta;
-import io.github.xjrga.foods.data.Dairy_and_egg_products;
-import io.github.xjrga.foods.data.Fast_foods;
-import io.github.xjrga.foods.data.Fats_and_oils;
-import io.github.xjrga.foods.data.Finfish_and_shellfish_products;
-import io.github.xjrga.foods.data.Fruits_and_fruit_juices;
-import io.github.xjrga.foods.data.Glycemic_index_test_set;
-import io.github.xjrga.foods.data.Legumes_and_legume_products;
-import io.github.xjrga.foods.data.Nut_and_seed_products;
-import io.github.xjrga.foods.data.Omega_3;
-import io.github.xjrga.foods.data.Pork_products;
-import io.github.xjrga.foods.data.Poultry_products;
-import io.github.xjrga.foods.data.Protein_powders;
-import io.github.xjrga.foods.data.Sausages_and_luncheon_meats;
-import io.github.xjrga.foods.data.Snacks;
-import io.github.xjrga.foods.data.Spices_and_herbs;
-import io.github.xjrga.foods.data.Supplements;
-import io.github.xjrga.foods.data.Sweets;
-import io.github.xjrga.foods.data.Vegetables_and_vegetable_products;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Blackberries_wild_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Blueberries_wild_frozen_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Blueberries_wild_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Bread_blue_corn_somiviki_hopi;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Chokecherries_raw_pitted_northern_plains_indians;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Chokecherries_raw_pitted_shoshone_bannock;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Cranberries_wild_bush_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Fish_salmon_chum_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Fish_salmon_coho_silver_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Fish_salmon_king_chinook_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Fish_salmon_sockeye_red_raw_alaska_native;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Plums_wild_northern_plains_indians;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Prickly_pears_raw_northern_plains_indians;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Raspberries_wild_northern_plains_indians;
+import io.github.xjrga.foods.data.american_indian_alaska_native_foods.Tortilla_blue_corn_sakwavikaviki_hopi;
+import io.github.xjrga.foods.data.baby_foods.Babyfood_dessert_custard_pudding_vanilla_junior;
+import io.github.xjrga.foods.data.baked_products.Bagels_cinnamon_raisin;
+import io.github.xjrga.foods.data.baked_products.Bagels_multigrain;
+import io.github.xjrga.foods.data.baked_products.Bagels_wheat;
+import io.github.xjrga.foods.data.baked_products.Bread_naan_plain_commercially_prepared_refrigerated;
+import io.github.xjrga.foods.data.baked_products.Bread_pita_whole_wheat;
+import io.github.xjrga.foods.data.beef_products.Beef_ground_97_lean_meat_3_fat_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_loin_tenderloin_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_loin_top_sirloin_petite_roast_filet_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_bottom_round_roast_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_eye_of_round_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_eye_of_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_choice_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_top_round_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_round_top_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beef_products.Beef_top_sirloin_steak_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw;
+import io.github.xjrga.foods.data.beverages.Alcoholic_beverage_beer_light;
+import io.github.xjrga.foods.data.beverages.Alcoholic_beverage_beer_regular_all;
+import io.github.xjrga.foods.data.beverages.Alcoholic_beverage_liqueur_coffee_53_proof;
+import io.github.xjrga.foods.data.beverages.Alcoholic_beverage_wine_table_red;
+import io.github.xjrga.foods.data.beverages.Alcoholic_beverage_wine_table_white;
+import io.github.xjrga.foods.data.beverages.Beverages_arizona_tea_ready_to_drink_lemon;
+import io.github.xjrga.foods.data.beverages.Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine;
+import io.github.xjrga.foods.data.beverages.Beverages_tea_black_brewed_prepared_with_tap_water;
+import io.github.xjrga.foods.data.beverages.Beverages_tea_green_brewed_regular;
+import io.github.xjrga.foods.data.beverages.Beverages_tea_oolong_brewed;
+import io.github.xjrga.foods.data.beverages.Coffee_brewed_prepared_with_tap_water;
+import io.github.xjrga.foods.data.beverages.Water;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Amaranth_grain_cooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Amaranth_grain_uncooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Barley_pearled_raw;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Corn_bran_crude;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Corn_grain_white;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Corn_grain_yellow;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Couscous_dry;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Millet_raw;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Oat_bran_cooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Oat_bran_raw;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Oats;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Pasta_dry_enriched;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Pasta_whole_wheat_dry;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Quinoa_cooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Quinoa_uncooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_bran_crude;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_brown_long_grain_raw;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_brown_medium_grain_raw;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_white_glutinous_unenriched_uncooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_white_long_grain_regular_raw_enriched;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_white_medium_grain_raw_enriched;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_white_short_grain_enriched_cooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rice_white_short_grain_enriched_uncooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Rye_grain;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Sorghum_grain;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Triticale;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Wheat_bran_crude;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Wheat_germ_crude;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Wheat_kamut_khorasan_cooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Wheat_kamut_khorasan_uncooked;
+import io.github.xjrga.foods.data.cereal_grains_and_pasta.Wild_rice_raw;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_cottage_lowfat_1_milkfat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_cottage_lowfat_1_milkfat_no_sodium_added;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_cottage_lowfat_2_milkfat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_mozzarella_nonfat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_provolone_reduced_fat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Cheese_swiss_low_fat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Egg_white_dried;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Egg_white_raw_fresh;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Egg_whole_cooked_hard_boiled;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Egg_whole_raw_fresh;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_buttermilk_fluid_cultured_lowfat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_buttermilk_fluid_cultured_reduced_fat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_canned_evaporated_nonfat_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_chocolate_fat_free_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_chocolate_lowfat_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_dry_nonfat_instant_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_lowfat_fluid_1_milkfat_protein_fortified_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_lowfat_fluid_1_milkfat_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_nonfat_fluid_protein_fortified_with_added_vitamin_a_and_vitamin_d_fat_free_and_skim;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_producer_fluid_3_7_milkfat;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_reduced_fat_fluid_2_milkfat_with_added_vitamin_a_and_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Milk_whole_3_25_milkfat_with_added_vitamin_d;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Parmesan_cheese_topping_fat_free;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Sour_cream_fat_free;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce;
+import io.github.xjrga.foods.data.dairy_and_egg_products.Yogurt_vanilla_non_fat;
+import io.github.xjrga.foods.data.fast_foods.Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato;
+import io.github.xjrga.foods.data.fast_foods.Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato;
+import io.github.xjrga.foods.data.fast_foods.Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato;
+import io.github.xjrga.foods.data.fats_and_oils.Fish_oil_cod_liver;
+import io.github.xjrga.foods.data.fats_and_oils.Fish_oil_herring;
+import io.github.xjrga.foods.data.fats_and_oils.Fish_oil_menhaden;
+import io.github.xjrga.foods.data.fats_and_oils.Fish_oil_salmon;
+import io.github.xjrga.foods.data.fats_and_oils.Fish_oil_sardine;
+import io.github.xjrga.foods.data.fats_and_oils.Mayonnaise_reduced_fat_with_olive_oil;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_almond;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_avocado;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_canola;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_corn_and_canola;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_cottonseed_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_flaxseed_cold_pressed;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_grapeseed;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_olive_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_pam_cooking_spray_original;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_peanut_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_sesame_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_soybean_lecithin;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_soybean_salad_or_cooking;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_walnut;
+import io.github.xjrga.foods.data.fats_and_oils.Oil_wheat_germ;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Crustaceans_shrimp_raw_not_previously_frozen;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_mahimahi_cooked_dry_heat;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_mahimahi_raw;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_atlantic_farmed_cooked_dry_heat;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_atlantic_farmed_raw;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_atlantic_wild_cooked_dry_heat;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_atlantic_wild_raw;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_pink_cooked_dry_heat;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_salmon_pink_raw;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_sardine_pacific_canned_in_tomato_sauce_drained_solids_with_bone;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tilapia_cooked_dry_heat;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tilapia_raw;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tuna_light_canned_in_oil_drained_solids;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tuna_light_canned_in_water_drained_solids;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tuna_white_canned_in_oil_drained_solids;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_tuna_white_canned_in_water_drained_solids;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Applesauce_canned_unsweetened_with_added_ascorbic_acid;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Apricots_canned_heavy_syrup_drained;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Avocados_raw_all_commercial_varieties;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Blackberries_frozen_unsweetened;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Blackberries_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Blueberries_frozen_unsweetened;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Blueberries_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Cherries_sweet_canned_pitted_heavy_syrup_drained;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Cherries_sweet_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Figs_dried_stewed;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Figs_dried_uncooked;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Figs_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Fruit_cocktail_canned_heavy_syrup_drained;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Grapefruit_juice_pink_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Grapes_american_type_slip_skin_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Grapes_muscadine_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Guavas_common_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Guavas_strawberry_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Kiwifruit_green_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Lemon_juice_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Lemons_raw_without_peel;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Lime_juice_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Limes_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Melons_honeydew_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Nectarines_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Olives_ripe_canned_jumbo_super_colossal;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Olives_ripe_canned_small_extra_large;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Pears_asian_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Pomegranate_juice_bottled;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Pomegranates_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Prune_juice_canned;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Prune_puree;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Raisins_golden_seedless;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Raspberries_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Strawberries_frozen_unsweetened;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Strawberries_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Tamarinds_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Tangerines_mandarin_oranges_raw;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Usda_commodity_pears_canned_light_syrup_drained;
+import io.github.xjrga.foods.data.fruits_and_fruit_juices.Watermelon_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Apples_raw_with_skin;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Apricots_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Bananas_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Barley_pearled_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Beans_kidney_red_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Beans_pinto_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Bread_pita_white_enriched;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Bread_rye;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Bread_white_wheat;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Cereals_oats_regular_and_quick_not_fortified_dry;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Couscous_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Glucose;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Grapefruit_raw_pink_and_red_and_white_all_areas;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Grapes_red_or_green_european_type_such_as_thompson_seedless_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Hominy_canned_white;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Hominy_canned_yellow;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Honey;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Hummus_home_prepared;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Lentils_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Mangos_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Melons_cantaloupe_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Milk_canned_condensed_sweetened;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Millet_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Orange_juice_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Oranges_raw_all_commercial_varieties;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Papayas_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Pasta_cooked_enriched_without_added_salt;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Peaches_yellow_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Pears_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Pineapple_raw_all_varieties;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Plums_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Pretzels_soft_unsalted;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Prickly_pears_raw;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Raisins_seedless;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Rice_brown_long_grain_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Rice_brown_medium_grain_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Rice_white_glutinous_unenriched_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Rice_white_long_grain_regular_enriched_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Rice_white_medium_grain_enriched_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Snacks_popcorn_air_popped_unsalted;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Snacks_pretzels_hard_plain_salted;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Snacks_tortilla_chips_light_baked_with_less_oil;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Snacks_tortilla_chips_low_fat_unsalted;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Snacks_tortilla_chips_unsalted_white_corn;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Soybeans_mature_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Sugars_granulated;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Usda_commodity_peaches_canned_light_syrup_drained;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Wild_rice_cooked;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_black_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_black_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_kidney_all_types_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_kidney_california_red_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_kidney_california_red_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_kidney_red_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Beans_pinto_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Lentils_mature_seeds_cooked_boiled_with_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Lentils_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Peanut_butter_chunk_style_with_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Peanut_butter_chunk_style_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Peanuts_all_types_dry_roasted_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Peas_green_split_mature_seeds_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Peas_split_mature_seeds_cooked_boiled_without_salt;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Soy_meal_defatted_raw;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Soy_protein_isolate;
+import io.github.xjrga.foods.data.legumes_and_legume_products.Soybeans_mature_seeds_raw;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_almonds;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_almonds_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_almonds_honey_roasted_unblanched;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_cashew_butter_plain_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_cashew_nuts_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_cashew_nuts_raw;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_hazelnuts_or_filberts_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_macadamia_nuts_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_macadamia_nuts_raw;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_mixed_nuts_dry_roasted_with_peanuts_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_pecans;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_pecans_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_pistachio_nuts_dry_roasted_without_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_pistachio_nuts_raw;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_walnuts_dry_roasted_with_salt_added;
+import io.github.xjrga.foods.data.nut_and_seed_products.Nuts_walnuts_english;
+import io.github.xjrga.foods.data.nut_and_seed_products.Seeds_flaxseed;
+import io.github.xjrga.foods.data.nut_and_seed_products.Seeds_flaxseed_efas;
+import io.github.xjrga.foods.data.nut_and_seed_products.Seeds_sunflower_seed_kernels_dry_roasted_without_salt;
+import io.github.xjrga.foods.data.nut_and_seed_products.Seeds_sunflower_seed_kernels_toasted_without_salt;
+import io.github.xjrga.foods.data.pork_products.Pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted;
+import io.github.xjrga.foods.data.pork_products.Pork_fresh_loin_tenderloin_separable_lean_only_raw;
+import io.github.xjrga.foods.data.pork_products.Pork_ground_96_lean_4_fat_cooked_pan_broiled;
+import io.github.xjrga.foods.data.pork_products.Pork_ground_96_lean_4_fat_raw;
+import io.github.xjrga.foods.data.poultry_products.Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw;
+import io.github.xjrga.foods.data.poultry_products.Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted;
+import io.github.xjrga.foods.data.poultry_products.Ground_turkey_fat_free_raw;
+import io.github.xjrga.foods.data.poultry_products.Turkey_breast_from_whole_bird_non_enhanced_meat_only_raw;
+import io.github.xjrga.foods.data.poultry_products.Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted;
+import io.github.xjrga.foods.data.protein_powders.Whey_protein_concentrate;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Chicken_breast_fat_free_mesquite_flavor_sliced;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Chicken_breast_oven_roasted_fat_free_sliced;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Frankfurter_beef_pork_and_turkey_fat_free;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Oscar_mayer_chicken_breast_honey_glazed;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Pastrami_beef_98_fat_free;
+import io.github.xjrga.foods.data.sausages_and_luncheon_meats.Turkey_breast_smoked_lemon_pepper_flavor_97_fat_free;
+import io.github.xjrga.foods.data.snacks.Snacks_pita_chips_salted;
+import io.github.xjrga.foods.data.snacks.Snacks_popcorn_microwave_94_fat_free;
+import io.github.xjrga.foods.data.snacks.Snacks_rice_cakes_brown_rice_multigrain_unsalted;
+import io.github.xjrga.foods.data.snacks.Snacks_rice_cakes_brown_rice_plain_unsalted;
+import io.github.xjrga.foods.data.snacks.Snacks_sweet_potato_chips_unsalted;
+import io.github.xjrga.foods.data.snacks.Snacks_trail_mix_regular;
+import io.github.xjrga.foods.data.snacks.Snacks_trail_mix_regular_unsalted;
+import io.github.xjrga.foods.data.spices_and_herbs.Salt_table;
+import io.github.xjrga.foods.data.spices_and_herbs.Spices_pepper_black;
+import io.github.xjrga.foods.data.spices_and_herbs.Vinegar_balsamic;
+import io.github.xjrga.foods.data.supplements.Generic_multivitamin;
+import io.github.xjrga.foods.data.sweets.Chewing_gum_sugarless;
+import io.github.xjrga.foods.data.sweets.Chocolate_dark_45_59_cacao_solids;
+import io.github.xjrga.foods.data.sweets.Chocolate_dark_60_69_cacao_solids;
+import io.github.xjrga.foods.data.sweets.Chocolate_dark_70_85_cacao_solids;
+import io.github.xjrga.foods.data.sweets.Cocoa_dry_powder_unsweetened;
+import io.github.xjrga.foods.data.sweets.Cocoa_dry_powder_unsweetened_hershey_s_european_style_cocoa;
+import io.github.xjrga.foods.data.sweets.Cocoa_dry_powder_unsweetened_processed_with_alkali;
+import io.github.xjrga.foods.data.sweets.Sweetener_herbal_extract_powder_from_stevia_leaf;
+import io.github.xjrga.foods.data.sweets.Sweeteners_tabletop_aspartame_equal_packets;
+import io.github.xjrga.foods.data.sweets.Sweeteners_tabletop_saccharin_sodium_saccharin;
+import io.github.xjrga.foods.data.sweets.Sweeteners_tabletop_sucralose_splenda_packets;
+import io.github.xjrga.foods.data.sweets.Syrups_sugar_free;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Asparagus_cooked_boiled_drained;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Asparagus_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Beets_canned_drained_solids;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Beets_cooked_boiled_drained;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Beets_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Broccoli_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Broccoli_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cabbage_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cabbage_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cabbage_red_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cabbage_red_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Campbell_s_tomato_juice;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Campbell_s_tomato_juice_low_sodium;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Campbell_s_v8_100_vegetable_juice;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Campbell_s_v8_vegetable_juice_essential_antioxidants_v8;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Campbell_s_v8_vegetable_juice_spicy_hot_v8;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Carrot_juice_canned;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Carrots_baby_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Carrots_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Carrots_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Catsup;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Catsup_low_sodium;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cauliflower_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cauliflower_frozen_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cauliflower_frozen_unprepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cauliflower_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Celery_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Celery_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Coriander_cilantro_leaves_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Corn_sweet_white_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Corn_sweet_white_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Corn_sweet_yellow_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Corn_sweet_yellow_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cucumber_peeled_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Cucumber_with_peel_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Edamame_frozen_prepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Garlic_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Ginger_root_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Kale_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Kale_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Lettuce_cos_or_romaine_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Lettuce_green_leaf_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Lettuce_iceberg_includes_crisphead_types_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Lettuce_red_leaf_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_portabella_grilled;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_portabella_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_shiitake_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_shiitake_stir_fried;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_white_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Mushrooms_white_stir_fried;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Nopales_cooked_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Nopales_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Okra_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Okra_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Onions_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Onions_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_and_carrots_frozen_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_and_carrots_frozen_unprepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_green_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_green_frozen_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_green_frozen_unprepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peas_green_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peppers_jalapeno_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peppers_serrano_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peppers_sweet_green_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Peppers_sweet_red_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_baked_flesh_and_skin_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_boiled_cooked_in_skin_flesh_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_flesh_and_skin_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_microwaved_cooked_in_skin_skin_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_raw_skin;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_red_flesh_and_skin_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_russet_flesh_and_skin_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_white_flesh_and_skin_baked;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Potatoes_white_flesh_and_skin_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Radishes_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Soybeans_green_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Soybeans_green_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Soybeans_mature_seeds_sprouted_cooked_steamed;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Spinach_canned_regular_pack_drained_solids;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Spinach_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Spinach_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Squash_summer_all_varieties_cooked_boiled_drained_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Squash_summer_all_varieties_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Squash_summer_zucchini_includes_skin_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Squash_winter_all_varieties_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Sweet_potato_canned_syrup_pack_drained_solids;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Sweet_potato_cooked_baked_in_skin_flesh_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Sweet_potato_raw_unprepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomatillos_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomato_products_canned_paste_without_salt_added;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomato_products_canned_puree_without_salt_added;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomato_products_canned_sauce;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomatoes_red_ripe_raw_year_round_average;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Vegetables_mixed_canned_drained_solids;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Vegetables_mixed_frozen_unprepared;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Yam_cooked_boiled_drained_or_baked_without_salt;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Yam_raw;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Yambean_jicama_raw;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -112,226 +507,622 @@ public class Chef {
 
     private ArrayList<Interface_food> create_American_indian_alaska_native_foods() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (American_indian_alaska_native_foods f : American_indian_alaska_native_foods.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Blackberries_wild_raw_alaska_native());
+        list.add(new Blueberries_wild_frozen_alaska_native());
+        list.add(new Blueberries_wild_raw_alaska_native());
+        list.add(new Bread_blue_corn_somiviki_hopi());
+        list.add(new Chokecherries_raw_pitted_northern_plains_indians());
+        list.add(new Chokecherries_raw_pitted_shoshone_bannock());
+        list.add(new Cranberries_wild_bush_raw_alaska_native());
+        list.add(new Fish_salmon_chum_raw_alaska_native());
+        list.add(new Fish_salmon_coho_silver_raw_alaska_native());
+        list.add(new Fish_salmon_king_chinook_raw_alaska_native());
+        list.add(new Fish_salmon_sockeye_red_raw_alaska_native());
+        list.add(new Plums_wild_northern_plains_indians());
+        list.add(new Prickly_pears_raw_northern_plains_indians());
+        list.add(new Raspberries_wild_northern_plains_indians());
+        list.add(new Tortilla_blue_corn_sakwavikaviki_hopi());
         return list;
     }
 
     private ArrayList<Interface_food> create_Baby_foods() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Baby_foods f : Baby_foods.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Babyfood_dessert_custard_pudding_vanilla_junior());
         return list;
     }
 
     private ArrayList<Interface_food> create_Baked_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Baked_products f : Baked_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Bagels_cinnamon_raisin());
+        list.add(new Bagels_multigrain());
+        list.add(new Bagels_wheat());
+        list.add(new Bread_naan_plain_commercially_prepared_refrigerated());
+        list.add(new Bread_pita_white_enriched());
+        list.add(new Bread_pita_whole_wheat());
+        list.add(new Bread_rye());
+        list.add(new Bread_white_wheat());
         return list;
     }
 
     private ArrayList<Interface_food> create_Beef_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Beef_products f : Beef_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Beef_ground_97_lean_meat_3_fat_raw());
+        list.add(new Beef_loin_tenderloin_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_loin_top_sirloin_petite_roast_filet_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_round_bottom_round_roast_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw());
+        list.add(new Beef_round_eye_of_round_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_round_eye_of_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_round_tip_round_roast_separable_lean_only_trimmed_to_0_fat_choice_raw());
+        list.add(new Beef_round_top_round_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_round_top_round_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
+        list.add(new Beef_top_sirloin_steak_separable_lean_only_trimmed_to_1_8_fat_all_grades_raw());
         return list;
     }
 
     private ArrayList<Interface_food> create_Beverages() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Beverages f : Beverages.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Alcoholic_beverage_beer_light());
+        list.add(new Alcoholic_beverage_beer_regular_all());
+        list.add(new Alcoholic_beverage_liqueur_coffee_53_proof());
+        list.add(new Alcoholic_beverage_wine_table_red());
+        list.add(new Alcoholic_beverage_wine_table_white());
+        list.add(new Beverages_arizona_tea_ready_to_drink_lemon());
+        list.add(new Beverages_carbonated_beverage_sprite_lemon_lime_without_caffeine());
+        list.add(new Beverages_tea_oolong_brewed());
+        list.add(new Beverages_tea_black_brewed_prepared_with_tap_water());
+        list.add(new Beverages_tea_green_brewed_regular());
+        list.add(new Coffee_brewed_prepared_with_tap_water());
+        list.add(new Water());
         return list;
     }
 
     private ArrayList<Interface_food> create_Breakfast_cereals() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Breakfast_cereals f : Breakfast_cereals.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original());
+        list.add(new Cereals_oats_regular_and_quick_not_fortified_dry());
         return list;
     }
 
     private ArrayList<Interface_food> create_Cereal_grains_and_pasta() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Cereal_grains_and_pasta f : Cereal_grains_and_pasta.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Amaranth_grain_cooked());
+        list.add(new Amaranth_grain_uncooked());
+        list.add(new Barley_pearled_cooked());
+        list.add(new Barley_pearled_raw());
+        list.add(new Corn_bran_crude());
+        list.add(new Corn_grain_white());
+        list.add(new Corn_grain_yellow());
+        list.add(new Couscous_cooked());
+        list.add(new Couscous_dry());
+        list.add(new Hominy_canned_white());
+        list.add(new Hominy_canned_yellow());
+        list.add(new Millet_cooked());
+        list.add(new Millet_raw());
+        list.add(new Oat_bran_cooked());
+        list.add(new Oat_bran_raw());
+        list.add(new Oats());
+        list.add(new Pasta_cooked_enriched_without_added_salt());
+        list.add(new Pasta_dry_enriched());
+        list.add(new Pasta_whole_wheat_dry());
+        list.add(new Quinoa_cooked());
+        list.add(new Quinoa_uncooked());
+        list.add(new Rice_bran_crude());
+        list.add(new Rice_brown_long_grain_cooked());
+        list.add(new Rice_brown_long_grain_raw());
+        list.add(new Rice_brown_medium_grain_cooked());
+        list.add(new Rice_brown_medium_grain_raw());
+        list.add(new Rice_white_glutinous_unenriched_cooked());
+        list.add(new Rice_white_glutinous_unenriched_uncooked());
+        list.add(new Rice_white_long_grain_regular_enriched_cooked());
+        list.add(new Rice_white_long_grain_regular_raw_enriched());
+        list.add(new Rice_white_medium_grain_enriched_cooked());
+        list.add(new Rice_white_medium_grain_raw_enriched());
+        list.add(new Rice_white_short_grain_enriched_cooked());
+        list.add(new Rice_white_short_grain_enriched_uncooked());
+        list.add(new Rye_grain());
+        list.add(new Sorghum_grain());
+        list.add(new Triticale());
+        list.add(new Wheat_bran_crude());
+        list.add(new Wheat_germ_crude());
+        list.add(new Wheat_kamut_khorasan_cooked());
+        list.add(new Wheat_kamut_khorasan_uncooked());
+        list.add(new Wild_rice_cooked());
+        list.add(new Wild_rice_raw());
         return list;
     }
 
     private ArrayList<Interface_food> create_Dairy_and_egg_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Dairy_and_egg_products f : Dairy_and_egg_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Cheese_cottage_lowfat_1_milkfat());
+        list.add(new Cheese_cottage_lowfat_1_milkfat_no_sodium_added());
+        list.add(new Cheese_cottage_lowfat_2_milkfat());
+        list.add(new Cheese_cottage_nonfat_uncreamed_dry_large_or_small_curd());
+        list.add(new Cheese_mozzarella_nonfat());
+        list.add(new Cheese_provolone_reduced_fat());
+        list.add(new Cheese_swiss_low_fat());
+        list.add(new Egg_white_dried());
+        list.add(new Egg_white_raw_fresh());
+        list.add(new Egg_whole_cooked_hard_boiled());
+        list.add(new Egg_whole_raw_fresh());
+        list.add(new Milk_buttermilk_fluid_cultured_lowfat());
+        list.add(new Milk_buttermilk_fluid_cultured_reduced_fat());
+        list.add(new Milk_canned_condensed_sweetened());
+        list.add(new Milk_canned_evaporated_nonfat_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_canned_evaporated_with_added_vitamin_d_and_without_added_vitamin_a());
+        list.add(new Milk_chocolate_fat_free_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_chocolate_lowfat_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_dry_nonfat_instant_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_lowfat_fluid_1_milkfat_protein_fortified_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_lowfat_fluid_1_milkfat_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_nonfat_fluid_protein_fortified_with_added_vitamin_a_and_vitamin_d_fat_free_and_skim());
+        list.add(new Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim());
+        list.add(new Milk_producer_fluid_3_7_milkfat());
+        list.add(new Milk_reduced_fat_fluid_2_milkfat_with_added_vitamin_a_and_vitamin_d());
+        list.add(new Milk_whole_3_25_milkfat_with_added_vitamin_d());
+        list.add(new Parmesan_cheese_topping_fat_free());
+        list.add(new Sour_cream_fat_free());
+        list.add(new Yogurt_greek_plain_nonfat());
+        list.add(new Yogurt_plain_skim_milk_13_grams_protein_per_8_ounce());
+        list.add(new Yogurt_vanilla_non_fat());
         return list;
     }
 
     private ArrayList<Interface_food> create_Fast_foods() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Fast_foods f : Fast_foods.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato());
+        list.add(new Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato());
+        list.add(new Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato());
         return list;
     }
 
     private ArrayList<Interface_food> create_Fats_and_oils() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Fats_and_oils f : Fats_and_oils.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Fish_oil_cod_liver());
+        list.add(new Fish_oil_herring());
+        list.add(new Fish_oil_menhaden());
+        list.add(new Fish_oil_salmon());
+        list.add(new Fish_oil_sardine());
+        list.add(new Mayonnaise_reduced_fat_with_olive_oil());
+        list.add(new Oil_pam_cooking_spray_original());
+        list.add(new Oil_almond());
+        list.add(new Oil_avocado());
+        list.add(new Oil_canola());
+        list.add(new Oil_corn_and_canola());
+        list.add(new Oil_corn_industrial_and_retail_all_purpose_salad_or_cooking());
+        list.add(new Oil_cottonseed_salad_or_cooking());
+        list.add(new Oil_flaxseed_cold_pressed());
+        list.add(new Oil_grapeseed());
+        list.add(new Oil_olive_salad_or_cooking());
+        list.add(new Oil_peanut_salad_or_cooking());
+        list.add(new Oil_sesame_salad_or_cooking());
+        list.add(new Oil_soybean_lecithin());
+        list.add(new Oil_soybean_salad_or_cooking());
+        list.add(new Oil_walnut());
+        list.add(new Oil_wheat_germ());
         return list;
     }
 
     private ArrayList<Interface_food> create_Finfish_and_shellfish_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Finfish_and_shellfish_products f : Finfish_and_shellfish_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Crustaceans_shrimp_raw_not_previously_frozen());
+        list.add(new Fish_mahimahi_cooked_dry_heat());
+        list.add(new Fish_mahimahi_raw());
+        list.add(new Fish_salmon_atlantic_farmed_cooked_dry_heat());
+        list.add(new Fish_salmon_atlantic_farmed_raw());
+        list.add(new Fish_salmon_atlantic_wild_cooked_dry_heat());
+        list.add(new Fish_salmon_atlantic_wild_raw());
+        list.add(new Fish_salmon_pink_cooked_dry_heat());
+        list.add(new Fish_salmon_pink_raw());
+        list.add(new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone());
+        list.add(new Fish_sardine_pacific_canned_in_tomato_sauce_drained_solids_with_bone());
+        list.add(new Fish_tilapia_cooked_dry_heat());
+        list.add(new Fish_tilapia_raw());
+        list.add(new Fish_tuna_light_canned_in_oil_drained_solids());
+        list.add(new Fish_tuna_light_canned_in_water_drained_solids());
+        list.add(new Fish_tuna_white_canned_in_oil_drained_solids());
+        list.add(new Fish_tuna_white_canned_in_water_drained_solids());
         return list;
     }
 
     private ArrayList<Interface_food> create_Fruits_and_fruit_juices() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Fruits_and_fruit_juices f : Fruits_and_fruit_juices.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Apples_raw_with_skin());
+        list.add(new Applesauce_canned_unsweetened_with_added_ascorbic_acid());
+        list.add(new Apricots_canned_heavy_syrup_drained());
+        list.add(new Apricots_raw());
+        list.add(new Avocados_raw_all_commercial_varieties());
+        list.add(new Bananas_raw());
+        list.add(new Blackberries_frozen_unsweetened());
+        list.add(new Blackberries_raw());
+        list.add(new Blueberries_frozen_unsweetened());
+        list.add(new Blueberries_raw());
+        list.add(new Cherries_sweet_canned_pitted_heavy_syrup_drained());
+        list.add(new Cherries_sweet_raw());
+        list.add(new Figs_dried_stewed());
+        list.add(new Figs_dried_uncooked());
+        list.add(new Figs_raw());
+        list.add(new Fruit_cocktail_canned_heavy_syrup_drained());
+        list.add(new Grapefruit_juice_pink_raw());
+        list.add(new Grapefruit_raw_pink_and_red_and_white_all_areas());
+        list.add(new Grapes_american_type_slip_skin_raw());
+        list.add(new Grapes_muscadine_raw());
+        list.add(new Grapes_red_or_green_european_type_such_as_thompson_seedless_raw());
+        list.add(new Guavas_common_raw());
+        list.add(new Guavas_strawberry_raw());
+        list.add(new Kiwifruit_green_raw());
+        list.add(new Lemon_juice_raw());
+        list.add(new Lemons_raw_without_peel());
+        list.add(new Lime_juice_raw());
+        list.add(new Limes_raw());
+        list.add(new Mangos_raw());
+        list.add(new Melons_cantaloupe_raw());
+        list.add(new Melons_honeydew_raw());
+        list.add(new Nectarines_raw());
+        list.add(new Olives_ripe_canned_jumbo_super_colossal());
+        list.add(new Olives_ripe_canned_small_extra_large());
+        list.add(new Orange_juice_raw());
+        list.add(new Oranges_raw_all_commercial_varieties());
+        list.add(new Papayas_raw());
+        list.add(new Peaches_yellow_raw());
+        list.add(new Pears_asian_raw());
+        list.add(new Pears_raw());
+        list.add(new Pineapple_raw_all_varieties());
+        list.add(new Plums_raw());
+        list.add(new Pomegranate_juice_bottled());
+        list.add(new Pomegranates_raw());
+        list.add(new Prickly_pears_raw());
+        list.add(new Prune_juice_canned());
+        list.add(new Prune_puree());
+        list.add(new Raisins_golden_seedless());
+        list.add(new Raisins_seedless());
+        list.add(new Raspberries_raw());
+        list.add(new Strawberries_frozen_unsweetened());
+        list.add(new Strawberries_raw());
+        list.add(new Tamarinds_raw());
+        list.add(new Tangerines_mandarin_oranges_raw());
+        list.add(new Usda_commodity_peaches_canned_light_syrup_drained());
+        list.add(new Usda_commodity_pears_canned_light_syrup_drained());
+        list.add(new Watermelon_raw());
         return list;
     }
 
     private ArrayList<Interface_food> create_Glycemic_index_test_set() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Glycemic_index_test_set f : Glycemic_index_test_set.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Apples_raw_with_skin());
+        list.add(new Apricots_raw());
+        list.add(new Bananas_raw());
+        list.add(new Barley_pearled_cooked());
+        list.add(new Beans_kidney_red_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_pinto_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beets_canned_drained_solids());
+        list.add(new Bread_pita_white_enriched());
+        list.add(new Bread_rye());
+        list.add(new Bread_white_wheat());
+        list.add(new Campbell_s_tomato_juice());
+        list.add(new Carrot_juice_canned());
+        list.add(new Carrots_cooked_boiled_drained_without_salt());
+        list.add(new Carrots_raw());
+        list.add(new Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original());
+        list.add(new Cereals_oats_regular_and_quick_not_fortified_dry());
+        list.add(new Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids());
+        list.add(new Corn_sweet_white_cooked_boiled_drained_without_salt());
+        list.add(new Corn_sweet_yellow_cooked_boiled_drained_without_salt());
+        list.add(new Couscous_cooked());
+        list.add(new Glucose());
+        list.add(new Grapefruit_raw_pink_and_red_and_white_all_areas());
+        list.add(new Grapes_red_or_green_european_type_such_as_thompson_seedless_raw());
+        list.add(new Hominy_canned_white());
+        list.add(new Hominy_canned_yellow());
+        list.add(new Honey());
+        list.add(new Hummus_home_prepared());
+        list.add(new Lentils_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Mangos_raw());
+        list.add(new Melons_cantaloupe_raw());
+        list.add(new Milk_canned_condensed_sweetened());
+        list.add(new Milk_nonfat_fluid_with_added_vitamin_a_and_vitamin_d_fat_free_or_skim());
+        list.add(new Millet_cooked());
+        list.add(new Orange_juice_raw());
+        list.add(new Oranges_raw_all_commercial_varieties());
+        list.add(new Papayas_raw());
+        list.add(new Pasta_cooked_enriched_without_added_salt());
+        list.add(new Peaches_yellow_raw());
+        list.add(new Pears_raw());
+        list.add(new Peas_green_cooked_boiled_drained_without_salt());
+        list.add(new Pineapple_raw_all_varieties());
+        list.add(new Plums_raw());
+        list.add(new Potatoes_white_flesh_and_skin_baked());
+        list.add(new Pretzels_soft_unsalted());
+        list.add(new Prickly_pears_raw());
+        list.add(new Raisins_seedless());
+        list.add(new Rice_brown_long_grain_cooked());
+        list.add(new Rice_brown_medium_grain_cooked());
+        list.add(new Rice_white_glutinous_unenriched_cooked());
+        list.add(new Rice_white_long_grain_regular_enriched_cooked());
+        list.add(new Rice_white_medium_grain_enriched_cooked());
+        list.add(new Snacks_popcorn_air_popped_unsalted());
+        list.add(new Snacks_pretzels_hard_plain_salted());
+        list.add(new Snacks_tortilla_chips_light_baked_with_less_oil());
+        list.add(new Snacks_tortilla_chips_low_fat_unsalted());
+        list.add(new Snacks_tortilla_chips_unsalted_white_corn());
+        list.add(new Soybeans_green_cooked_boiled_drained_without_salt());
+        list.add(new Soybeans_mature_cooked_boiled_without_salt());
+        list.add(new Sugars_granulated());
+        list.add(new Sweet_potato_cooked_baked_in_skin_flesh_without_salt());
+        list.add(new Usda_commodity_peaches_canned_light_syrup_drained());
+        list.add(new Wild_rice_cooked());
+        list.add(new Yam_cooked_boiled_drained_or_baked_without_salt());
+        list.add(new Yogurt_greek_plain_nonfat());
         return list;
     }
 
     private ArrayList<Interface_food> create_Legumes_and_legume_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Legumes_and_legume_products f : Legumes_and_legume_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Beans_black_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_black_mature_seeds_raw());
+        list.add(new Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_kidney_all_types_mature_seeds_raw());
+        list.add(new Beans_kidney_california_red_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_kidney_california_red_mature_seeds_raw());
+        list.add(new Beans_kidney_red_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_kidney_red_mature_seeds_raw());
+        list.add(new Beans_pinto_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Beans_pinto_mature_seeds_raw());
+        list.add(new Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_canned_drained_solids());
+        list.add(new Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Chickpeas_garbanzo_beans_bengal_gram_mature_seeds_raw());
+        list.add(new Hummus_home_prepared());
+        list.add(new Lentils_mature_seeds_cooked_boiled_with_salt());
+        list.add(new Lentils_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Lentils_raw());
+        list.add(new Peanut_butter_chunk_style_with_salt());
+        list.add(new Peanut_butter_chunk_style_without_salt());
+        list.add(new Peanuts_all_types_dry_roasted_without_salt());
+        list.add(new Peas_green_split_mature_seeds_raw());
+        list.add(new Peas_split_mature_seeds_cooked_boiled_without_salt());
+        list.add(new Soy_meal_defatted_raw());
+        list.add(new Soy_protein_isolate());
+        list.add(new Soybeans_mature_cooked_boiled_without_salt());
+        list.add(new Soybeans_mature_seeds_raw());
         return list;
     }
 
     private ArrayList<Interface_food> create_Nut_and_seed_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Nut_and_seed_products f : Nut_and_seed_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Nuts_almonds());
+        list.add(new Nuts_almonds_dry_roasted_without_salt_added());
+        list.add(new Nuts_almonds_honey_roasted_unblanched());
+        list.add(new Nuts_cashew_butter_plain_without_salt_added());
+        list.add(new Nuts_cashew_nuts_dry_roasted_without_salt_added());
+        list.add(new Nuts_cashew_nuts_raw());
+        list.add(new Nuts_hazelnuts_or_filberts_dry_roasted_without_salt_added());
+        list.add(new Nuts_macadamia_nuts_dry_roasted_without_salt_added());
+        list.add(new Nuts_macadamia_nuts_raw());
+        list.add(new Nuts_mixed_nuts_dry_roasted_with_peanuts_salt_added_planters_pistachio_blend());
+        list.add(new Nuts_mixed_nuts_dry_roasted_with_peanuts_without_salt_added());
+        list.add(new Nuts_pecans());
+        list.add(new Nuts_pecans_dry_roasted_without_salt_added());
+        list.add(new Nuts_pistachio_nuts_dry_roasted_without_salt_added());
+        list.add(new Nuts_pistachio_nuts_raw());
+        list.add(new Nuts_walnuts_dry_roasted_with_salt_added());
+        list.add(new Nuts_walnuts_english());
+        list.add(new Seeds_flaxseed());
+        list.add(new Seeds_flaxseed_efas());
+        list.add(new Seeds_sunflower_seed_kernels_dry_roasted_without_salt());
+        list.add(new Seeds_sunflower_seed_kernels_toasted_without_salt());
+
         return list;
     }
 
     private ArrayList<Interface_food> create_Omega_3() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Omega_3 f : Omega_3.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Fish_oil_cod_liver());
+        list.add(new Fish_oil_herring());
+        list.add(new Fish_oil_menhaden());
+        list.add(new Fish_oil_salmon());
+        list.add(new Fish_oil_sardine());
+        list.add(new Oil_flaxseed_cold_pressed());
+        list.add(new Seeds_flaxseed_efas());
         return list;
     }
 
     private ArrayList<Interface_food> create_Pork_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Pork_products f : Pork_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted());
+        list.add(new Pork_fresh_loin_tenderloin_separable_lean_only_raw());
+        list.add(new Pork_ground_96_lean_4_fat_cooked_pan_broiled());
+        list.add(new Pork_ground_96_lean_4_fat_raw());
+
         return list;
     }
 
     private ArrayList<Interface_food> create_Poultry_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Poultry_products f : Poultry_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw());
+        list.add(new Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted());
+        list.add(new Ground_turkey_fat_free_raw());
+        list.add(new Turkey_breast_from_whole_bird_non_enhanced_meat_only_raw());
+        list.add(new Turkey_breast_from_whole_bird_non_enhanced_meat_only_roasted());
         return list;
     }
 
     private ArrayList<Interface_food> create_Protein_powders() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Protein_powders f : Protein_powders.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Egg_white_dried());
+        list.add(new Soy_protein_isolate());
+        list.add(new Whey_protein_concentrate());
         return list;
     }
 
     private ArrayList<Interface_food> create_Sausages_and_luncheon_meats() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Sausages_and_luncheon_meats f : Sausages_and_luncheon_meats.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged());
+        list.add(new Chicken_breast_fat_free_mesquite_flavor_sliced());
+        list.add(new Chicken_breast_oven_roasted_fat_free_sliced());
+        list.add(new Frankfurter_beef_pork_and_turkey_fat_free());
+        list.add(new Ham_sliced_pre_packaged_deli_meat_96_fat_free_water_added());
+        list.add(new Oscar_mayer_chicken_breast_honey_glazed());
+        list.add(new Pastrami_beef_98_fat_free());
+        list.add(new Turkey_breast_smoked_lemon_pepper_flavor_97_fat_free());
         return list;
     }
 
     private ArrayList<Interface_food> create_Snacks() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Snacks f : Snacks.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Pretzels_soft_unsalted());
+        list.add(new Snacks_pita_chips_salted());
+        list.add(new Snacks_popcorn_air_popped_unsalted());
+        list.add(new Snacks_popcorn_microwave_94_fat_free());
+        list.add(new Snacks_pretzels_hard_plain_salted());
+        list.add(new Snacks_rice_cakes_brown_rice_multigrain_unsalted());
+        list.add(new Snacks_rice_cakes_brown_rice_plain_unsalted());
+        list.add(new Snacks_sweet_potato_chips_unsalted());
+        list.add(new Snacks_tortilla_chips_light_baked_with_less_oil());
+        list.add(new Snacks_tortilla_chips_low_fat_unsalted());
+        list.add(new Snacks_tortilla_chips_unsalted_white_corn());
+        list.add(new Snacks_trail_mix_regular());
+        list.add(new Snacks_trail_mix_regular_unsalted());
         return list;
     }
 
     private ArrayList<Interface_food> create_Spices_and_herbs() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Spices_and_herbs f : Spices_and_herbs.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Salt_table());
+        list.add(new Spices_pepper_black());
+        list.add(new Vinegar_balsamic());
         return list;
     }
 
     private ArrayList<Interface_food> create_Supplements() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Supplements f : Supplements.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Generic_multivitamin());
+        list.add(new Glucose());
         return list;
     }
 
     private ArrayList<Interface_food> create_Sweets() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Sweets f : Sweets.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Chewing_gum_sugarless());
+        list.add(new Chocolate_dark_45_59_cacao_solids());
+        list.add(new Chocolate_dark_60_69_cacao_solids());
+        list.add(new Chocolate_dark_70_85_cacao_solids());
+        list.add(new Cocoa_dry_powder_unsweetened());
+        list.add(new Cocoa_dry_powder_unsweetened_hershey_s_european_style_cocoa());
+        list.add(new Cocoa_dry_powder_unsweetened_processed_with_alkali());
+        list.add(new Honey());
+        list.add(new Sugars_granulated());
+        list.add(new Sweetener_herbal_extract_powder_from_stevia_leaf());
+        list.add(new Sweeteners_tabletop_aspartame_equal_packets());
+        list.add(new Sweeteners_tabletop_saccharin_sodium_saccharin());
+        list.add(new Sweeteners_tabletop_sucralose_splenda_packets());
+        list.add(new Syrups_sugar_free());
         return list;
     }
 
     private ArrayList<Interface_food> create_Vegetables_and_vegetable_products() {
         ArrayList<Interface_food> list = new ArrayList();
-        for (Vegetables_and_vegetable_products f : Vegetables_and_vegetable_products.values()) {
-            Food food = Food_creator.make_food_from_food_enum(f);
-            list.add(food);
-        }
+        list.add(new Asparagus_cooked_boiled_drained());
+        list.add(new Asparagus_raw());
+        list.add(new Beets_canned_drained_solids());
+        list.add(new Beets_cooked_boiled_drained());
+        list.add(new Beets_raw());
+        list.add(new Broccoli_cooked_boiled_drained_without_salt());
+        list.add(new Broccoli_raw());
+        list.add(new Campbell_s_tomato_juice());
+        list.add(new Campbell_s_tomato_juice_low_sodium());
+        list.add(new Campbell_s_v8_100_vegetable_juice());
+        list.add(new Campbell_s_v8_vegetable_juice_essential_antioxidants_v8());
+        list.add(new Campbell_s_v8_vegetable_juice_spicy_hot_v8());
+        list.add(new Cabbage_cooked_boiled_drained_without_salt());
+        list.add(new Cabbage_raw());
+        list.add(new Cabbage_red_cooked_boiled_drained_without_salt());
+        list.add(new Cabbage_red_raw());
+        list.add(new Carrot_juice_canned());
+        list.add(new Carrots_baby_raw());
+        list.add(new Carrots_cooked_boiled_drained_without_salt());
+        list.add(new Carrots_raw());
+        list.add(new Catsup());
+        list.add(new Catsup_low_sodium());
+        list.add(new Cauliflower_cooked_boiled_drained_without_salt());
+        list.add(new Cauliflower_frozen_cooked_boiled_drained_without_salt());
+        list.add(new Cauliflower_frozen_unprepared());
+        list.add(new Cauliflower_raw());
+        list.add(new Celery_cooked_boiled_drained_without_salt());
+        list.add(new Celery_raw());
+        list.add(new Coriander_cilantro_leaves_raw());
+        list.add(new Corn_sweet_white_cooked_boiled_drained_without_salt());
+        list.add(new Corn_sweet_white_raw());
+        list.add(new Corn_sweet_yellow_cooked_boiled_drained_without_salt());
+        list.add(new Corn_sweet_yellow_raw());
+        list.add(new Cucumber_peeled_raw());
+        list.add(new Cucumber_with_peel_raw());
+        list.add(new Edamame_frozen_prepared());
+        list.add(new Garlic_raw());
+        list.add(new Ginger_root_raw());
+        list.add(new Kale_cooked_boiled_drained_without_salt());
+        list.add(new Kale_raw());
+        list.add(new Lettuce_cos_or_romaine_raw());
+        list.add(new Lettuce_green_leaf_raw());
+        list.add(new Lettuce_iceberg_includes_crisphead_types_raw());
+        list.add(new Lettuce_red_leaf_raw());
+        list.add(new Mushrooms_portabella_grilled());
+        list.add(new Mushrooms_portabella_raw());
+        list.add(new Mushrooms_shiitake_raw());
+        list.add(new Mushrooms_shiitake_stir_fried());
+        list.add(new Mushrooms_white_raw());
+        list.add(new Mushrooms_white_stir_fried());
+        list.add(new Nopales_cooked_without_salt());
+        list.add(new Nopales_raw());
+        list.add(new Okra_cooked_boiled_drained_without_salt());
+        list.add(new Okra_raw());
+        list.add(new Onions_cooked_boiled_drained_without_salt());
+        list.add(new Onions_raw());
+        list.add(new Peas_and_carrots_frozen_cooked_boiled_drained_without_salt());
+        list.add(new Peas_and_carrots_frozen_unprepared());
+        list.add(new Peas_green_cooked_boiled_drained_without_salt());
+        list.add(new Peas_green_frozen_cooked_boiled_drained_without_salt());
+        list.add(new Peas_green_frozen_unprepared());
+        list.add(new Peas_green_raw());
+        list.add(new Peppers_jalapeno_raw());
+        list.add(new Peppers_serrano_raw());
+        list.add(new Peppers_sweet_green_raw());
+        list.add(new Peppers_sweet_red_raw());
+        list.add(new Potatoes_baked_flesh_and_skin_without_salt());
+        list.add(new Potatoes_boiled_cooked_in_skin_flesh_without_salt());
+        list.add(new Potatoes_flesh_and_skin_raw());
+        list.add(new Potatoes_microwaved_cooked_in_skin_skin_without_salt());
+        list.add(new Potatoes_raw_skin());
+        list.add(new Potatoes_red_flesh_and_skin_raw());
+        list.add(new Potatoes_russet_flesh_and_skin_raw());
+        list.add(new Potatoes_white_flesh_and_skin_baked());
+        list.add(new Potatoes_white_flesh_and_skin_raw());
+        list.add(new Radishes_raw());
+        list.add(new Soybeans_green_cooked_boiled_drained_without_salt());
+        list.add(new Soybeans_green_raw());
+        list.add(new Soybeans_mature_seeds_sprouted_cooked_steamed());
+        list.add(new Spinach_canned_regular_pack_drained_solids());
+        list.add(new Spinach_cooked_boiled_drained_without_salt());
+        list.add(new Spinach_raw());
+        list.add(new Squash_summer_all_varieties_cooked_boiled_drained_without_salt());
+        list.add(new Squash_summer_all_varieties_raw());
+        list.add(new Squash_summer_zucchini_includes_skin_raw());
+        list.add(new Squash_winter_all_varieties_raw());
+        list.add(new Sweet_potato_canned_syrup_pack_drained_solids());
+        list.add(new Sweet_potato_cooked_baked_in_skin_flesh_without_salt());
+        list.add(new Sweet_potato_raw_unprepared());
+        list.add(new Tomatillos_raw());
+        list.add(new Tomato_products_canned_paste_without_salt_added());
+        list.add(new Tomato_products_canned_puree_without_salt_added());
+        list.add(new Tomato_products_canned_sauce());
+        list.add(new Tomatoes_red_ripe_raw_year_round_average());
+        list.add(new Vegetables_mixed_corn_lima_beans_peas_green_beans_carrots_canned_no_salt_added());
+        list.add(new Vegetables_mixed_canned_drained_solids());
+        list.add(new Vegetables_mixed_frozen_unprepared());
+        list.add(new Yam_cooked_boiled_drained_or_baked_without_salt());
+        list.add(new Yam_raw());
+        list.add(new Yambean_jicama_raw());
         return list;
     }
+
 }

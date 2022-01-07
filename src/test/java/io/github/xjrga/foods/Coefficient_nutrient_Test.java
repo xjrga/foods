@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.Dairy_and_egg_products;
-import io.github.xjrga.foods.data.Sweets;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Honey;
+import io.github.xjrga.foods.data.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
 import java.util.ArrayList;
 import org.junit.Assert;
 import static org.junit.Assert.assertEquals;
@@ -45,8 +45,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_gross_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -61,8 +61,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_protein_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -78,8 +78,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_carbohydrate_by_difference_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -94,8 +94,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_fiber_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -110,8 +110,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_fat_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -126,8 +126,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_alcohol_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -142,8 +142,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_digestible_carbohydrate_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -158,8 +158,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_cholesterol_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -174,8 +174,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_monounsaturated_fat_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -190,8 +190,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_polyunsaturated_fat_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -206,8 +206,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_saturated_fat_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -222,8 +222,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_complete_protein_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -238,8 +238,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_calcium_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -254,8 +254,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_copper_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -270,8 +270,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_fluoride_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -286,8 +286,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_iron_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -302,8 +302,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_magnesium_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -318,8 +318,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_manganese_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -334,8 +334,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_phosphorus_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -350,8 +350,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_potassium_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -366,8 +366,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_selenium_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -382,8 +382,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_sodium_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -398,8 +398,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_zinc_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -414,8 +414,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_folate_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -430,8 +430,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_niacin_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -446,8 +446,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_pantothenic_acid_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -462,8 +462,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_riboflavin_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -478,8 +478,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_thiamin_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -494,8 +494,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_a_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -510,8 +510,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_b12_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -526,8 +526,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_b6_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -542,8 +542,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_c_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -558,8 +558,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_d_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -574,8 +574,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_e_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -590,8 +590,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_vitamin_k_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -606,8 +606,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_choline_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -622,8 +622,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_glycemic_load_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -638,8 +638,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_alphalinolenic_acid_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -654,8 +654,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_linoleic_acid_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -670,8 +670,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_dha_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -686,8 +686,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_epa_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -702,8 +702,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_water_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -718,8 +718,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_cost_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -734,8 +734,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_alcohol_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -751,8 +751,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_digestible_carbohydrate_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -767,8 +767,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_digestible_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -783,8 +783,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_fat_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -799,8 +799,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testGet_energy_protein_coefficients() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
@@ -815,8 +815,8 @@ public class Coefficient_nutrient_Test {
     @Test
     public void testToString() {
         ArrayList<Interface_food> list = new ArrayList();
-        Food honey = Food_creator.make_food_from_food_enum(Sweets.Honey);
-        Food yogurt = Food_creator.make_food_from_food_enum(Dairy_and_egg_products.Yogurt_greek_plain_nonfat);
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);

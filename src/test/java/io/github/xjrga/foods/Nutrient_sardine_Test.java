@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.Finfish_and_shellfish_products;
+import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone;
 import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -35,7 +35,7 @@ public class Nutrient_sardine_Test {
 
     @BeforeClass
     public static void one_time_setup() {
-        food = Food_creator.make_food_from_food_enum(Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone);
+        food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
     }
 
     //food_name
@@ -47,7 +47,7 @@ public class Nutrient_sardine_Test {
     //food_label
     @Test
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone");
+        assertEquals(food.get_food_label(), "fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone");
     }
 
     //Alcohol, ethyl (g)

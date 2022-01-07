@@ -17,7 +17,7 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.Vegetables_and_vegetable_products;
+import io.github.xjrga.foods.data.vegetables_and_vegetable_products.Tomato_products_canned_puree_without_salt_added;
 import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -35,7 +35,7 @@ public class Nutrient_tomato_puree_Test {
 
     @BeforeClass
     public static void one_time_setup() {
-        food = Food_creator.make_food_from_food_enum(Vegetables_and_vegetable_products.Tomato_products_canned_puree_without_salt_added);
+        food = new Tomato_products_canned_puree_without_salt_added();
     }
 
     //food_name
@@ -47,7 +47,7 @@ public class Nutrient_tomato_puree_Test {
     //food_label
     @Test
     public void test_food_label() {
-        assertEquals(food.get_food_label(), "Tomato_products_canned_puree_without_salt_added");
+        assertEquals(food.get_food_label(), "tomato_products_canned_puree_without_salt_added");
     }
 
     //Alcohol, ethyl (g)
