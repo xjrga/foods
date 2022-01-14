@@ -22,7 +22,7 @@ import java.util.Objects;
 /**
  * This is an abstract food to extend from
  */
-public abstract class Abstract_food implements Interface_food_mutable, Interface_food {
+public abstract class Abstract_food implements Interface_food_set, Interface_food_get, Interface_food_coefficient {
 
     private String name;
     private String label;
@@ -133,6 +133,76 @@ public abstract class Abstract_food implements Interface_food_mutable, Interface
         set_carbohydrate_by_difference_atwater_factor(4.0);
         set_fat_atwater_factor(9.0);
         set_alcohol_atwater_factor(6.93);
+    }
+
+    public Abstract_food(Food_data food) {
+        set_food_name(food.get_food_name());
+        set_food_label(food.get_food_label());
+        set_weight_in_grams(food.get_weight_in_grams());
+        set_energy_gross_in_kilocalories(food.get_energy_gross_in_kilocalories());
+        set_protein_in_grams(food.get_protein_in_grams());
+        set_carbohydrate_by_difference_in_grams(food.get_carbohydrate_by_difference_in_grams());
+        set_fiber_in_grams(food.get_fiber_in_grams());
+        set_fat_in_grams(food.get_fat_in_grams());
+        set_alcohol_in_grams(food.get_alcohol_in_grams());
+        set_cholesterol_in_milligrams(food.get_cholesterol_in_milligrams());
+        set_monounsaturated_fat_in_grams(food.get_monounsaturated_fat_in_grams());
+        set_polyunsaturated_fat_in_grams(food.get_polyunsaturated_fat_in_grams());
+        set_saturated_fat_in_grams(food.get_saturated_fat_in_grams());
+        set_complete_protein_in_grams(food.get_complete_protein_in_grams());
+        set_calcium_in_milligrams(food.get_calcium_in_milligrams());
+        set_copper_in_milligrams(food.get_copper_in_milligrams());
+        set_fluoride_in_micrograms(food.get_fluoride_in_micrograms());
+        set_iron_in_milligrams(food.get_iron_in_milligrams());
+        set_magnesium_in_milligrams(food.get_magnesium_in_milligrams());
+        set_manganese_in_milligrams(food.get_manganese_in_milligrams());
+        set_phosphorus_in_milligrams(food.get_phosphorus_in_milligrams());
+        set_potassium_in_milligrams(food.get_potassium_in_milligrams());
+        set_selenium_in_micrograms(food.get_selenium_in_micrograms());
+        set_sodium_in_milligrams(food.get_sodium_in_milligrams());
+        set_zinc_in_milligrams(food.get_zinc_in_milligrams());
+        set_folate_in_micrograms(food.get_folate_in_micrograms());
+        set_niacin_in_milligrams(food.get_niacin_in_milligrams());
+        set_pantothenic_acid_in_milligrams(food.get_pantothenic_acid_in_milligrams());
+        set_riboflavin_in_milligrams(food.get_riboflavin_in_milligrams());
+        set_thiamin_in_milligrams(food.get_thiamin_in_milligrams());
+        set_vitamin_a_in_micrograms(food.get_vitamin_a_in_micrograms());
+        set_vitamin_b12_in_micrograms(food.get_vitamin_b12_in_micrograms());
+        set_vitamin_b6_in_milligrams(food.get_vitamin_b6_in_milligrams());
+        set_vitamin_c_in_milligrams(food.get_vitamin_c_in_milligrams());
+        set_vitamin_d_in_micrograms(food.get_vitamin_d_in_micrograms());
+        set_vitamin_e_in_milligrams(food.get_vitamin_e_in_milligrams());
+        set_vitamin_k_in_micrograms(food.get_vitamin_k_in_micrograms());
+        set_choline_in_milligrams(food.get_choline_in_milligrams());
+        set_glycemic_index(food.get_glycemic_index());
+        set_alpha_linolenic_acid_in_grams(food.get_alpha_linolenic_acid_in_grams());
+        set_linoleic_acid_in_grams(food.get_linoleic_acid_in_grams());
+        set_dha_in_grams(food.get_dha_in_grams());
+        set_epa_in_grams(food.get_epa_in_grams());
+        set_water_in_grams(food.get_water_in_grams());
+        set_cost_in_dollars(food.get_cost_in_dollars());
+        //
+        if (!(food.get_protein_atwater_factor() == -1)) {
+            set_protein_atwater_factor(4.0);
+        } else {
+            set_protein_atwater_factor(food.get_protein_atwater_factor());
+        }
+        if (!(food.get_carbohydrate_by_difference_atwater_factor() == -1)) {
+            set_carbohydrate_by_difference_atwater_factor(4.0);
+        } else {
+            set_carbohydrate_by_difference_atwater_factor(food.get_carbohydrate_by_difference_atwater_factor());
+        }
+        if (!(food.get_fat_atwater_factor() == -1)) {
+            set_fat_atwater_factor(9.0);
+        } else {
+            set_fat_atwater_factor(food.get_fat_atwater_factor());
+        }
+        if (!(food.get_alcohol_atwater_factor() == -1)) {
+            set_alcohol_atwater_factor(6.93);
+        } else {
+            set_alcohol_atwater_factor(food.get_alcohol_atwater_factor());
+        }
+
     }
 
     @Override

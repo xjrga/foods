@@ -18,7 +18,7 @@
 package io.github.xjrga.foods.data.dietary_reference_intake;
 
 import io.github.xjrga.foods.Abstract_dri;
-import io.github.xjrga.foods.Interface_dri;
+import io.github.xjrga.foods.Interface_dri_get;
 
 /**
  * Dietary reference intake for Infants (6–12 mo

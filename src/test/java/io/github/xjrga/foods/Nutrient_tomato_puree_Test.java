@@ -28,7 +28,7 @@ import org.junit.Test;
  */
 public class Nutrient_tomato_puree_Test {
 
-    private static Interface_food food;
+    private static Abstract_food food;
 
     public Nutrient_tomato_puree_Test() {
     }

@@ -448,7 +448,7 @@ import java.util.Map.Entry;
  */
 public class Chef {
 
-    private final HashMap<String, ArrayList<Interface_food>> map;
+    private final HashMap<String, ArrayList<Abstract_food>> map;
 
     public Chef() {
         map = new HashMap();
@@ -483,19 +483,19 @@ public class Chef {
         return map.keySet().iterator();
     }
 
-    public Iterator<Interface_food> get_foods(String category) {
+    public Iterator<Abstract_food> get_foods(String category) {
         return map.get(category).iterator();
     }
 
-    public Interface_food find_food(String food_name) {
-        Interface_food found = null;
-        Iterator<Entry<String, ArrayList<Interface_food>>> it = map.entrySet().iterator();
+    public Abstract_food find_food(String food_name) {
+        Abstract_food found = null;
+        Iterator<Entry<String, ArrayList<Abstract_food>>> it = map.entrySet().iterator();
         while (it.hasNext()) {
-            Entry<String, ArrayList<Interface_food>> entry = it.next();
-            ArrayList<Interface_food> food_list = entry.getValue();
-            Iterator<Interface_food> it2 = food_list.iterator();
+            Entry<String, ArrayList<Abstract_food>> entry = it.next();
+            ArrayList<Abstract_food> food_list = entry.getValue();
+            Iterator<Abstract_food> it2 = food_list.iterator();
             while (it2.hasNext()) {
-                Interface_food food = it2.next();
+                Abstract_food food = it2.next();
                 if (food.get_food_name().equals(food_name)) {
                     found = food;
                     break;
@@ -505,8 +505,8 @@ public class Chef {
         return found;
     }
 
-    private ArrayList<Interface_food> create_American_indian_alaska_native_foods() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_American_indian_alaska_native_foods() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Blackberries_wild_raw_alaska_native());
         list.add(new Blueberries_wild_frozen_alaska_native());
         list.add(new Blueberries_wild_raw_alaska_native());
@@ -525,14 +525,14 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Baby_foods() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Baby_foods() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Babyfood_dessert_custard_pudding_vanilla_junior());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Baked_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Baked_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Bagels_cinnamon_raisin());
         list.add(new Bagels_multigrain());
         list.add(new Bagels_wheat());
@@ -544,8 +544,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Beef_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Beef_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Beef_ground_97_lean_meat_3_fat_raw());
         list.add(new Beef_loin_tenderloin_roast_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
         list.add(new Beef_loin_tenderloin_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_raw());
@@ -561,8 +561,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Beverages() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Beverages() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Alcoholic_beverage_beer_light());
         list.add(new Alcoholic_beverage_beer_regular_all());
         list.add(new Alcoholic_beverage_liqueur_coffee_53_proof());
@@ -578,15 +578,15 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Breakfast_cereals() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Breakfast_cereals() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Cereals_ready_to_eat_kellogg_kellogg_s_all_bran_original());
         list.add(new Cereals_oats_regular_and_quick_not_fortified_dry());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Cereal_grains_and_pasta() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Cereal_grains_and_pasta() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Amaranth_grain_cooked());
         list.add(new Amaranth_grain_uncooked());
         list.add(new Barley_pearled_cooked());
@@ -633,8 +633,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Dairy_and_egg_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Dairy_and_egg_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Cheese_cottage_lowfat_1_milkfat());
         list.add(new Cheese_cottage_lowfat_1_milkfat_no_sodium_added());
         list.add(new Cheese_cottage_lowfat_2_milkfat());
@@ -669,16 +669,16 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Fast_foods() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Fast_foods() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Subway_oven_roasted_chicken_sub_on_white_bread_with_lettuce_and_tomato());
         list.add(new Subway_roast_beef_sub_on_white_bread_with_lettuce_and_tomato());
         list.add(new Subway_turkey_breast_sub_on_white_bread_with_lettuce_and_tomato());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Fats_and_oils() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Fats_and_oils() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Fish_oil_cod_liver());
         list.add(new Fish_oil_herring());
         list.add(new Fish_oil_menhaden());
@@ -704,8 +704,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Finfish_and_shellfish_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Finfish_and_shellfish_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Crustaceans_shrimp_raw_not_previously_frozen());
         list.add(new Fish_mahimahi_cooked_dry_heat());
         list.add(new Fish_mahimahi_raw());
@@ -726,8 +726,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Fruits_and_fruit_juices() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Fruits_and_fruit_juices() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Apples_raw_with_skin());
         list.add(new Applesauce_canned_unsweetened_with_added_ascorbic_acid());
         list.add(new Apricots_canned_heavy_syrup_drained());
@@ -788,8 +788,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Glycemic_index_test_set() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Glycemic_index_test_set() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Apples_raw_with_skin());
         list.add(new Apricots_raw());
         list.add(new Bananas_raw());
@@ -857,8 +857,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Legumes_and_legume_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Legumes_and_legume_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Beans_black_mature_seeds_cooked_boiled_without_salt());
         list.add(new Beans_black_mature_seeds_raw());
         list.add(new Beans_kidney_all_types_mature_seeds_cooked_boiled_without_salt());
@@ -888,8 +888,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Nut_and_seed_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Nut_and_seed_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Nuts_almonds());
         list.add(new Nuts_almonds_dry_roasted_without_salt_added());
         list.add(new Nuts_almonds_honey_roasted_unblanched());
@@ -915,8 +915,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Omega_3() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Omega_3() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Fish_oil_cod_liver());
         list.add(new Fish_oil_herring());
         list.add(new Fish_oil_menhaden());
@@ -927,8 +927,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Pork_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Pork_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Pork_fresh_loin_tenderloin_separable_lean_only_cooked_roasted());
         list.add(new Pork_fresh_loin_tenderloin_separable_lean_only_raw());
         list.add(new Pork_ground_96_lean_4_fat_cooked_pan_broiled());
@@ -937,8 +937,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Poultry_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Poultry_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Chicken_broiler_or_fryers_breast_skinless_boneless_meat_only_raw());
         list.add(new Chicken_broilers_or_fryers_breast_meat_only_cooked_roasted());
         list.add(new Ground_turkey_fat_free_raw());
@@ -947,16 +947,16 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Protein_powders() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Protein_powders() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Egg_white_dried());
         list.add(new Soy_protein_isolate());
         list.add(new Whey_protein_concentrate());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Sausages_and_luncheon_meats() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Sausages_and_luncheon_meats() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Chicken_breast_deli_rotisserie_seasoned_sliced_prepackaged());
         list.add(new Chicken_breast_fat_free_mesquite_flavor_sliced());
         list.add(new Chicken_breast_oven_roasted_fat_free_sliced());
@@ -968,8 +968,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Snacks() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Snacks() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Pretzels_soft_unsalted());
         list.add(new Snacks_pita_chips_salted());
         list.add(new Snacks_popcorn_air_popped_unsalted());
@@ -986,23 +986,23 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Spices_and_herbs() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Spices_and_herbs() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Salt_table());
         list.add(new Spices_pepper_black());
         list.add(new Vinegar_balsamic());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Supplements() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Supplements() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Generic_multivitamin());
         list.add(new Glucose());
         return list;
     }
 
-    private ArrayList<Interface_food> create_Sweets() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Sweets() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Chewing_gum_sugarless());
         list.add(new Chocolate_dark_45_59_cacao_solids());
         list.add(new Chocolate_dark_60_69_cacao_solids());
@@ -1020,8 +1020,8 @@ public class Chef {
         return list;
     }
 
-    private ArrayList<Interface_food> create_Vegetables_and_vegetable_products() {
-        ArrayList<Interface_food> list = new ArrayList();
+    private ArrayList<Abstract_food> create_Vegetables_and_vegetable_products() {
+        ArrayList<Abstract_food> list = new ArrayList();
         list.add(new Asparagus_cooked_boiled_drained());
         list.add(new Asparagus_raw());
         list.add(new Beets_canned_drained_solids());

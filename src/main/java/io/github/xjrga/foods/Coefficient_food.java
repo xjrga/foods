@@ -26,16 +26,16 @@ import java.util.Objects;
  */
 public class Coefficient_food {
 
-    private final ArrayList<Interface_food> list;
+    private final ArrayList<Abstract_food> list;
     private final double[] coeffs;
     private final int size;
 
-    public Coefficient_food(ArrayList<Interface_food> food_list, Interface_food food) {
-        this.list = (ArrayList<Interface_food>) food_list.clone();
+    public Coefficient_food(ArrayList<Abstract_food> food_list, Abstract_food food) {
+        this.list = (ArrayList<Abstract_food>) food_list.clone();
         size = list.size();
         coeffs = new double[size];
         for (int i = 0; i < size; i++) {
-            Interface_food f = list.get(i);
+            Abstract_food f = list.get(i);
             int a = f.equals(food) ? 1 : 0;
             coeffs[i] = a;
         }
@@ -49,7 +49,7 @@ public class Coefficient_food {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < size; i++) {
-            Interface_food food = list.get(i);
+            Abstract_food food = list.get(i);
             sb.append(food.get_food_name());
             sb.append("|");
         }

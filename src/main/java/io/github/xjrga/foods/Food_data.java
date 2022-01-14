@@ -24,7 +24,7 @@ import java.util.Objects;
  * directly proportional to weight, if weight changes, nutrient values must
  * change.
  */
-public class Food_mutable implements Interface_food_mutable, Interface_food {
+public class Food_data implements Interface_food_set, Interface_food_get {
 
     private String name;
     private String label;
@@ -84,7 +84,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     /**
      *
      */
-    public Food_mutable() {
+    public Food_data() {
         set_food_name("");
         set_food_label("");
         set_weight_in_grams(0.0);
@@ -182,11 +182,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     }
 
     @Override
-    public final Double get_energy_gross_coefficient_in_kilocalories() {
-        return gross_energy / weight;
-    }
-
-    @Override
     public final Double get_protein_in_grams() {
         return protein;
     }
@@ -194,11 +189,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_protein_in_grams(Double quantity) {
         protein = quantity;
-    }
-
-    @Override
-    public final Double get_protein_coefficient() {
-        return protein / weight;
     }
 
     @Override
@@ -351,15 +341,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_alcohol_coefficient() {
-        return alcohol / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_alcohol_atwater_factor() {
         return alcohol_atwater_factor;
     }
@@ -381,15 +362,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final Double get_digestible_carbohydrate_in_grams() {
         return carbohydrate_by_difference - fiber;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_digestible_carbohydrate_coefficient() {
-        return get_digestible_carbohydrate_in_grams() / weight;
     }
 
     //fats
@@ -416,15 +388,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_cholesterol_coefficient() {
-        return cholesterol / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_monounsaturated_fat_in_grams() {
         return monounsaturated_fat;
     }
@@ -436,15 +399,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_monounsaturated_fat_in_grams(Double quantity) {
         monounsaturated_fat = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_monounsaturated_fat_coefficient() {
-        return monounsaturated_fat / weight;
     }
 
     /**
@@ -470,15 +424,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_polyunsaturated_fat_coefficient() {
-        return polyunsaturated_fat / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_saturated_fat_in_grams() {
         return saturated_fat;
     }
@@ -490,15 +435,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_saturated_fat_in_grams(Double quantity) {
         saturated_fat = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_saturated_fat_coefficient() {
-        return saturated_fat / weight;
     }
 
     //protein
@@ -518,15 +454,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_complete_protein_in_grams(Double quantity) {
         complete_protein = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_complete_protein_coefficient() {
-        return complete_protein / weight;
     }
 
     //minerals
@@ -553,15 +480,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_calcium_coefficient() {
-        return calcium / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_copper_in_milligrams() {
         return copper;
     }
@@ -573,15 +491,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_copper_in_milligrams(Double quantity) {
         copper = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_copper_coefficient() {
-        return copper / weight;
     }
 
     /**
@@ -607,15 +516,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_fluoride_coefficient() {
-        return fluoride / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_iron_in_milligrams() {
         return iron;
     }
@@ -627,15 +527,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_iron_in_milligrams(Double quantity) {
         iron = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_iron_coefficient() {
-        return iron / weight;
     }
 
     /**
@@ -661,15 +552,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_magnesium_coefficient() {
-        return magnesium / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_manganese_in_milligrams() {
         return manganese;
     }
@@ -681,15 +563,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_manganese_in_milligrams(Double quantity) {
         manganese = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_manganese_coefficient() {
-        return manganese / weight;
     }
 
     /**
@@ -715,15 +588,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_phosphorus_coefficient() {
-        return phosphorus / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_potassium_in_milligrams() {
         return potassium;
     }
@@ -735,15 +599,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_potassium_in_milligrams(Double quantity) {
         potassium = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_potassium_coefficient() {
-        return potassium / weight;
     }
 
     /**
@@ -769,15 +624,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_selenium_coefficient() {
-        return selenium / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_sodium_in_milligrams() {
         return sodium;
     }
@@ -796,15 +642,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_sodium_coefficient() {
-        return sodium / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_zinc_in_milligrams() {
         return zinc;
     }
@@ -816,15 +653,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_zinc_in_milligrams(Double quantity) {
         zinc = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_zinc_coefficient() {
-        return zinc / weight;
     }
 
     //vitamins
@@ -851,15 +679,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_folate_coefficient() {
-        return folate / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_niacin_in_milligrams() {
         return niacin;
     }
@@ -871,15 +690,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_niacin_in_milligrams(Double quantity) {
         niacin = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_niacin_coefficient() {
-        return niacin / weight;
     }
 
     /**
@@ -905,15 +715,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_pantothenic_acid_coefficient() {
-        return pantothenic_acid / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_riboflavin_in_milligrams() {
         return riboflavin;
     }
@@ -925,15 +726,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_riboflavin_in_milligrams(Double quantity) {
         riboflavin = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_riboflavin_coefficient() {
-        return riboflavin / weight;
     }
 
     /**
@@ -959,15 +751,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_thiamin_coefficient() {
-        return thiamin / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_vitamin_a_in_micrograms() {
         return vitamin_a;
     }
@@ -979,15 +762,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_vitamin_a_in_micrograms(Double quantity) {
         vitamin_a = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_vitamin_a_coefficient() {
-        return vitamin_a / weight;
     }
 
     /**
@@ -1013,15 +787,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_vitamin_b12_coefficient() {
-        return vitamin_b12 / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_vitamin_b6_in_milligrams() {
         return vitamin_b6;
     }
@@ -1033,15 +798,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_vitamin_b6_in_milligrams(Double quantity) {
         vitamin_b6 = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_vitamin_b6_coefficient() {
-        return vitamin_b6 / weight;
     }
 
     /**
@@ -1067,15 +823,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_vitamin_c_coefficient() {
-        return vitamin_c / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_vitamin_d_in_micrograms() {
         return vitamin_d;
     }
@@ -1087,15 +834,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_vitamin_d_in_micrograms(Double quantity) {
         vitamin_d = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_vitamin_d_coefficient() {
-        return vitamin_d / weight;
     }
 
     /**
@@ -1121,15 +859,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_vitamin_e_coefficient() {
-        return vitamin_e / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_vitamin_k_in_micrograms() {
         return vitamin_k;
     }
@@ -1148,15 +877,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_vitamin_k_coefficient() {
-        return vitamin_k / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_choline_in_milligrams() {
         return choline;
     }
@@ -1168,15 +888,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_choline_in_milligrams(Double quantity) {
         choline = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_choline_coefficient() {
-        return choline / weight;
     }
 
     //glycemic
@@ -1205,24 +916,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         glycemic_index = quantity;
     }
 
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_glycemic_load() {
-        return get_digestible_carbohydrate_in_grams() * (get_glycemic_index() / 100);
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_glycemic_load_coefficient() {
-        return get_glycemic_load() / weight;
-    }
-
     //omega-3
     /**
      *
@@ -1240,15 +933,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_alpha_linolenic_acid_in_grams(Double quantity) {
         alpha_linolenic_acid = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_alpha_linolenic_acid_coefficient() {
-        return alpha_linolenic_acid / weight;
     }
 
     /**
@@ -1274,15 +958,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_linoleic_acid_coefficient() {
-        return linoleic_acid / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_dha_in_grams() {
         return dha;
     }
@@ -1301,15 +976,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_dha_coefficient() {
-        return dha / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_epa_in_grams() {
         return epa;
     }
@@ -1321,15 +987,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_epa_in_grams(Double quantity) {
         epa = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_epa_coefficient() {
-        return epa / weight;
     }
 
     //water
@@ -1351,15 +1008,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         water = quantity;
     }
 
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_water_coefficient() {
-        return water / weight;
-    }
-
     //cost
     /**
      *
@@ -1377,15 +1025,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
     @Override
     public final void set_cost_in_dollars(Double quantity) {
         cost = quantity;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_cost_coefficient() {
-        return cost / weight;
     }
 
     @Override
@@ -1428,26 +1067,8 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_energy_alcohol_coefficient() {
-        return get_energy_alcohol_in_kilocalories() / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_energy_digestible_carbohydrate_in_kilocalories() {
         return energy_digestible_carbohydrate == -1 ? get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor() : energy_digestible_carbohydrate;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_energy_digestible_carbohydrate_coefficient() {
-        return get_energy_digestible_carbohydrate_in_kilocalories() / weight;
     }
 
     /**
@@ -1464,15 +1085,6 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_energy_digestible_coefficient() {
-        return get_energy_digestible_in_kilocalories() / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_energy_fat_in_kilocalories() {
         return energy_fat == -1 ? get_fat_in_grams() * get_fat_atwater_factor() : energy_fat;
     }
@@ -1482,39 +1094,8 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
      * @return
      */
     @Override
-    public final Double get_energy_fat_coefficient() {
-        return get_energy_fat_in_kilocalories() / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
     public final Double get_energy_protein_in_kilocalories() {
         return energy_protein == -1 ? get_protein_in_grams() * get_protein_atwater_factor() : energy_protein;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_energy_protein_coefficient() {
-        return get_energy_protein_in_kilocalories() / weight;
-    }
-
-    /**
-     *
-     * @return
-     */
-    @Override
-    public final Double get_food_quotient() {
-        Double fq = get_energy_digestible_carbohydrate_in_kilocalories() / get_energy_digestible_in_kilocalories() * 1.00
-                + get_energy_fat_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.71
-                + get_energy_protein_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.81
-                + get_energy_alcohol_in_kilocalories() / get_energy_digestible_in_kilocalories() * 0.667;
-        return fq;
     }
 
     @Override
@@ -1538,7 +1119,7 @@ public class Food_mutable implements Interface_food_mutable, Interface_food {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Food_mutable other = (Food_mutable) obj;
+        final Food_data other = (Food_data) obj;
         if (!Objects.equals(this.name, other.name)) {
             return false;
         }

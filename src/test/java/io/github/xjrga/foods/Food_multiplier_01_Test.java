@@ -28,15 +28,15 @@ import org.junit.Test;
  */
 public class Food_multiplier_01_Test {
 
-    private static Food_multiplier multiplier;
+    private static Abstract_food multiplier;
 
     public Food_multiplier_01_Test() {
     }
 
     @BeforeClass
     public static void one_time_setup() {
-        Interface_food food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        multiplier = new Food_multiplier(food, 100.0);
+        Abstract_food food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        multiplier = new Food_multiply(food, 100.0).get_meal();
     }
 
     //food_name

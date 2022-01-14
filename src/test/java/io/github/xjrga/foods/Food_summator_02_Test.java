@@ -32,7 +32,7 @@ import org.junit.Test;
  */
 public class Food_summator_02_Test {
 
-    private static Food_summator summator;
+    private static Abstract_food summator;
 
     public Food_summator_02_Test() {
 
@@ -41,28 +41,24 @@ public class Food_summator_02_Test {
     @BeforeClass
     public static void one_time_setup() {
         //meal 01
-        ArrayList<Interface_food> list_01 = new ArrayList();
-        Interface_food honey = new Honey();
-        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
-        Food_multiplier honey_multiplier = new Food_multiplier(honey, 1000.0);
-        Food_multiplier yogurt_multiplier = new Food_multiplier(yogurt, 1000.0);
-        list_01.add(honey_multiplier);
-        list_01.add(yogurt_multiplier);
-        Food_summator summator_01 = new Food_summator(list_01, "Meal_01");
+        ArrayList<Abstract_food> list_01 = new ArrayList();
+        Abstract_food honey = new Honey();
+        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
+        list_01.add(new Food_multiply(honey, 1000.0).get_meal());
+        list_01.add(new Food_multiply(yogurt, 1000.0).get_meal());
+        Abstract_food summator_01 = new Food_sum(list_01, "Meal_01").get_meal();
         //meal 02
-        ArrayList<Interface_food> list_02 = new ArrayList();
-        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Interface_food tomato = new Tomato_products_canned_puree_without_salt_added();
-        Food_multiplier sardine_multiplier = new Food_multiplier(sardine, 1000.0);
-        Food_multiplier tomato_multiplier = new Food_multiplier(tomato, 1000.0);
-        list_02.add(sardine_multiplier);
-        list_02.add(tomato_multiplier);
-        Food_summator summator_02 = new Food_summator(list_02, "Meal_02");
+        ArrayList<Abstract_food> list_02 = new ArrayList();
+        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        Abstract_food tomato = new Tomato_products_canned_puree_without_salt_added();
+        list_02.add(new Food_multiply(sardine, 1000.0).get_meal());
+        list_02.add(new Food_multiply(tomato, 1000.0).get_meal());
+        Abstract_food summator_02 = new Food_sum(list_02, "Meal_02").get_meal();
         //total
-        ArrayList<Interface_food> list_03 = new ArrayList();
+        ArrayList<Abstract_food> list_03 = new ArrayList();
         list_03.add(summator_01);
         list_03.add(summator_02);
-        summator = new Food_summator(list_03, "Total");
+        summator = new Food_sum(list_03, "Total").get_meal();
     }
 
     //food_name

@@ -26,7 +26,7 @@ import java.util.Objects;
  */
 public class Coefficient_nutrient {
 
-    private final ArrayList<Interface_food> list;
+    private final ArrayList<Abstract_food> list;
     private final double[] alcohol;
     private final double[] alpha_linolenic_acid;
     private final double[] calcium;
@@ -78,8 +78,8 @@ public class Coefficient_nutrient {
     private final double[] zinc;
     private final int size;
 
-    public Coefficient_nutrient(ArrayList<Interface_food> food_list) {
-        this.list = (ArrayList<Interface_food>) food_list.clone();
+    public Coefficient_nutrient(ArrayList<Abstract_food> food_list) {
+        this.list = (ArrayList<Abstract_food>) food_list.clone();
         size = list.size();
         alcohol = new double[size];
         alpha_linolenic_acid = new double[size];
@@ -327,7 +327,7 @@ public class Coefficient_nutrient {
 
     private void populate_coefficient_arrays() {
         for (int i = 0; i < size; i++) {
-            Interface_food food = list.get(i);
+            Abstract_food food = list.get(i);
             alcohol[i] = food.get_alcohol_coefficient();
             alpha_linolenic_acid[i] = food.get_alpha_linolenic_acid_coefficient();
             calcium[i] = food.get_calcium_coefficient();
@@ -385,7 +385,7 @@ public class Coefficient_nutrient {
         sb.append("Foods:");
         sb.append("[");
         for (int i = 0; i < size; i++) {
-            Interface_food food = list.get(i);
+            Abstract_food food = list.get(i);
             sb.append(food.get_food_name());
             sb.append("|");
         }
