@@ -24,15 +24,13 @@ import java.util.Iterator;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Food_sum {
+public class Food_sum extends Abstract_food {
 
     private final ArrayList<Abstract_food> list;
-    private final Abstract_food food;
 
     public Food_sum(ArrayList<Abstract_food> food_list, String name) {
         list = food_list;
         Iterator it = list.iterator();
-        Food_data mutable = new Food_data();
         Double weight = 0.0;
         Double energy_gross = 0.0;
         Double protein = 0.0;
@@ -75,11 +73,6 @@ public class Food_sum {
         Double epa = 0.0;
         Double water = 0.0;
         Double cost = 0.0;
-        Double energy_alcohol = 0.0;
-        Double energy_digestible_carbohydrate = 0.0;
-        Double energy_digestible = 0.0;
-        Double energy_fat = 0.0;
-        Double energy_protein = 0.0;
         while (it.hasNext()) {
             Abstract_food local_food = (Abstract_food) it.next();
             weight += local_food.get_weight_in_grams();
@@ -124,63 +117,52 @@ public class Food_sum {
             epa += local_food.get_epa_in_grams();
             water += local_food.get_water_in_grams();
             cost += local_food.get_cost_in_dollars();
-            energy_alcohol += local_food.get_alcohol_in_grams();
-            energy_digestible_carbohydrate += local_food.get_energy_digestible_carbohydrate_in_kilocalories();
-            energy_digestible += local_food.get_energy_digestible_in_kilocalories();
-            energy_fat += local_food.get_energy_fat_in_kilocalories();
-            energy_protein += local_food.get_energy_protein_in_kilocalories();
         }
-        mutable.set_food_name(name);
-        mutable.set_food_label(name);
-        mutable.set_weight_in_grams(weight);
-        mutable.set_energy_gross_in_kilocalories(energy_gross);
-        mutable.set_protein_in_grams(protein);
-        mutable.set_carbohydrate_by_difference_in_grams(carbohydrate_by_difference);
-        mutable.set_fiber_in_grams(fiber);
-        mutable.set_fat_in_grams(fat);
-        mutable.set_alcohol_in_grams(alcohol);
-        mutable.set_cholesterol_in_milligrams(cholesterol);
-        mutable.set_monounsaturated_fat_in_grams(monounsaturated_fat);
-        mutable.set_polyunsaturated_fat_in_grams(polyunsaturated_fat);
-        mutable.set_saturated_fat_in_grams(saturated_fat);
-        mutable.set_complete_protein_in_grams(complete_protein);
-        mutable.set_calcium_in_milligrams(calcium);
-        mutable.set_copper_in_milligrams(copper);
-        mutable.set_fluoride_in_micrograms(fluoride);
-        mutable.set_iron_in_milligrams(iron);
-        mutable.set_magnesium_in_milligrams(magnesium);
-        mutable.set_manganese_in_milligrams(manganese);
-        mutable.set_phosphorus_in_milligrams(phosphorus);
-        mutable.set_potassium_in_milligrams(potassium);
-        mutable.set_selenium_in_micrograms(selenium);
-        mutable.set_sodium_in_milligrams(sodium);
-        mutable.set_zinc_in_milligrams(zinc);
-        mutable.set_folate_in_micrograms(folate);
-        mutable.set_niacin_in_milligrams(niacin);
-        mutable.set_pantothenic_acid_in_milligrams(pantothenic_acid);
-        mutable.set_riboflavin_in_milligrams(riboflavin);
-        mutable.set_thiamin_in_milligrams(thiamin);
-        mutable.set_vitamin_a_in_micrograms(vitamin_a);
-        mutable.set_vitamin_b12_in_micrograms(vitamin_b12);
-        mutable.set_vitamin_b6_in_milligrams(vitamin_b6);
-        mutable.set_vitamin_c_in_milligrams(vitamin_c);
-        mutable.set_vitamin_d_in_micrograms(vitamin_d);
-        mutable.set_vitamin_e_in_milligrams(vitamin_e);
-        mutable.set_vitamin_k_in_micrograms(vitamin_k);
-        mutable.set_choline_in_milligrams(choline);
-        mutable.set_glycemic_index(get_meal_glycemic_index());
-        mutable.set_alpha_linolenic_acid_in_grams(alphalinolenic_acid);
-        mutable.set_linoleic_acid_in_grams(linoleic_acid);
-        mutable.set_dha_in_grams(dha);
-        mutable.set_epa_in_grams(epa);
-        mutable.set_water_in_grams(water);
-        mutable.set_cost_in_dollars(cost);
-        mutable.set_energy_alcohol_in_kilocalories(energy_alcohol);
-        mutable.set_energy_digestible_carbohydrate_in_kilocalories(energy_digestible_carbohydrate);
-        mutable.set_energy_digestible_in_kilocalories(energy_digestible);
-        mutable.set_energy_fat_in_kilocalories(energy_fat);
-        mutable.set_energy_protein_in_kilocalories(energy_protein);
-        food = new Concrete_food(mutable);
+        set_food_name(name);
+        set_food_label(name);
+        set_weight_in_grams(weight);
+        set_energy_gross_in_kilocalories(energy_gross);
+        set_protein_in_grams(protein);
+        set_carbohydrate_by_difference_in_grams(carbohydrate_by_difference);
+        set_fiber_in_grams(fiber);
+        set_fat_in_grams(fat);
+        set_alcohol_in_grams(alcohol);
+        set_cholesterol_in_milligrams(cholesterol);
+        set_monounsaturated_fat_in_grams(monounsaturated_fat);
+        set_polyunsaturated_fat_in_grams(polyunsaturated_fat);
+        set_saturated_fat_in_grams(saturated_fat);
+        set_complete_protein_in_grams(complete_protein);
+        set_calcium_in_milligrams(calcium);
+        set_copper_in_milligrams(copper);
+        set_fluoride_in_micrograms(fluoride);
+        set_iron_in_milligrams(iron);
+        set_magnesium_in_milligrams(magnesium);
+        set_manganese_in_milligrams(manganese);
+        set_phosphorus_in_milligrams(phosphorus);
+        set_potassium_in_milligrams(potassium);
+        set_selenium_in_micrograms(selenium);
+        set_sodium_in_milligrams(sodium);
+        set_zinc_in_milligrams(zinc);
+        set_folate_in_micrograms(folate);
+        set_niacin_in_milligrams(niacin);
+        set_pantothenic_acid_in_milligrams(pantothenic_acid);
+        set_riboflavin_in_milligrams(riboflavin);
+        set_thiamin_in_milligrams(thiamin);
+        set_vitamin_a_in_micrograms(vitamin_a);
+        set_vitamin_b12_in_micrograms(vitamin_b12);
+        set_vitamin_b6_in_milligrams(vitamin_b6);
+        set_vitamin_c_in_milligrams(vitamin_c);
+        set_vitamin_d_in_micrograms(vitamin_d);
+        set_vitamin_e_in_milligrams(vitamin_e);
+        set_vitamin_k_in_micrograms(vitamin_k);
+        set_choline_in_milligrams(choline);
+        set_glycemic_index(get_meal_glycemic_index());
+        set_alpha_linolenic_acid_in_grams(alphalinolenic_acid);
+        set_linoleic_acid_in_grams(linoleic_acid);
+        set_dha_in_grams(dha);
+        set_epa_in_grams(epa);
+        set_water_in_grams(water);
+        set_cost_in_dollars(cost);
     }
 
     private Double get_meal_glycemic_index() {
@@ -194,9 +176,4 @@ public class Food_sum {
         }
         return meal_gi;
     }
-
-    public Abstract_food get_meal() {
-        return food;
-    }
-
 }

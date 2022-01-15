@@ -41,9 +41,9 @@ public class Food_summator_01_Test {
         ArrayList<Abstract_food> list = new ArrayList();
         Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         Abstract_food tomato = new Tomato_products_canned_puree_without_salt_added();
-        list.add(new Food_multiply(sardine, 1000.0).get_meal());
-        list.add(new Food_multiply(tomato, 1000.0).get_meal());
-        meal = new Food_sum(list, "Meal_01").get_meal();
+        list.add(new Food_multiply(sardine, 1000.0));
+        list.add(new Food_multiply(tomato, 1000.0));
+        meal = new Food_sum(list, "Meal_01");
     }
 
     //todo - switch assert values

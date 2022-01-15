@@ -383,16 +383,6 @@ public interface Interface_food_set {
      * @param quantity
      */
     void set_cost_in_dollars(Double quantity);
-
-    void set_energy_alcohol_in_kilocalories(Double energy_alcohol);
-
-    void set_energy_digestible_in_kilocalories(Double energy_digestible);
-
-    void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate);
-
-    void set_energy_fat_in_kilocalories(Double energy_fat);
-
-    void set_energy_protein_in_kilocalories(Double energy_protein);
 }
 
 //https://www.fao.org/3/y5022e/y5022e04.htm

@@ -75,11 +75,6 @@ public class Food_data implements Interface_food_set, Interface_food_get {
     private Double epa;
     private Double water;
     private Double cost;
-    private Double energy_alcohol;
-    private Double energy_digestible_carbohydrate;
-    private Double energy_digestible;
-    private Double energy_fat;
-    private Double energy_protein;
 
     /**
      *
@@ -130,11 +125,6 @@ public class Food_data implements Interface_food_set, Interface_food_get {
         set_epa_in_grams(0.0);
         set_water_in_grams(0.0);
         set_cost_in_dollars(0.0);
-        set_energy_alcohol_in_kilocalories(-1.0);
-        set_energy_digestible_carbohydrate_in_kilocalories(-1.0);
-        set_energy_digestible_in_kilocalories(-1.0);
-        set_energy_fat_in_kilocalories(-1.0);
-        set_energy_protein_in_kilocalories(-1.0);
         set_protein_atwater_factor(0.0);
         set_carbohydrate_by_difference_atwater_factor(0.0);
         set_fat_atwater_factor(0.0);
@@ -1027,31 +1017,6 @@ public class Food_data implements Interface_food_set, Interface_food_get {
         cost = quantity;
     }
 
-    @Override
-    public final void set_energy_alcohol_in_kilocalories(Double energy_alcohol) {
-        this.energy_alcohol = energy_alcohol;
-    }
-
-    @Override
-    public final void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate) {
-        this.energy_digestible_carbohydrate = energy_digestible_carbohydrate;
-    }
-
-    @Override
-    public final void set_energy_digestible_in_kilocalories(Double energy_digestible) {
-        this.energy_digestible = energy_digestible;
-    }
-
-    @Override
-    public final void set_energy_fat_in_kilocalories(Double energy_fat) {
-        this.energy_fat = energy_fat;
-    }
-
-    @Override
-    public final void set_energy_protein_in_kilocalories(Double energy_protein) {
-        this.energy_protein = energy_protein;
-    }
-
     //calculated energy
     /**
      *
@@ -1059,7 +1024,7 @@ public class Food_data implements Interface_food_set, Interface_food_get {
      */
     @Override
     public final Double get_energy_alcohol_in_kilocalories() {
-        return energy_alcohol == -1 ? get_alcohol_in_grams() * get_alcohol_atwater_factor() : energy_alcohol;
+        return get_alcohol_in_grams() * get_alcohol_atwater_factor();
     }
 
     /**
@@ -1068,7 +1033,7 @@ public class Food_data implements Interface_food_set, Interface_food_get {
      */
     @Override
     public final Double get_energy_digestible_carbohydrate_in_kilocalories() {
-        return energy_digestible_carbohydrate == -1 ? get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor() : energy_digestible_carbohydrate;
+        return get_digestible_carbohydrate_in_grams() * get_carbohydrate_by_difference_atwater_factor();
     }
 
     /**
@@ -1077,7 +1042,7 @@ public class Food_data implements Interface_food_set, Interface_food_get {
      */
     @Override
     public final Double get_energy_digestible_in_kilocalories() {
-        return energy_digestible == -1 ? get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories() : energy_digestible;
+        return get_energy_protein_in_kilocalories() + get_energy_fat_in_kilocalories() + get_energy_digestible_carbohydrate_in_kilocalories();
     }
 
     /**
@@ -1086,7 +1051,7 @@ public class Food_data implements Interface_food_set, Interface_food_get {
      */
     @Override
     public final Double get_energy_fat_in_kilocalories() {
-        return energy_fat == -1 ? get_fat_in_grams() * get_fat_atwater_factor() : energy_fat;
+        return get_fat_in_grams() * get_fat_atwater_factor();
     }
 
     /**
@@ -1095,7 +1060,7 @@ public class Food_data implements Interface_food_set, Interface_food_get {
      */
     @Override
     public final Double get_energy_protein_in_kilocalories() {
-        return energy_protein == -1 ? get_protein_in_grams() * get_protein_atwater_factor() : energy_protein;
+        return get_protein_in_grams() * get_protein_atwater_factor();
     }
 
     @Override

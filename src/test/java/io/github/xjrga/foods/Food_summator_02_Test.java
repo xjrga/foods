@@ -44,21 +44,21 @@ public class Food_summator_02_Test {
         ArrayList<Abstract_food> list_01 = new ArrayList();
         Abstract_food honey = new Honey();
         Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        list_01.add(new Food_multiply(honey, 1000.0).get_meal());
-        list_01.add(new Food_multiply(yogurt, 1000.0).get_meal());
-        Abstract_food summator_01 = new Food_sum(list_01, "Meal_01").get_meal();
+        list_01.add(new Food_multiply(honey, 1000.0));
+        list_01.add(new Food_multiply(yogurt, 1000.0));
+        Abstract_food summator_01 = new Food_sum(list_01, "Meal_01");
         //meal 02
         ArrayList<Abstract_food> list_02 = new ArrayList();
         Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         Abstract_food tomato = new Tomato_products_canned_puree_without_salt_added();
-        list_02.add(new Food_multiply(sardine, 1000.0).get_meal());
-        list_02.add(new Food_multiply(tomato, 1000.0).get_meal());
-        Abstract_food summator_02 = new Food_sum(list_02, "Meal_02").get_meal();
+        list_02.add(new Food_multiply(sardine, 1000.0));
+        list_02.add(new Food_multiply(tomato, 1000.0));
+        Abstract_food summator_02 = new Food_sum(list_02, "Meal_02");
         //total
         ArrayList<Abstract_food> list_03 = new ArrayList();
         list_03.add(summator_01);
         list_03.add(summator_02);
-        summator = new Food_sum(list_03, "Total").get_meal();
+        summator = new Food_sum(list_03, "Total");
     }
 
     //food_name

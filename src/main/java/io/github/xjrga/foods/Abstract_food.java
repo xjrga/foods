@@ -1543,31 +1543,6 @@ public abstract class Abstract_food implements Interface_food_set, Interface_foo
         return get_energy_protein_in_kilocalories() / weight;
     }
 
-    @Override
-    public final void set_energy_alcohol_in_kilocalories(Double energy_alcohol) {
-        this.energy_alcohol = energy_alcohol;
-    }
-
-    @Override
-    public final void set_energy_digestible_carbohydrate_in_kilocalories(Double energy_digestible_carbohydrate) {
-        this.energy_digestible_carbohydrate = energy_digestible_carbohydrate;
-    }
-
-    @Override
-    public final void set_energy_digestible_in_kilocalories(Double energy_digestible) {
-        this.energy_digestible = energy_digestible;
-    }
-
-    @Override
-    public final void set_energy_fat_in_kilocalories(Double energy_fat) {
-        this.energy_fat = energy_fat;
-    }
-
-    @Override
-    public final void set_energy_protein_in_kilocalories(Double energy_protein) {
-        this.energy_protein = energy_protein;
-    }
-
     /**
      *
      * @return

@@ -22,6 +22,8 @@ class io.github.xjrga.foods.Food_data implements io.github.xjrga.foods.Interface
 class io.github.xjrga.foods.Mangos_raw extends io.github.xjrga.foods.Abstract_food
 class io.github.xjrga.foods.Dri_daily_value extends io.github.xjrga.foods.Abstract_dri
 class io.github.xjrga.foods.Concrete_food extends io.github.xjrga.foods.Abstract_food
+class io.github.xjrga.foods.Food_multiply extends io.github.xjrga.foods.Abstract_food
+class io.github.xjrga.foods.Food_sum extends io.github.xjrga.foods.Abstract_food
 io.github.xjrga.foods.Coefficient_food ..> java.util.ArrayList
 io.github.xjrga.foods.Coefficient_nutrient ..> java.util.ArrayList
 io.github.xjrga.foods.Concrete_food ..> io.github.xjrga.foods.Food_data
