@@ -20,7 +20,7 @@ package io.github.xjrga.foods;
 /**
  * This interface is used to set dietary reference intake data
  */
-public interface Interface_dri_set {
+public interface Interface_dri_modify {
 
     /**
      * Set life stage identification number

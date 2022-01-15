@@ -18,7 +18,7 @@
 package io.github.xjrga.foods.data.dietary_reference_intake;
 
 import io.github.xjrga.foods.Abstract_dri;
-import io.github.xjrga.foods.Interface_dri_get;
+import io.github.xjrga.foods.Interface_dri_define;
 
 /**
  * Dietary reference intake for Females (51–70 y)

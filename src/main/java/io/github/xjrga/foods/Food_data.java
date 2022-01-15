@@ -24,7 +24,7 @@ import java.util.Objects;
  * directly proportional to weight, if weight changes, nutrient values must
  * change.
  */
-public class Food_data implements Interface_food_set, Interface_food_get {
+public class Food_data implements Interface_food_modify, Interface_food_define {
 
     private String name;
     private String label;

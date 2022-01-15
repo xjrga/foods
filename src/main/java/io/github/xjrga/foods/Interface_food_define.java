@@ -20,7 +20,7 @@ package io.github.xjrga.foods;
 /**
  * This interface is used to get food nutrition facts data
  */
-public interface Interface_food_get {
+public interface Interface_food_define {
 
     /**
      * Get food name

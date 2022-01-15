@@ -20,7 +20,7 @@ package io.github.xjrga.foods;
 /**
  * This interface is used to get dietary reference intake data
  */
-public interface Interface_dri_get {
+public interface Interface_dri_define {
 
     /**
      * Get life stage identification number

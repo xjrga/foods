@@ -168,10 +168,10 @@ public class Food_sum extends Abstract_food {
     private Double get_meal_glycemic_index() {
         Double total_digestible_carbohydrate = 0.0;
         Double meal_gi = 0.0;
-        for (Interface_food_get food : list) {
+        for (Interface_food_define food : list) {
             total_digestible_carbohydrate += food.get_digestible_carbohydrate_in_grams();
         }
-        for (Interface_food_get food : list) {
+        for (Interface_food_define food : list) {
             meal_gi += (food.get_digestible_carbohydrate_in_grams() / total_digestible_carbohydrate) * food.get_glycemic_index();
         }
         return meal_gi;

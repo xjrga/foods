@@ -7,18 +7,18 @@ title {
 }
 </style>
 class java.util.ArrayList<Abstract_food>
-interface io.github.xjrga.foods.Interface_dri_get
-interface io.github.xjrga.foods.Interface_dri_set
-interface io.github.xjrga.foods.Interface_food_get
-interface io.github.xjrga.foods.Interface_food_set
-interface io.github.xjrga.foods.Interface_food_coefficient
-abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foods.Interface_dri_get
-abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foods.Interface_dri_set
-abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_get
-abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_set
-abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_coefficient
-class io.github.xjrga.foods.Food_data implements io.github.xjrga.foods.Interface_food_get
-class io.github.xjrga.foods.Food_data implements io.github.xjrga.foods.Interface_food_set
+interface io.github.xjrga.foods.Interface_dri_define
+interface io.github.xjrga.foods.Interface_dri_modify
+interface io.github.xjrga.foods.Interface_food_define
+interface io.github.xjrga.foods.Interface_food_modify
+interface io.github.xjrga.foods.Interface_food_derive
+abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foods.Interface_dri_define
+abstract class io.github.xjrga.foods.Abstract_dri implements io.github.xjrga.foods.Interface_dri_modify
+abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_define
+abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_modify
+abstract class io.github.xjrga.foods.Abstract_food implements io.github.xjrga.foods.Interface_food_derive
+class io.github.xjrga.foods.Food_data implements io.github.xjrga.foods.Interface_food_define
+class io.github.xjrga.foods.Food_data implements io.github.xjrga.foods.Interface_food_modify
 class io.github.xjrga.foods.Mangos_raw extends io.github.xjrga.foods.Abstract_food
 class io.github.xjrga.foods.Dri_daily_value extends io.github.xjrga.foods.Abstract_dri
 class io.github.xjrga.foods.Concrete_food extends io.github.xjrga.foods.Abstract_food

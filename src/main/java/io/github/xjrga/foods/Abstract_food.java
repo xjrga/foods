@@ -22,7 +22,7 @@ import java.util.Objects;
 /**
  * This is an abstract food to extend from
  */
-public abstract class Abstract_food implements Interface_food_set, Interface_food_get, Interface_food_coefficient {
+public abstract class Abstract_food implements Interface_food_modify, Interface_food_define, Interface_food_derive {
 
     private String name;
     private String label;
