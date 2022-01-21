@@ -27,7 +27,7 @@ public class Food_multiply extends Abstract_food {
         set_food_name(food.get_food_name());
         set_food_label(food.get_food_label());
         set_weight_in_grams(grams);
-        set_energy_gross_in_kilocalories(food.get_energy_gross_coefficient_in_kilocalories() * grams);
+        set_energy_gross_in_kilocalories(food.get_energy_gross_in_kilocalories_coefficient() * grams);
         set_protein_in_grams(food.get_protein_coefficient() * grams);
         set_carbohydrate_by_difference_in_grams(food.get_carbohydrate_by_difference_coefficient() * grams);
         set_fiber_in_grams(food.get_fiber_coefficient() * grams);

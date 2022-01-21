@@ -23,6 +23,13 @@ package io.github.xjrga.foods;
 public interface Interface_food_modify {
 
     /**
+     * Set food id
+     *
+     * @param id The food id
+     */
+    void set_food_id(String id);
+
+    /**
      * Set food name
      *
      * @param name The name of food

@@ -36,7 +36,7 @@ public interface Interface_food_derive {
      */
     String get_food_label();
 
-    Double get_energy_gross_coefficient_in_kilocalories();
+    Double get_energy_gross_in_kilocalories_coefficient();
 
     //Macronutrients
     /**

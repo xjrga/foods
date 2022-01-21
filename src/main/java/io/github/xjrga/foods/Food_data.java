@@ -26,6 +26,7 @@ import java.util.Objects;
  */
 public class Food_data implements Interface_food_modify, Interface_food_define {
 
+    private String id;
     private String name;
     private String label;
     private Double weight;
@@ -80,6 +81,7 @@ public class Food_data implements Interface_food_modify, Interface_food_define {
      *
      */
     public Food_data() {
+        set_food_id("");
         set_food_name("");
         set_food_label("");
         set_weight_in_grams(0.0);
@@ -129,6 +131,16 @@ public class Food_data implements Interface_food_modify, Interface_food_define {
         set_carbohydrate_by_difference_atwater_factor(0.0);
         set_fat_atwater_factor(0.0);
         set_alcohol_atwater_factor(0.0);
+    }
+
+    @Override
+    public final void set_food_id(String text) {
+        id = text;
+    }
+
+    @Override
+    public final String get_food_id() {
+        return id;
     }
 
     @Override

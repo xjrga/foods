@@ -24,6 +24,7 @@ import java.util.Objects;
  */
 public abstract class Abstract_food implements Interface_food_modify, Interface_food_define, Interface_food_derive {
 
+    private String id;
     private String name;
     private String label;
     private Double weight;
@@ -83,6 +84,7 @@ public abstract class Abstract_food implements Interface_food_modify, Interface_
      *
      */
     public Abstract_food() {
+        set_food_id("");
         set_food_name("");
         set_food_label("");
         set_weight_in_grams(0.0);
@@ -136,6 +138,7 @@ public abstract class Abstract_food implements Interface_food_modify, Interface_
     }
 
     public Abstract_food(Food_data food) {
+        set_food_name(food.get_food_id());
         set_food_name(food.get_food_name());
         set_food_label(food.get_food_label());
         set_weight_in_grams(food.get_weight_in_grams());
@@ -206,6 +209,16 @@ public abstract class Abstract_food implements Interface_food_modify, Interface_
     }
 
     @Override
+    public final void set_food_id(String text) {
+        id = id;
+    }
+
+    @Override
+    public final String get_food_id() {
+        return id;
+    }
+
+    @Override
     public final void set_food_name(String text) {
         name = text;
     }
@@ -246,7 +259,7 @@ public abstract class Abstract_food implements Interface_food_modify, Interface_
     }
 
     @Override
-    public final Double get_energy_gross_coefficient_in_kilocalories() {
+    public final Double get_energy_gross_in_kilocalories_coefficient() {
         return gross_energy / weight;
     }
 

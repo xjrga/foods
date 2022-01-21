@@ -17,8 +17,8 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.glycemic_index_test_set.Honey;
-import io.github.xjrga.foods.data.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
+import io.github.xjrga.foods.data.Sweets.Honey;
+import io.github.xjrga.foods.data.Dairy_and_egg_products.Yogurt_greek_plain_nonfat;
 import java.util.ArrayList;
 import org.junit.Assert;
 import static org.junit.Assert.assertEquals;
@@ -179,7 +179,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.0, 5.0E-4};
+        double[] expResult = new double[]{0.0, 5.3E-4};
         double[] result = o.get_monounsaturated_fat_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -195,7 +195,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.0, 1.0E-4};
+        double[] expResult = new double[]{0.0, 1.2E-4};
         double[] result = o.get_polyunsaturated_fat_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -211,7 +211,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.0, 0.0011};
+        double[] expResult = new double[]{0.0, 0.00117};
         double[] result = o.get_saturated_fat_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -259,7 +259,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{3.0E-4, 1.0E-4};
+        double[] expResult = new double[]{3.59999E-4, 1.7E-4};
         double[] result = o.get_copper_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -435,7 +435,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.0012, 0.002};
+        double[] expResult = new double[]{0.00121, 0.00208};
         double[] result = o.get_niacin_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -451,7 +451,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{6.0E-4, 0.0033};
+        double[] expResult = new double[]{6.8E-4, 0.00331};
         double[] result = o.get_pantothenic_acid_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -467,7 +467,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{3.0E-4, 0.0027};
+        double[] expResult = new double[]{3.79999E-4, 0.00278};
         double[] result = o.get_riboflavin_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -483,7 +483,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.0, 2.0E-4};
+        double[] expResult = new double[]{0.0, 2.3E-4};
         double[] result = o.get_thiamin_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -531,7 +531,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{2.0E-4, 6.0E-4};
+        double[] expResult = new double[]{2.4E-4, 6.3E-4};
         double[] result = o.get_vitamin_b6_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -756,7 +756,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{3.2880000000000003, 0.14400000000000002};
+        double[] expResult = new double[]{3.02496, 0.14400000000000002};
         double[] result = o.get_energy_digestible_carbohydrate_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -772,7 +772,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{3.3, 0.5867};
+        double[] expResult = new double[]{3.03504, 0.5867};
         double[] result = o.get_energy_digestible_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -804,7 +804,7 @@ public class Coefficient_nutrient_Test {
         list.add(honey);
         list.add(yogurt);
         Coefficient_nutrient o = new Coefficient_nutrient(list);
-        double[] expResult = new double[]{0.012, 0.40759999999999996};
+        double[] expResult = new double[]{0.01008, 0.40759999999999996};
         double[] result = o.get_energy_protein_coefficients();
         Assert.assertArrayEquals(expResult, result, 0.00001);
     }
@@ -828,15 +828,15 @@ public class Coefficient_nutrient_Test {
                 + "Cholesterol:[0.0,0.05]\n"
                 + "Choline:[0.022000000000000002,0.151]\n"
                 + "Complete_protein:[0.0,0.10189999999999999]\n"
-                + "Copper:[3.0E-4,1.0E-4]\n"
+                + "Copper:[3.5999999999999997E-4,1.7E-4]\n"
                 + "Cost:[0.0,0.0]\n"
                 + "Dha:[0.0,0.0]\n"
                 + "Digestible_carbohydrate:[0.8220000000000001,0.036000000000000004]\n"
                 + "Energy_alcohol:[0.0,0.0]\n"
-                + "Energy_digestible_carbohydrate:[3.2880000000000003,0.14400000000000002]\n"
-                + "Energy_digestible:[3.3,0.5867]\n"
+                + "Energy_digestible_carbohydrate:[3.0249600000000005,0.14400000000000002]\n"
+                + "Energy_digestible:[3.0350400000000004,0.5867]\n"
                 + "Energy_fat:[0.0,0.0351]\n"
-                + "Energy_protein:[0.012,0.40759999999999996]\n"
+                + "Energy_protein:[0.01008,0.40759999999999996]\n"
                 + "Epa:[0.0,0.0]\n"
                 + "Fat:[0.0,0.0039000000000000003]\n"
                 + "Fiber:[0.002,0.0]\n"
@@ -848,21 +848,21 @@ public class Coefficient_nutrient_Test {
                 + "Linoleic_acid:[0.0,1.0E-4]\n"
                 + "Magnesium:[0.02,0.11]\n"
                 + "Manganese:[8.0E-4,8.999999999999999E-5]\n"
-                + "Monounsaturated_fat:[0.0,5.0E-4]\n"
-                + "Niacin:[0.0012,0.002]\n"
-                + "Pantothenic_acid:[6.0E-4,0.0033]\n"
+                + "Monounsaturated_fat:[0.0,5.3E-4]\n"
+                + "Niacin:[0.00121,0.00208]\n"
+                + "Pantothenic_acid:[6.8E-4,0.00331]\n"
                 + "Phosphorus:[0.04,1.35]\n"
-                + "Polyunsaturated_fat:[0.0,1.0E-4]\n"
+                + "Polyunsaturated_fat:[0.0,1.2E-4]\n"
                 + "Potassium:[0.52,1.41]\n"
                 + "Protein:[0.003,0.10189999999999999]\n"
-                + "Riboflavin:[3.0E-4,0.0027]\n"
-                + "Saturated_fat:[0.0,0.0011]\n"
+                + "Riboflavin:[3.7999999999999997E-4,0.0027800000000000004]\n"
+                + "Saturated_fat:[0.0,0.00117]\n"
                 + "Selenium:[0.008,0.09699999999999999]\n"
                 + "Sodium:[0.04,0.36]\n"
-                + "Thiamin:[0.0,2.0E-4]\n"
+                + "Thiamin:[0.0,2.3E-4]\n"
                 + "Vitamin_a:[0.0,0.01]\n"
                 + "Vitamin_b12:[0.0,0.0075]\n"
-                + "Vitamin_b6:[2.0E-4,6.0E-4]\n"
+                + "Vitamin_b6:[2.4E-4,6.3E-4]\n"
                 + "Vitamin_c:[0.005,0.0]\n"
                 + "Vitamin_d:[0.0,0.0]\n"
                 + "Vitamin_e:[0.0,1.0E-4]\n"

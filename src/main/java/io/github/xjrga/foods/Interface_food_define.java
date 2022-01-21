@@ -23,6 +23,13 @@ package io.github.xjrga.foods;
 public interface Interface_food_define {
 
     /**
+     * Get food id
+     *
+     * @return Double String
+     */
+    String get_food_id();
+
+    /**
      * Get food name
      *
      * @return Double String

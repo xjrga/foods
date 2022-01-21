@@ -17,9 +17,9 @@
  */
 package io.github.xjrga.foods;
 
-import io.github.xjrga.foods.data.finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone;
-import io.github.xjrga.foods.data.glycemic_index_test_set.Honey;
-import io.github.xjrga.foods.data.glycemic_index_test_set.Yogurt_greek_plain_nonfat;
+import io.github.xjrga.foods.data.Finfish_and_shellfish_products.Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone;
+import io.github.xjrga.foods.data.Sweets.Honey;
+import io.github.xjrga.foods.data.Dairy_and_egg_products.Yogurt_greek_plain_nonfat;
 import java.util.ArrayList;
 import org.junit.Assert;
 import org.junit.BeforeClass;
