@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_ready_to_eat_quaker_quaker_oat_life_plain extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cereals_ready_to_eat_quaker_quaker_oat_life_plain() {
-        set_food_id("08049");
-        set_food_name("Cereals ready-to-eat, QUAKER, QUAKER OAT LIFE, plain");
-        set_food_label("Cereals_ready_to_eat_quaker_quaker_oat_life_plain");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(374.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(77.74000);
-        set_fat_in_grams(4.43000);
-        set_fiber_in_grams(6.60000);
-        set_protein_in_grams(9.98000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(1.48000);
-        set_polyunsaturated_fat_in_grams(1.42000);
-        set_saturated_fat_in_grams(0.83000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(283.00000);
-        set_sodium_in_milligrams(501.00000);
-        set_calcium_in_milligrams(351.00000);
-        set_copper_in_milligrams(0.27700);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(29.33000);
-        set_magnesium_in_milligrams(98.00000);
-        set_manganese_in_milligrams(2.33300);
-        set_phosphorus_in_milligrams(423.00000);
-        set_selenium_in_micrograms(23.00000);
-        set_zinc_in_milligrams(13.78000);
-        set_choline_in_milligrams(24.00000);
-        set_folate_in_micrograms(2205.00000);
-        set_niacin_in_milligrams(17.18000);
-        set_pantothenic_acid_in_milligrams(0.71700);
-        set_riboflavin_in_milligrams(1.49000);
-        set_thiamin_in_milligrams(1.28000);
-        set_vitamin_a_in_micrograms(2.00000);
-        set_vitamin_b6_in_milligrams(1.80000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.61000);
-        set_vitamin_k_in_micrograms(1.20000);
-        set_water_in_grams(4.30000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cereals_ready_to_eat_quaker_quaker_oat_life_plain() {
+		set_food_id("08049");
+		set_food_name("Cereals ready-to-eat, QUAKER, QUAKER OAT LIFE, plain");
+		set_food_label("Cereals_ready_to_eat_quaker_quaker_oat_life_plain");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(374.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(77.74000);
+		set_fat_in_grams(4.43000);
+		set_fiber_in_grams(6.60000);
+		set_protein_in_grams(9.98000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(1.48000);
+		set_polyunsaturated_fat_in_grams(1.42000);
+		set_saturated_fat_in_grams(0.83000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(283.00000);
+		set_sodium_in_milligrams(501.00000);
+		set_calcium_in_milligrams(351.00000);
+		set_copper_in_milligrams(0.27700);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(29.33000);
+		set_magnesium_in_milligrams(98.00000);
+		set_manganese_in_milligrams(2.33300);
+		set_phosphorus_in_milligrams(423.00000);
+		set_selenium_in_micrograms(23.00000);
+		set_zinc_in_milligrams(13.78000);
+		set_choline_in_milligrams(24.00000);
+		set_folate_in_micrograms(2205.00000);
+		set_niacin_in_milligrams(17.18000);
+		set_pantothenic_acid_in_milligrams(0.71700);
+		set_riboflavin_in_milligrams(1.49000);
+		set_thiamin_in_milligrams(1.28000);
+		set_vitamin_a_in_micrograms(2.00000);
+		set_vitamin_b6_in_milligrams(1.80000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.61000);
+		set_vitamin_k_in_micrograms(1.20000);
+		set_water_in_grams(4.30000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

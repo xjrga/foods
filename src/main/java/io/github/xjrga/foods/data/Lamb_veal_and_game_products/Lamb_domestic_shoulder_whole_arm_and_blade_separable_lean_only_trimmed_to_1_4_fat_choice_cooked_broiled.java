@@ -23,61 +23,64 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled extends Abstract_food {
+public class Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled() {
-        set_food_id("17041");
-        set_food_name("Lamb, domestic, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4' fat, choice, cooked, broiled");
-        set_food_label("Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(210.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(10.50000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(27.12000);
-        set_cholesterol_in_milligrams(93.00000);
-        set_monounsaturated_fat_in_grams(4.24000);
-        set_polyunsaturated_fat_in_grams(0.94000);
-        set_saturated_fat_in_grams(3.88000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(324.00000);
-        set_sodium_in_milligrams(83.00000);
-        set_calcium_in_milligrams(21.00000);
-        set_copper_in_milligrams(0.13700);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.19000);
-        set_magnesium_in_milligrams(29.00000);
-        set_manganese_in_milligrams(0.02800);
-        set_phosphorus_in_milligrams(217.00000);
-        set_selenium_in_micrograms(31.30000);
-        set_zinc_in_milligrams(6.60000);
-        set_choline_in_milligrams(104.00000);
-        set_folate_in_micrograms(23.00000);
-        set_niacin_in_milligrams(6.15000);
-        set_pantothenic_acid_in_milligrams(0.69000);
-        set_riboflavin_in_milligrams(0.28000);
-        set_thiamin_in_milligrams(0.10000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.14000);
-        set_vitamin_b12_in_micrograms(3.11000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.20000);
-        set_vitamin_k_in_micrograms(5.70000);
-        set_water_in_grams(61.38000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled() {
+		set_food_id("17041");
+		set_food_name(
+				"Lamb, domestic, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4' fat, choice, cooked, broiled");
+		set_food_label(
+				"Lamb_domestic_shoulder_whole_arm_and_blade_separable_lean_only_trimmed_to_1_4_fat_choice_cooked_broiled");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(210.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(10.50000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(27.12000);
+		set_cholesterol_in_milligrams(93.00000);
+		set_monounsaturated_fat_in_grams(4.24000);
+		set_polyunsaturated_fat_in_grams(0.94000);
+		set_saturated_fat_in_grams(3.88000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(324.00000);
+		set_sodium_in_milligrams(83.00000);
+		set_calcium_in_milligrams(21.00000);
+		set_copper_in_milligrams(0.13700);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.19000);
+		set_magnesium_in_milligrams(29.00000);
+		set_manganese_in_milligrams(0.02800);
+		set_phosphorus_in_milligrams(217.00000);
+		set_selenium_in_micrograms(31.30000);
+		set_zinc_in_milligrams(6.60000);
+		set_choline_in_milligrams(104.00000);
+		set_folate_in_micrograms(23.00000);
+		set_niacin_in_milligrams(6.15000);
+		set_pantothenic_acid_in_milligrams(0.69000);
+		set_riboflavin_in_milligrams(0.28000);
+		set_thiamin_in_milligrams(0.10000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.14000);
+		set_vitamin_b12_in_micrograms(3.11000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.20000);
+		set_vitamin_k_in_micrograms(5.70000);
+		set_water_in_grams(61.38000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

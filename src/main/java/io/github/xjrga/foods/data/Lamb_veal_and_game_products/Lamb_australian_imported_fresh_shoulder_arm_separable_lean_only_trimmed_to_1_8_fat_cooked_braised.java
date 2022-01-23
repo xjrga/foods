@@ -23,61 +23,64 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised extends Abstract_food {
+public class Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised() {
-        set_food_id("17325");
-        set_food_name("Lamb, Australian, imported, fresh, shoulder, arm, separable lean only,   trimmed to 1/8' fat, cooked, braised");
-        set_food_label("Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(238.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(10.23000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(34.17000);
-        set_cholesterol_in_milligrams(111.00000);
-        set_monounsaturated_fat_in_grams(4.16000);
-        set_polyunsaturated_fat_in_grams(0.49900);
-        set_saturated_fat_in_grams(4.17300);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(287.00000);
-        set_sodium_in_milligrams(78.00000);
-        set_calcium_in_milligrams(27.00000);
-        set_copper_in_milligrams(0.21500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.71000);
-        set_magnesium_in_milligrams(25.00000);
-        set_manganese_in_milligrams(0.02000);
-        set_phosphorus_in_milligrams(221.00000);
-        set_selenium_in_micrograms(10.60000);
-        set_zinc_in_milligrams(7.78000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(4.69500);
-        set_pantothenic_acid_in_milligrams(0.77500);
-        set_riboflavin_in_milligrams(0.29000);
-        set_thiamin_in_milligrams(0.10000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.21100);
-        set_vitamin_b12_in_micrograms(3.56000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(56.98000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised() {
+		set_food_id("17325");
+		set_food_name(
+				"Lamb, Australian, imported, fresh, shoulder, arm, separable lean only,   trimmed to 1/8' fat, cooked, braised");
+		set_food_label(
+				"Lamb_australian_imported_fresh_shoulder_arm_separable_lean_only_trimmed_to_1_8_fat_cooked_braised");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(238.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(10.23000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(34.17000);
+		set_cholesterol_in_milligrams(111.00000);
+		set_monounsaturated_fat_in_grams(4.16000);
+		set_polyunsaturated_fat_in_grams(0.49900);
+		set_saturated_fat_in_grams(4.17300);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(287.00000);
+		set_sodium_in_milligrams(78.00000);
+		set_calcium_in_milligrams(27.00000);
+		set_copper_in_milligrams(0.21500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.71000);
+		set_magnesium_in_milligrams(25.00000);
+		set_manganese_in_milligrams(0.02000);
+		set_phosphorus_in_milligrams(221.00000);
+		set_selenium_in_micrograms(10.60000);
+		set_zinc_in_milligrams(7.78000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(4.69500);
+		set_pantothenic_acid_in_milligrams(0.77500);
+		set_riboflavin_in_milligrams(0.29000);
+		set_thiamin_in_milligrams(0.10000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.21100);
+		set_vitamin_b12_in_micrograms(3.56000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(56.98000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

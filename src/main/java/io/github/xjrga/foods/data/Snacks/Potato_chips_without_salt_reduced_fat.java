@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potato_chips_without_salt_reduced_fat extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Potato_chips_without_salt_reduced_fat() {
-        set_food_id("19823");
-        set_food_name("Potato chips, without salt, reduced fat");
-        set_food_label("Potato_chips_without_salt_reduced_fat");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(487.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(67.80000);
-        set_fat_in_grams(20.80000);
-        set_fiber_in_grams(6.10000);
-        set_protein_in_grams(7.10000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(4.80000);
-        set_polyunsaturated_fat_in_grams(10.94000);
-        set_saturated_fat_in_grams(4.16000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(1744.00000);
-        set_sodium_in_milligrams(8.00000);
-        set_calcium_in_milligrams(21.00000);
-        set_copper_in_milligrams(0.34800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.35000);
-        set_magnesium_in_milligrams(89.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(193.00000);
-        set_selenium_in_micrograms(8.10000);
-        set_zinc_in_milligrams(1.01000);
-        set_choline_in_milligrams(53.00000);
-        set_folate_in_micrograms(10.00000);
-        set_niacin_in_milligrams(7.00000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.27000);
-        set_thiamin_in_milligrams(0.21000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.67000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(25.70000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(5.47000);
-        set_vitamin_k_in_micrograms(13.30000);
-        set_water_in_grams(1.00000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Potato_chips_without_salt_reduced_fat() {
+		set_food_id("19823");
+		set_food_name("Potato chips, without salt, reduced fat");
+		set_food_label("Potato_chips_without_salt_reduced_fat");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(487.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(67.80000);
+		set_fat_in_grams(20.80000);
+		set_fiber_in_grams(6.10000);
+		set_protein_in_grams(7.10000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(4.80000);
+		set_polyunsaturated_fat_in_grams(10.94000);
+		set_saturated_fat_in_grams(4.16000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(1744.00000);
+		set_sodium_in_milligrams(8.00000);
+		set_calcium_in_milligrams(21.00000);
+		set_copper_in_milligrams(0.34800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.35000);
+		set_magnesium_in_milligrams(89.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(193.00000);
+		set_selenium_in_micrograms(8.10000);
+		set_zinc_in_milligrams(1.01000);
+		set_choline_in_milligrams(53.00000);
+		set_folate_in_micrograms(10.00000);
+		set_niacin_in_milligrams(7.00000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.27000);
+		set_thiamin_in_milligrams(0.21000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.67000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(25.70000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(5.47000);
+		set_vitamin_k_in_micrograms(13.30000);
+		set_water_in_grams(1.00000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

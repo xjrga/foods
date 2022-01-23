@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Kelloggs_eggo_waffles_homestyle_low_fat extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Kelloggs_eggo_waffles_homestyle_low_fat() {
-        set_food_id("18505");
-        set_food_name("KELLOGG'S, EGGO, Waffles, Homestyle, Low Fat");
-        set_food_label("Kelloggs_eggo_waffles_homestyle_low_fat");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(229.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(44.90000);
-        set_fat_in_grams(3.50000);
-        set_fiber_in_grams(1.30000);
-        set_protein_in_grams(6.30000);
-        set_cholesterol_in_milligrams(23.00000);
-        set_monounsaturated_fat_in_grams(0.80000);
-        set_polyunsaturated_fat_in_grams(1.40000);
-        set_saturated_fat_in_grams(0.90000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(88.00000);
-        set_sodium_in_milligrams(393.00000);
-        set_calcium_in_milligrams(378.00000);
-        set_copper_in_milligrams(0.00000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(6.40000);
-        set_magnesium_in_milligrams(17.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(286.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.50000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(5.70000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.49000);
-        set_thiamin_in_milligrams(0.43000);
-        set_vitamin_a_in_micrograms(429.00000);
-        set_vitamin_b6_in_milligrams(0.57000);
-        set_vitamin_b12_in_micrograms(1.70000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(41.80000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Kelloggs_eggo_waffles_homestyle_low_fat() {
+		set_food_id("18505");
+		set_food_name("KELLOGG'S, EGGO, Waffles, Homestyle, Low Fat");
+		set_food_label("Kelloggs_eggo_waffles_homestyle_low_fat");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(229.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(44.90000);
+		set_fat_in_grams(3.50000);
+		set_fiber_in_grams(1.30000);
+		set_protein_in_grams(6.30000);
+		set_cholesterol_in_milligrams(23.00000);
+		set_monounsaturated_fat_in_grams(0.80000);
+		set_polyunsaturated_fat_in_grams(1.40000);
+		set_saturated_fat_in_grams(0.90000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(88.00000);
+		set_sodium_in_milligrams(393.00000);
+		set_calcium_in_milligrams(378.00000);
+		set_copper_in_milligrams(0.00000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(6.40000);
+		set_magnesium_in_milligrams(17.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(286.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.50000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(5.70000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.49000);
+		set_thiamin_in_milligrams(0.43000);
+		set_vitamin_a_in_micrograms(429.00000);
+		set_vitamin_b6_in_milligrams(0.57000);
+		set_vitamin_b12_in_micrograms(1.70000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(41.80000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

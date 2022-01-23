@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fast_foods_biscuit_with_ham extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fast_foods_biscuit_with_ham() {
-        set_food_id("21008");
-        set_food_name("Fast foods, biscuit, with ham");
-        set_food_label("Fast_foods_biscuit_with_ham");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(342.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(38.75000);
-        set_fat_in_grams(16.30000);
-        set_fiber_in_grams(0.70000);
-        set_protein_in_grams(11.85000);
-        set_cholesterol_in_milligrams(22.00000);
-        set_monounsaturated_fat_in_grams(4.27700);
-        set_polyunsaturated_fat_in_grams(0.91800);
-        set_saturated_fat_in_grams(10.09600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(174.00000);
-        set_sodium_in_milligrams(974.00000);
-        set_calcium_in_milligrams(142.00000);
-        set_copper_in_milligrams(0.03200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.41000);
-        set_magnesium_in_milligrams(20.00000);
-        set_manganese_in_milligrams(0.32000);
-        set_phosphorus_in_milligrams(490.00000);
-        set_selenium_in_micrograms(17.10000);
-        set_zinc_in_milligrams(1.46000);
-        set_choline_in_milligrams(40.80000);
-        set_folate_in_micrograms(53.00000);
-        set_niacin_in_milligrams(3.08000);
-        set_pantothenic_acid_in_milligrams(0.36000);
-        set_riboflavin_in_milligrams(0.28000);
-        set_thiamin_in_milligrams(0.45000);
-        set_vitamin_a_in_micrograms(27.00000);
-        set_vitamin_b6_in_milligrams(0.12000);
-        set_vitamin_b12_in_micrograms(0.03000);
-        set_vitamin_c_in_milligrams(0.10000);
-        set_vitamin_d_in_micrograms(0.30000);
-        set_vitamin_e_in_milligrams(1.23000);
-        set_vitamin_k_in_micrograms(5.70000);
-        set_water_in_grams(28.40000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.95000);
-        set_fat_atwater_factor(8.67000);
-        set_protein_atwater_factor(4.03000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fast_foods_biscuit_with_ham() {
+		set_food_id("21008");
+		set_food_name("Fast foods, biscuit, with ham");
+		set_food_label("Fast_foods_biscuit_with_ham");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(342.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(38.75000);
+		set_fat_in_grams(16.30000);
+		set_fiber_in_grams(0.70000);
+		set_protein_in_grams(11.85000);
+		set_cholesterol_in_milligrams(22.00000);
+		set_monounsaturated_fat_in_grams(4.27700);
+		set_polyunsaturated_fat_in_grams(0.91800);
+		set_saturated_fat_in_grams(10.09600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(174.00000);
+		set_sodium_in_milligrams(974.00000);
+		set_calcium_in_milligrams(142.00000);
+		set_copper_in_milligrams(0.03200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.41000);
+		set_magnesium_in_milligrams(20.00000);
+		set_manganese_in_milligrams(0.32000);
+		set_phosphorus_in_milligrams(490.00000);
+		set_selenium_in_micrograms(17.10000);
+		set_zinc_in_milligrams(1.46000);
+		set_choline_in_milligrams(40.80000);
+		set_folate_in_micrograms(53.00000);
+		set_niacin_in_milligrams(3.08000);
+		set_pantothenic_acid_in_milligrams(0.36000);
+		set_riboflavin_in_milligrams(0.28000);
+		set_thiamin_in_milligrams(0.45000);
+		set_vitamin_a_in_micrograms(27.00000);
+		set_vitamin_b6_in_milligrams(0.12000);
+		set_vitamin_b12_in_micrograms(0.03000);
+		set_vitamin_c_in_milligrams(0.10000);
+		set_vitamin_d_in_micrograms(0.30000);
+		set_vitamin_e_in_milligrams(1.23000);
+		set_vitamin_k_in_micrograms(5.70000);
+		set_water_in_grams(28.40000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.95000);
+		set_fat_atwater_factor(8.67000);
+		set_protein_atwater_factor(4.03000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

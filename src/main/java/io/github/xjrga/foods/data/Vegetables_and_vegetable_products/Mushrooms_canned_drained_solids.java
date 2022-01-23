@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mushrooms_canned_drained_solids extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Mushrooms_canned_drained_solids() {
-        set_food_id("11264");
-        set_food_name("Mushrooms, canned, drained solids");
-        set_food_label("Mushrooms_canned_drained_solids");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(25.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(5.09000);
-        set_fat_in_grams(0.29000);
-        set_fiber_in_grams(2.40000);
-        set_protein_in_grams(1.87000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00500);
-        set_polyunsaturated_fat_in_grams(0.11300);
-        set_saturated_fat_in_grams(0.03800);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(129.00000);
-        set_sodium_in_milligrams(425.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.23500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.79000);
-        set_magnesium_in_milligrams(15.00000);
-        set_manganese_in_milligrams(0.08600);
-        set_phosphorus_in_milligrams(66.00000);
-        set_selenium_in_micrograms(4.10000);
-        set_zinc_in_milligrams(0.72000);
-        set_choline_in_milligrams(20.40000);
-        set_folate_in_micrograms(12.00000);
-        set_niacin_in_milligrams(1.59300);
-        set_pantothenic_acid_in_milligrams(0.81100);
-        set_riboflavin_in_milligrams(0.02100);
-        set_thiamin_in_milligrams(0.08500);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.06100);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.20000);
-        set_vitamin_e_in_milligrams(0.01000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(91.08000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.48000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(2.62000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Mushrooms_canned_drained_solids() {
+		set_food_id("11264");
+		set_food_name("Mushrooms, canned, drained solids");
+		set_food_label("Mushrooms_canned_drained_solids");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(25.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(5.09000);
+		set_fat_in_grams(0.29000);
+		set_fiber_in_grams(2.40000);
+		set_protein_in_grams(1.87000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00500);
+		set_polyunsaturated_fat_in_grams(0.11300);
+		set_saturated_fat_in_grams(0.03800);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(129.00000);
+		set_sodium_in_milligrams(425.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.23500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.79000);
+		set_magnesium_in_milligrams(15.00000);
+		set_manganese_in_milligrams(0.08600);
+		set_phosphorus_in_milligrams(66.00000);
+		set_selenium_in_micrograms(4.10000);
+		set_zinc_in_milligrams(0.72000);
+		set_choline_in_milligrams(20.40000);
+		set_folate_in_micrograms(12.00000);
+		set_niacin_in_milligrams(1.59300);
+		set_pantothenic_acid_in_milligrams(0.81100);
+		set_riboflavin_in_milligrams(0.02100);
+		set_thiamin_in_milligrams(0.08500);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.06100);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.20000);
+		set_vitamin_e_in_milligrams(0.01000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(91.08000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.48000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(2.62000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

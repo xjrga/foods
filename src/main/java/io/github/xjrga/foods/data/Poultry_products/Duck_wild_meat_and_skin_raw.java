@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Duck_wild_meat_and_skin_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Duck_wild_meat_and_skin_raw() {
-        set_food_id("05144");
-        set_food_name("Duck, wild, meat and skin, raw");
-        set_food_label("Duck_wild_meat_and_skin_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(211.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(15.20000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(17.42000);
-        set_cholesterol_in_milligrams(80.00000);
-        set_monounsaturated_fat_in_grams(6.80000);
-        set_polyunsaturated_fat_in_grams(2.02000);
-        set_saturated_fat_in_grams(5.04000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(249.00000);
-        set_sodium_in_milligrams(56.00000);
-        set_calcium_in_milligrams(5.00000);
-        set_copper_in_milligrams(0.31200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.16000);
-        set_magnesium_in_milligrams(20.00000);
-        set_manganese_in_milligrams(0.01900);
-        set_phosphorus_in_milligrams(168.00000);
-        set_selenium_in_micrograms(12.80000);
-        set_zinc_in_milligrams(0.77000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(21.00000);
-        set_niacin_in_milligrams(3.31700);
-        set_pantothenic_acid_in_milligrams(0.70100);
-        set_riboflavin_in_milligrams(0.26900);
-        set_thiamin_in_milligrams(0.35100);
-        set_vitamin_a_in_micrograms(26.00000);
-        set_vitamin_b6_in_milligrams(0.53000);
-        set_vitamin_b12_in_micrograms(0.65000);
-        set_vitamin_c_in_milligrams(5.20000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(66.52000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Duck_wild_meat_and_skin_raw() {
+		set_food_id("05144");
+		set_food_name("Duck, wild, meat and skin, raw");
+		set_food_label("Duck_wild_meat_and_skin_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(211.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(15.20000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(17.42000);
+		set_cholesterol_in_milligrams(80.00000);
+		set_monounsaturated_fat_in_grams(6.80000);
+		set_polyunsaturated_fat_in_grams(2.02000);
+		set_saturated_fat_in_grams(5.04000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(249.00000);
+		set_sodium_in_milligrams(56.00000);
+		set_calcium_in_milligrams(5.00000);
+		set_copper_in_milligrams(0.31200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.16000);
+		set_magnesium_in_milligrams(20.00000);
+		set_manganese_in_milligrams(0.01900);
+		set_phosphorus_in_milligrams(168.00000);
+		set_selenium_in_micrograms(12.80000);
+		set_zinc_in_milligrams(0.77000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(21.00000);
+		set_niacin_in_milligrams(3.31700);
+		set_pantothenic_acid_in_milligrams(0.70100);
+		set_riboflavin_in_milligrams(0.26900);
+		set_thiamin_in_milligrams(0.35100);
+		set_vitamin_a_in_micrograms(26.00000);
+		set_vitamin_b6_in_milligrams(0.53000);
+		set_vitamin_b12_in_micrograms(0.65000);
+		set_vitamin_c_in_milligrams(5.20000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(66.52000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

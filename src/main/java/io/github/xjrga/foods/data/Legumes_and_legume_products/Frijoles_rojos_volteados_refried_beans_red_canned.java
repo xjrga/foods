@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Frijoles_rojos_volteados_refried_beans_red_canned extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Frijoles_rojos_volteados_refried_beans_red_canned() {
-        set_food_id("16173");
-        set_food_name("Frijoles rojos volteados (Refried beans, red, canned)");
-        set_food_label("Frijoles_rojos_volteados_refried_beans_red_canned");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(144.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(15.47000);
-        set_fat_in_grams(6.93000);
-        set_fiber_in_grams(4.70000);
-        set_protein_in_grams(5.00000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(1.67600);
-        set_polyunsaturated_fat_in_grams(4.37900);
-        set_saturated_fat_in_grams(0.92600);
-        set_alpha_linolenic_acid_in_grams(0.42600);
-        set_linoleic_acid_in_grams(3.71800);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(310.00000);
-        set_sodium_in_milligrams(375.00000);
-        set_calcium_in_milligrams(33.00000);
-        set_copper_in_milligrams(0.22000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.95000);
-        set_magnesium_in_milligrams(36.00000);
-        set_manganese_in_milligrams(0.29500);
-        set_phosphorus_in_milligrams(91.00000);
-        set_selenium_in_micrograms(3.50000);
-        set_zinc_in_milligrams(0.70000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.64000);
-        set_pantothenic_acid_in_milligrams(0.17500);
-        set_riboflavin_in_milligrams(0.01700);
-        set_thiamin_in_milligrams(0.02700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.08500);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(1.04000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(70.71000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Frijoles_rojos_volteados_refried_beans_red_canned() {
+		set_food_id("16173");
+		set_food_name("Frijoles rojos volteados (Refried beans, red, canned)");
+		set_food_label("Frijoles_rojos_volteados_refried_beans_red_canned");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(144.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(15.47000);
+		set_fat_in_grams(6.93000);
+		set_fiber_in_grams(4.70000);
+		set_protein_in_grams(5.00000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(1.67600);
+		set_polyunsaturated_fat_in_grams(4.37900);
+		set_saturated_fat_in_grams(0.92600);
+		set_alpha_linolenic_acid_in_grams(0.42600);
+		set_linoleic_acid_in_grams(3.71800);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(310.00000);
+		set_sodium_in_milligrams(375.00000);
+		set_calcium_in_milligrams(33.00000);
+		set_copper_in_milligrams(0.22000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.95000);
+		set_magnesium_in_milligrams(36.00000);
+		set_manganese_in_milligrams(0.29500);
+		set_phosphorus_in_milligrams(91.00000);
+		set_selenium_in_micrograms(3.50000);
+		set_zinc_in_milligrams(0.70000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.64000);
+		set_pantothenic_acid_in_milligrams(0.17500);
+		set_riboflavin_in_milligrams(0.01700);
+		set_thiamin_in_milligrams(0.02700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.08500);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(1.04000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(70.71000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class T_g_i_fridays_fridays_shrimp_breaded extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public T_g_i_fridays_fridays_shrimp_breaded() {
-        set_food_id("36006");
-        set_food_name("T.G.I. FRIDAY'S, FRIDAY'S Shrimp, breaded");
-        set_food_label("T_g_i_fridays_fridays_shrimp_breaded");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(302.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(20.87000);
-        set_fat_in_grams(19.02000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(11.87000);
-        set_cholesterol_in_milligrams(89.00000);
-        set_monounsaturated_fat_in_grams(4.38300);
-        set_polyunsaturated_fat_in_grams(9.52700);
-        set_saturated_fat_in_grams(3.50100);
-        set_alpha_linolenic_acid_in_grams(0.93100);
-        set_linoleic_acid_in_grams(8.28200);
-        set_dha_in_grams(0.05500);
-        set_epa_in_grams(0.04300);
-        set_potassium_in_milligrams(122.00000);
-        set_sodium_in_milligrams(1210.00000);
-        set_calcium_in_milligrams(33.00000);
-        set_copper_in_milligrams(0.13800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.53000);
-        set_magnesium_in_milligrams(16.00000);
-        set_manganese_in_milligrams(0.25200);
-        set_phosphorus_in_milligrams(226.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.73000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.76000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.09100);
-        set_thiamin_in_milligrams(0.07000);
-        set_vitamin_a_in_micrograms(7.00000);
-        set_vitamin_b6_in_milligrams(0.09000);
-        set_vitamin_b12_in_micrograms(0.23000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(2.09000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(44.85000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public T_g_i_fridays_fridays_shrimp_breaded() {
+		set_food_id("36006");
+		set_food_name("T.G.I. FRIDAY'S, FRIDAY'S Shrimp, breaded");
+		set_food_label("T_g_i_fridays_fridays_shrimp_breaded");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(302.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(20.87000);
+		set_fat_in_grams(19.02000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(11.87000);
+		set_cholesterol_in_milligrams(89.00000);
+		set_monounsaturated_fat_in_grams(4.38300);
+		set_polyunsaturated_fat_in_grams(9.52700);
+		set_saturated_fat_in_grams(3.50100);
+		set_alpha_linolenic_acid_in_grams(0.93100);
+		set_linoleic_acid_in_grams(8.28200);
+		set_dha_in_grams(0.05500);
+		set_epa_in_grams(0.04300);
+		set_potassium_in_milligrams(122.00000);
+		set_sodium_in_milligrams(1210.00000);
+		set_calcium_in_milligrams(33.00000);
+		set_copper_in_milligrams(0.13800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.53000);
+		set_magnesium_in_milligrams(16.00000);
+		set_manganese_in_milligrams(0.25200);
+		set_phosphorus_in_milligrams(226.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.73000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.76000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.09100);
+		set_thiamin_in_milligrams(0.07000);
+		set_vitamin_a_in_micrograms(7.00000);
+		set_vitamin_b6_in_milligrams(0.09000);
+		set_vitamin_b12_in_micrograms(0.23000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(2.09000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(44.85000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

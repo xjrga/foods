@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_candy_rolls_yogurt_covered_fruit_flavored_with_high_vitamin_c extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Snacks_candy_rolls_yogurt_covered_fruit_flavored_with_high_vitamin_c() {
-        set_food_id("25003");
-        set_food_name("Snacks, candy rolls, yogurt-covered, fruit flavored with high vitamin C");
-        set_food_label("Snacks_candy_rolls_yogurt_covered_fruit_flavored_with_high_vitamin_c");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(359.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(74.64000);
-        set_fat_in_grams(6.53000);
-        set_fiber_in_grams(3.30000);
-        set_protein_in_grams(0.46000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.75300);
-        set_polyunsaturated_fat_in_grams(0.23800);
-        set_saturated_fat_in_grams(5.09600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(100.00000);
-        set_sodium_in_milligrams(8.00000);
-        set_calcium_in_milligrams(430.00000);
-        set_copper_in_milligrams(0.11400);
-        set_fluoride_in_micrograms(0.10000);
-        set_iron_in_milligrams(0.56000);
-        set_magnesium_in_milligrams(9.00000);
-        set_manganese_in_milligrams(0.08200);
-        set_phosphorus_in_milligrams(18.00000);
-        set_selenium_in_micrograms(1.20000);
-        set_zinc_in_milligrams(0.19000);
-        set_choline_in_milligrams(7.50000);
-        set_folate_in_micrograms(2.00000);
-        set_niacin_in_milligrams(0.10000);
-        set_pantothenic_acid_in_milligrams(0.04300);
-        set_riboflavin_in_milligrams(0.02500);
-        set_thiamin_in_milligrams(0.01500);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.02600);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(260.80000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.41000);
-        set_vitamin_k_in_micrograms(2.60000);
-        set_water_in_grams(17.59000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Snacks_candy_rolls_yogurt_covered_fruit_flavored_with_high_vitamin_c() {
+		set_food_id("25003");
+		set_food_name("Snacks, candy rolls, yogurt-covered, fruit flavored with high vitamin C");
+		set_food_label("Snacks_candy_rolls_yogurt_covered_fruit_flavored_with_high_vitamin_c");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(359.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(74.64000);
+		set_fat_in_grams(6.53000);
+		set_fiber_in_grams(3.30000);
+		set_protein_in_grams(0.46000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.75300);
+		set_polyunsaturated_fat_in_grams(0.23800);
+		set_saturated_fat_in_grams(5.09600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(100.00000);
+		set_sodium_in_milligrams(8.00000);
+		set_calcium_in_milligrams(430.00000);
+		set_copper_in_milligrams(0.11400);
+		set_fluoride_in_micrograms(0.10000);
+		set_iron_in_milligrams(0.56000);
+		set_magnesium_in_milligrams(9.00000);
+		set_manganese_in_milligrams(0.08200);
+		set_phosphorus_in_milligrams(18.00000);
+		set_selenium_in_micrograms(1.20000);
+		set_zinc_in_milligrams(0.19000);
+		set_choline_in_milligrams(7.50000);
+		set_folate_in_micrograms(2.00000);
+		set_niacin_in_milligrams(0.10000);
+		set_pantothenic_acid_in_milligrams(0.04300);
+		set_riboflavin_in_milligrams(0.02500);
+		set_thiamin_in_milligrams(0.01500);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.02600);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(260.80000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.41000);
+		set_vitamin_k_in_micrograms(2.60000);
+		set_water_in_grams(17.59000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

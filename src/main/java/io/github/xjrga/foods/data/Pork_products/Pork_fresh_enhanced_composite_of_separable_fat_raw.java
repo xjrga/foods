@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pork_fresh_enhanced_composite_of_separable_fat_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Pork_fresh_enhanced_composite_of_separable_fat_raw() {
-        set_food_id("10942");
-        set_food_name("Pork, fresh, enhanced, composite of separable fat, raw");
-        set_food_label("Pork_fresh_enhanced_composite_of_separable_fat_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(508.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(52.33000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(9.27000);
-        set_cholesterol_in_milligrams(83.00000);
-        set_monounsaturated_fat_in_grams(21.53800);
-        set_polyunsaturated_fat_in_grams(7.53200);
-        set_saturated_fat_in_grams(18.48800);
-        set_alpha_linolenic_acid_in_grams(0.31500);
-        set_linoleic_acid_in_grams(6.59200);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(191.00000);
-        set_sodium_in_milligrams(81.00000);
-        set_calcium_in_milligrams(22.00000);
-        set_copper_in_milligrams(0.05500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.47000);
-        set_magnesium_in_milligrams(9.00000);
-        set_manganese_in_milligrams(0.00600);
-        set_phosphorus_in_milligrams(121.00000);
-        set_selenium_in_micrograms(11.10000);
-        set_zinc_in_milligrams(0.90000);
-        set_choline_in_milligrams(34.30000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(3.23000);
-        set_pantothenic_acid_in_milligrams(0.61100);
-        set_riboflavin_in_milligrams(0.10300);
-        set_thiamin_in_milligrams(0.20400);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.27500);
-        set_vitamin_b12_in_micrograms(1.47000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.04000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(38.32000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Pork_fresh_enhanced_composite_of_separable_fat_raw() {
+		set_food_id("10942");
+		set_food_name("Pork, fresh, enhanced, composite of separable fat, raw");
+		set_food_label("Pork_fresh_enhanced_composite_of_separable_fat_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(508.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(52.33000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(9.27000);
+		set_cholesterol_in_milligrams(83.00000);
+		set_monounsaturated_fat_in_grams(21.53800);
+		set_polyunsaturated_fat_in_grams(7.53200);
+		set_saturated_fat_in_grams(18.48800);
+		set_alpha_linolenic_acid_in_grams(0.31500);
+		set_linoleic_acid_in_grams(6.59200);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(191.00000);
+		set_sodium_in_milligrams(81.00000);
+		set_calcium_in_milligrams(22.00000);
+		set_copper_in_milligrams(0.05500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.47000);
+		set_magnesium_in_milligrams(9.00000);
+		set_manganese_in_milligrams(0.00600);
+		set_phosphorus_in_milligrams(121.00000);
+		set_selenium_in_micrograms(11.10000);
+		set_zinc_in_milligrams(0.90000);
+		set_choline_in_milligrams(34.30000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(3.23000);
+		set_pantothenic_acid_in_milligrams(0.61100);
+		set_riboflavin_in_milligrams(0.10300);
+		set_thiamin_in_milligrams(0.20400);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.27500);
+		set_vitamin_b12_in_micrograms(1.47000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.04000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(38.32000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

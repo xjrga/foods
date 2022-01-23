@@ -23,61 +23,62 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix extends Abstract_food {
+public class Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix() {
-        set_food_id("22960");
-        set_food_name("Macaroni and cheese, dry mix, prepared with 2% milk and 80% stick margarine from dry mix");
-        set_food_label("Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(190.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(23.93000);
-        set_fat_in_grams(8.28000);
-        set_fiber_in_grams(1.20000);
-        set_protein_in_grams(4.89000);
-        set_cholesterol_in_milligrams(3.00000);
-        set_monounsaturated_fat_in_grams(3.68700);
-        set_polyunsaturated_fat_in_grams(1.88000);
-        set_saturated_fat_in_grams(1.81600);
-        set_alpha_linolenic_acid_in_grams(0.19000);
-        set_linoleic_acid_in_grams(1.56300);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(129.00000);
-        set_sodium_in_milligrams(338.00000);
-        set_calcium_in_milligrams(63.00000);
-        set_copper_in_milligrams(0.07400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.99000);
-        set_magnesium_in_milligrams(17.00000);
-        set_manganese_in_milligrams(0.23600);
-        set_phosphorus_in_milligrams(112.00000);
-        set_selenium_in_micrograms(12.50000);
-        set_zinc_in_milligrams(0.47000);
-        set_choline_in_milligrams(26.90000);
-        set_folate_in_micrograms(114.00000);
-        set_niacin_in_milligrams(1.18300);
-        set_pantothenic_acid_in_milligrams(0.43200);
-        set_riboflavin_in_milligrams(0.17800);
-        set_thiamin_in_milligrams(0.17700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.06100);
-        set_vitamin_b12_in_micrograms(0.16000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(6.40000);
-        set_water_in_grams(61.60000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix() {
+		set_food_id("22960");
+		set_food_name("Macaroni and cheese, dry mix, prepared with 2% milk and 80% stick margarine from dry mix");
+		set_food_label("Macaroni_and_cheese_dry_mix_prepared_with_2_milk_and_80_stick_margarine_from_dry_mix");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(190.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(23.93000);
+		set_fat_in_grams(8.28000);
+		set_fiber_in_grams(1.20000);
+		set_protein_in_grams(4.89000);
+		set_cholesterol_in_milligrams(3.00000);
+		set_monounsaturated_fat_in_grams(3.68700);
+		set_polyunsaturated_fat_in_grams(1.88000);
+		set_saturated_fat_in_grams(1.81600);
+		set_alpha_linolenic_acid_in_grams(0.19000);
+		set_linoleic_acid_in_grams(1.56300);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(129.00000);
+		set_sodium_in_milligrams(338.00000);
+		set_calcium_in_milligrams(63.00000);
+		set_copper_in_milligrams(0.07400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.99000);
+		set_magnesium_in_milligrams(17.00000);
+		set_manganese_in_milligrams(0.23600);
+		set_phosphorus_in_milligrams(112.00000);
+		set_selenium_in_micrograms(12.50000);
+		set_zinc_in_milligrams(0.47000);
+		set_choline_in_milligrams(26.90000);
+		set_folate_in_micrograms(114.00000);
+		set_niacin_in_milligrams(1.18300);
+		set_pantothenic_acid_in_milligrams(0.43200);
+		set_riboflavin_in_milligrams(0.17800);
+		set_thiamin_in_milligrams(0.17700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.06100);
+		set_vitamin_b12_in_micrograms(0.16000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(6.40000);
+		set_water_in_grams(61.60000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

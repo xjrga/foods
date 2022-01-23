@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cowpeas_blackeyes_immature_seeds_cooked_boiled_drained_without_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cowpeas_blackeyes_immature_seeds_cooked_boiled_drained_without_salt() {
-        set_food_id("11192");
-        set_food_name("Cowpeas (blackeyes), immature seeds, cooked, boiled, drained, without salt");
-        set_food_label("Cowpeas_blackeyes_immature_seeds_cooked_boiled_drained_without_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(97.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(20.32000);
-        set_fat_in_grams(0.38000);
-        set_fiber_in_grams(5.00000);
-        set_protein_in_grams(3.17000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.03400);
-        set_polyunsaturated_fat_in_grams(0.16100);
-        set_saturated_fat_in_grams(0.09600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(418.00000);
-        set_sodium_in_milligrams(4.00000);
-        set_calcium_in_milligrams(128.00000);
-        set_copper_in_milligrams(0.13300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.12000);
-        set_magnesium_in_milligrams(52.00000);
-        set_manganese_in_milligrams(0.57200);
-        set_phosphorus_in_milligrams(51.00000);
-        set_selenium_in_micrograms(2.50000);
-        set_zinc_in_milligrams(1.03000);
-        set_choline_in_milligrams(32.90000);
-        set_folate_in_micrograms(127.00000);
-        set_niacin_in_milligrams(1.40300);
-        set_pantothenic_acid_in_milligrams(0.15400);
-        set_riboflavin_in_milligrams(0.14800);
-        set_thiamin_in_milligrams(0.10100);
-        set_vitamin_a_in_micrograms(40.00000);
-        set_vitamin_b6_in_milligrams(0.06500);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(2.20000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.22000);
-        set_vitamin_k_in_micrograms(26.60000);
-        set_water_in_grams(75.48000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cowpeas_blackeyes_immature_seeds_cooked_boiled_drained_without_salt() {
+		set_food_id("11192");
+		set_food_name("Cowpeas (blackeyes), immature seeds, cooked, boiled, drained, without salt");
+		set_food_label("Cowpeas_blackeyes_immature_seeds_cooked_boiled_drained_without_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(97.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(20.32000);
+		set_fat_in_grams(0.38000);
+		set_fiber_in_grams(5.00000);
+		set_protein_in_grams(3.17000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.03400);
+		set_polyunsaturated_fat_in_grams(0.16100);
+		set_saturated_fat_in_grams(0.09600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(418.00000);
+		set_sodium_in_milligrams(4.00000);
+		set_calcium_in_milligrams(128.00000);
+		set_copper_in_milligrams(0.13300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.12000);
+		set_magnesium_in_milligrams(52.00000);
+		set_manganese_in_milligrams(0.57200);
+		set_phosphorus_in_milligrams(51.00000);
+		set_selenium_in_micrograms(2.50000);
+		set_zinc_in_milligrams(1.03000);
+		set_choline_in_milligrams(32.90000);
+		set_folate_in_micrograms(127.00000);
+		set_niacin_in_milligrams(1.40300);
+		set_pantothenic_acid_in_milligrams(0.15400);
+		set_riboflavin_in_milligrams(0.14800);
+		set_thiamin_in_milligrams(0.10100);
+		set_vitamin_a_in_micrograms(40.00000);
+		set_vitamin_b6_in_milligrams(0.06500);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(2.20000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.22000);
+		set_vitamin_k_in_micrograms(26.60000);
+		set_water_in_grams(75.48000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

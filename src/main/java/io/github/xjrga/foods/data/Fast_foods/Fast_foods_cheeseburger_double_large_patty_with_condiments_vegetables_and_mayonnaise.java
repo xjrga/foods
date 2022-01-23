@@ -23,61 +23,62 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise extends Abstract_food {
+public class Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise() {
-        set_food_id("21399");
-        set_food_name("Fast Foods, cheeseburger; double, large patty; with condiments, vegetables and mayonnaise");
-        set_food_label("Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(253.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(12.62000);
-        set_fat_in_grams(15.63000);
-        set_fiber_in_grams(1.30000);
-        set_protein_in_grams(15.50000);
-        set_cholesterol_in_milligrams(49.00000);
-        set_monounsaturated_fat_in_grams(6.24900);
-        set_polyunsaturated_fat_in_grams(2.29900);
-        set_saturated_fat_in_grams(6.51900);
-        set_alpha_linolenic_acid_in_grams(0.39200);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(202.00000);
-        set_sodium_in_milligrams(405.00000);
-        set_calcium_in_milligrams(68.00000);
-        set_copper_in_milligrams(0.07600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.12000);
-        set_magnesium_in_milligrams(19.00000);
-        set_manganese_in_milligrams(0.13700);
-        set_phosphorus_in_milligrams(131.00000);
-        set_selenium_in_micrograms(18.40000);
-        set_zinc_in_milligrams(3.27000);
-        set_choline_in_milligrams(46.00000);
-        set_folate_in_micrograms(42.00000);
-        set_niacin_in_milligrams(3.26000);
-        set_pantothenic_acid_in_milligrams(0.27900);
-        set_riboflavin_in_milligrams(0.23000);
-        set_thiamin_in_milligrams(0.25400);
-        set_vitamin_a_in_micrograms(12.00000);
-        set_vitamin_b6_in_milligrams(0.15000);
-        set_vitamin_b12_in_micrograms(1.92000);
-        set_vitamin_c_in_milligrams(0.50000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.06000);
-        set_vitamin_k_in_micrograms(9.20000);
-        set_water_in_grams(54.56000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise() {
+		set_food_id("21399");
+		set_food_name("Fast Foods, cheeseburger; double, large patty; with condiments, vegetables and mayonnaise");
+		set_food_label("Fast_foods_cheeseburger_double_large_patty_with_condiments_vegetables_and_mayonnaise");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(253.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(12.62000);
+		set_fat_in_grams(15.63000);
+		set_fiber_in_grams(1.30000);
+		set_protein_in_grams(15.50000);
+		set_cholesterol_in_milligrams(49.00000);
+		set_monounsaturated_fat_in_grams(6.24900);
+		set_polyunsaturated_fat_in_grams(2.29900);
+		set_saturated_fat_in_grams(6.51900);
+		set_alpha_linolenic_acid_in_grams(0.39200);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(202.00000);
+		set_sodium_in_milligrams(405.00000);
+		set_calcium_in_milligrams(68.00000);
+		set_copper_in_milligrams(0.07600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.12000);
+		set_magnesium_in_milligrams(19.00000);
+		set_manganese_in_milligrams(0.13700);
+		set_phosphorus_in_milligrams(131.00000);
+		set_selenium_in_micrograms(18.40000);
+		set_zinc_in_milligrams(3.27000);
+		set_choline_in_milligrams(46.00000);
+		set_folate_in_micrograms(42.00000);
+		set_niacin_in_milligrams(3.26000);
+		set_pantothenic_acid_in_milligrams(0.27900);
+		set_riboflavin_in_milligrams(0.23000);
+		set_thiamin_in_milligrams(0.25400);
+		set_vitamin_a_in_micrograms(12.00000);
+		set_vitamin_b6_in_milligrams(0.15000);
+		set_vitamin_b12_in_micrograms(1.92000);
+		set_vitamin_c_in_milligrams(0.50000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.06000);
+		set_vitamin_k_in_micrograms(9.20000);
+		set_water_in_grams(54.56000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

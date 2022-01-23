@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_ready_to_eat_post_raisin_bran_cereal extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cereals_ready_to_eat_post_raisin_bran_cereal() {
-        set_food_id("08061");
-        set_food_name("Cereals ready-to-eat, POST Raisin Bran Cereal");
-        set_food_label("Cereals_ready_to_eat_post_raisin_bran_cereal");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(324.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(78.90000);
-        set_fat_in_grams(1.60000);
-        set_fiber_in_grams(13.70000);
-        set_protein_in_grams(7.60000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.34900);
-        set_polyunsaturated_fat_in_grams(0.79600);
-        set_saturated_fat_in_grams(0.29600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(525.00000);
-        set_sodium_in_milligrams(382.00000);
-        set_calcium_in_milligrams(44.00000);
-        set_copper_in_milligrams(0.40000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(18.30000);
-        set_magnesium_in_milligrams(168.00000);
-        set_manganese_in_milligrams(3.21000);
-        set_phosphorus_in_milligrams(339.00000);
-        set_selenium_in_micrograms(5.90000);
-        set_zinc_in_milligrams(3.80000);
-        set_choline_in_milligrams(27.30000);
-        set_folate_in_micrograms(563.00000);
-        set_niacin_in_milligrams(8.50000);
-        set_pantothenic_acid_in_milligrams(0.20600);
-        set_riboflavin_in_milligrams(0.70000);
-        set_thiamin_in_milligrams(0.60000);
-        set_vitamin_a_in_micrograms(380.00000);
-        set_vitamin_b6_in_milligrams(0.80000);
-        set_vitamin_b12_in_micrograms(2.50000);
-        set_vitamin_c_in_milligrams(0.90000);
-        set_vitamin_d_in_micrograms(1.70000);
-        set_vitamin_e_in_milligrams(0.54000);
-        set_vitamin_k_in_micrograms(1.90000);
-        set_water_in_grams(8.60000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cereals_ready_to_eat_post_raisin_bran_cereal() {
+		set_food_id("08061");
+		set_food_name("Cereals ready-to-eat, POST Raisin Bran Cereal");
+		set_food_label("Cereals_ready_to_eat_post_raisin_bran_cereal");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(324.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(78.90000);
+		set_fat_in_grams(1.60000);
+		set_fiber_in_grams(13.70000);
+		set_protein_in_grams(7.60000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.34900);
+		set_polyunsaturated_fat_in_grams(0.79600);
+		set_saturated_fat_in_grams(0.29600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(525.00000);
+		set_sodium_in_milligrams(382.00000);
+		set_calcium_in_milligrams(44.00000);
+		set_copper_in_milligrams(0.40000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(18.30000);
+		set_magnesium_in_milligrams(168.00000);
+		set_manganese_in_milligrams(3.21000);
+		set_phosphorus_in_milligrams(339.00000);
+		set_selenium_in_micrograms(5.90000);
+		set_zinc_in_milligrams(3.80000);
+		set_choline_in_milligrams(27.30000);
+		set_folate_in_micrograms(563.00000);
+		set_niacin_in_milligrams(8.50000);
+		set_pantothenic_acid_in_milligrams(0.20600);
+		set_riboflavin_in_milligrams(0.70000);
+		set_thiamin_in_milligrams(0.60000);
+		set_vitamin_a_in_micrograms(380.00000);
+		set_vitamin_b6_in_milligrams(0.80000);
+		set_vitamin_b12_in_micrograms(2.50000);
+		set_vitamin_c_in_milligrams(0.90000);
+		set_vitamin_d_in_micrograms(1.70000);
+		set_vitamin_e_in_milligrams(0.54000);
+		set_vitamin_k_in_micrograms(1.90000);
+		set_water_in_grams(8.60000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

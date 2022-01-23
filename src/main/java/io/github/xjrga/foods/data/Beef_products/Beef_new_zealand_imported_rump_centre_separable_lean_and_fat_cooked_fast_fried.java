@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_new_zealand_imported_rump_centre_separable_lean_and_fat_cooked_fast_fried extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_new_zealand_imported_rump_centre_separable_lean_and_fat_cooked_fast_fried() {
-        set_food_id("23465");
-        set_food_name("Beef, New Zealand, imported, rump centre, separable lean and fat, cooked, fast fried");
-        set_food_label("Beef_new_zealand_imported_rump_centre_separable_lean_and_fat_cooked_fast_fried");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(192.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(7.96000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(30.01000);
-        set_cholesterol_in_milligrams(78.00000);
-        set_monounsaturated_fat_in_grams(2.77600);
-        set_polyunsaturated_fat_in_grams(0.40600);
-        set_saturated_fat_in_grams(2.79500);
-        set_alpha_linolenic_acid_in_grams(0.08500);
-        set_linoleic_acid_in_grams(0.14500);
-        set_dha_in_grams(0.00300);
-        set_epa_in_grams(0.02500);
-        set_potassium_in_milligrams(425.00000);
-        set_sodium_in_milligrams(55.00000);
-        set_calcium_in_milligrams(5.00000);
-        set_copper_in_milligrams(0.14400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.95000);
-        set_magnesium_in_milligrams(29.00000);
-        set_manganese_in_milligrams(0.01200);
-        set_phosphorus_in_milligrams(253.00000);
-        set_selenium_in_micrograms(1.90000);
-        set_zinc_in_milligrams(4.05000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(3.90400);
-        set_pantothenic_acid_in_milligrams(0.77200);
-        set_riboflavin_in_milligrams(0.19800);
-        set_thiamin_in_milligrams(0.08100);
-        set_vitamin_a_in_micrograms(12.00000);
-        set_vitamin_b6_in_milligrams(0.27400);
-        set_vitamin_b12_in_micrograms(2.20000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.20000);
-        set_vitamin_e_in_milligrams(0.56000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(61.45000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_new_zealand_imported_rump_centre_separable_lean_and_fat_cooked_fast_fried() {
+		set_food_id("23465");
+		set_food_name("Beef, New Zealand, imported, rump centre, separable lean and fat, cooked, fast fried");
+		set_food_label("Beef_new_zealand_imported_rump_centre_separable_lean_and_fat_cooked_fast_fried");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(192.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(7.96000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(30.01000);
+		set_cholesterol_in_milligrams(78.00000);
+		set_monounsaturated_fat_in_grams(2.77600);
+		set_polyunsaturated_fat_in_grams(0.40600);
+		set_saturated_fat_in_grams(2.79500);
+		set_alpha_linolenic_acid_in_grams(0.08500);
+		set_linoleic_acid_in_grams(0.14500);
+		set_dha_in_grams(0.00300);
+		set_epa_in_grams(0.02500);
+		set_potassium_in_milligrams(425.00000);
+		set_sodium_in_milligrams(55.00000);
+		set_calcium_in_milligrams(5.00000);
+		set_copper_in_milligrams(0.14400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.95000);
+		set_magnesium_in_milligrams(29.00000);
+		set_manganese_in_milligrams(0.01200);
+		set_phosphorus_in_milligrams(253.00000);
+		set_selenium_in_micrograms(1.90000);
+		set_zinc_in_milligrams(4.05000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(3.90400);
+		set_pantothenic_acid_in_milligrams(0.77200);
+		set_riboflavin_in_milligrams(0.19800);
+		set_thiamin_in_milligrams(0.08100);
+		set_vitamin_a_in_micrograms(12.00000);
+		set_vitamin_b6_in_milligrams(0.27400);
+		set_vitamin_b12_in_micrograms(2.20000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.20000);
+		set_vitamin_e_in_milligrams(0.56000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(61.45000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

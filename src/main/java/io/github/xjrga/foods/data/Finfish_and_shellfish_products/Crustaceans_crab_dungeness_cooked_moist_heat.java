@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Crustaceans_crab_dungeness_cooked_moist_heat extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Crustaceans_crab_dungeness_cooked_moist_heat() {
-        set_food_id("15226");
-        set_food_name("Crustaceans, crab, dungeness, cooked, moist heat");
-        set_food_label("Crustaceans_crab_dungeness_cooked_moist_heat");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(110.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.95000);
-        set_fat_in_grams(1.24000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(22.32000);
-        set_cholesterol_in_milligrams(76.00000);
-        set_monounsaturated_fat_in_grams(0.21400);
-        set_polyunsaturated_fat_in_grams(0.40700);
-        set_saturated_fat_in_grams(0.16800);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.11300);
-        set_epa_in_grams(0.28100);
-        set_potassium_in_milligrams(408.00000);
-        set_sodium_in_milligrams(378.00000);
-        set_calcium_in_milligrams(59.00000);
-        set_copper_in_milligrams(0.73400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.43000);
-        set_magnesium_in_milligrams(58.00000);
-        set_manganese_in_milligrams(0.09700);
-        set_phosphorus_in_milligrams(175.00000);
-        set_selenium_in_micrograms(47.60000);
-        set_zinc_in_milligrams(5.47000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(42.00000);
-        set_niacin_in_milligrams(3.62300);
-        set_pantothenic_acid_in_milligrams(0.40400);
-        set_riboflavin_in_milligrams(0.20300);
-        set_thiamin_in_milligrams(0.05700);
-        set_vitamin_a_in_micrograms(31.00000);
-        set_vitamin_b6_in_milligrams(0.17300);
-        set_vitamin_b12_in_micrograms(10.38000);
-        set_vitamin_c_in_milligrams(3.60000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(73.31000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.11000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Crustaceans_crab_dungeness_cooked_moist_heat() {
+		set_food_id("15226");
+		set_food_name("Crustaceans, crab, dungeness, cooked, moist heat");
+		set_food_label("Crustaceans_crab_dungeness_cooked_moist_heat");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(110.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.95000);
+		set_fat_in_grams(1.24000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(22.32000);
+		set_cholesterol_in_milligrams(76.00000);
+		set_monounsaturated_fat_in_grams(0.21400);
+		set_polyunsaturated_fat_in_grams(0.40700);
+		set_saturated_fat_in_grams(0.16800);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.11300);
+		set_epa_in_grams(0.28100);
+		set_potassium_in_milligrams(408.00000);
+		set_sodium_in_milligrams(378.00000);
+		set_calcium_in_milligrams(59.00000);
+		set_copper_in_milligrams(0.73400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.43000);
+		set_magnesium_in_milligrams(58.00000);
+		set_manganese_in_milligrams(0.09700);
+		set_phosphorus_in_milligrams(175.00000);
+		set_selenium_in_micrograms(47.60000);
+		set_zinc_in_milligrams(5.47000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(42.00000);
+		set_niacin_in_milligrams(3.62300);
+		set_pantothenic_acid_in_milligrams(0.40400);
+		set_riboflavin_in_milligrams(0.20300);
+		set_thiamin_in_milligrams(0.05700);
+		set_vitamin_a_in_micrograms(31.00000);
+		set_vitamin_b6_in_milligrams(0.17300);
+		set_vitamin_b12_in_micrograms(10.38000);
+		set_vitamin_c_in_milligrams(3.60000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(73.31000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.11000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -23,61 +23,63 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw extends Abstract_food {
+public class Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw() {
-        set_food_id("23055");
-        set_food_name("Beef, round, knuckle, tip side, steak, separable lean and fat, trimmed to 0' fat, all grades, raw");
-        set_food_label("Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(129.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(4.00000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(21.69000);
-        set_cholesterol_in_milligrams(61.00000);
-        set_monounsaturated_fat_in_grams(1.88100);
-        set_polyunsaturated_fat_in_grams(0.27500);
-        set_saturated_fat_in_grams(1.57800);
-        set_alpha_linolenic_acid_in_grams(0.00900);
-        set_linoleic_acid_in_grams(0.18300);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(381.00000);
-        set_sodium_in_milligrams(61.00000);
-        set_calcium_in_milligrams(5.00000);
-        set_copper_in_milligrams(0.09500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.22000);
-        set_magnesium_in_milligrams(24.00000);
-        set_manganese_in_milligrams(0.01100);
-        set_phosphorus_in_milligrams(215.00000);
-        set_selenium_in_micrograms(31.40000);
-        set_zinc_in_milligrams(5.23000);
-        set_choline_in_milligrams(88.80000);
-        set_folate_in_micrograms(7.00000);
-        set_niacin_in_milligrams(5.55700);
-        set_pantothenic_acid_in_milligrams(0.75800);
-        set_riboflavin_in_milligrams(0.18100);
-        set_thiamin_in_milligrams(0.06600);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.61600);
-        set_vitamin_b12_in_micrograms(3.07000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.17000);
-        set_vitamin_k_in_micrograms(0.20000);
-        set_water_in_grams(73.25000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw() {
+		set_food_id("23055");
+		set_food_name(
+				"Beef, round, knuckle, tip side, steak, separable lean and fat, trimmed to 0' fat, all grades, raw");
+		set_food_label("Beef_round_knuckle_tip_side_steak_separable_lean_and_fat_trimmed_to_0_fat_all_grades_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(129.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(4.00000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(21.69000);
+		set_cholesterol_in_milligrams(61.00000);
+		set_monounsaturated_fat_in_grams(1.88100);
+		set_polyunsaturated_fat_in_grams(0.27500);
+		set_saturated_fat_in_grams(1.57800);
+		set_alpha_linolenic_acid_in_grams(0.00900);
+		set_linoleic_acid_in_grams(0.18300);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(381.00000);
+		set_sodium_in_milligrams(61.00000);
+		set_calcium_in_milligrams(5.00000);
+		set_copper_in_milligrams(0.09500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.22000);
+		set_magnesium_in_milligrams(24.00000);
+		set_manganese_in_milligrams(0.01100);
+		set_phosphorus_in_milligrams(215.00000);
+		set_selenium_in_micrograms(31.40000);
+		set_zinc_in_milligrams(5.23000);
+		set_choline_in_milligrams(88.80000);
+		set_folate_in_micrograms(7.00000);
+		set_niacin_in_milligrams(5.55700);
+		set_pantothenic_acid_in_milligrams(0.75800);
+		set_riboflavin_in_milligrams(0.18100);
+		set_thiamin_in_milligrams(0.06600);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.61600);
+		set_vitamin_b12_in_micrograms(3.07000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.17000);
+		set_vitamin_k_in_micrograms(0.20000);
+		set_water_in_grams(73.25000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

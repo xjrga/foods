@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_naan_whole_wheat_commercially_prepared_refrigerated extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Bread_naan_whole_wheat_commercially_prepared_refrigerated() {
-        set_food_id("28287");
-        set_food_name("Bread, naan, whole wheat, commercially prepared, refrigerated");
-        set_food_label("Bread_naan_whole_wheat_commercially_prepared_refrigerated");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(286.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(46.21000);
-        set_fat_in_grams(6.70000);
-        set_fiber_in_grams(4.80000);
-        set_protein_in_grams(10.20000);
-        set_cholesterol_in_milligrams(1.00000);
-        set_monounsaturated_fat_in_grams(1.94600);
-        set_polyunsaturated_fat_in_grams(1.25800);
-        set_saturated_fat_in_grams(2.90700);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(185.00000);
-        set_sodium_in_milligrams(467.00000);
-        set_calcium_in_milligrams(59.00000);
-        set_copper_in_milligrams(0.15800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.73000);
-        set_magnesium_in_milligrams(68.00000);
-        set_manganese_in_milligrams(1.40000);
-        set_phosphorus_in_milligrams(188.00000);
-        set_selenium_in_micrograms(11.40000);
-        set_zinc_in_milligrams(1.24000);
-        set_choline_in_milligrams(10.10000);
-        set_folate_in_micrograms(16.00000);
-        set_niacin_in_milligrams(3.58000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.18000);
-        set_thiamin_in_milligrams(0.17600);
-        set_vitamin_a_in_micrograms(2.00000);
-        set_vitamin_b6_in_milligrams(0.12800);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(1.32000);
-        set_vitamin_k_in_micrograms(3.30000);
-        set_water_in_grams(34.90000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Bread_naan_whole_wheat_commercially_prepared_refrigerated() {
+		set_food_id("28287");
+		set_food_name("Bread, naan, whole wheat, commercially prepared, refrigerated");
+		set_food_label("Bread_naan_whole_wheat_commercially_prepared_refrigerated");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(286.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(46.21000);
+		set_fat_in_grams(6.70000);
+		set_fiber_in_grams(4.80000);
+		set_protein_in_grams(10.20000);
+		set_cholesterol_in_milligrams(1.00000);
+		set_monounsaturated_fat_in_grams(1.94600);
+		set_polyunsaturated_fat_in_grams(1.25800);
+		set_saturated_fat_in_grams(2.90700);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(185.00000);
+		set_sodium_in_milligrams(467.00000);
+		set_calcium_in_milligrams(59.00000);
+		set_copper_in_milligrams(0.15800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.73000);
+		set_magnesium_in_milligrams(68.00000);
+		set_manganese_in_milligrams(1.40000);
+		set_phosphorus_in_milligrams(188.00000);
+		set_selenium_in_micrograms(11.40000);
+		set_zinc_in_milligrams(1.24000);
+		set_choline_in_milligrams(10.10000);
+		set_folate_in_micrograms(16.00000);
+		set_niacin_in_milligrams(3.58000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.18000);
+		set_thiamin_in_milligrams(0.17600);
+		set_vitamin_a_in_micrograms(2.00000);
+		set_vitamin_b6_in_milligrams(0.12800);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(1.32000);
+		set_vitamin_k_in_micrograms(3.30000);
+		set_water_in_grams(34.90000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

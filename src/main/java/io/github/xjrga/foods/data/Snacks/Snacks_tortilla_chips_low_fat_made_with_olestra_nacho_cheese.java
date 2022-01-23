@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Snacks_tortilla_chips_low_fat_made_with_olestra_nacho_cheese extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Snacks_tortilla_chips_low_fat_made_with_olestra_nacho_cheese() {
-        set_food_id("19444");
-        set_food_name("Snacks, tortilla chips, low fat, made with olestra, nacho cheese");
-        set_food_label("Snacks_tortilla_chips_low_fat_made_with_olestra_nacho_cheese");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(318.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(65.22000);
-        set_fat_in_grams(3.53000);
-        set_fiber_in_grams(6.40000);
-        set_protein_in_grams(8.44000);
-        set_cholesterol_in_milligrams(2.00000);
-        set_monounsaturated_fat_in_grams(1.37900);
-        set_polyunsaturated_fat_in_grams(1.21100);
-        set_saturated_fat_in_grams(1.05400);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(396.00000);
-        set_sodium_in_milligrams(705.00000);
-        set_calcium_in_milligrams(128.00000);
-        set_copper_in_milligrams(0.14000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.80000);
-        set_magnesium_in_milligrams(99.00000);
-        set_manganese_in_milligrams(0.57000);
-        set_phosphorus_in_milligrams(245.00000);
-        set_selenium_in_micrograms(9.40000);
-        set_zinc_in_milligrams(3.40000);
-        set_choline_in_milligrams(20.40000);
-        set_folate_in_micrograms(16.00000);
-        set_niacin_in_milligrams(1.30000);
-        set_pantothenic_acid_in_milligrams(0.20800);
-        set_riboflavin_in_milligrams(0.13000);
-        set_thiamin_in_milligrams(0.20600);
-        set_vitamin_a_in_micrograms(9.00000);
-        set_vitamin_b6_in_milligrams(0.24100);
-        set_vitamin_b12_in_micrograms(0.27000);
-        set_vitamin_c_in_milligrams(5.50000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(3.53000);
-        set_vitamin_k_in_micrograms(191.90000);
-        set_water_in_grams(1.66000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Snacks_tortilla_chips_low_fat_made_with_olestra_nacho_cheese() {
+		set_food_id("19444");
+		set_food_name("Snacks, tortilla chips, low fat, made with olestra, nacho cheese");
+		set_food_label("Snacks_tortilla_chips_low_fat_made_with_olestra_nacho_cheese");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(318.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(65.22000);
+		set_fat_in_grams(3.53000);
+		set_fiber_in_grams(6.40000);
+		set_protein_in_grams(8.44000);
+		set_cholesterol_in_milligrams(2.00000);
+		set_monounsaturated_fat_in_grams(1.37900);
+		set_polyunsaturated_fat_in_grams(1.21100);
+		set_saturated_fat_in_grams(1.05400);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(396.00000);
+		set_sodium_in_milligrams(705.00000);
+		set_calcium_in_milligrams(128.00000);
+		set_copper_in_milligrams(0.14000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.80000);
+		set_magnesium_in_milligrams(99.00000);
+		set_manganese_in_milligrams(0.57000);
+		set_phosphorus_in_milligrams(245.00000);
+		set_selenium_in_micrograms(9.40000);
+		set_zinc_in_milligrams(3.40000);
+		set_choline_in_milligrams(20.40000);
+		set_folate_in_micrograms(16.00000);
+		set_niacin_in_milligrams(1.30000);
+		set_pantothenic_acid_in_milligrams(0.20800);
+		set_riboflavin_in_milligrams(0.13000);
+		set_thiamin_in_milligrams(0.20600);
+		set_vitamin_a_in_micrograms(9.00000);
+		set_vitamin_b6_in_milligrams(0.24100);
+		set_vitamin_b12_in_micrograms(0.27000);
+		set_vitamin_c_in_milligrams(5.50000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(3.53000);
+		set_vitamin_k_in_micrograms(191.90000);
+		set_water_in_grams(1.66000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

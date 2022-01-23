@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Corn_sweet_yellow_cooked_boiled_drained_without_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Corn_sweet_yellow_cooked_boiled_drained_without_salt() {
-        set_food_id("11168");
-        set_food_name("Corn, sweet, yellow, cooked, boiled, drained, without salt");
-        set_food_label("Corn_sweet_yellow_cooked_boiled_drained_without_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(96.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(20.98000);
-        set_fat_in_grams(1.50000);
-        set_fiber_in_grams(2.40000);
-        set_protein_in_grams(3.41000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.37400);
-        set_polyunsaturated_fat_in_grams(0.60300);
-        set_saturated_fat_in_grams(0.19700);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(218.00000);
-        set_sodium_in_milligrams(1.00000);
-        set_calcium_in_milligrams(3.00000);
-        set_copper_in_milligrams(0.04900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.45000);
-        set_magnesium_in_milligrams(26.00000);
-        set_manganese_in_milligrams(0.16700);
-        set_phosphorus_in_milligrams(77.00000);
-        set_selenium_in_micrograms(0.20000);
-        set_zinc_in_milligrams(0.62000);
-        set_choline_in_milligrams(29.10000);
-        set_folate_in_micrograms(23.00000);
-        set_niacin_in_milligrams(1.68300);
-        set_pantothenic_acid_in_milligrams(0.79200);
-        set_riboflavin_in_milligrams(0.05700);
-        set_thiamin_in_milligrams(0.09300);
-        set_vitamin_a_in_micrograms(13.00000);
-        set_vitamin_b6_in_milligrams(0.13900);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(5.50000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.09000);
-        set_vitamin_k_in_micrograms(0.40000);
-        set_water_in_grams(73.41000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.57000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(2.44000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(46.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Corn_sweet_yellow_cooked_boiled_drained_without_salt() {
+		set_food_id("11168");
+		set_food_name("Corn, sweet, yellow, cooked, boiled, drained, without salt");
+		set_food_label("Corn_sweet_yellow_cooked_boiled_drained_without_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(96.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(20.98000);
+		set_fat_in_grams(1.50000);
+		set_fiber_in_grams(2.40000);
+		set_protein_in_grams(3.41000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.37400);
+		set_polyunsaturated_fat_in_grams(0.60300);
+		set_saturated_fat_in_grams(0.19700);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(218.00000);
+		set_sodium_in_milligrams(1.00000);
+		set_calcium_in_milligrams(3.00000);
+		set_copper_in_milligrams(0.04900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.45000);
+		set_magnesium_in_milligrams(26.00000);
+		set_manganese_in_milligrams(0.16700);
+		set_phosphorus_in_milligrams(77.00000);
+		set_selenium_in_micrograms(0.20000);
+		set_zinc_in_milligrams(0.62000);
+		set_choline_in_milligrams(29.10000);
+		set_folate_in_micrograms(23.00000);
+		set_niacin_in_milligrams(1.68300);
+		set_pantothenic_acid_in_milligrams(0.79200);
+		set_riboflavin_in_milligrams(0.05700);
+		set_thiamin_in_milligrams(0.09300);
+		set_vitamin_a_in_micrograms(13.00000);
+		set_vitamin_b6_in_milligrams(0.13900);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(5.50000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.09000);
+		set_vitamin_k_in_micrograms(0.40000);
+		set_water_in_grams(73.41000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.57000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(2.44000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(46.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

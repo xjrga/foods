@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wendys_crispy_chicken_sandwich extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Wendys_crispy_chicken_sandwich() {
-        set_food_id("21508");
-        set_food_name("WEND'YS, Crispy Chicken Sandwich");
-        set_food_label("Wendys_crispy_chicken_sandwich");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(278.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(26.36000);
-        set_fat_in_grams(13.93000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(11.72000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(3.19300);
-        set_polyunsaturated_fat_in_grams(6.63400);
-        set_saturated_fat_in_grams(2.64100);
-        set_alpha_linolenic_acid_in_grams(0.60300);
-        set_linoleic_acid_in_grams(5.87500);
-        set_dha_in_grams(0.00200);
-        set_epa_in_grams(0.00100);
-        set_potassium_in_milligrams(185.00000);
-        set_sodium_in_milligrams(566.00000);
-        set_calcium_in_milligrams(37.00000);
-        set_copper_in_milligrams(0.07400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.49000);
-        set_magnesium_in_milligrams(20.00000);
-        set_manganese_in_milligrams(0.26000);
-        set_phosphorus_in_milligrams(182.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.59000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.00000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.00000);
-        set_thiamin_in_milligrams(0.00000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.00000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(45.92000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Wendys_crispy_chicken_sandwich() {
+		set_food_id("21508");
+		set_food_name("WEND'YS, Crispy Chicken Sandwich");
+		set_food_label("Wendys_crispy_chicken_sandwich");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(278.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(26.36000);
+		set_fat_in_grams(13.93000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(11.72000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(3.19300);
+		set_polyunsaturated_fat_in_grams(6.63400);
+		set_saturated_fat_in_grams(2.64100);
+		set_alpha_linolenic_acid_in_grams(0.60300);
+		set_linoleic_acid_in_grams(5.87500);
+		set_dha_in_grams(0.00200);
+		set_epa_in_grams(0.00100);
+		set_potassium_in_milligrams(185.00000);
+		set_sodium_in_milligrams(566.00000);
+		set_calcium_in_milligrams(37.00000);
+		set_copper_in_milligrams(0.07400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.49000);
+		set_magnesium_in_milligrams(20.00000);
+		set_manganese_in_milligrams(0.26000);
+		set_phosphorus_in_milligrams(182.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.59000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.00000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.00000);
+		set_thiamin_in_milligrams(0.00000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.00000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(45.92000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

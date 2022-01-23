@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Potatoes_scalloped_dry_mix_prepared_with_water_whole_milk_and_butter extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Potatoes_scalloped_dry_mix_prepared_with_water_whole_milk_and_butter() {
-        set_food_id("11387");
-        set_food_name("Potatoes, scalloped, dry mix, prepared with water, whole milk and butter");
-        set_food_label("Potatoes_scalloped_dry_mix_prepared_with_water_whole_milk_and_butter");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(93.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(12.77000);
-        set_fat_in_grams(4.30000);
-        set_fiber_in_grams(1.10000);
-        set_protein_in_grams(2.12000);
-        set_cholesterol_in_milligrams(11.00000);
-        set_monounsaturated_fat_in_grams(1.21300);
-        set_polyunsaturated_fat_in_grams(0.19400);
-        set_saturated_fat_in_grams(2.63300);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(203.00000);
-        set_sodium_in_milligrams(341.00000);
-        set_calcium_in_milligrams(36.00000);
-        set_copper_in_milligrams(0.04900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.38000);
-        set_magnesium_in_milligrams(14.00000);
-        set_manganese_in_milligrams(0.18100);
-        set_phosphorus_in_milligrams(56.00000);
-        set_selenium_in_micrograms(1.60000);
-        set_zinc_in_milligrams(0.25000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(10.00000);
-        set_niacin_in_milligrams(1.02900);
-        set_pantothenic_acid_in_milligrams(0.32700);
-        set_riboflavin_in_milligrams(0.05600);
-        set_thiamin_in_milligrams(0.01900);
-        set_vitamin_a_in_micrograms(35.00000);
-        set_vitamin_b6_in_milligrams(0.04200);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(3.30000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(79.17000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.03000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(2.78000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Potatoes_scalloped_dry_mix_prepared_with_water_whole_milk_and_butter() {
+		set_food_id("11387");
+		set_food_name("Potatoes, scalloped, dry mix, prepared with water, whole milk and butter");
+		set_food_label("Potatoes_scalloped_dry_mix_prepared_with_water_whole_milk_and_butter");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(93.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(12.77000);
+		set_fat_in_grams(4.30000);
+		set_fiber_in_grams(1.10000);
+		set_protein_in_grams(2.12000);
+		set_cholesterol_in_milligrams(11.00000);
+		set_monounsaturated_fat_in_grams(1.21300);
+		set_polyunsaturated_fat_in_grams(0.19400);
+		set_saturated_fat_in_grams(2.63300);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(203.00000);
+		set_sodium_in_milligrams(341.00000);
+		set_calcium_in_milligrams(36.00000);
+		set_copper_in_milligrams(0.04900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.38000);
+		set_magnesium_in_milligrams(14.00000);
+		set_manganese_in_milligrams(0.18100);
+		set_phosphorus_in_milligrams(56.00000);
+		set_selenium_in_micrograms(1.60000);
+		set_zinc_in_milligrams(0.25000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(10.00000);
+		set_niacin_in_milligrams(1.02900);
+		set_pantothenic_acid_in_milligrams(0.32700);
+		set_riboflavin_in_milligrams(0.05600);
+		set_thiamin_in_milligrams(0.01900);
+		set_vitamin_a_in_micrograms(35.00000);
+		set_vitamin_b6_in_milligrams(0.04200);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(3.30000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(79.17000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.03000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(2.78000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

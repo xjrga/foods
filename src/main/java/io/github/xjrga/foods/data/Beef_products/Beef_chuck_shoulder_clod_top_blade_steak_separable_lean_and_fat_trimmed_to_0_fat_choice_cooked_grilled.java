@@ -23,61 +23,64 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled extends Abstract_food {
+public class Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled() {
-        set_food_id("23042");
-        set_food_name("Beef, chuck, shoulder clod, top blade, steak, separable lean and fat, trimmed to 0' fat, choice, cooked, grilled");
-        set_food_label("Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(228.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(13.59000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(24.70000);
-        set_cholesterol_in_milligrams(83.00000);
-        set_monounsaturated_fat_in_grams(5.71100);
-        set_polyunsaturated_fat_in_grams(0.55800);
-        set_saturated_fat_in_grams(5.43200);
-        set_alpha_linolenic_acid_in_grams(0.01900);
-        set_linoleic_acid_in_grams(0.38500);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(317.00000);
-        set_sodium_in_milligrams(78.00000);
-        set_calcium_in_milligrams(6.00000);
-        set_copper_in_milligrams(0.13900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.78000);
-        set_magnesium_in_milligrams(23.00000);
-        set_manganese_in_milligrams(0.01800);
-        set_phosphorus_in_milligrams(199.00000);
-        set_selenium_in_micrograms(37.00000);
-        set_zinc_in_milligrams(8.77000);
-        set_choline_in_milligrams(101.70000);
-        set_folate_in_micrograms(6.00000);
-        set_niacin_in_milligrams(3.72000);
-        set_pantothenic_acid_in_milligrams(0.88100);
-        set_riboflavin_in_milligrams(0.24700);
-        set_thiamin_in_milligrams(0.07000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.37600);
-        set_vitamin_b12_in_micrograms(5.75000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.14000);
-        set_vitamin_k_in_micrograms(0.90000);
-        set_water_in_grams(61.93000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled() {
+		set_food_id("23042");
+		set_food_name(
+				"Beef, chuck, shoulder clod, top blade, steak, separable lean and fat, trimmed to 0' fat, choice, cooked, grilled");
+		set_food_label(
+				"Beef_chuck_shoulder_clod_top_blade_steak_separable_lean_and_fat_trimmed_to_0_fat_choice_cooked_grilled");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(228.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(13.59000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(24.70000);
+		set_cholesterol_in_milligrams(83.00000);
+		set_monounsaturated_fat_in_grams(5.71100);
+		set_polyunsaturated_fat_in_grams(0.55800);
+		set_saturated_fat_in_grams(5.43200);
+		set_alpha_linolenic_acid_in_grams(0.01900);
+		set_linoleic_acid_in_grams(0.38500);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(317.00000);
+		set_sodium_in_milligrams(78.00000);
+		set_calcium_in_milligrams(6.00000);
+		set_copper_in_milligrams(0.13900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.78000);
+		set_magnesium_in_milligrams(23.00000);
+		set_manganese_in_milligrams(0.01800);
+		set_phosphorus_in_milligrams(199.00000);
+		set_selenium_in_micrograms(37.00000);
+		set_zinc_in_milligrams(8.77000);
+		set_choline_in_milligrams(101.70000);
+		set_folate_in_micrograms(6.00000);
+		set_niacin_in_milligrams(3.72000);
+		set_pantothenic_acid_in_milligrams(0.88100);
+		set_riboflavin_in_milligrams(0.24700);
+		set_thiamin_in_milligrams(0.07000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.37600);
+		set_vitamin_b12_in_micrograms(5.75000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.14000);
+		set_vitamin_k_in_micrograms(0.90000);
+		set_water_in_grams(61.93000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Gelatin_desserts_dry_mix_reduced_calorie_with_aspartame extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Gelatin_desserts_dry_mix_reduced_calorie_with_aspartame() {
-        set_food_id("19175");
-        set_food_name("Gelatin desserts, dry mix, reduced calorie, with aspartame");
-        set_food_label("Gelatin_desserts_dry_mix_reduced_calorie_with_aspartame");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(198.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(80.21000);
-        set_fat_in_grams(0.00000);
-        set_fiber_in_grams(0.10000);
-        set_protein_in_grams(15.67000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00000);
-        set_polyunsaturated_fat_in_grams(0.00000);
-        set_saturated_fat_in_grams(0.00000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(14.00000);
-        set_sodium_in_milligrams(862.00000);
-        set_calcium_in_milligrams(8.00000);
-        set_copper_in_milligrams(0.00000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.06000);
-        set_magnesium_in_milligrams(2.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(1293.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.00000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.00000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.00000);
-        set_thiamin_in_milligrams(0.00000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.00000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(1.93000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(2.47000);
-        set_fat_atwater_factor(0.00000);
-        set_protein_atwater_factor(0.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Gelatin_desserts_dry_mix_reduced_calorie_with_aspartame() {
+		set_food_id("19175");
+		set_food_name("Gelatin desserts, dry mix, reduced calorie, with aspartame");
+		set_food_label("Gelatin_desserts_dry_mix_reduced_calorie_with_aspartame");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(198.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(80.21000);
+		set_fat_in_grams(0.00000);
+		set_fiber_in_grams(0.10000);
+		set_protein_in_grams(15.67000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00000);
+		set_polyunsaturated_fat_in_grams(0.00000);
+		set_saturated_fat_in_grams(0.00000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(14.00000);
+		set_sodium_in_milligrams(862.00000);
+		set_calcium_in_milligrams(8.00000);
+		set_copper_in_milligrams(0.00000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.06000);
+		set_magnesium_in_milligrams(2.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(1293.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.00000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.00000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.00000);
+		set_thiamin_in_milligrams(0.00000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.00000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(1.93000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(2.47000);
+		set_fat_atwater_factor(0.00000);
+		set_protein_atwater_factor(0.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

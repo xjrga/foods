@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_dark_meat_thigh_meat_and_skin_enhanced_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Chicken_dark_meat_thigh_meat_and_skin_enhanced_raw() {
-        set_food_id("05691");
-        set_food_name("Chicken, dark meat, thigh, meat and skin, enhanced, raw");
-        set_food_label("Chicken_dark_meat_thigh_meat_and_skin_enhanced_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(197.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(14.58000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(16.56000);
-        set_cholesterol_in_milligrams(95.00000);
-        set_monounsaturated_fat_in_grams(6.27500);
-        set_polyunsaturated_fat_in_grams(3.13100);
-        set_saturated_fat_in_grams(3.97500);
-        set_alpha_linolenic_acid_in_grams(0.13900);
-        set_linoleic_acid_in_grams(2.73100);
-        set_dha_in_grams(0.00600);
-        set_epa_in_grams(0.00300);
-        set_potassium_in_milligrams(191.00000);
-        set_sodium_in_milligrams(151.00000);
-        set_calcium_in_milligrams(8.00000);
-        set_copper_in_milligrams(0.04600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.57000);
-        set_magnesium_in_milligrams(16.00000);
-        set_manganese_in_milligrams(0.00800);
-        set_phosphorus_in_milligrams(147.00000);
-        set_selenium_in_micrograms(17.70000);
-        set_zinc_in_milligrams(1.24000);
-        set_choline_in_milligrams(60.40000);
-        set_folate_in_micrograms(3.00000);
-        set_niacin_in_milligrams(4.45800);
-        set_pantothenic_acid_in_milligrams(0.85200);
-        set_riboflavin_in_milligrams(0.17600);
-        set_thiamin_in_milligrams(0.07100);
-        set_vitamin_a_in_micrograms(22.00000);
-        set_vitamin_b6_in_milligrams(0.33100);
-        set_vitamin_b12_in_micrograms(0.60000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.20000);
-        set_vitamin_e_in_milligrams(0.32000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(68.63000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Chicken_dark_meat_thigh_meat_and_skin_enhanced_raw() {
+		set_food_id("05691");
+		set_food_name("Chicken, dark meat, thigh, meat and skin, enhanced, raw");
+		set_food_label("Chicken_dark_meat_thigh_meat_and_skin_enhanced_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(197.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(14.58000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(16.56000);
+		set_cholesterol_in_milligrams(95.00000);
+		set_monounsaturated_fat_in_grams(6.27500);
+		set_polyunsaturated_fat_in_grams(3.13100);
+		set_saturated_fat_in_grams(3.97500);
+		set_alpha_linolenic_acid_in_grams(0.13900);
+		set_linoleic_acid_in_grams(2.73100);
+		set_dha_in_grams(0.00600);
+		set_epa_in_grams(0.00300);
+		set_potassium_in_milligrams(191.00000);
+		set_sodium_in_milligrams(151.00000);
+		set_calcium_in_milligrams(8.00000);
+		set_copper_in_milligrams(0.04600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.57000);
+		set_magnesium_in_milligrams(16.00000);
+		set_manganese_in_milligrams(0.00800);
+		set_phosphorus_in_milligrams(147.00000);
+		set_selenium_in_micrograms(17.70000);
+		set_zinc_in_milligrams(1.24000);
+		set_choline_in_milligrams(60.40000);
+		set_folate_in_micrograms(3.00000);
+		set_niacin_in_milligrams(4.45800);
+		set_pantothenic_acid_in_milligrams(0.85200);
+		set_riboflavin_in_milligrams(0.17600);
+		set_thiamin_in_milligrams(0.07100);
+		set_vitamin_a_in_micrograms(22.00000);
+		set_vitamin_b6_in_milligrams(0.33100);
+		set_vitamin_b12_in_micrograms(0.60000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.20000);
+		set_vitamin_e_in_milligrams(0.32000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(68.63000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

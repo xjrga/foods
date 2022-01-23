@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Vans_the_perfect_10_crispy_six_whole_grain_four_seed_baked_crackers_gluten_free extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Vans_the_perfect_10_crispy_six_whole_grain_four_seed_baked_crackers_gluten_free() {
-        set_food_id("28376");
-        set_food_name("VAN'S, The Perfect 10, Crispy Six Whole Grain + Four Seed Baked Crackers, Gluten Free");
-        set_food_label("Vans_the_perfect_10_crispy_six_whole_grain_four_seed_baked_crackers_gluten_free");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(471.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(67.57000);
-        set_fat_in_grams(18.93000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(7.63000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00000);
-        set_polyunsaturated_fat_in_grams(0.00000);
-        set_saturated_fat_in_grams(0.00000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(255.00000);
-        set_sodium_in_milligrams(730.00000);
-        set_calcium_in_milligrams(57.00000);
-        set_copper_in_milligrams(0.28100);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.94000);
-        set_magnesium_in_milligrams(94.00000);
-        set_manganese_in_milligrams(2.36000);
-        set_phosphorus_in_milligrams(269.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(1.72000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.00000);
-        set_pantothenic_acid_in_milligrams(0.79000);
-        set_riboflavin_in_milligrams(0.00000);
-        set_thiamin_in_milligrams(0.00000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.00000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(3.09000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Vans_the_perfect_10_crispy_six_whole_grain_four_seed_baked_crackers_gluten_free() {
+		set_food_id("28376");
+		set_food_name("VAN'S, The Perfect 10, Crispy Six Whole Grain + Four Seed Baked Crackers, Gluten Free");
+		set_food_label("Vans_the_perfect_10_crispy_six_whole_grain_four_seed_baked_crackers_gluten_free");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(471.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(67.57000);
+		set_fat_in_grams(18.93000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(7.63000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00000);
+		set_polyunsaturated_fat_in_grams(0.00000);
+		set_saturated_fat_in_grams(0.00000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(255.00000);
+		set_sodium_in_milligrams(730.00000);
+		set_calcium_in_milligrams(57.00000);
+		set_copper_in_milligrams(0.28100);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.94000);
+		set_magnesium_in_milligrams(94.00000);
+		set_manganese_in_milligrams(2.36000);
+		set_phosphorus_in_milligrams(269.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(1.72000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.00000);
+		set_pantothenic_acid_in_milligrams(0.79000);
+		set_riboflavin_in_milligrams(0.00000);
+		set_thiamin_in_milligrams(0.00000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.00000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(3.09000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

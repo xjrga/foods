@@ -30,7 +30,7 @@ import org.junit.Test;
  */
 public class Food_summator_01_Test {
 
-    private static Abstract_food meal;
+    private static Interface_food meal;
 
     public Food_summator_01_Test() {
 
@@ -38,12 +38,12 @@ public class Food_summator_01_Test {
 
     @BeforeClass
     public static void one_time_setup() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Abstract_food tomato = new Tomato_products_canned_puree_without_salt_added();
-        list.add(new Food_multiply(sardine, 1000.0));
-        list.add(new Food_multiply(tomato, 1000.0));
-        meal = new Food_sum(list, "Meal_01");
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        Interface_food tomato = new Tomato_products_canned_puree_without_salt_added();
+        list.add(new Food_multiplier(sardine, 1000.0));
+        list.add(new Food_multiplier(tomato, 1000.0));
+        meal = new Food_summator(list, "Meal_01");
     }
 
     //todo - switch assert values
@@ -332,25 +332,25 @@ public class Food_summator_01_Test {
     //energy_digestible_carbohydrate
     @Test
     public void test_energy_digestible_carbohydrate() {
-        assertEquals(meal.get_energy_digestible_carbohydrate_in_kilocalories(), 283.2, 0.00001);
+        assertEquals(252.756, meal.get_energy_digestible_carbohydrate_in_kilocalories(), 0.00001);
     }
 
     //energy_digestible
     @Test
     public void test_energy_digestible() {
-        assertEquals(meal.get_energy_digestible_in_kilocalories(), 2383.4, 0.00001);
+        assertEquals(2392.36700, meal.get_energy_digestible_in_kilocalories(), 0.00001);
     }
 
     //energy_fat
     @Test
     public void test_energy_fat() {
-        assertEquals(1049.4, meal.get_energy_fat_in_kilocalories(), 0.00001);
+        assertEquals(1048.077, meal.get_energy_fat_in_kilocalories(), 0.00001);
     }
 
     //energy_protein
     @Test
     public void test_energy_protein() {
-        assertEquals(1050.8, meal.get_energy_protein_in_kilocalories(), 0.00001);
+        assertEquals(1091.534, meal.get_energy_protein_in_kilocalories(), 0.00001);
     }
 
     //digestible_carbohydrate
@@ -362,7 +362,7 @@ public class Food_summator_01_Test {
     //food_quotient
     @Test
     public void test_food_quotient() {
-        assertEquals(meal.get_food_quotient(), 0.78854, 0.00001);
+        assertEquals(0.78626, meal.get_food_quotient(), 0.00001);
     }
 
 }

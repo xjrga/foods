@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Babyfood_cereal_oatmeal_with_honey_dry extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Babyfood_cereal_oatmeal_with_honey_dry() {
-        set_food_id("03193");
-        set_food_name("Babyfood, cereal, oatmeal, with honey, dry");
-        set_food_label("Babyfood_cereal_oatmeal_with_honey_dry");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(391.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(69.30000);
-        set_fat_in_grams(7.00000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(13.50000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00000);
-        set_polyunsaturated_fat_in_grams(0.00000);
-        set_saturated_fat_in_grams(0.00000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(259.00000);
-        set_sodium_in_milligrams(47.00000);
-        set_calcium_in_milligrams(1154.00000);
-        set_copper_in_milligrams(0.52900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(67.23000);
-        set_magnesium_in_milligrams(146.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(733.00000);
-        set_selenium_in_micrograms(36.40000);
-        set_zinc_in_milligrams(3.70000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(35.00000);
-        set_niacin_in_milligrams(36.29200);
-        set_pantothenic_acid_in_milligrams(1.54000);
-        set_riboflavin_in_milligrams(2.84200);
-        set_thiamin_in_milligrams(2.77100);
-        set_vitamin_a_in_micrograms(1.00000);
-        set_vitamin_b6_in_milligrams(0.15400);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(5.80000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.10000);
-        set_fat_atwater_factor(8.40000);
-        set_protein_atwater_factor(3.50000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Babyfood_cereal_oatmeal_with_honey_dry() {
+		set_food_id("03193");
+		set_food_name("Babyfood, cereal, oatmeal, with honey, dry");
+		set_food_label("Babyfood_cereal_oatmeal_with_honey_dry");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(391.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(69.30000);
+		set_fat_in_grams(7.00000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(13.50000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00000);
+		set_polyunsaturated_fat_in_grams(0.00000);
+		set_saturated_fat_in_grams(0.00000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(259.00000);
+		set_sodium_in_milligrams(47.00000);
+		set_calcium_in_milligrams(1154.00000);
+		set_copper_in_milligrams(0.52900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(67.23000);
+		set_magnesium_in_milligrams(146.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(733.00000);
+		set_selenium_in_micrograms(36.40000);
+		set_zinc_in_milligrams(3.70000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(35.00000);
+		set_niacin_in_milligrams(36.29200);
+		set_pantothenic_acid_in_milligrams(1.54000);
+		set_riboflavin_in_milligrams(2.84200);
+		set_thiamin_in_milligrams(2.77100);
+		set_vitamin_a_in_micrograms(1.00000);
+		set_vitamin_b6_in_milligrams(0.15400);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(5.80000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.10000);
+		set_fat_atwater_factor(8.40000);
+		set_protein_atwater_factor(3.50000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

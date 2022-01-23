@@ -23,61 +23,63 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled extends Abstract_food {
+public class Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled() {
-        set_food_id("23077");
-        set_food_name("Beef, chuck eye steak, boneless, separable lean only, trimmed to 0' fat, all grades, cooked, grilled");
-        set_food_label("Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(209.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(10.79000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(27.94000);
-        set_cholesterol_in_milligrams(88.00000);
-        set_monounsaturated_fat_in_grams(5.39000);
-        set_polyunsaturated_fat_in_grams(0.48000);
-        set_saturated_fat_in_grams(4.83000);
-        set_alpha_linolenic_acid_in_grams(0.02300);
-        set_linoleic_acid_in_grams(0.37900);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00100);
-        set_potassium_in_milligrams(380.00000);
-        set_sodium_in_milligrams(75.00000);
-        set_calcium_in_milligrams(17.00000);
-        set_copper_in_milligrams(0.08800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.87000);
-        set_magnesium_in_milligrams(25.00000);
-        set_manganese_in_milligrams(0.01500);
-        set_phosphorus_in_milligrams(228.00000);
-        set_selenium_in_micrograms(31.00000);
-        set_zinc_in_milligrams(10.54000);
-        set_choline_in_milligrams(90.40000);
-        set_folate_in_micrograms(7.00000);
-        set_niacin_in_milligrams(5.19000);
-        set_pantothenic_acid_in_milligrams(0.83500);
-        set_riboflavin_in_milligrams(0.21700);
-        set_thiamin_in_milligrams(0.07000);
-        set_vitamin_a_in_micrograms(2.00000);
-        set_vitamin_b6_in_milligrams(0.41200);
-        set_vitamin_b12_in_micrograms(3.37000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.11000);
-        set_vitamin_k_in_micrograms(1.60000);
-        set_water_in_grams(60.79000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled() {
+		set_food_id("23077");
+		set_food_name(
+				"Beef, chuck eye steak, boneless, separable lean only, trimmed to 0' fat, all grades, cooked, grilled");
+		set_food_label("Beef_chuck_eye_steak_boneless_separable_lean_only_trimmed_to_0_fat_all_grades_cooked_grilled");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(209.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(10.79000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(27.94000);
+		set_cholesterol_in_milligrams(88.00000);
+		set_monounsaturated_fat_in_grams(5.39000);
+		set_polyunsaturated_fat_in_grams(0.48000);
+		set_saturated_fat_in_grams(4.83000);
+		set_alpha_linolenic_acid_in_grams(0.02300);
+		set_linoleic_acid_in_grams(0.37900);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00100);
+		set_potassium_in_milligrams(380.00000);
+		set_sodium_in_milligrams(75.00000);
+		set_calcium_in_milligrams(17.00000);
+		set_copper_in_milligrams(0.08800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.87000);
+		set_magnesium_in_milligrams(25.00000);
+		set_manganese_in_milligrams(0.01500);
+		set_phosphorus_in_milligrams(228.00000);
+		set_selenium_in_micrograms(31.00000);
+		set_zinc_in_milligrams(10.54000);
+		set_choline_in_milligrams(90.40000);
+		set_folate_in_micrograms(7.00000);
+		set_niacin_in_milligrams(5.19000);
+		set_pantothenic_acid_in_milligrams(0.83500);
+		set_riboflavin_in_milligrams(0.21700);
+		set_thiamin_in_milligrams(0.07000);
+		set_vitamin_a_in_micrograms(2.00000);
+		set_vitamin_b6_in_milligrams(0.41200);
+		set_vitamin_b12_in_micrograms(3.37000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.11000);
+		set_vitamin_k_in_micrograms(1.60000);
+		set_water_in_grams(60.79000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

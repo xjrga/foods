@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cornmeal_white_navajo extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cornmeal_white_navajo() {
-        set_food_id("35136");
-        set_food_name("Cornmeal, white (Navajo)");
-        set_food_label("Cornmeal_white_navajo");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(398.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(77.14000);
-        set_fat_in_grams(5.04000);
-        set_fiber_in_grams(10.40000);
-        set_protein_in_grams(10.99000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(1.53200);
-        set_polyunsaturated_fat_in_grams(2.07800);
-        set_saturated_fat_in_grams(0.85300);
-        set_alpha_linolenic_acid_in_grams(0.05400);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(443.00000);
-        set_sodium_in_milligrams(4.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.21900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(3.79000);
-        set_magnesium_in_milligrams(125.00000);
-        set_manganese_in_milligrams(0.64600);
-        set_phosphorus_in_milligrams(280.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(3.24000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(32.00000);
-        set_niacin_in_milligrams(2.80000);
-        set_pantothenic_acid_in_milligrams(2.49000);
-        set_riboflavin_in_milligrams(0.13700);
-        set_thiamin_in_milligrams(0.31000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.58300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.37000);
-        set_vitamin_k_in_micrograms(0.40000);
-        set_water_in_grams(5.42000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cornmeal_white_navajo() {
+		set_food_id("35136");
+		set_food_name("Cornmeal, white (Navajo)");
+		set_food_label("Cornmeal_white_navajo");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(398.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(77.14000);
+		set_fat_in_grams(5.04000);
+		set_fiber_in_grams(10.40000);
+		set_protein_in_grams(10.99000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(1.53200);
+		set_polyunsaturated_fat_in_grams(2.07800);
+		set_saturated_fat_in_grams(0.85300);
+		set_alpha_linolenic_acid_in_grams(0.05400);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(443.00000);
+		set_sodium_in_milligrams(4.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.21900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(3.79000);
+		set_magnesium_in_milligrams(125.00000);
+		set_manganese_in_milligrams(0.64600);
+		set_phosphorus_in_milligrams(280.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(3.24000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(32.00000);
+		set_niacin_in_milligrams(2.80000);
+		set_pantothenic_acid_in_milligrams(2.49000);
+		set_riboflavin_in_milligrams(0.13700);
+		set_thiamin_in_milligrams(0.31000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.58300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.37000);
+		set_vitamin_k_in_micrograms(0.40000);
+		set_water_in_grams(5.42000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

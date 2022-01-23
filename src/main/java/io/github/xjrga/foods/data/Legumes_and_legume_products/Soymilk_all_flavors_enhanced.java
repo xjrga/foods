@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soymilk_all_flavors_enhanced extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Soymilk_all_flavors_enhanced() {
-        set_food_id("16223");
-        set_food_name("Soymilk (All flavors), enhanced");
-        set_food_label("Soymilk_all_flavors_enhanced");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(45.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(3.45000);
-        set_fat_in_grams(1.99000);
-        set_fiber_in_grams(0.40000);
-        set_protein_in_grams(2.94000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.41200);
-        set_polyunsaturated_fat_in_grams(1.19000);
-        set_saturated_fat_in_grams(0.20600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(141.00000);
-        set_sodium_in_milligrams(50.00000);
-        set_calcium_in_milligrams(140.00000);
-        set_copper_in_milligrams(0.12300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.49000);
-        set_magnesium_in_milligrams(0.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(0.00000);
-        set_selenium_in_micrograms(2.30000);
-        set_zinc_in_milligrams(0.24000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(3.29200);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.19900);
-        set_thiamin_in_milligrams(0.06200);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.23300);
-        set_vitamin_b12_in_micrograms(1.08000);
-        set_vitamin_c_in_milligrams(7.20000);
-        set_vitamin_d_in_micrograms(1.20000);
-        set_vitamin_e_in_milligrams(2.52000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(90.98000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Soymilk_all_flavors_enhanced() {
+		set_food_id("16223");
+		set_food_name("Soymilk (All flavors), enhanced");
+		set_food_label("Soymilk_all_flavors_enhanced");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(45.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(3.45000);
+		set_fat_in_grams(1.99000);
+		set_fiber_in_grams(0.40000);
+		set_protein_in_grams(2.94000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.41200);
+		set_polyunsaturated_fat_in_grams(1.19000);
+		set_saturated_fat_in_grams(0.20600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(141.00000);
+		set_sodium_in_milligrams(50.00000);
+		set_calcium_in_milligrams(140.00000);
+		set_copper_in_milligrams(0.12300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.49000);
+		set_magnesium_in_milligrams(0.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(0.00000);
+		set_selenium_in_micrograms(2.30000);
+		set_zinc_in_milligrams(0.24000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(3.29200);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.19900);
+		set_thiamin_in_milligrams(0.06200);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.23300);
+		set_vitamin_b12_in_micrograms(1.08000);
+		set_vitamin_c_in_milligrams(7.20000);
+		set_vitamin_d_in_micrograms(1.20000);
+		set_vitamin_e_in_milligrams(2.52000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(90.98000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

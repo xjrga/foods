@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soup_chili_beef_canned_condensed extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Soup_chili_beef_canned_condensed() {
-        set_food_id("06026");
-        set_food_name("Soup, chili beef, canned, condensed");
-        set_food_label("Soup_chili_beef_canned_condensed");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(117.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(18.86000);
-        set_fat_in_grams(2.53000);
-        set_fiber_in_grams(2.50000);
-        set_protein_in_grams(5.09000);
-        set_cholesterol_in_milligrams(10.00000);
-        set_monounsaturated_fat_in_grams(1.01300);
-        set_polyunsaturated_fat_in_grams(0.09500);
-        set_saturated_fat_in_grams(1.24200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(400.00000);
-        set_sodium_in_milligrams(788.00000);
-        set_calcium_in_milligrams(33.00000);
-        set_copper_in_milligrams(0.30000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.62000);
-        set_magnesium_in_milligrams(19.00000);
-        set_manganese_in_milligrams(0.80000);
-        set_phosphorus_in_milligrams(113.00000);
-        set_selenium_in_micrograms(5.00000);
-        set_zinc_in_milligrams(1.56000);
-        set_choline_in_milligrams(21.70000);
-        set_folate_in_micrograms(9.00000);
-        set_niacin_in_milligrams(0.81300);
-        set_pantothenic_acid_in_milligrams(0.22100);
-        set_riboflavin_in_milligrams(0.05800);
-        set_thiamin_in_milligrams(0.04500);
-        set_vitamin_a_in_micrograms(57.00000);
-        set_vitamin_b6_in_milligrams(0.12000);
-        set_vitamin_b12_in_micrograms(0.30000);
-        set_vitamin_c_in_milligrams(3.10000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(1.08000);
-        set_vitamin_k_in_micrograms(3.20000);
-        set_water_in_grams(70.86000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(8.90000);
-        set_protein_atwater_factor(3.70000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Soup_chili_beef_canned_condensed() {
+		set_food_id("06026");
+		set_food_name("Soup, chili beef, canned, condensed");
+		set_food_label("Soup_chili_beef_canned_condensed");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(117.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(18.86000);
+		set_fat_in_grams(2.53000);
+		set_fiber_in_grams(2.50000);
+		set_protein_in_grams(5.09000);
+		set_cholesterol_in_milligrams(10.00000);
+		set_monounsaturated_fat_in_grams(1.01300);
+		set_polyunsaturated_fat_in_grams(0.09500);
+		set_saturated_fat_in_grams(1.24200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(400.00000);
+		set_sodium_in_milligrams(788.00000);
+		set_calcium_in_milligrams(33.00000);
+		set_copper_in_milligrams(0.30000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.62000);
+		set_magnesium_in_milligrams(19.00000);
+		set_manganese_in_milligrams(0.80000);
+		set_phosphorus_in_milligrams(113.00000);
+		set_selenium_in_micrograms(5.00000);
+		set_zinc_in_milligrams(1.56000);
+		set_choline_in_milligrams(21.70000);
+		set_folate_in_micrograms(9.00000);
+		set_niacin_in_milligrams(0.81300);
+		set_pantothenic_acid_in_milligrams(0.22100);
+		set_riboflavin_in_milligrams(0.05800);
+		set_thiamin_in_milligrams(0.04500);
+		set_vitamin_a_in_micrograms(57.00000);
+		set_vitamin_b6_in_milligrams(0.12000);
+		set_vitamin_b12_in_micrograms(0.30000);
+		set_vitamin_c_in_milligrams(3.10000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(1.08000);
+		set_vitamin_k_in_micrograms(3.20000);
+		set_water_in_grams(70.86000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(8.90000);
+		set_protein_atwater_factor(3.70000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

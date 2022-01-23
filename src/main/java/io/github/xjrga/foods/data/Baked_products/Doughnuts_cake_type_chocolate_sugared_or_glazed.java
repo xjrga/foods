@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Doughnuts_cake_type_chocolate_sugared_or_glazed extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Doughnuts_cake_type_chocolate_sugared_or_glazed() {
-        set_food_id("18251");
-        set_food_name("Doughnuts, cake-type, chocolate, sugared or glazed");
-        set_food_label("Doughnuts_cake_type_chocolate_sugared_or_glazed");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(417.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(57.40000);
-        set_fat_in_grams(19.90000);
-        set_fiber_in_grams(2.20000);
-        set_protein_in_grams(4.50000);
-        set_cholesterol_in_milligrams(57.00000);
-        set_monounsaturated_fat_in_grams(11.27800);
-        set_polyunsaturated_fat_in_grams(2.47700);
-        set_saturated_fat_in_grams(5.13200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00200);
-        set_epa_in_grams(0.00200);
-        set_potassium_in_milligrams(106.00000);
-        set_sodium_in_milligrams(215.00000);
-        set_calcium_in_milligrams(213.00000);
-        set_copper_in_milligrams(0.19100);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.27000);
-        set_magnesium_in_milligrams(34.00000);
-        set_manganese_in_milligrams(0.37000);
-        set_phosphorus_in_milligrams(162.00000);
-        set_selenium_in_micrograms(4.10000);
-        set_zinc_in_milligrams(0.57000);
-        set_choline_in_milligrams(29.10000);
-        set_folate_in_micrograms(64.00000);
-        set_niacin_in_milligrams(0.47000);
-        set_pantothenic_acid_in_milligrams(0.34200);
-        set_riboflavin_in_milligrams(0.07000);
-        set_thiamin_in_milligrams(0.04500);
-        set_vitamin_a_in_micrograms(12.00000);
-        set_vitamin_b6_in_milligrams(0.02700);
-        set_vitamin_b12_in_micrograms(0.10000);
-        set_vitamin_c_in_milligrams(0.10000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.21000);
-        set_vitamin_k_in_micrograms(9.80000);
-        set_water_in_grams(16.30000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.90000);
-        set_fat_atwater_factor(8.80000);
-        set_protein_atwater_factor(3.90000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Doughnuts_cake_type_chocolate_sugared_or_glazed() {
+		set_food_id("18251");
+		set_food_name("Doughnuts, cake-type, chocolate, sugared or glazed");
+		set_food_label("Doughnuts_cake_type_chocolate_sugared_or_glazed");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(417.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(57.40000);
+		set_fat_in_grams(19.90000);
+		set_fiber_in_grams(2.20000);
+		set_protein_in_grams(4.50000);
+		set_cholesterol_in_milligrams(57.00000);
+		set_monounsaturated_fat_in_grams(11.27800);
+		set_polyunsaturated_fat_in_grams(2.47700);
+		set_saturated_fat_in_grams(5.13200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00200);
+		set_epa_in_grams(0.00200);
+		set_potassium_in_milligrams(106.00000);
+		set_sodium_in_milligrams(215.00000);
+		set_calcium_in_milligrams(213.00000);
+		set_copper_in_milligrams(0.19100);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.27000);
+		set_magnesium_in_milligrams(34.00000);
+		set_manganese_in_milligrams(0.37000);
+		set_phosphorus_in_milligrams(162.00000);
+		set_selenium_in_micrograms(4.10000);
+		set_zinc_in_milligrams(0.57000);
+		set_choline_in_milligrams(29.10000);
+		set_folate_in_micrograms(64.00000);
+		set_niacin_in_milligrams(0.47000);
+		set_pantothenic_acid_in_milligrams(0.34200);
+		set_riboflavin_in_milligrams(0.07000);
+		set_thiamin_in_milligrams(0.04500);
+		set_vitamin_a_in_micrograms(12.00000);
+		set_vitamin_b6_in_milligrams(0.02700);
+		set_vitamin_b12_in_micrograms(0.10000);
+		set_vitamin_c_in_milligrams(0.10000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.21000);
+		set_vitamin_k_in_micrograms(9.80000);
+		set_water_in_grams(16.30000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.90000);
+		set_fat_atwater_factor(8.80000);
+		set_protein_atwater_factor(3.90000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

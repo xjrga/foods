@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pork_fresh_loin_top_loin_roasts_boneless_separable_lean_and_fat_cooked_roasted extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Pork_fresh_loin_top_loin_roasts_boneless_separable_lean_and_fat_cooked_roasted() {
-        set_food_id("10065");
-        set_food_name("Pork, fresh, loin, top loin (roasts), boneless, separable lean and fat, cooked, roasted");
-        set_food_label("Pork_fresh_loin_top_loin_roasts_boneless_separable_lean_and_fat_cooked_roasted");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(192.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(8.82000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(26.45000);
-        set_cholesterol_in_milligrams(80.00000);
-        set_monounsaturated_fat_in_grams(3.51700);
-        set_polyunsaturated_fat_in_grams(0.99900);
-        set_saturated_fat_in_grams(2.83900);
-        set_alpha_linolenic_acid_in_grams(0.03600);
-        set_linoleic_acid_in_grams(0.84300);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(349.00000);
-        set_sodium_in_milligrams(46.00000);
-        set_calcium_in_milligrams(7.00000);
-        set_copper_in_milligrams(0.07700);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.64000);
-        set_magnesium_in_milligrams(25.00000);
-        set_manganese_in_milligrams(0.00700);
-        set_phosphorus_in_milligrams(223.00000);
-        set_selenium_in_micrograms(34.90000);
-        set_zinc_in_milligrams(2.11000);
-        set_choline_in_milligrams(75.50000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(7.10400);
-        set_pantothenic_acid_in_milligrams(0.67400);
-        set_riboflavin_in_milligrams(0.23200);
-        set_thiamin_in_milligrams(0.54700);
-        set_vitamin_a_in_micrograms(1.00000);
-        set_vitamin_b6_in_milligrams(0.69200);
-        set_vitamin_b12_in_micrograms(0.58000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.50000);
-        set_vitamin_e_in_milligrams(0.11000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(63.76000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Pork_fresh_loin_top_loin_roasts_boneless_separable_lean_and_fat_cooked_roasted() {
+		set_food_id("10065");
+		set_food_name("Pork, fresh, loin, top loin (roasts), boneless, separable lean and fat, cooked, roasted");
+		set_food_label("Pork_fresh_loin_top_loin_roasts_boneless_separable_lean_and_fat_cooked_roasted");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(192.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(8.82000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(26.45000);
+		set_cholesterol_in_milligrams(80.00000);
+		set_monounsaturated_fat_in_grams(3.51700);
+		set_polyunsaturated_fat_in_grams(0.99900);
+		set_saturated_fat_in_grams(2.83900);
+		set_alpha_linolenic_acid_in_grams(0.03600);
+		set_linoleic_acid_in_grams(0.84300);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(349.00000);
+		set_sodium_in_milligrams(46.00000);
+		set_calcium_in_milligrams(7.00000);
+		set_copper_in_milligrams(0.07700);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.64000);
+		set_magnesium_in_milligrams(25.00000);
+		set_manganese_in_milligrams(0.00700);
+		set_phosphorus_in_milligrams(223.00000);
+		set_selenium_in_micrograms(34.90000);
+		set_zinc_in_milligrams(2.11000);
+		set_choline_in_milligrams(75.50000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(7.10400);
+		set_pantothenic_acid_in_milligrams(0.67400);
+		set_riboflavin_in_milligrams(0.23200);
+		set_thiamin_in_milligrams(0.54700);
+		set_vitamin_a_in_micrograms(1.00000);
+		set_vitamin_b6_in_milligrams(0.69200);
+		set_vitamin_b12_in_micrograms(0.58000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.50000);
+		set_vitamin_e_in_milligrams(0.11000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(63.76000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

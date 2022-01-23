@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_green_includes_baby_and_lesuer_types_canned_drained_solids_unprepared extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Peas_green_includes_baby_and_lesuer_types_canned_drained_solids_unprepared() {
-        set_food_id("11308");
-        set_food_name("Peas, green (includes baby and lesuer types), canned, drained solids, unprepared");
-        set_food_label("Peas_green_includes_baby_and_lesuer_types_canned_drained_solids_unprepared");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(68.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(11.36000);
-        set_fat_in_grams(0.80000);
-        set_fiber_in_grams(4.90000);
-        set_protein_in_grams(4.47000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.07100);
-        set_polyunsaturated_fat_in_grams(0.37500);
-        set_saturated_fat_in_grams(0.14300);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(106.00000);
-        set_sodium_in_milligrams(273.00000);
-        set_calcium_in_milligrams(23.00000);
-        set_copper_in_milligrams(0.10600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.18000);
-        set_magnesium_in_milligrams(18.00000);
-        set_manganese_in_milligrams(0.21300);
-        set_phosphorus_in_milligrams(67.00000);
-        set_selenium_in_micrograms(1.70000);
-        set_zinc_in_milligrams(0.66000);
-        set_choline_in_milligrams(30.20000);
-        set_folate_in_micrograms(31.00000);
-        set_niacin_in_milligrams(0.97900);
-        set_pantothenic_acid_in_milligrams(0.24000);
-        set_riboflavin_in_milligrams(0.05300);
-        set_thiamin_in_milligrams(0.10700);
-        set_vitamin_a_in_micrograms(43.00000);
-        set_vitamin_b6_in_milligrams(0.05600);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(4.20000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.38000);
-        set_vitamin_k_in_micrograms(36.80000);
-        set_water_in_grams(82.29000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Peas_green_includes_baby_and_lesuer_types_canned_drained_solids_unprepared() {
+		set_food_id("11308");
+		set_food_name("Peas, green (includes baby and lesuer types), canned, drained solids, unprepared");
+		set_food_label("Peas_green_includes_baby_and_lesuer_types_canned_drained_solids_unprepared");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(68.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(11.36000);
+		set_fat_in_grams(0.80000);
+		set_fiber_in_grams(4.90000);
+		set_protein_in_grams(4.47000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.07100);
+		set_polyunsaturated_fat_in_grams(0.37500);
+		set_saturated_fat_in_grams(0.14300);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(106.00000);
+		set_sodium_in_milligrams(273.00000);
+		set_calcium_in_milligrams(23.00000);
+		set_copper_in_milligrams(0.10600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.18000);
+		set_magnesium_in_milligrams(18.00000);
+		set_manganese_in_milligrams(0.21300);
+		set_phosphorus_in_milligrams(67.00000);
+		set_selenium_in_micrograms(1.70000);
+		set_zinc_in_milligrams(0.66000);
+		set_choline_in_milligrams(30.20000);
+		set_folate_in_micrograms(31.00000);
+		set_niacin_in_milligrams(0.97900);
+		set_pantothenic_acid_in_milligrams(0.24000);
+		set_riboflavin_in_milligrams(0.05300);
+		set_thiamin_in_milligrams(0.10700);
+		set_vitamin_a_in_micrograms(43.00000);
+		set_vitamin_b6_in_milligrams(0.05600);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(4.20000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.38000);
+		set_vitamin_k_in_micrograms(36.80000);
+		set_water_in_grams(82.29000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

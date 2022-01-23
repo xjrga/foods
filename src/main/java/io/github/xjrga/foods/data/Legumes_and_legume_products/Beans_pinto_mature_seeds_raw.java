@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beans_pinto_mature_seeds_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beans_pinto_mature_seeds_raw() {
-        set_food_id("16042");
-        set_food_name("Beans, pinto, mature seeds, raw");
-        set_food_label("Beans_pinto_mature_seeds_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(347.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(62.55000);
-        set_fat_in_grams(1.23000);
-        set_fiber_in_grams(15.50000);
-        set_protein_in_grams(21.42000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.22900);
-        set_polyunsaturated_fat_in_grams(0.40700);
-        set_saturated_fat_in_grams(0.23500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(1393.00000);
-        set_sodium_in_milligrams(12.00000);
-        set_calcium_in_milligrams(113.00000);
-        set_copper_in_milligrams(0.89300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(5.07000);
-        set_magnesium_in_milligrams(176.00000);
-        set_manganese_in_milligrams(1.14800);
-        set_phosphorus_in_milligrams(411.00000);
-        set_selenium_in_micrograms(27.90000);
-        set_zinc_in_milligrams(2.28000);
-        set_choline_in_milligrams(66.20000);
-        set_folate_in_micrograms(525.00000);
-        set_niacin_in_milligrams(1.17400);
-        set_pantothenic_acid_in_milligrams(0.78500);
-        set_riboflavin_in_milligrams(0.21200);
-        set_thiamin_in_milligrams(0.71300);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.47400);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(6.30000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.21000);
-        set_vitamin_k_in_micrograms(5.60000);
-        set_water_in_grams(11.33000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beans_pinto_mature_seeds_raw() {
+		set_food_id("16042");
+		set_food_name("Beans, pinto, mature seeds, raw");
+		set_food_label("Beans_pinto_mature_seeds_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(347.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(62.55000);
+		set_fat_in_grams(1.23000);
+		set_fiber_in_grams(15.50000);
+		set_protein_in_grams(21.42000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.22900);
+		set_polyunsaturated_fat_in_grams(0.40700);
+		set_saturated_fat_in_grams(0.23500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(1393.00000);
+		set_sodium_in_milligrams(12.00000);
+		set_calcium_in_milligrams(113.00000);
+		set_copper_in_milligrams(0.89300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(5.07000);
+		set_magnesium_in_milligrams(176.00000);
+		set_manganese_in_milligrams(1.14800);
+		set_phosphorus_in_milligrams(411.00000);
+		set_selenium_in_micrograms(27.90000);
+		set_zinc_in_milligrams(2.28000);
+		set_choline_in_milligrams(66.20000);
+		set_folate_in_micrograms(525.00000);
+		set_niacin_in_milligrams(1.17400);
+		set_pantothenic_acid_in_milligrams(0.78500);
+		set_riboflavin_in_milligrams(0.21200);
+		set_thiamin_in_milligrams(0.71300);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.47400);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(6.30000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.21000);
+		set_vitamin_k_in_micrograms(5.60000);
+		set_water_in_grams(11.33000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

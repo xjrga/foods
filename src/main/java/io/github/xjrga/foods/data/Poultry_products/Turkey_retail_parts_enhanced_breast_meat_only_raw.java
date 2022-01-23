@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Turkey_retail_parts_enhanced_breast_meat_only_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Turkey_retail_parts_enhanced_breast_meat_only_raw() {
-        set_food_id("05708");
-        set_food_name("Turkey, retail parts, enhanced, breast, meat only, raw");
-        set_food_label("Turkey_retail_parts_enhanced_breast_meat_only_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(111.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(2.53000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(21.99000);
-        set_cholesterol_in_milligrams(60.00000);
-        set_monounsaturated_fat_in_grams(0.94000);
-        set_polyunsaturated_fat_in_grams(0.98000);
-        set_saturated_fat_in_grams(0.60000);
-        set_alpha_linolenic_acid_in_grams(0.02100);
-        set_linoleic_acid_in_grams(0.65900);
-        set_dha_in_grams(0.01700);
-        set_epa_in_grams(0.00700);
-        set_potassium_in_milligrams(237.00000);
-        set_sodium_in_milligrams(124.00000);
-        set_calcium_in_milligrams(8.00000);
-        set_copper_in_milligrams(0.04300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.41000);
-        set_magnesium_in_milligrams(25.00000);
-        set_manganese_in_milligrams(0.00500);
-        set_phosphorus_in_milligrams(181.00000);
-        set_selenium_in_micrograms(22.30000);
-        set_zinc_in_milligrams(1.10000);
-        set_choline_in_milligrams(64.70000);
-        set_folate_in_micrograms(7.00000);
-        set_niacin_in_milligrams(10.00000);
-        set_pantothenic_acid_in_milligrams(0.95000);
-        set_riboflavin_in_milligrams(0.15500);
-        set_thiamin_in_milligrams(0.04900);
-        set_vitamin_a_in_micrograms(5.00000);
-        set_vitamin_b6_in_milligrams(0.84000);
-        set_vitamin_b12_in_micrograms(0.33000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.20000);
-        set_vitamin_e_in_milligrams(0.10000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(75.95000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Turkey_retail_parts_enhanced_breast_meat_only_raw() {
+		set_food_id("05708");
+		set_food_name("Turkey, retail parts, enhanced, breast, meat only, raw");
+		set_food_label("Turkey_retail_parts_enhanced_breast_meat_only_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(111.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(2.53000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(21.99000);
+		set_cholesterol_in_milligrams(60.00000);
+		set_monounsaturated_fat_in_grams(0.94000);
+		set_polyunsaturated_fat_in_grams(0.98000);
+		set_saturated_fat_in_grams(0.60000);
+		set_alpha_linolenic_acid_in_grams(0.02100);
+		set_linoleic_acid_in_grams(0.65900);
+		set_dha_in_grams(0.01700);
+		set_epa_in_grams(0.00700);
+		set_potassium_in_milligrams(237.00000);
+		set_sodium_in_milligrams(124.00000);
+		set_calcium_in_milligrams(8.00000);
+		set_copper_in_milligrams(0.04300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.41000);
+		set_magnesium_in_milligrams(25.00000);
+		set_manganese_in_milligrams(0.00500);
+		set_phosphorus_in_milligrams(181.00000);
+		set_selenium_in_micrograms(22.30000);
+		set_zinc_in_milligrams(1.10000);
+		set_choline_in_milligrams(64.70000);
+		set_folate_in_micrograms(7.00000);
+		set_niacin_in_milligrams(10.00000);
+		set_pantothenic_acid_in_milligrams(0.95000);
+		set_riboflavin_in_milligrams(0.15500);
+		set_thiamin_in_milligrams(0.04900);
+		set_vitamin_a_in_micrograms(5.00000);
+		set_vitamin_b6_in_milligrams(0.84000);
+		set_vitamin_b12_in_micrograms(0.33000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.20000);
+		set_vitamin_e_in_milligrams(0.10000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(75.95000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Barley_malt_flour extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Barley_malt_flour() {
-        set_food_id("20131");
-        set_food_name("Barley malt flour");
-        set_food_label("Barley_malt_flour");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(361.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(78.30000);
-        set_fat_in_grams(1.84000);
-        set_fiber_in_grams(7.10000);
-        set_protein_in_grams(10.28000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.25400);
-        set_polyunsaturated_fat_in_grams(0.95300);
-        set_saturated_fat_in_grams(0.38600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(224.00000);
-        set_sodium_in_milligrams(11.00000);
-        set_calcium_in_milligrams(37.00000);
-        set_copper_in_milligrams(0.27000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.71000);
-        set_magnesium_in_milligrams(97.00000);
-        set_manganese_in_milligrams(1.19300);
-        set_phosphorus_in_milligrams(303.00000);
-        set_selenium_in_micrograms(37.70000);
-        set_zinc_in_milligrams(2.06000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(38.00000);
-        set_niacin_in_milligrams(5.63600);
-        set_pantothenic_acid_in_milligrams(0.57700);
-        set_riboflavin_in_milligrams(0.30800);
-        set_thiamin_in_milligrams(0.30900);
-        set_vitamin_a_in_micrograms(1.00000);
-        set_vitamin_b6_in_milligrams(0.65500);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.60000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.57000);
-        set_vitamin_k_in_micrograms(2.20000);
-        set_water_in_grams(8.21000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.95000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.55000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Barley_malt_flour() {
+		set_food_id("20131");
+		set_food_name("Barley malt flour");
+		set_food_label("Barley_malt_flour");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(361.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(78.30000);
+		set_fat_in_grams(1.84000);
+		set_fiber_in_grams(7.10000);
+		set_protein_in_grams(10.28000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.25400);
+		set_polyunsaturated_fat_in_grams(0.95300);
+		set_saturated_fat_in_grams(0.38600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(224.00000);
+		set_sodium_in_milligrams(11.00000);
+		set_calcium_in_milligrams(37.00000);
+		set_copper_in_milligrams(0.27000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.71000);
+		set_magnesium_in_milligrams(97.00000);
+		set_manganese_in_milligrams(1.19300);
+		set_phosphorus_in_milligrams(303.00000);
+		set_selenium_in_micrograms(37.70000);
+		set_zinc_in_milligrams(2.06000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(38.00000);
+		set_niacin_in_milligrams(5.63600);
+		set_pantothenic_acid_in_milligrams(0.57700);
+		set_riboflavin_in_milligrams(0.30800);
+		set_thiamin_in_milligrams(0.30900);
+		set_vitamin_a_in_micrograms(1.00000);
+		set_vitamin_b6_in_milligrams(0.65500);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.60000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.57000);
+		set_vitamin_k_in_micrograms(2.20000);
+		set_water_in_grams(8.21000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.95000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.55000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

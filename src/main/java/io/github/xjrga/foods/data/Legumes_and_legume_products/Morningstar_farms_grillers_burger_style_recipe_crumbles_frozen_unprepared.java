@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Morningstar_farms_grillers_burger_style_recipe_crumbles_frozen_unprepared extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Morningstar_farms_grillers_burger_style_recipe_crumbles_frozen_unprepared() {
-        set_food_id("22120");
-        set_food_name("MORNINGSTAR FARMS Grillers Burger Style Recipe Crumbles, frozen, unprepared");
-        set_food_label("Morningstar_farms_grillers_burger_style_recipe_crumbles_frozen_unprepared");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(135.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(8.30000);
-        set_fat_in_grams(4.30000);
-        set_fiber_in_grams(5.60000);
-        set_protein_in_grams(18.50000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.90000);
-        set_polyunsaturated_fat_in_grams(2.10000);
-        set_saturated_fat_in_grams(0.50000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(188.00000);
-        set_sodium_in_milligrams(434.00000);
-        set_calcium_in_milligrams(32.00000);
-        set_copper_in_milligrams(0.00000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.80000);
-        set_magnesium_in_milligrams(0.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(111.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.70000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(11.60000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.20000);
-        set_thiamin_in_milligrams(1.23000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.84000);
-        set_vitamin_b12_in_micrograms(8.20000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(65.90000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Morningstar_farms_grillers_burger_style_recipe_crumbles_frozen_unprepared() {
+		set_food_id("22120");
+		set_food_name("MORNINGSTAR FARMS Grillers Burger Style Recipe Crumbles, frozen, unprepared");
+		set_food_label("Morningstar_farms_grillers_burger_style_recipe_crumbles_frozen_unprepared");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(135.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(8.30000);
+		set_fat_in_grams(4.30000);
+		set_fiber_in_grams(5.60000);
+		set_protein_in_grams(18.50000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.90000);
+		set_polyunsaturated_fat_in_grams(2.10000);
+		set_saturated_fat_in_grams(0.50000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(188.00000);
+		set_sodium_in_milligrams(434.00000);
+		set_calcium_in_milligrams(32.00000);
+		set_copper_in_milligrams(0.00000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.80000);
+		set_magnesium_in_milligrams(0.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(111.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.70000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(11.60000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.20000);
+		set_thiamin_in_milligrams(1.23000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.84000);
+		set_vitamin_b12_in_micrograms(8.20000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(65.90000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

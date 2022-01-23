@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rolls_hamburger_or_hotdog_plain extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Rolls_hamburger_or_hotdog_plain() {
-        set_food_id("18350");
-        set_food_name("Rolls, hamburger or hotdog, plain");
-        set_food_label("Rolls_hamburger_or_hotdog_plain");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(279.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(50.12000);
-        set_fat_in_grams(3.91000);
-        set_fiber_in_grams(1.80000);
-        set_protein_in_grams(9.77000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.74800);
-        set_polyunsaturated_fat_in_grams(1.78000);
-        set_saturated_fat_in_grams(0.84200);
-        set_alpha_linolenic_acid_in_grams(0.17600);
-        set_linoleic_acid_in_grams(1.58900);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(122.00000);
-        set_sodium_in_milligrams(494.00000);
-        set_calcium_in_milligrams(144.00000);
-        set_copper_in_milligrams(0.10900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(3.43000);
-        set_magnesium_in_milligrams(23.00000);
-        set_manganese_in_milligrams(0.51200);
-        set_phosphorus_in_milligrams(101.00000);
-        set_selenium_in_micrograms(27.20000);
-        set_zinc_in_milligrams(0.73000);
-        set_choline_in_milligrams(14.60000);
-        set_folate_in_micrograms(131.00000);
-        set_niacin_in_milligrams(4.18000);
-        set_pantothenic_acid_in_milligrams(0.55500);
-        set_riboflavin_in_milligrams(0.29700);
-        set_thiamin_in_milligrams(0.54300);
-        set_vitamin_a_in_micrograms(29.00000);
-        set_vitamin_b6_in_milligrams(0.06300);
-        set_vitamin_b12_in_micrograms(0.20000);
-        set_vitamin_c_in_milligrams(1.30000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.27000);
-        set_vitamin_k_in_micrograms(4.80000);
-        set_water_in_grams(34.34000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.10000);
-        set_fat_atwater_factor(8.80000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Rolls_hamburger_or_hotdog_plain() {
+		set_food_id("18350");
+		set_food_name("Rolls, hamburger or hotdog, plain");
+		set_food_label("Rolls_hamburger_or_hotdog_plain");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(279.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(50.12000);
+		set_fat_in_grams(3.91000);
+		set_fiber_in_grams(1.80000);
+		set_protein_in_grams(9.77000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.74800);
+		set_polyunsaturated_fat_in_grams(1.78000);
+		set_saturated_fat_in_grams(0.84200);
+		set_alpha_linolenic_acid_in_grams(0.17600);
+		set_linoleic_acid_in_grams(1.58900);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(122.00000);
+		set_sodium_in_milligrams(494.00000);
+		set_calcium_in_milligrams(144.00000);
+		set_copper_in_milligrams(0.10900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(3.43000);
+		set_magnesium_in_milligrams(23.00000);
+		set_manganese_in_milligrams(0.51200);
+		set_phosphorus_in_milligrams(101.00000);
+		set_selenium_in_micrograms(27.20000);
+		set_zinc_in_milligrams(0.73000);
+		set_choline_in_milligrams(14.60000);
+		set_folate_in_micrograms(131.00000);
+		set_niacin_in_milligrams(4.18000);
+		set_pantothenic_acid_in_milligrams(0.55500);
+		set_riboflavin_in_milligrams(0.29700);
+		set_thiamin_in_milligrams(0.54300);
+		set_vitamin_a_in_micrograms(29.00000);
+		set_vitamin_b6_in_milligrams(0.06300);
+		set_vitamin_b12_in_micrograms(0.20000);
+		set_vitamin_c_in_milligrams(1.30000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.27000);
+		set_vitamin_k_in_micrograms(4.80000);
+		set_water_in_grams(34.34000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.10000);
+		set_fat_atwater_factor(8.80000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

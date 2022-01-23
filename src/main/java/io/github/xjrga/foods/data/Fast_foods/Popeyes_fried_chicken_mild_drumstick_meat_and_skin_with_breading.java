@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Popeyes_fried_chicken_mild_drumstick_meat_and_skin_with_breading extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Popeyes_fried_chicken_mild_drumstick_meat_and_skin_with_breading() {
-        set_food_id("21457");
-        set_food_name("POPEYES, Fried Chicken, Mild, Drumstick, meat and skin with breading");
-        set_food_label("Popeyes_fried_chicken_mild_drumstick_meat_and_skin_with_breading");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(293.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(9.84000);
-        set_fat_in_grams(19.14000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(20.44000);
-        set_cholesterol_in_milligrams(108.00000);
-        set_monounsaturated_fat_in_grams(8.48800);
-        set_polyunsaturated_fat_in_grams(2.22600);
-        set_saturated_fat_in_grams(6.59100);
-        set_alpha_linolenic_acid_in_grams(0.09300);
-        set_linoleic_acid_in_grams(1.87500);
-        set_dha_in_grams(0.00300);
-        set_epa_in_grams(0.00300);
-        set_potassium_in_milligrams(261.00000);
-        set_sodium_in_milligrams(588.00000);
-        set_calcium_in_milligrams(20.00000);
-        set_copper_in_milligrams(0.07400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.06000);
-        set_magnesium_in_milligrams(22.00000);
-        set_manganese_in_milligrams(0.12100);
-        set_phosphorus_in_milligrams(171.00000);
-        set_selenium_in_micrograms(27.90000);
-        set_zinc_in_milligrams(1.76000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(5.44300);
-        set_pantothenic_acid_in_milligrams(1.20500);
-        set_riboflavin_in_milligrams(0.25000);
-        set_thiamin_in_milligrams(0.10100);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.23500);
-        set_vitamin_b12_in_micrograms(0.62000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(48.14000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Popeyes_fried_chicken_mild_drumstick_meat_and_skin_with_breading() {
+		set_food_id("21457");
+		set_food_name("POPEYES, Fried Chicken, Mild, Drumstick, meat and skin with breading");
+		set_food_label("Popeyes_fried_chicken_mild_drumstick_meat_and_skin_with_breading");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(293.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(9.84000);
+		set_fat_in_grams(19.14000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(20.44000);
+		set_cholesterol_in_milligrams(108.00000);
+		set_monounsaturated_fat_in_grams(8.48800);
+		set_polyunsaturated_fat_in_grams(2.22600);
+		set_saturated_fat_in_grams(6.59100);
+		set_alpha_linolenic_acid_in_grams(0.09300);
+		set_linoleic_acid_in_grams(1.87500);
+		set_dha_in_grams(0.00300);
+		set_epa_in_grams(0.00300);
+		set_potassium_in_milligrams(261.00000);
+		set_sodium_in_milligrams(588.00000);
+		set_calcium_in_milligrams(20.00000);
+		set_copper_in_milligrams(0.07400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.06000);
+		set_magnesium_in_milligrams(22.00000);
+		set_manganese_in_milligrams(0.12100);
+		set_phosphorus_in_milligrams(171.00000);
+		set_selenium_in_micrograms(27.90000);
+		set_zinc_in_milligrams(1.76000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(5.44300);
+		set_pantothenic_acid_in_milligrams(1.20500);
+		set_riboflavin_in_milligrams(0.25000);
+		set_thiamin_in_milligrams(0.10100);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.23500);
+		set_vitamin_b12_in_micrograms(0.62000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(48.14000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

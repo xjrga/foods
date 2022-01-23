@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_brown_parboiled_cooked_uncle_bens extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Rice_brown_parboiled_cooked_uncle_bens() {
-        set_food_id("20651");
-        set_food_name("Rice, brown, parboiled, cooked, UNCLE BENS");
-        set_food_label("Rice_brown_parboiled_cooked_uncle_bens");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(147.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(31.33000);
-        set_fat_in_grams(0.85000);
-        set_fiber_in_grams(1.70000);
-        set_protein_in_grams(3.09000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.30000);
-        set_polyunsaturated_fat_in_grams(0.26900);
-        set_saturated_fat_in_grams(0.21300);
-        set_alpha_linolenic_acid_in_grams(0.00800);
-        set_linoleic_acid_in_grams(0.25900);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00100);
-        set_potassium_in_milligrams(61.00000);
-        set_sodium_in_milligrams(4.00000);
-        set_calcium_in_milligrams(3.00000);
-        set_copper_in_milligrams(0.12900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.53000);
-        set_magnesium_in_milligrams(39.00000);
-        set_manganese_in_milligrams(1.14000);
-        set_phosphorus_in_milligrams(96.00000);
-        set_selenium_in_micrograms(9.40000);
-        set_zinc_in_milligrams(0.77000);
-        set_choline_in_milligrams(4.40000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(1.90300);
-        set_pantothenic_acid_in_milligrams(0.27500);
-        set_riboflavin_in_milligrams(0.07000);
-        set_thiamin_in_milligrams(0.09700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.11000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.40000);
-        set_water_in_grams(64.38000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.12000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.41000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Rice_brown_parboiled_cooked_uncle_bens() {
+		set_food_id("20651");
+		set_food_name("Rice, brown, parboiled, cooked, UNCLE BENS");
+		set_food_label("Rice_brown_parboiled_cooked_uncle_bens");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(147.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(31.33000);
+		set_fat_in_grams(0.85000);
+		set_fiber_in_grams(1.70000);
+		set_protein_in_grams(3.09000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.30000);
+		set_polyunsaturated_fat_in_grams(0.26900);
+		set_saturated_fat_in_grams(0.21300);
+		set_alpha_linolenic_acid_in_grams(0.00800);
+		set_linoleic_acid_in_grams(0.25900);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00100);
+		set_potassium_in_milligrams(61.00000);
+		set_sodium_in_milligrams(4.00000);
+		set_calcium_in_milligrams(3.00000);
+		set_copper_in_milligrams(0.12900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.53000);
+		set_magnesium_in_milligrams(39.00000);
+		set_manganese_in_milligrams(1.14000);
+		set_phosphorus_in_milligrams(96.00000);
+		set_selenium_in_micrograms(9.40000);
+		set_zinc_in_milligrams(0.77000);
+		set_choline_in_milligrams(4.40000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(1.90300);
+		set_pantothenic_acid_in_milligrams(0.27500);
+		set_riboflavin_in_milligrams(0.07000);
+		set_thiamin_in_milligrams(0.09700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.11000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.40000);
+		set_water_in_grams(64.38000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.12000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.41000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

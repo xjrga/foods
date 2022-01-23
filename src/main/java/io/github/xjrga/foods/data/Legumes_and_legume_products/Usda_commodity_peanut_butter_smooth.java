@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Usda_commodity_peanut_butter_smooth extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Usda_commodity_peanut_butter_smooth() {
-        set_food_id("16167");
-        set_food_name("USDA Commodity, Peanut Butter, smooth");
-        set_food_label("Usda_commodity_peanut_butter_smooth");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(588.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(23.98000);
-        set_fat_in_grams(49.54000);
-        set_fiber_in_grams(5.70000);
-        set_protein_in_grams(21.93000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(20.72600);
-        set_polyunsaturated_fat_in_grams(11.33100);
-        set_saturated_fat_in_grams(9.51900);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.01200);
-        set_potassium_in_milligrams(592.00000);
-        set_sodium_in_milligrams(476.00000);
-        set_calcium_in_milligrams(54.00000);
-        set_copper_in_milligrams(0.57100);
-        set_fluoride_in_micrograms(3.10000);
-        set_iron_in_milligrams(2.16000);
-        set_magnesium_in_milligrams(179.00000);
-        set_manganese_in_milligrams(1.36100);
-        set_phosphorus_in_milligrams(335.00000);
-        set_selenium_in_micrograms(40.40000);
-        set_zinc_in_milligrams(2.67000);
-        set_choline_in_milligrams(65.70000);
-        set_folate_in_micrograms(35.00000);
-        set_niacin_in_milligrams(13.16000);
-        set_pantothenic_acid_in_milligrams(1.04400);
-        set_riboflavin_in_milligrams(0.10500);
-        set_thiamin_in_milligrams(0.10700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.55100);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(5.94000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(1.55000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Usda_commodity_peanut_butter_smooth() {
+		set_food_id("16167");
+		set_food_name("USDA Commodity, Peanut Butter, smooth");
+		set_food_label("Usda_commodity_peanut_butter_smooth");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(588.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(23.98000);
+		set_fat_in_grams(49.54000);
+		set_fiber_in_grams(5.70000);
+		set_protein_in_grams(21.93000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(20.72600);
+		set_polyunsaturated_fat_in_grams(11.33100);
+		set_saturated_fat_in_grams(9.51900);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.01200);
+		set_potassium_in_milligrams(592.00000);
+		set_sodium_in_milligrams(476.00000);
+		set_calcium_in_milligrams(54.00000);
+		set_copper_in_milligrams(0.57100);
+		set_fluoride_in_micrograms(3.10000);
+		set_iron_in_milligrams(2.16000);
+		set_magnesium_in_milligrams(179.00000);
+		set_manganese_in_milligrams(1.36100);
+		set_phosphorus_in_milligrams(335.00000);
+		set_selenium_in_micrograms(40.40000);
+		set_zinc_in_milligrams(2.67000);
+		set_choline_in_milligrams(65.70000);
+		set_folate_in_micrograms(35.00000);
+		set_niacin_in_milligrams(13.16000);
+		set_pantothenic_acid_in_milligrams(1.04400);
+		set_riboflavin_in_milligrams(0.10500);
+		set_thiamin_in_milligrams(0.10700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.55100);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(5.94000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(1.55000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

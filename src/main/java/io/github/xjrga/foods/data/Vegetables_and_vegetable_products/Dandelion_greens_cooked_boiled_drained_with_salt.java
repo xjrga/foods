@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Dandelion_greens_cooked_boiled_drained_with_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Dandelion_greens_cooked_boiled_drained_with_salt() {
-        set_food_id("11782");
-        set_food_name("Dandelion greens, cooked, boiled, drained, with salt");
-        set_food_label("Dandelion_greens_cooked_boiled_drained_with_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(33.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(6.40000);
-        set_fat_in_grams(0.60000);
-        set_fiber_in_grams(2.90000);
-        set_protein_in_grams(2.00000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00000);
-        set_polyunsaturated_fat_in_grams(0.00000);
-        set_saturated_fat_in_grams(0.00000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(232.00000);
-        set_sodium_in_milligrams(280.00000);
-        set_calcium_in_milligrams(140.00000);
-        set_copper_in_milligrams(0.11500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.80000);
-        set_magnesium_in_milligrams(24.00000);
-        set_manganese_in_milligrams(0.23000);
-        set_phosphorus_in_milligrams(42.00000);
-        set_selenium_in_micrograms(0.30000);
-        set_zinc_in_milligrams(0.28000);
-        set_choline_in_milligrams(27.60000);
-        set_folate_in_micrograms(13.00000);
-        set_niacin_in_milligrams(0.51400);
-        set_pantothenic_acid_in_milligrams(0.05700);
-        set_riboflavin_in_milligrams(0.17500);
-        set_thiamin_in_milligrams(0.13000);
-        set_vitamin_a_in_micrograms(727.00000);
-        set_vitamin_b6_in_milligrams(0.16000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(18.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.60000);
-        set_vitamin_k_in_micrograms(358.90000);
-        set_water_in_grams(89.80000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.57000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(2.44000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Dandelion_greens_cooked_boiled_drained_with_salt() {
+		set_food_id("11782");
+		set_food_name("Dandelion greens, cooked, boiled, drained, with salt");
+		set_food_label("Dandelion_greens_cooked_boiled_drained_with_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(33.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(6.40000);
+		set_fat_in_grams(0.60000);
+		set_fiber_in_grams(2.90000);
+		set_protein_in_grams(2.00000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00000);
+		set_polyunsaturated_fat_in_grams(0.00000);
+		set_saturated_fat_in_grams(0.00000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(232.00000);
+		set_sodium_in_milligrams(280.00000);
+		set_calcium_in_milligrams(140.00000);
+		set_copper_in_milligrams(0.11500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.80000);
+		set_magnesium_in_milligrams(24.00000);
+		set_manganese_in_milligrams(0.23000);
+		set_phosphorus_in_milligrams(42.00000);
+		set_selenium_in_micrograms(0.30000);
+		set_zinc_in_milligrams(0.28000);
+		set_choline_in_milligrams(27.60000);
+		set_folate_in_micrograms(13.00000);
+		set_niacin_in_milligrams(0.51400);
+		set_pantothenic_acid_in_milligrams(0.05700);
+		set_riboflavin_in_milligrams(0.17500);
+		set_thiamin_in_milligrams(0.13000);
+		set_vitamin_a_in_micrograms(727.00000);
+		set_vitamin_b6_in_milligrams(0.16000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(18.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.60000);
+		set_vitamin_k_in_micrograms(358.90000);
+		set_water_in_grams(89.80000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.57000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(2.44000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

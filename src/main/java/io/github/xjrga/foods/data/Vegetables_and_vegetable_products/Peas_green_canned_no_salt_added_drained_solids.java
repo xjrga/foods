@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peas_green_canned_no_salt_added_drained_solids extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Peas_green_canned_no_salt_added_drained_solids() {
-        set_food_id("11813");
-        set_food_name("Peas, green, canned, no salt added, drained solids");
-        set_food_label("Peas_green_canned_no_salt_added_drained_solids");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(69.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(12.58000);
-        set_fat_in_grams(0.35000);
-        set_fiber_in_grams(4.10000);
-        set_protein_in_grams(4.42000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.03100);
-        set_polyunsaturated_fat_in_grams(0.16300);
-        set_saturated_fat_in_grams(0.06200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(173.00000);
-        set_sodium_in_milligrams(2.00000);
-        set_calcium_in_milligrams(20.00000);
-        set_copper_in_milligrams(0.08200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.95000);
-        set_magnesium_in_milligrams(17.00000);
-        set_manganese_in_milligrams(0.30300);
-        set_phosphorus_in_milligrams(67.00000);
-        set_selenium_in_micrograms(1.70000);
-        set_zinc_in_milligrams(0.71000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(44.00000);
-        set_niacin_in_milligrams(0.73200);
-        set_pantothenic_acid_in_milligrams(0.12800);
-        set_riboflavin_in_milligrams(0.07800);
-        set_thiamin_in_milligrams(0.12100);
-        set_vitamin_a_in_micrograms(27.00000);
-        set_vitamin_b6_in_milligrams(0.06400);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(9.60000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.03000);
-        set_vitamin_k_in_micrograms(21.40000);
-        set_water_in_grams(81.70000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Peas_green_canned_no_salt_added_drained_solids() {
+		set_food_id("11813");
+		set_food_name("Peas, green, canned, no salt added, drained solids");
+		set_food_label("Peas_green_canned_no_salt_added_drained_solids");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(69.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(12.58000);
+		set_fat_in_grams(0.35000);
+		set_fiber_in_grams(4.10000);
+		set_protein_in_grams(4.42000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.03100);
+		set_polyunsaturated_fat_in_grams(0.16300);
+		set_saturated_fat_in_grams(0.06200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(173.00000);
+		set_sodium_in_milligrams(2.00000);
+		set_calcium_in_milligrams(20.00000);
+		set_copper_in_milligrams(0.08200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.95000);
+		set_magnesium_in_milligrams(17.00000);
+		set_manganese_in_milligrams(0.30300);
+		set_phosphorus_in_milligrams(67.00000);
+		set_selenium_in_micrograms(1.70000);
+		set_zinc_in_milligrams(0.71000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(44.00000);
+		set_niacin_in_milligrams(0.73200);
+		set_pantothenic_acid_in_milligrams(0.12800);
+		set_riboflavin_in_milligrams(0.07800);
+		set_thiamin_in_milligrams(0.12100);
+		set_vitamin_a_in_micrograms(27.00000);
+		set_vitamin_b6_in_milligrams(0.06400);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(9.60000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.03000);
+		set_vitamin_k_in_micrograms(21.40000);
+		set_water_in_grams(81.70000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

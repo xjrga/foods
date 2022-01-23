@@ -54,5 +54,5 @@ Snack uses a data subset from:
 
 Notes
     
-    [USDA National Nutrient Database for Standard Reference, Release 27](https://www.ars.usda.gov/ARSUserFiles/80400535/DATA/sr27/sr27_doc.pdf "Composition of Foods Raw, Processed, Prepared, USDA National Nutrient Database for Standard Reference, Release 27 - Documentation and User Guide")
+    
               

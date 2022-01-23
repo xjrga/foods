@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Turkey_dark_meat_meat_and_skin_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Turkey_dark_meat_meat_and_skin_raw() {
-        set_food_id("05183");
-        set_food_name("Turkey, dark meat, meat and skin, raw");
-        set_food_label("Turkey_dark_meat_meat_and_skin_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(161.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.15000);
-        set_fat_in_grams(8.97000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(19.81000);
-        set_cholesterol_in_milligrams(87.00000);
-        set_monounsaturated_fat_in_grams(3.09100);
-        set_polyunsaturated_fat_in_grams(2.44300);
-        set_saturated_fat_in_grams(2.41300);
-        set_alpha_linolenic_acid_in_grams(0.10900);
-        set_linoleic_acid_in_grams(1.73500);
-        set_dha_in_grams(0.00300);
-        set_epa_in_grams(0.00300);
-        set_potassium_in_milligrams(208.00000);
-        set_sodium_in_milligrams(113.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.08500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.00000);
-        set_magnesium_in_milligrams(22.00000);
-        set_manganese_in_milligrams(0.01400);
-        set_phosphorus_in_milligrams(166.00000);
-        set_selenium_in_micrograms(20.20000);
-        set_zinc_in_milligrams(2.32000);
-        set_choline_in_milligrams(63.80000);
-        set_folate_in_micrograms(6.00000);
-        set_niacin_in_milligrams(5.37800);
-        set_pantothenic_acid_in_milligrams(0.85700);
-        set_riboflavin_in_milligrams(0.22900);
-        set_thiamin_in_milligrams(0.05500);
-        set_vitamin_a_in_micrograms(26.00000);
-        set_vitamin_b6_in_milligrams(0.39100);
-        set_vitamin_b12_in_micrograms(1.84000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.50000);
-        set_vitamin_e_in_milligrams(0.11000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(71.10000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Turkey_dark_meat_meat_and_skin_raw() {
+		set_food_id("05183");
+		set_food_name("Turkey, dark meat, meat and skin, raw");
+		set_food_label("Turkey_dark_meat_meat_and_skin_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(161.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.15000);
+		set_fat_in_grams(8.97000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(19.81000);
+		set_cholesterol_in_milligrams(87.00000);
+		set_monounsaturated_fat_in_grams(3.09100);
+		set_polyunsaturated_fat_in_grams(2.44300);
+		set_saturated_fat_in_grams(2.41300);
+		set_alpha_linolenic_acid_in_grams(0.10900);
+		set_linoleic_acid_in_grams(1.73500);
+		set_dha_in_grams(0.00300);
+		set_epa_in_grams(0.00300);
+		set_potassium_in_milligrams(208.00000);
+		set_sodium_in_milligrams(113.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.08500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.00000);
+		set_magnesium_in_milligrams(22.00000);
+		set_manganese_in_milligrams(0.01400);
+		set_phosphorus_in_milligrams(166.00000);
+		set_selenium_in_micrograms(20.20000);
+		set_zinc_in_milligrams(2.32000);
+		set_choline_in_milligrams(63.80000);
+		set_folate_in_micrograms(6.00000);
+		set_niacin_in_milligrams(5.37800);
+		set_pantothenic_acid_in_milligrams(0.85700);
+		set_riboflavin_in_milligrams(0.22900);
+		set_thiamin_in_milligrams(0.05500);
+		set_vitamin_a_in_micrograms(26.00000);
+		set_vitamin_b6_in_milligrams(0.39100);
+		set_vitamin_b12_in_micrograms(1.84000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.50000);
+		set_vitamin_e_in_milligrams(0.11000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(71.10000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

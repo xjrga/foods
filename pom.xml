@@ -1,275 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	 xmlns="http://maven.apache.org/POM/4.0.0"
-	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xmlns:ns="http://maven.apache.org/POM/4.0.0">
-    <modelVersion>4.0.0</modelVersion>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.xjrga</groupId>
+  <groupId>io.github.xjrga</groupId>
 
-    <artifactId>foods</artifactId>
+  <artifactId>foods</artifactId>
 
-    <version>01</version>
+  <version>01</version>
 
-    <name>foods</name>
+  <name>foods</name>
 
-    <description>Snackmix Food Library</description>
+  <description>Snackmix Food Library</description>
 
-    <url>https://github.com/xjrga/foods</url>
+  <url>https://github.com/xjrga/foods</url>
 
-    <licenses>
-	<license>
-	    <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</url>
-	</license>
-    </licenses>
+  <licenses>
+    <license>
+      <url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</url>
+    </license>
+  </licenses>
 
-    <developers>
-	<developer>
-	    <name>Jorge R Garcia de Alba</name>
+  <developers>
+    <developer>
+      <name>Jorge R Garcia de Alba</name>
 
-	    <email>jorge.r.garciadealba@gmail.com</email>
-	</developer>
-    </developers>
+      <email>jorge.r.garciadealba@gmail.com</email>
+    </developer>
+  </developers>
 
-    <scm>
-	<connection>scm:git:git://github.com/xjrga/foods.git</connection>
+  <scm>
+    <connection>scm:git:git://github.com/xjrga/foods.git</connection>
 
-	<developerConnection>scm:git:ssh://github.com:xjrga/foods.git</developerConnection>
+    <developerConnection>scm:git:ssh://github.com:xjrga/foods.git</developerConnection>
 
-	<url>http://github.com/xjrga/foods/tree/master</url>
-    </scm>
+    <url>http://github.com/xjrga/foods/tree/master</url>
+  </scm>
 
-    <distributionManagement>
-	<snapshotRepository>
-	    <id>ossrh</id>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
 
-	    <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-	</snapshotRepository>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
 
-	<repository>
-	    <id>ossrh</id>
+    <repository>
+      <id>ossrh</id>
 
-	    <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-	</repository>
-    </distributionManagement>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 
-    <properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-	<maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.source>11</maven.compiler.source>
 
-	<maven.compiler.target>11</maven.compiler.target>
-    </properties>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
 
-    <repositories>
-	<repository>
-	    <id>project.local</id>
+  <repositories>
+    <repository>
+      <id>project.local</id>
 
-	    <name>project</name>
+      <name>project</name>
 
-	    <url>file:.m2/repository</url>
-	</repository>
-    </repositories>
+      <url>file:.m2/repository</url>
+    </repository>
+  </repositories>
 
-    <dependencies>
-	<dependency>
-	    <groupId>junit</groupId>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
 
-	    <artifactId>junit</artifactId>
+      <artifactId>junit</artifactId>
 
-	    <version>4.13</version>
+      <version>4.13</version>
 
-	    <scope>test</scope>
+      <scope>test</scope>
 
-	    <type>jar</type>
-	</dependency>
-    </dependencies>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
 
-    <build>
-	<pluginManagement>
-	    <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+  <build>
+    <pluginManagement>
+      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 
-	    <plugins>
-		<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
 
-		<plugin>
-		    <artifactId>maven-clean-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
 
-		    <version>3.1.0</version>
-		</plugin>
+          <version>3.1.0</version>
+        </plugin>
 
-		<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
 
-		<plugin>
-		    <artifactId>maven-resources-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
 
-		    <version>3.0.2</version>
-		</plugin>
+          <version>3.0.2</version>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-compiler-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
 
-		    <version>3.8.0</version>
-		</plugin>
+          <version>3.8.0</version>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-surefire-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
 
-		    <version>2.22.1</version>
+          <version>2.22.1</version>
 
-		    <configuration>
-			<includes>
-			    <include>**/*.java</include>
-			</includes>
-		    </configuration>
-		</plugin>
+          <configuration>
+            <includes>
+              <include>**/*.java</include>
+            </includes>
+          </configuration>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-jar-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
 
-		    <version>3.0.2</version>
+          <version>3.0.2</version>
 
-		    <executions>
-			<execution>
-			    <goals>
-				<goal>test-jar</goal>
-			    </goals>
-			</execution>
-		    </executions>
+          <executions>
+            <execution>
+              <goals>
+                <goal>test-jar</goal>
+              </goals>
+            </execution>
+          </executions>
 
-		    <configuration>
-			<!--Set main class for jar in app assembly-->
+          <configuration>
+            <!--Set main class for jar in app assembly-->
 
-			<archive>
-			    <manifest>
-				<classpathLayoutType>simple</classpathLayoutType>
+            <archive>
+              <manifest>
+                <classpathLayoutType>simple</classpathLayoutType>
 
-				<classpathPrefix>lib/</classpathPrefix>
+                <classpathPrefix>lib/</classpathPrefix>
 
-				<addClasspath>true</addClasspath>
+                <addClasspath>true</addClasspath>
 
-				<mainClass>io.github.xjrga.foods.Main</mainClass>
-			    </manifest>
-			</archive>
-		    </configuration>
-		</plugin>
+                <mainClass>io.github.xjrga.foods.Main</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-install-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
 
-		    <version>2.5.2</version>
+          <version>2.5.2</version>
 
-		    <configuration>
-			<skip>false</skip>
-		    </configuration>
-		</plugin>
+          <configuration>
+            <skip>false</skip>
+          </configuration>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-deploy-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
 
-		    <version>2.8.2</version>
+          <version>2.8.2</version>
 
-		    <configuration>
-			<skip>true</skip>
-		    </configuration>
-		</plugin>
+          <configuration>
+            <skip>true</skip>
+          </configuration>
+        </plugin>
 
-		<!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
 
-		<plugin>
-		    <artifactId>maven-site-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
 
-		    <version>3.7.1</version>
-		</plugin>
+          <version>3.7.1</version>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-project-info-reports-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
 
-		    <version>3.0.0</version>
-		</plugin>
+          <version>3.0.0</version>
+        </plugin>
 
-		<plugin>
-		    <artifactId>maven-assembly-plugin</artifactId>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
 
-		    <version>3.3.0</version>
-		</plugin>
-	    </plugins>
-	</pluginManagement>
+          <version>3.3.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
 
-	<!---->
+    <!---->
 
-	<plugins>
-	    <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
 
-		<artifactId>maven-source-plugin</artifactId>
+        <artifactId>maven-source-plugin</artifactId>
 
-		<version>3.1.0</version>
+        <version>3.1.0</version>
 
-		<executions>
-		    <execution>
-			<id>attach-sources</id>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
 
-			<goals>
-			    <goal>jar-no-fork</goal>
-			</goals>
-		    </execution>
-		</executions>
-	    </plugin>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
-	    <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
 
-		<artifactId>maven-javadoc-plugin</artifactId>
+        <artifactId>maven-javadoc-plugin</artifactId>
 
-		<version>3.2.0</version>
+        <version>3.2.0</version>
 
-		<executions>
-		    <execution>
-			<id>attach-javadocs</id>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
 
-			<goals>
-			    <goal>jar</goal>
-			</goals>
-		    </execution>
-		</executions>
-	    </plugin>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
-	    <plugin>
-		<artifactId>maven-assembly-plugin</artifactId>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
 
-		<version>3.3.0</version>
+        <version>3.3.0</version>
 
-		<executions>
-		    <execution>
-			<id>create-project</id>
+        <executions>
+          <execution>
+            <id>create-project</id>
 
-			<phase>package</phase>
+            <phase>package</phase>
 
-			<goals>
-			    <goal>single</goal>
-			</goals>
+            <goals>
+              <goal>single</goal>
+            </goals>
 
-			<configuration>
-			    <!--Set main class for jar with dependencies-->
+            <configuration>
+              <!--Set main class for jar with dependencies-->
 
-			    <archive>
-				<manifest>
-				    <mainClass>io.github.xjrga.foods.Main</mainClass>
-				</manifest>
-			    </archive>
+              <archive>
+                <manifest>
+                  <mainClass>io.github.xjrga.foods.Main</mainClass>
+                </manifest>
+              </archive>
 
-			    <descriptors>
-				<descriptor>src/assembly/app.xml</descriptor>
+              <descriptors>
+                <descriptor>src/assembly/app.xml</descriptor>
 
-				<descriptor>src/assembly/jar.xml</descriptor>
-			    </descriptors>
-			</configuration>
-		    </execution>
-		</executions>
-	    </plugin>
+                <descriptor>src/assembly/jar.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
 
-	    <!--	    <plugin>
+      <!--	    <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-gpg-plugin</artifactId>
 		<version>1.5</version>
@@ -283,6 +283,6 @@
 		    </execution>
 		</executions>
 	    </plugin>-->
-	</plugins>
-    </build>
+    </plugins>
+  </build>
 </project>

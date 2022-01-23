@@ -41,10 +41,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_coefficients_01() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -56,10 +56,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_toString_01() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -72,10 +72,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_coefficients_02() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -87,10 +87,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_toString_02() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -103,10 +103,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_coefficients_03() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);
@@ -118,10 +118,10 @@ public class Coefficient_food_Test {
 
     @Test
     public void test_toString_03() {
-        ArrayList<Abstract_food> list = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        ArrayList<Interface_food> list = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
         list.add(honey);
         list.add(yogurt);
         list.add(sardine);

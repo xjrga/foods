@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_cream_of_wheat_1_minute_cook_time_cooked_with_water_stove_top_without_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cereals_cream_of_wheat_1_minute_cook_time_cooked_with_water_stove_top_without_salt() {
-        set_food_id("08577");
-        set_food_name("Cereals, CREAM OF WHEAT, 1 minute cook time, cooked with water, stove-top, without salt");
-        set_food_label("Cereals_cream_of_wheat_1_minute_cook_time_cooked_with_water_stove_top_without_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(56.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(11.16000);
-        set_fat_in_grams(0.42000);
-        set_fiber_in_grams(0.40000);
-        set_protein_in_grams(1.65000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.06400);
-        set_polyunsaturated_fat_in_grams(0.21000);
-        set_saturated_fat_in_grams(0.10600);
-        set_alpha_linolenic_acid_in_grams(0.00900);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(23.00000);
-        set_sodium_in_milligrams(4.00000);
-        set_calcium_in_milligrams(125.00000);
-        set_copper_in_milligrams(0.04200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.70000);
-        set_magnesium_in_milligrams(8.00000);
-        set_manganese_in_milligrams(0.22700);
-        set_phosphorus_in_milligrams(27.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.26000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(36.00000);
-        set_niacin_in_milligrams(0.84200);
-        set_pantothenic_acid_in_milligrams(0.19200);
-        set_riboflavin_in_milligrams(0.02200);
-        set_thiamin_in_milligrams(0.05500);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.03300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.03000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(86.40000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.12000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(4.05000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cereals_cream_of_wheat_1_minute_cook_time_cooked_with_water_stove_top_without_salt() {
+		set_food_id("08577");
+		set_food_name("Cereals, CREAM OF WHEAT, 1 minute cook time, cooked with water, stove-top, without salt");
+		set_food_label("Cereals_cream_of_wheat_1_minute_cook_time_cooked_with_water_stove_top_without_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(56.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(11.16000);
+		set_fat_in_grams(0.42000);
+		set_fiber_in_grams(0.40000);
+		set_protein_in_grams(1.65000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.06400);
+		set_polyunsaturated_fat_in_grams(0.21000);
+		set_saturated_fat_in_grams(0.10600);
+		set_alpha_linolenic_acid_in_grams(0.00900);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(23.00000);
+		set_sodium_in_milligrams(4.00000);
+		set_calcium_in_milligrams(125.00000);
+		set_copper_in_milligrams(0.04200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.70000);
+		set_magnesium_in_milligrams(8.00000);
+		set_manganese_in_milligrams(0.22700);
+		set_phosphorus_in_milligrams(27.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.26000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(36.00000);
+		set_niacin_in_milligrams(0.84200);
+		set_pantothenic_acid_in_milligrams(0.19200);
+		set_riboflavin_in_milligrams(0.02200);
+		set_thiamin_in_milligrams(0.05500);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.03300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.03000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(86.40000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.12000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(4.05000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_new_zealand_imported_variety_meats_and_by_products_tripe_cooked_boiled extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_new_zealand_imported_variety_meats_and_by_products_tripe_cooked_boiled() {
-        set_food_id("23444");
-        set_food_name("Beef, New Zealand, imported, variety meats and by-products, tripe cooked, boiled");
-        set_food_label("Beef_new_zealand_imported_variety_meats_and_by_products_tripe_cooked_boiled");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(103.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(2.98000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(19.00000);
-        set_cholesterol_in_milligrams(199.00000);
-        set_monounsaturated_fat_in_grams(0.71800);
-        set_polyunsaturated_fat_in_grams(0.15900);
-        set_saturated_fat_in_grams(0.92200);
-        set_alpha_linolenic_acid_in_grams(0.01800);
-        set_linoleic_acid_in_grams(0.05000);
-        set_dha_in_grams(0.00400);
-        set_epa_in_grams(0.01200);
-        set_potassium_in_milligrams(102.00000);
-        set_sodium_in_milligrams(40.00000);
-        set_calcium_in_milligrams(158.00000);
-        set_copper_in_milligrams(0.10600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(3.72000);
-        set_magnesium_in_milligrams(24.00000);
-        set_manganese_in_milligrams(6.06600);
-        set_phosphorus_in_milligrams(168.00000);
-        set_selenium_in_micrograms(4.30000);
-        set_zinc_in_milligrams(2.39000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(2.61600);
-        set_pantothenic_acid_in_milligrams(0.22600);
-        set_riboflavin_in_milligrams(0.10300);
-        set_thiamin_in_milligrams(0.02200);
-        set_vitamin_a_in_micrograms(6.00000);
-        set_vitamin_b6_in_milligrams(0.01300);
-        set_vitamin_b12_in_micrograms(2.29000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.30000);
-        set_vitamin_e_in_milligrams(0.51000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(77.71000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_new_zealand_imported_variety_meats_and_by_products_tripe_cooked_boiled() {
+		set_food_id("23444");
+		set_food_name("Beef, New Zealand, imported, variety meats and by-products, tripe cooked, boiled");
+		set_food_label("Beef_new_zealand_imported_variety_meats_and_by_products_tripe_cooked_boiled");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(103.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(2.98000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(19.00000);
+		set_cholesterol_in_milligrams(199.00000);
+		set_monounsaturated_fat_in_grams(0.71800);
+		set_polyunsaturated_fat_in_grams(0.15900);
+		set_saturated_fat_in_grams(0.92200);
+		set_alpha_linolenic_acid_in_grams(0.01800);
+		set_linoleic_acid_in_grams(0.05000);
+		set_dha_in_grams(0.00400);
+		set_epa_in_grams(0.01200);
+		set_potassium_in_milligrams(102.00000);
+		set_sodium_in_milligrams(40.00000);
+		set_calcium_in_milligrams(158.00000);
+		set_copper_in_milligrams(0.10600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(3.72000);
+		set_magnesium_in_milligrams(24.00000);
+		set_manganese_in_milligrams(6.06600);
+		set_phosphorus_in_milligrams(168.00000);
+		set_selenium_in_micrograms(4.30000);
+		set_zinc_in_milligrams(2.39000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(2.61600);
+		set_pantothenic_acid_in_milligrams(0.22600);
+		set_riboflavin_in_milligrams(0.10300);
+		set_thiamin_in_milligrams(0.02200);
+		set_vitamin_a_in_micrograms(6.00000);
+		set_vitamin_b6_in_milligrams(0.01300);
+		set_vitamin_b12_in_micrograms(2.29000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.30000);
+		set_vitamin_e_in_milligrams(0.51000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(77.71000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

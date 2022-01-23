@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Salad_dressing_mayonnaise_light extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Salad_dressing_mayonnaise_light() {
-        set_food_id("04641");
-        set_food_name("Salad dressing, mayonnaise, light");
-        set_food_label("Salad_dressing_mayonnaise_light");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(238.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(9.23000);
-        set_fat_in_grams(22.22000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(0.37000);
-        set_cholesterol_in_milligrams(16.00000);
-        set_monounsaturated_fat_in_grams(5.01000);
-        set_polyunsaturated_fat_in_grams(12.99300);
-        set_saturated_fat_in_grams(3.44600);
-        set_alpha_linolenic_acid_in_grams(1.51800);
-        set_linoleic_acid_in_grams(11.35100);
-        set_dha_in_grams(0.00200);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(31.00000);
-        set_sodium_in_milligrams(827.00000);
-        set_calcium_in_milligrams(6.00000);
-        set_copper_in_milligrams(0.01900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.14000);
-        set_magnesium_in_milligrams(2.00000);
-        set_manganese_in_milligrams(0.00700);
-        set_phosphorus_in_milligrams(15.00000);
-        set_selenium_in_micrograms(2.60000);
-        set_zinc_in_milligrams(0.07000);
-        set_choline_in_milligrams(9.00000);
-        set_folate_in_micrograms(4.00000);
-        set_niacin_in_milligrams(0.01000);
-        set_pantothenic_acid_in_milligrams(0.05800);
-        set_riboflavin_in_milligrams(0.00000);
-        set_thiamin_in_milligrams(0.00800);
-        set_vitamin_a_in_micrograms(8.00000);
-        set_vitamin_b6_in_milligrams(0.00200);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(2.19000);
-        set_vitamin_k_in_micrograms(53.70000);
-        set_water_in_grams(66.13000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Salad_dressing_mayonnaise_light() {
+		set_food_id("04641");
+		set_food_name("Salad dressing, mayonnaise, light");
+		set_food_label("Salad_dressing_mayonnaise_light");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(238.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(9.23000);
+		set_fat_in_grams(22.22000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(0.37000);
+		set_cholesterol_in_milligrams(16.00000);
+		set_monounsaturated_fat_in_grams(5.01000);
+		set_polyunsaturated_fat_in_grams(12.99300);
+		set_saturated_fat_in_grams(3.44600);
+		set_alpha_linolenic_acid_in_grams(1.51800);
+		set_linoleic_acid_in_grams(11.35100);
+		set_dha_in_grams(0.00200);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(31.00000);
+		set_sodium_in_milligrams(827.00000);
+		set_calcium_in_milligrams(6.00000);
+		set_copper_in_milligrams(0.01900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.14000);
+		set_magnesium_in_milligrams(2.00000);
+		set_manganese_in_milligrams(0.00700);
+		set_phosphorus_in_milligrams(15.00000);
+		set_selenium_in_micrograms(2.60000);
+		set_zinc_in_milligrams(0.07000);
+		set_choline_in_milligrams(9.00000);
+		set_folate_in_micrograms(4.00000);
+		set_niacin_in_milligrams(0.01000);
+		set_pantothenic_acid_in_milligrams(0.05800);
+		set_riboflavin_in_milligrams(0.00000);
+		set_thiamin_in_milligrams(0.00800);
+		set_vitamin_a_in_micrograms(8.00000);
+		set_vitamin_b6_in_milligrams(0.00200);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(2.19000);
+		set_vitamin_k_in_micrograms(53.70000);
+		set_water_in_grams(66.13000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

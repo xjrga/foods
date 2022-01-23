@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_salmon_pink_canned_drained_solids extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fish_salmon_pink_canned_drained_solids() {
-        set_food_id("15260");
-        set_food_name("Fish, salmon, pink, canned, drained solids");
-        set_food_label("Fish_salmon_pink_canned_drained_solids");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(138.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(5.02000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(23.10000);
-        set_cholesterol_in_milligrams(83.00000);
-        set_monounsaturated_fat_in_grams(1.21100);
-        set_polyunsaturated_fat_in_grams(1.50700);
-        set_saturated_fat_in_grams(0.89500);
-        set_alpha_linolenic_acid_in_grams(0.04800);
-        set_linoleic_acid_in_grams(0.07700);
-        set_dha_in_grams(0.74300);
-        set_epa_in_grams(0.33400);
-        set_potassium_in_milligrams(333.00000);
-        set_sodium_in_milligrams(381.00000);
-        set_calcium_in_milligrams(283.00000);
-        set_copper_in_milligrams(0.08200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.77000);
-        set_magnesium_in_milligrams(32.00000);
-        set_manganese_in_milligrams(0.03100);
-        set_phosphorus_in_milligrams(379.00000);
-        set_selenium_in_micrograms(39.50000);
-        set_zinc_in_milligrams(0.96000);
-        set_choline_in_milligrams(87.80000);
-        set_folate_in_micrograms(4.00000);
-        set_niacin_in_milligrams(7.40900);
-        set_pantothenic_acid_in_milligrams(0.56300);
-        set_riboflavin_in_milligrams(0.20200);
-        set_thiamin_in_milligrams(0.02700);
-        set_vitamin_a_in_micrograms(20.00000);
-        set_vitamin_b6_in_milligrams(0.10500);
-        set_vitamin_b12_in_micrograms(4.95000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(14.50000);
-        set_vitamin_e_in_milligrams(1.28000);
-        set_vitamin_k_in_micrograms(0.10000);
-        set_water_in_grams(70.71000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fish_salmon_pink_canned_drained_solids() {
+		set_food_id("15260");
+		set_food_name("Fish, salmon, pink, canned, drained solids");
+		set_food_label("Fish_salmon_pink_canned_drained_solids");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(138.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(5.02000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(23.10000);
+		set_cholesterol_in_milligrams(83.00000);
+		set_monounsaturated_fat_in_grams(1.21100);
+		set_polyunsaturated_fat_in_grams(1.50700);
+		set_saturated_fat_in_grams(0.89500);
+		set_alpha_linolenic_acid_in_grams(0.04800);
+		set_linoleic_acid_in_grams(0.07700);
+		set_dha_in_grams(0.74300);
+		set_epa_in_grams(0.33400);
+		set_potassium_in_milligrams(333.00000);
+		set_sodium_in_milligrams(381.00000);
+		set_calcium_in_milligrams(283.00000);
+		set_copper_in_milligrams(0.08200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.77000);
+		set_magnesium_in_milligrams(32.00000);
+		set_manganese_in_milligrams(0.03100);
+		set_phosphorus_in_milligrams(379.00000);
+		set_selenium_in_micrograms(39.50000);
+		set_zinc_in_milligrams(0.96000);
+		set_choline_in_milligrams(87.80000);
+		set_folate_in_micrograms(4.00000);
+		set_niacin_in_milligrams(7.40900);
+		set_pantothenic_acid_in_milligrams(0.56300);
+		set_riboflavin_in_milligrams(0.20200);
+		set_thiamin_in_milligrams(0.02700);
+		set_vitamin_a_in_micrograms(20.00000);
+		set_vitamin_b6_in_milligrams(0.10500);
+		set_vitamin_b12_in_micrograms(4.95000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(14.50000);
+		set_vitamin_e_in_milligrams(1.28000);
+		set_vitamin_k_in_micrograms(0.10000);
+		set_water_in_grams(70.71000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

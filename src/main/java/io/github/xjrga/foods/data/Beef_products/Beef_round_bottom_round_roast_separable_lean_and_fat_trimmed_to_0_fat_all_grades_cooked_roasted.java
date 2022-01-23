@@ -23,61 +23,64 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted extends Abstract_food {
+public class Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted() {
-        set_food_id("13399");
-        set_food_name("Beef, round, bottom round, roast, separable lean and fat, trimmed to 0' fat, all grades, cooked, roasted");
-        set_food_label("Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(187.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(7.72000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(27.42000);
-        set_cholesterol_in_milligrams(79.00000);
-        set_monounsaturated_fat_in_grams(3.26600);
-        set_polyunsaturated_fat_in_grams(0.29100);
-        set_saturated_fat_in_grams(2.77300);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(223.00000);
-        set_sodium_in_milligrams(36.00000);
-        set_calcium_in_milligrams(7.00000);
-        set_copper_in_milligrams(0.06500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.24000);
-        set_magnesium_in_milligrams(18.00000);
-        set_manganese_in_milligrams(0.01000);
-        set_phosphorus_in_milligrams(171.00000);
-        set_selenium_in_micrograms(28.10000);
-        set_zinc_in_milligrams(4.61000);
-        set_choline_in_milligrams(104.50000);
-        set_folate_in_micrograms(9.00000);
-        set_niacin_in_milligrams(4.79300);
-        set_pantothenic_acid_in_milligrams(0.54100);
-        set_riboflavin_in_milligrams(0.14600);
-        set_thiamin_in_milligrams(0.06300);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.36000);
-        set_vitamin_b12_in_micrograms(1.53000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.38000);
-        set_vitamin_k_in_micrograms(1.30000);
-        set_water_in_grams(64.46000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted() {
+		set_food_id("13399");
+		set_food_name(
+				"Beef, round, bottom round, roast, separable lean and fat, trimmed to 0' fat, all grades, cooked, roasted");
+		set_food_label(
+				"Beef_round_bottom_round_roast_separable_lean_and_fat_trimmed_to_0_fat_all_grades_cooked_roasted");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(187.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(7.72000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(27.42000);
+		set_cholesterol_in_milligrams(79.00000);
+		set_monounsaturated_fat_in_grams(3.26600);
+		set_polyunsaturated_fat_in_grams(0.29100);
+		set_saturated_fat_in_grams(2.77300);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(223.00000);
+		set_sodium_in_milligrams(36.00000);
+		set_calcium_in_milligrams(7.00000);
+		set_copper_in_milligrams(0.06500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.24000);
+		set_magnesium_in_milligrams(18.00000);
+		set_manganese_in_milligrams(0.01000);
+		set_phosphorus_in_milligrams(171.00000);
+		set_selenium_in_micrograms(28.10000);
+		set_zinc_in_milligrams(4.61000);
+		set_choline_in_milligrams(104.50000);
+		set_folate_in_micrograms(9.00000);
+		set_niacin_in_milligrams(4.79300);
+		set_pantothenic_acid_in_milligrams(0.54100);
+		set_riboflavin_in_milligrams(0.14600);
+		set_thiamin_in_milligrams(0.06300);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.36000);
+		set_vitamin_b12_in_micrograms(1.53000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.38000);
+		set_vitamin_k_in_micrograms(1.30000);
+		set_water_in_grams(64.46000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

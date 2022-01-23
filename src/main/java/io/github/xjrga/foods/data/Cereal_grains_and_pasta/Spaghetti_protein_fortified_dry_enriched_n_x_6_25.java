@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spaghetti_protein_fortified_dry_enriched_n_x_6_25 extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Spaghetti_protein_fortified_dry_enriched_n_x_6_25() {
-        set_food_id("20622");
-        set_food_name("Spaghetti, protein-fortified, dry, enriched (n x 6.25)");
-        set_food_label("Spaghetti_protein_fortified_dry_enriched_n_x_6_25");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(374.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(65.65000);
-        set_fat_in_grams(2.23000);
-        set_fiber_in_grams(2.40000);
-        set_protein_in_grams(21.78000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.27100);
-        set_polyunsaturated_fat_in_grams(0.98600);
-        set_saturated_fat_in_grams(0.32800);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(201.00000);
-        set_sodium_in_milligrams(8.00000);
-        set_calcium_in_milligrams(39.00000);
-        set_copper_in_milligrams(0.27800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(4.15000);
-        set_magnesium_in_milligrams(65.00000);
-        set_manganese_in_milligrams(0.91000);
-        set_phosphorus_in_milligrams(163.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(1.79000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(458.00000);
-        set_niacin_in_milligrams(7.65400);
-        set_pantothenic_acid_in_milligrams(0.68400);
-        set_riboflavin_in_milligrams(0.47500);
-        set_thiamin_in_milligrams(1.18700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.17800);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(9.23000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.12000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.91000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Spaghetti_protein_fortified_dry_enriched_n_x_6_25() {
+		set_food_id("20622");
+		set_food_name("Spaghetti, protein-fortified, dry, enriched (n x 6.25)");
+		set_food_label("Spaghetti_protein_fortified_dry_enriched_n_x_6_25");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(374.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(65.65000);
+		set_fat_in_grams(2.23000);
+		set_fiber_in_grams(2.40000);
+		set_protein_in_grams(21.78000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.27100);
+		set_polyunsaturated_fat_in_grams(0.98600);
+		set_saturated_fat_in_grams(0.32800);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(201.00000);
+		set_sodium_in_milligrams(8.00000);
+		set_calcium_in_milligrams(39.00000);
+		set_copper_in_milligrams(0.27800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(4.15000);
+		set_magnesium_in_milligrams(65.00000);
+		set_manganese_in_milligrams(0.91000);
+		set_phosphorus_in_milligrams(163.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(1.79000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(458.00000);
+		set_niacin_in_milligrams(7.65400);
+		set_pantothenic_acid_in_milligrams(0.68400);
+		set_riboflavin_in_milligrams(0.47500);
+		set_thiamin_in_milligrams(1.18700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.17800);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(9.23000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.12000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.91000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

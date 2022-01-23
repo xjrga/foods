@@ -23,61 +23,62 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk extends Abstract_food {
+public class Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk() {
-        set_food_id("14310");
-        set_food_name("Beverages, Malted drink mix, natural, with added nutrients, powder, prepared with whole milk");
-        set_food_label("Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(86.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(10.67000);
-        set_fat_in_grams(3.21000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(3.67000);
-        set_cholesterol_in_milligrams(11.00000);
-        set_monounsaturated_fat_in_grams(0.80200);
-        set_polyunsaturated_fat_in_grams(0.21300);
-        set_saturated_fat_in_grams(1.83000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(200.00000);
-        set_sodium_in_milligrams(72.00000);
-        set_calcium_in_milligrams(123.00000);
-        set_copper_in_milligrams(0.04400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.36000);
-        set_magnesium_in_milligrams(15.00000);
-        set_manganese_in_milligrams(0.03700);
-        set_phosphorus_in_milligrams(107.00000);
-        set_selenium_in_micrograms(4.20000);
-        set_zinc_in_milligrams(0.41000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(6.00000);
-        set_niacin_in_milligrams(3.99300);
-        set_pantothenic_acid_in_milligrams(0.35300);
-        set_riboflavin_in_milligrams(0.45500);
-        set_thiamin_in_milligrams(0.27700);
-        set_vitamin_a_in_micrograms(281.00000);
-        set_vitamin_b6_in_milligrams(0.32500);
-        set_vitamin_b12_in_micrograms(0.40000);
-        set_vitamin_c_in_milligrams(10.40000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.40000);
-        set_water_in_grams(81.49000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk() {
+		set_food_id("14310");
+		set_food_name("Beverages, Malted drink mix, natural, with added nutrients, powder, prepared with whole milk");
+		set_food_label("Beverages_malted_drink_mix_natural_with_added_nutrients_powder_prepared_with_whole_milk");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(86.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(10.67000);
+		set_fat_in_grams(3.21000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(3.67000);
+		set_cholesterol_in_milligrams(11.00000);
+		set_monounsaturated_fat_in_grams(0.80200);
+		set_polyunsaturated_fat_in_grams(0.21300);
+		set_saturated_fat_in_grams(1.83000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(200.00000);
+		set_sodium_in_milligrams(72.00000);
+		set_calcium_in_milligrams(123.00000);
+		set_copper_in_milligrams(0.04400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.36000);
+		set_magnesium_in_milligrams(15.00000);
+		set_manganese_in_milligrams(0.03700);
+		set_phosphorus_in_milligrams(107.00000);
+		set_selenium_in_micrograms(4.20000);
+		set_zinc_in_milligrams(0.41000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(6.00000);
+		set_niacin_in_milligrams(3.99300);
+		set_pantothenic_acid_in_milligrams(0.35300);
+		set_riboflavin_in_milligrams(0.45500);
+		set_thiamin_in_milligrams(0.27700);
+		set_vitamin_a_in_micrograms(281.00000);
+		set_vitamin_b6_in_milligrams(0.32500);
+		set_vitamin_b12_in_micrograms(0.40000);
+		set_vitamin_c_in_milligrams(10.40000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.40000);
+		set_water_in_grams(81.49000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

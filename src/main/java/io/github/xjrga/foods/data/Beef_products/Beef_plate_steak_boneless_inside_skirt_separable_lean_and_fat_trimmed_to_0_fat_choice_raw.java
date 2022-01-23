@@ -23,61 +23,63 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw extends Abstract_food {
+public class Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw() {
-        set_food_id("23218");
-        set_food_name("Beef, plate steak, boneless, inside skirt, separable lean and fat, trimmed to 0' fat, choice, raw");
-        set_food_label("Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(195.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(12.78000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(20.06000);
-        set_cholesterol_in_milligrams(65.00000);
-        set_monounsaturated_fat_in_grams(6.01000);
-        set_polyunsaturated_fat_in_grams(0.59600);
-        set_saturated_fat_in_grams(5.03400);
-        set_alpha_linolenic_acid_in_grams(0.01500);
-        set_linoleic_acid_in_grams(0.42000);
-        set_dha_in_grams(0.00100);
-        set_epa_in_grams(0.00400);
-        set_potassium_in_milligrams(254.00000);
-        set_sodium_in_milligrams(65.00000);
-        set_calcium_in_milligrams(6.00000);
-        set_copper_in_milligrams(0.08400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.70000);
-        set_magnesium_in_milligrams(20.00000);
-        set_manganese_in_milligrams(0.08400);
-        set_phosphorus_in_milligrams(144.00000);
-        set_selenium_in_micrograms(23.10000);
-        set_zinc_in_milligrams(5.97000);
-        set_choline_in_milligrams(45.70000);
-        set_folate_in_micrograms(3.00000);
-        set_niacin_in_milligrams(5.07600);
-        set_pantothenic_acid_in_milligrams(0.62100);
-        set_riboflavin_in_milligrams(0.27500);
-        set_thiamin_in_milligrams(0.05300);
-        set_vitamin_a_in_micrograms(4.00000);
-        set_vitamin_b6_in_milligrams(0.42200);
-        set_vitamin_b12_in_micrograms(2.46000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.17000);
-        set_vitamin_k_in_micrograms(1.50000);
-        set_water_in_grams(66.55000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw() {
+		set_food_id("23218");
+		set_food_name(
+				"Beef, plate steak, boneless, inside skirt, separable lean and fat, trimmed to 0' fat, choice, raw");
+		set_food_label("Beef_plate_steak_boneless_inside_skirt_separable_lean_and_fat_trimmed_to_0_fat_choice_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(195.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(12.78000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(20.06000);
+		set_cholesterol_in_milligrams(65.00000);
+		set_monounsaturated_fat_in_grams(6.01000);
+		set_polyunsaturated_fat_in_grams(0.59600);
+		set_saturated_fat_in_grams(5.03400);
+		set_alpha_linolenic_acid_in_grams(0.01500);
+		set_linoleic_acid_in_grams(0.42000);
+		set_dha_in_grams(0.00100);
+		set_epa_in_grams(0.00400);
+		set_potassium_in_milligrams(254.00000);
+		set_sodium_in_milligrams(65.00000);
+		set_calcium_in_milligrams(6.00000);
+		set_copper_in_milligrams(0.08400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.70000);
+		set_magnesium_in_milligrams(20.00000);
+		set_manganese_in_milligrams(0.08400);
+		set_phosphorus_in_milligrams(144.00000);
+		set_selenium_in_micrograms(23.10000);
+		set_zinc_in_milligrams(5.97000);
+		set_choline_in_milligrams(45.70000);
+		set_folate_in_micrograms(3.00000);
+		set_niacin_in_milligrams(5.07600);
+		set_pantothenic_acid_in_milligrams(0.62100);
+		set_riboflavin_in_milligrams(0.27500);
+		set_thiamin_in_milligrams(0.05300);
+		set_vitamin_a_in_micrograms(4.00000);
+		set_vitamin_b6_in_milligrams(0.42200);
+		set_vitamin_b12_in_micrograms(2.46000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.17000);
+		set_vitamin_k_in_micrograms(1.50000);
+		set_water_in_grams(66.55000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

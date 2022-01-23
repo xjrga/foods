@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Gravy_brown_instant_dry extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Gravy_brown_instant_dry() {
-        set_food_id("06957");
-        set_food_name("Gravy, brown instant, dry");
-        set_food_label("Gravy_brown_instant_dry");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(380.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(59.78000);
-        set_fat_in_grams(11.85000);
-        set_fiber_in_grams(3.20000);
-        set_protein_in_grams(8.53000);
-        set_cholesterol_in_milligrams(12.00000);
-        set_monounsaturated_fat_in_grams(5.48800);
-        set_polyunsaturated_fat_in_grams(0.49900);
-        set_saturated_fat_in_grams(5.86600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(367.00000);
-        set_sodium_in_milligrams(5053.00000);
-        set_calcium_in_milligrams(116.00000);
-        set_copper_in_milligrams(0.14900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(7.40000);
-        set_magnesium_in_milligrams(32.00000);
-        set_manganese_in_milligrams(0.20200);
-        set_phosphorus_in_milligrams(212.00000);
-        set_selenium_in_micrograms(9.30000);
-        set_zinc_in_milligrams(0.96000);
-        set_choline_in_milligrams(47.30000);
-        set_folate_in_micrograms(99.00000);
-        set_niacin_in_milligrams(2.26100);
-        set_pantothenic_acid_in_milligrams(1.01400);
-        set_riboflavin_in_milligrams(0.47300);
-        set_thiamin_in_milligrams(0.23600);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.28200);
-        set_vitamin_b12_in_micrograms(0.33000);
-        set_vitamin_c_in_milligrams(1.90000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.38000);
-        set_vitamin_k_in_micrograms(0.30000);
-        set_water_in_grams(5.51000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Gravy_brown_instant_dry() {
+		set_food_id("06957");
+		set_food_name("Gravy, brown instant, dry");
+		set_food_label("Gravy_brown_instant_dry");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(380.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(59.78000);
+		set_fat_in_grams(11.85000);
+		set_fiber_in_grams(3.20000);
+		set_protein_in_grams(8.53000);
+		set_cholesterol_in_milligrams(12.00000);
+		set_monounsaturated_fat_in_grams(5.48800);
+		set_polyunsaturated_fat_in_grams(0.49900);
+		set_saturated_fat_in_grams(5.86600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(367.00000);
+		set_sodium_in_milligrams(5053.00000);
+		set_calcium_in_milligrams(116.00000);
+		set_copper_in_milligrams(0.14900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(7.40000);
+		set_magnesium_in_milligrams(32.00000);
+		set_manganese_in_milligrams(0.20200);
+		set_phosphorus_in_milligrams(212.00000);
+		set_selenium_in_micrograms(9.30000);
+		set_zinc_in_milligrams(0.96000);
+		set_choline_in_milligrams(47.30000);
+		set_folate_in_micrograms(99.00000);
+		set_niacin_in_milligrams(2.26100);
+		set_pantothenic_acid_in_milligrams(1.01400);
+		set_riboflavin_in_milligrams(0.47300);
+		set_thiamin_in_milligrams(0.23600);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.28200);
+		set_vitamin_b12_in_micrograms(0.33000);
+		set_vitamin_c_in_milligrams(1.90000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.38000);
+		set_vitamin_k_in_micrograms(0.30000);
+		set_water_in_grams(5.51000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

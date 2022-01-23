@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Yogurt_parfait_lowfat_with_fruit_and_granola extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Yogurt_parfait_lowfat_with_fruit_and_granola() {
-        set_food_id("21463");
-        set_food_name("Yogurt parfait, lowfat, with fruit and granola");
-        set_food_label("Yogurt_parfait_lowfat_with_fruit_and_granola");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(84.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(15.86000);
-        set_fat_in_grams(1.01000);
-        set_fiber_in_grams(1.10000);
-        set_protein_in_grams(3.36000);
-        set_cholesterol_in_milligrams(3.00000);
-        set_monounsaturated_fat_in_grams(0.30700);
-        set_polyunsaturated_fat_in_grams(0.12200);
-        set_saturated_fat_in_grams(0.52500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(189.00000);
-        set_sodium_in_milligrams(49.00000);
-        set_calcium_in_milligrams(105.00000);
-        set_copper_in_milligrams(0.05400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.49000);
-        set_magnesium_in_milligrams(17.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(93.00000);
-        set_selenium_in_micrograms(3.90000);
-        set_zinc_in_milligrams(0.89000);
-        set_choline_in_milligrams(11.90000);
-        set_folate_in_micrograms(77.00000);
-        set_niacin_in_milligrams(0.71400);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.17300);
-        set_thiamin_in_milligrams(0.07000);
-        set_vitamin_a_in_micrograms(30.00000);
-        set_vitamin_b6_in_milligrams(0.23300);
-        set_vitamin_b12_in_micrograms(0.88000);
-        set_vitamin_c_in_milligrams(14.30000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.25000);
-        set_vitamin_k_in_micrograms(1.70000);
-        set_water_in_grams(78.98000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Yogurt_parfait_lowfat_with_fruit_and_granola() {
+		set_food_id("21463");
+		set_food_name("Yogurt parfait, lowfat, with fruit and granola");
+		set_food_label("Yogurt_parfait_lowfat_with_fruit_and_granola");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(84.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(15.86000);
+		set_fat_in_grams(1.01000);
+		set_fiber_in_grams(1.10000);
+		set_protein_in_grams(3.36000);
+		set_cholesterol_in_milligrams(3.00000);
+		set_monounsaturated_fat_in_grams(0.30700);
+		set_polyunsaturated_fat_in_grams(0.12200);
+		set_saturated_fat_in_grams(0.52500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(189.00000);
+		set_sodium_in_milligrams(49.00000);
+		set_calcium_in_milligrams(105.00000);
+		set_copper_in_milligrams(0.05400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.49000);
+		set_magnesium_in_milligrams(17.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(93.00000);
+		set_selenium_in_micrograms(3.90000);
+		set_zinc_in_milligrams(0.89000);
+		set_choline_in_milligrams(11.90000);
+		set_folate_in_micrograms(77.00000);
+		set_niacin_in_milligrams(0.71400);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.17300);
+		set_thiamin_in_milligrams(0.07000);
+		set_vitamin_a_in_micrograms(30.00000);
+		set_vitamin_b6_in_milligrams(0.23300);
+		set_vitamin_b12_in_micrograms(0.88000);
+		set_vitamin_c_in_milligrams(14.30000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.25000);
+		set_vitamin_k_in_micrograms(1.70000);
+		set_water_in_grams(78.98000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

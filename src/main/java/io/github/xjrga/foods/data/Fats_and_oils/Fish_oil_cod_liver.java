@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_oil_cod_liver extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fish_oil_cod_liver() {
-        set_food_id("04589");
-        set_food_name("Fish oil, cod liver");
-        set_food_label("Fish_oil_cod_liver");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(902.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(100.00000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(0.00000);
-        set_cholesterol_in_milligrams(570.00000);
-        set_monounsaturated_fat_in_grams(46.71100);
-        set_polyunsaturated_fat_in_grams(22.54100);
-        set_saturated_fat_in_grams(22.60800);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(10.96800);
-        set_epa_in_grams(6.89800);
-        set_potassium_in_milligrams(0.00000);
-        set_sodium_in_milligrams(0.00000);
-        set_calcium_in_milligrams(0.00000);
-        set_copper_in_milligrams(0.00000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.00000);
-        set_magnesium_in_milligrams(0.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(0.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.00000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.00000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.00000);
-        set_thiamin_in_milligrams(0.00000);
-        set_vitamin_a_in_micrograms(30000.00000);
-        set_vitamin_b6_in_milligrams(0.00000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(250.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(0.00000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fish_oil_cod_liver() {
+		set_food_id("04589");
+		set_food_name("Fish oil, cod liver");
+		set_food_label("Fish_oil_cod_liver");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(902.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(100.00000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(0.00000);
+		set_cholesterol_in_milligrams(570.00000);
+		set_monounsaturated_fat_in_grams(46.71100);
+		set_polyunsaturated_fat_in_grams(22.54100);
+		set_saturated_fat_in_grams(22.60800);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(10.96800);
+		set_epa_in_grams(6.89800);
+		set_potassium_in_milligrams(0.00000);
+		set_sodium_in_milligrams(0.00000);
+		set_calcium_in_milligrams(0.00000);
+		set_copper_in_milligrams(0.00000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.00000);
+		set_magnesium_in_milligrams(0.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(0.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.00000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.00000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.00000);
+		set_thiamin_in_milligrams(0.00000);
+		set_vitamin_a_in_micrograms(30000.00000);
+		set_vitamin_b6_in_milligrams(0.00000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(250.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(0.00000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

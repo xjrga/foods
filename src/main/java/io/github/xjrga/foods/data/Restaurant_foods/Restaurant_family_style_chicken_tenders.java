@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Restaurant_family_style_chicken_tenders extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Restaurant_family_style_chicken_tenders() {
-        set_food_id("36034");
-        set_food_name("Restaurant, family style, chicken tenders");
-        set_food_label("Restaurant_family_style_chicken_tenders");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(302.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(19.29000);
-        set_fat_in_grams(16.63000);
-        set_fiber_in_grams(0.90000);
-        set_protein_in_grams(18.88000);
-        set_cholesterol_in_milligrams(46.00000);
-        set_monounsaturated_fat_in_grams(3.86500);
-        set_polyunsaturated_fat_in_grams(7.93500);
-        set_saturated_fat_in_grams(2.94600);
-        set_alpha_linolenic_acid_in_grams(0.63500);
-        set_linoleic_acid_in_grams(7.03800);
-        set_dha_in_grams(0.00300);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(324.00000);
-        set_sodium_in_milligrams(800.00000);
-        set_calcium_in_milligrams(18.00000);
-        set_copper_in_milligrams(0.06700);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.74000);
-        set_magnesium_in_milligrams(29.00000);
-        set_manganese_in_milligrams(0.24500);
-        set_phosphorus_in_milligrams(297.00000);
-        set_selenium_in_micrograms(19.70000);
-        set_zinc_in_milligrams(0.68000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(7.76000);
-        set_pantothenic_acid_in_milligrams(1.51100);
-        set_riboflavin_in_milligrams(0.16600);
-        set_thiamin_in_milligrams(0.09700);
-        set_vitamin_a_in_micrograms(7.00000);
-        set_vitamin_b6_in_milligrams(0.47900);
-        set_vitamin_b12_in_micrograms(0.13000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(1.39000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(42.30000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Restaurant_family_style_chicken_tenders() {
+		set_food_id("36034");
+		set_food_name("Restaurant, family style, chicken tenders");
+		set_food_label("Restaurant_family_style_chicken_tenders");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(302.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(19.29000);
+		set_fat_in_grams(16.63000);
+		set_fiber_in_grams(0.90000);
+		set_protein_in_grams(18.88000);
+		set_cholesterol_in_milligrams(46.00000);
+		set_monounsaturated_fat_in_grams(3.86500);
+		set_polyunsaturated_fat_in_grams(7.93500);
+		set_saturated_fat_in_grams(2.94600);
+		set_alpha_linolenic_acid_in_grams(0.63500);
+		set_linoleic_acid_in_grams(7.03800);
+		set_dha_in_grams(0.00300);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(324.00000);
+		set_sodium_in_milligrams(800.00000);
+		set_calcium_in_milligrams(18.00000);
+		set_copper_in_milligrams(0.06700);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.74000);
+		set_magnesium_in_milligrams(29.00000);
+		set_manganese_in_milligrams(0.24500);
+		set_phosphorus_in_milligrams(297.00000);
+		set_selenium_in_micrograms(19.70000);
+		set_zinc_in_milligrams(0.68000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(7.76000);
+		set_pantothenic_acid_in_milligrams(1.51100);
+		set_riboflavin_in_milligrams(0.16600);
+		set_thiamin_in_milligrams(0.09700);
+		set_vitamin_a_in_micrograms(7.00000);
+		set_vitamin_b6_in_milligrams(0.47900);
+		set_vitamin_b12_in_micrograms(0.13000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(1.39000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(42.30000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

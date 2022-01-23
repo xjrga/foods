@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Chicken_broilers_or_fryers_meat_only_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Chicken_broilers_or_fryers_meat_only_raw() {
-        set_food_id("05011");
-        set_food_name("Chicken, broilers or fryers, meat only, raw");
-        set_food_label("Chicken_broilers_or_fryers_meat_only_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(119.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(3.08000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(21.39000);
-        set_cholesterol_in_milligrams(70.00000);
-        set_monounsaturated_fat_in_grams(0.90000);
-        set_polyunsaturated_fat_in_grams(0.75000);
-        set_saturated_fat_in_grams(0.79000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.03000);
-        set_epa_in_grams(0.01000);
-        set_potassium_in_milligrams(229.00000);
-        set_sodium_in_milligrams(77.00000);
-        set_calcium_in_milligrams(12.00000);
-        set_copper_in_milligrams(0.05300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.89000);
-        set_magnesium_in_milligrams(25.00000);
-        set_manganese_in_milligrams(0.01900);
-        set_phosphorus_in_milligrams(173.00000);
-        set_selenium_in_micrograms(15.70000);
-        set_zinc_in_milligrams(1.54000);
-        set_choline_in_milligrams(65.70000);
-        set_folate_in_micrograms(7.00000);
-        set_niacin_in_milligrams(8.23900);
-        set_pantothenic_acid_in_milligrams(1.05800);
-        set_riboflavin_in_milligrams(0.14200);
-        set_thiamin_in_milligrams(0.07300);
-        set_vitamin_a_in_micrograms(16.00000);
-        set_vitamin_b6_in_milligrams(0.43000);
-        set_vitamin_b12_in_micrograms(0.37000);
-        set_vitamin_c_in_milligrams(2.30000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.21000);
-        set_vitamin_k_in_micrograms(1.80000);
-        set_water_in_grams(75.46000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Chicken_broilers_or_fryers_meat_only_raw() {
+		set_food_id("05011");
+		set_food_name("Chicken, broilers or fryers, meat only, raw");
+		set_food_label("Chicken_broilers_or_fryers_meat_only_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(119.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(3.08000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(21.39000);
+		set_cholesterol_in_milligrams(70.00000);
+		set_monounsaturated_fat_in_grams(0.90000);
+		set_polyunsaturated_fat_in_grams(0.75000);
+		set_saturated_fat_in_grams(0.79000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.03000);
+		set_epa_in_grams(0.01000);
+		set_potassium_in_milligrams(229.00000);
+		set_sodium_in_milligrams(77.00000);
+		set_calcium_in_milligrams(12.00000);
+		set_copper_in_milligrams(0.05300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.89000);
+		set_magnesium_in_milligrams(25.00000);
+		set_manganese_in_milligrams(0.01900);
+		set_phosphorus_in_milligrams(173.00000);
+		set_selenium_in_micrograms(15.70000);
+		set_zinc_in_milligrams(1.54000);
+		set_choline_in_milligrams(65.70000);
+		set_folate_in_micrograms(7.00000);
+		set_niacin_in_milligrams(8.23900);
+		set_pantothenic_acid_in_milligrams(1.05800);
+		set_riboflavin_in_milligrams(0.14200);
+		set_thiamin_in_milligrams(0.07300);
+		set_vitamin_a_in_micrograms(16.00000);
+		set_vitamin_b6_in_milligrams(0.43000);
+		set_vitamin_b12_in_micrograms(0.37000);
+		set_vitamin_c_in_milligrams(2.30000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.21000);
+		set_vitamin_k_in_micrograms(1.80000);
+		set_water_in_grams(75.46000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

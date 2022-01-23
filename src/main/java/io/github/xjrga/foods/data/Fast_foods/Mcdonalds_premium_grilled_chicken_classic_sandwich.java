@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mcdonalds_premium_grilled_chicken_classic_sandwich extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Mcdonalds_premium_grilled_chicken_classic_sandwich() {
-        set_food_id("21402");
-        set_food_name("McDONALD'S, Premium Grilled Chicken Classic Sandwich");
-        set_food_label("Mcdonalds_premium_grilled_chicken_classic_sandwich");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(183.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(22.28000);
-        set_fat_in_grams(4.29000);
-        set_fiber_in_grams(1.40000);
-        set_protein_in_grams(14.16000);
-        set_cholesterol_in_milligrams(34.00000);
-        set_monounsaturated_fat_in_grams(1.15700);
-        set_polyunsaturated_fat_in_grams(2.07400);
-        set_saturated_fat_in_grams(0.86500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(228.00000);
-        set_sodium_in_milligrams(410.00000);
-        set_calcium_in_milligrams(37.00000);
-        set_copper_in_milligrams(0.07300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.48000);
-        set_magnesium_in_milligrams(28.00000);
-        set_manganese_in_milligrams(0.35700);
-        set_phosphorus_in_milligrams(195.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(0.69000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(6.52100);
-        set_pantothenic_acid_in_milligrams(0.92700);
-        set_riboflavin_in_milligrams(0.19000);
-        set_thiamin_in_milligrams(0.19600);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.30600);
-        set_vitamin_b12_in_micrograms(0.15000);
-        set_vitamin_c_in_milligrams(3.20000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.53000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(57.30000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Mcdonalds_premium_grilled_chicken_classic_sandwich() {
+		set_food_id("21402");
+		set_food_name("McDONALD'S, Premium Grilled Chicken Classic Sandwich");
+		set_food_label("Mcdonalds_premium_grilled_chicken_classic_sandwich");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(183.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(22.28000);
+		set_fat_in_grams(4.29000);
+		set_fiber_in_grams(1.40000);
+		set_protein_in_grams(14.16000);
+		set_cholesterol_in_milligrams(34.00000);
+		set_monounsaturated_fat_in_grams(1.15700);
+		set_polyunsaturated_fat_in_grams(2.07400);
+		set_saturated_fat_in_grams(0.86500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(228.00000);
+		set_sodium_in_milligrams(410.00000);
+		set_calcium_in_milligrams(37.00000);
+		set_copper_in_milligrams(0.07300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.48000);
+		set_magnesium_in_milligrams(28.00000);
+		set_manganese_in_milligrams(0.35700);
+		set_phosphorus_in_milligrams(195.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(0.69000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(6.52100);
+		set_pantothenic_acid_in_milligrams(0.92700);
+		set_riboflavin_in_milligrams(0.19000);
+		set_thiamin_in_milligrams(0.19600);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.30600);
+		set_vitamin_b12_in_micrograms(0.15000);
+		set_vitamin_c_in_milligrams(3.20000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.53000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(57.30000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

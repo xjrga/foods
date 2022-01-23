@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beef_chuck_arm_pot_roast_separable_lean_only_trimmed_to_0_fat_choice_cooked_braised extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_chuck_arm_pot_roast_separable_lean_only_trimmed_to_0_fat_choice_cooked_braised() {
-        set_food_id("13377");
-        set_food_name("Beef, chuck, arm pot roast, separable lean only, trimmed to 0' fat, choice, cooked, braised");
-        set_food_label("Beef_chuck_arm_pot_roast_separable_lean_only_trimmed_to_0_fat_choice_cooked_braised");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(212.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(7.67000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(33.36000);
-        set_cholesterol_in_milligrams(100.00000);
-        set_monounsaturated_fat_in_grams(3.26700);
-        set_polyunsaturated_fat_in_grams(0.26800);
-        set_saturated_fat_in_grams(2.90300);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(262.00000);
-        set_sodium_in_milligrams(54.00000);
-        set_calcium_in_milligrams(14.00000);
-        set_copper_in_milligrams(0.12300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.89000);
-        set_magnesium_in_milligrams(22.00000);
-        set_manganese_in_milligrams(0.01200);
-        set_phosphorus_in_milligrams(202.00000);
-        set_selenium_in_micrograms(33.00000);
-        set_zinc_in_milligrams(7.79000);
-        set_choline_in_milligrams(127.10000);
-        set_folate_in_micrograms(11.00000);
-        set_niacin_in_milligrams(5.03900);
-        set_pantothenic_acid_in_milligrams(0.65500);
-        set_riboflavin_in_milligrams(0.22200);
-        set_thiamin_in_milligrams(0.06700);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.33000);
-        set_vitamin_b12_in_micrograms(2.59000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.44000);
-        set_vitamin_k_in_micrograms(1.60000);
-        set_water_in_grams(58.83000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_chuck_arm_pot_roast_separable_lean_only_trimmed_to_0_fat_choice_cooked_braised() {
+		set_food_id("13377");
+		set_food_name("Beef, chuck, arm pot roast, separable lean only, trimmed to 0' fat, choice, cooked, braised");
+		set_food_label("Beef_chuck_arm_pot_roast_separable_lean_only_trimmed_to_0_fat_choice_cooked_braised");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(212.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(7.67000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(33.36000);
+		set_cholesterol_in_milligrams(100.00000);
+		set_monounsaturated_fat_in_grams(3.26700);
+		set_polyunsaturated_fat_in_grams(0.26800);
+		set_saturated_fat_in_grams(2.90300);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(262.00000);
+		set_sodium_in_milligrams(54.00000);
+		set_calcium_in_milligrams(14.00000);
+		set_copper_in_milligrams(0.12300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.89000);
+		set_magnesium_in_milligrams(22.00000);
+		set_manganese_in_milligrams(0.01200);
+		set_phosphorus_in_milligrams(202.00000);
+		set_selenium_in_micrograms(33.00000);
+		set_zinc_in_milligrams(7.79000);
+		set_choline_in_milligrams(127.10000);
+		set_folate_in_micrograms(11.00000);
+		set_niacin_in_milligrams(5.03900);
+		set_pantothenic_acid_in_milligrams(0.65500);
+		set_riboflavin_in_milligrams(0.22200);
+		set_thiamin_in_milligrams(0.06700);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.33000);
+		set_vitamin_b12_in_micrograms(2.59000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.44000);
+		set_vitamin_k_in_micrograms(1.60000);
+		set_water_in_grams(58.83000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

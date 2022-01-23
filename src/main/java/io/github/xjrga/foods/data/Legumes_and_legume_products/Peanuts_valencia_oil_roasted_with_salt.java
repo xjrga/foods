@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Peanuts_valencia_oil_roasted_with_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Peanuts_valencia_oil_roasted_with_salt() {
-        set_food_id("16094");
-        set_food_name("Peanuts, valencia, oil-roasted, with salt");
-        set_food_label("Peanuts_valencia_oil_roasted_with_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(589.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(16.30000);
-        set_fat_in_grams(51.24000);
-        set_fiber_in_grams(8.90000);
-        set_protein_in_grams(27.04000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(23.06500);
-        set_polyunsaturated_fat_in_grams(17.77200);
-        set_saturated_fat_in_grams(7.89400);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(612.00000);
-        set_sodium_in_milligrams(772.00000);
-        set_calcium_in_milligrams(54.00000);
-        set_copper_in_milligrams(0.83800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.65000);
-        set_magnesium_in_milligrams(160.00000);
-        set_manganese_in_milligrams(1.72100);
-        set_phosphorus_in_milligrams(319.00000);
-        set_selenium_in_micrograms(7.50000);
-        set_zinc_in_milligrams(3.08000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(126.00000);
-        set_niacin_in_milligrams(14.33800);
-        set_pantothenic_acid_in_milligrams(1.38700);
-        set_riboflavin_in_milligrams(0.15300);
-        set_thiamin_in_milligrams(0.09000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.24300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(2.12000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Peanuts_valencia_oil_roasted_with_salt() {
+		set_food_id("16094");
+		set_food_name("Peanuts, valencia, oil-roasted, with salt");
+		set_food_label("Peanuts_valencia_oil_roasted_with_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(589.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(16.30000);
+		set_fat_in_grams(51.24000);
+		set_fiber_in_grams(8.90000);
+		set_protein_in_grams(27.04000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(23.06500);
+		set_polyunsaturated_fat_in_grams(17.77200);
+		set_saturated_fat_in_grams(7.89400);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(612.00000);
+		set_sodium_in_milligrams(772.00000);
+		set_calcium_in_milligrams(54.00000);
+		set_copper_in_milligrams(0.83800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.65000);
+		set_magnesium_in_milligrams(160.00000);
+		set_manganese_in_milligrams(1.72100);
+		set_phosphorus_in_milligrams(319.00000);
+		set_selenium_in_micrograms(7.50000);
+		set_zinc_in_milligrams(3.08000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(126.00000);
+		set_niacin_in_milligrams(14.33800);
+		set_pantothenic_acid_in_milligrams(1.38700);
+		set_riboflavin_in_milligrams(0.15300);
+		set_thiamin_in_milligrams(0.09000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.24300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(2.12000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_mackerel_pacific_and_jack_mixed_species_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fish_mackerel_pacific_and_jack_mixed_species_raw() {
-        set_food_id("15050");
-        set_food_name("Fish, mackerel, Pacific and jack, mixed species, raw");
-        set_food_label("Fish_mackerel_pacific_and_jack_mixed_species_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(158.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(7.89000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(20.07000);
-        set_cholesterol_in_milligrams(47.00000);
-        set_monounsaturated_fat_in_grams(2.62900);
-        set_polyunsaturated_fat_in_grams(1.94000);
-        set_saturated_fat_in_grams(2.24700);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.93200);
-        set_epa_in_grams(0.50900);
-        set_potassium_in_milligrams(406.00000);
-        set_sodium_in_milligrams(86.00000);
-        set_calcium_in_milligrams(23.00000);
-        set_copper_in_milligrams(0.09300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.16000);
-        set_magnesium_in_milligrams(28.00000);
-        set_manganese_in_milligrams(0.01500);
-        set_phosphorus_in_milligrams(125.00000);
-        set_selenium_in_micrograms(36.50000);
-        set_zinc_in_milligrams(0.67000);
-        set_choline_in_milligrams(66.90000);
-        set_folate_in_micrograms(2.00000);
-        set_niacin_in_milligrams(8.32000);
-        set_pantothenic_acid_in_milligrams(0.31600);
-        set_riboflavin_in_milligrams(0.42100);
-        set_thiamin_in_milligrams(0.11100);
-        set_vitamin_a_in_micrograms(19.00000);
-        set_vitamin_b6_in_milligrams(0.33000);
-        set_vitamin_b12_in_micrograms(4.40000);
-        set_vitamin_c_in_milligrams(2.00000);
-        set_vitamin_d_in_micrograms(9.10000);
-        set_vitamin_e_in_milligrams(1.00000);
-        set_vitamin_k_in_micrograms(0.10000);
-        set_water_in_grams(70.15000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fish_mackerel_pacific_and_jack_mixed_species_raw() {
+		set_food_id("15050");
+		set_food_name("Fish, mackerel, Pacific and jack, mixed species, raw");
+		set_food_label("Fish_mackerel_pacific_and_jack_mixed_species_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(158.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(7.89000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(20.07000);
+		set_cholesterol_in_milligrams(47.00000);
+		set_monounsaturated_fat_in_grams(2.62900);
+		set_polyunsaturated_fat_in_grams(1.94000);
+		set_saturated_fat_in_grams(2.24700);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.93200);
+		set_epa_in_grams(0.50900);
+		set_potassium_in_milligrams(406.00000);
+		set_sodium_in_milligrams(86.00000);
+		set_calcium_in_milligrams(23.00000);
+		set_copper_in_milligrams(0.09300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.16000);
+		set_magnesium_in_milligrams(28.00000);
+		set_manganese_in_milligrams(0.01500);
+		set_phosphorus_in_milligrams(125.00000);
+		set_selenium_in_micrograms(36.50000);
+		set_zinc_in_milligrams(0.67000);
+		set_choline_in_milligrams(66.90000);
+		set_folate_in_micrograms(2.00000);
+		set_niacin_in_milligrams(8.32000);
+		set_pantothenic_acid_in_milligrams(0.31600);
+		set_riboflavin_in_milligrams(0.42100);
+		set_thiamin_in_milligrams(0.11100);
+		set_vitamin_a_in_micrograms(19.00000);
+		set_vitamin_b6_in_milligrams(0.33000);
+		set_vitamin_b12_in_micrograms(4.40000);
+		set_vitamin_c_in_milligrams(2.00000);
+		set_vitamin_d_in_micrograms(9.10000);
+		set_vitamin_e_in_milligrams(1.00000);
+		set_vitamin_k_in_micrograms(0.10000);
+		set_water_in_grams(70.15000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

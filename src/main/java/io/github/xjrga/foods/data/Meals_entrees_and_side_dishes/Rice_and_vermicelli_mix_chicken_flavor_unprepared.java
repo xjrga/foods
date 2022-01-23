@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Rice_and_vermicelli_mix_chicken_flavor_unprepared extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Rice_and_vermicelli_mix_chicken_flavor_unprepared() {
-        set_food_id("22998");
-        set_food_name("Rice and vermicelli mix, chicken flavor, unprepared");
-        set_food_label("Rice_and_vermicelli_mix_chicken_flavor_unprepared");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(358.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(75.80000);
-        set_fat_in_grams(1.32000);
-        set_fiber_in_grams(1.20000);
-        set_protein_in_grams(10.64000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.32800);
-        set_polyunsaturated_fat_in_grams(0.46300);
-        set_saturated_fat_in_grams(0.38900);
-        set_alpha_linolenic_acid_in_grams(0.01700);
-        set_linoleic_acid_in_grams(0.42000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(153.00000);
-        set_sodium_in_milligrams(1238.00000);
-        set_calcium_in_milligrams(18.00000);
-        set_copper_in_milligrams(0.17600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.77000);
-        set_magnesium_in_milligrams(31.00000);
-        set_manganese_in_milligrams(1.00700);
-        set_phosphorus_in_milligrams(126.00000);
-        set_selenium_in_micrograms(32.90000);
-        set_zinc_in_milligrams(1.36000);
-        set_choline_in_milligrams(9.40000);
-        set_folate_in_micrograms(28.00000);
-        set_niacin_in_milligrams(5.12300);
-        set_pantothenic_acid_in_milligrams(0.56500);
-        set_riboflavin_in_milligrams(0.09700);
-        set_thiamin_in_milligrams(0.59300);
-        set_vitamin_a_in_micrograms(3.00000);
-        set_vitamin_b6_in_milligrams(0.18300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.15000);
-        set_vitamin_k_in_micrograms(0.60000);
-        set_water_in_grams(8.19000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Rice_and_vermicelli_mix_chicken_flavor_unprepared() {
+		set_food_id("22998");
+		set_food_name("Rice and vermicelli mix, chicken flavor, unprepared");
+		set_food_label("Rice_and_vermicelli_mix_chicken_flavor_unprepared");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(358.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(75.80000);
+		set_fat_in_grams(1.32000);
+		set_fiber_in_grams(1.20000);
+		set_protein_in_grams(10.64000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.32800);
+		set_polyunsaturated_fat_in_grams(0.46300);
+		set_saturated_fat_in_grams(0.38900);
+		set_alpha_linolenic_acid_in_grams(0.01700);
+		set_linoleic_acid_in_grams(0.42000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(153.00000);
+		set_sodium_in_milligrams(1238.00000);
+		set_calcium_in_milligrams(18.00000);
+		set_copper_in_milligrams(0.17600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.77000);
+		set_magnesium_in_milligrams(31.00000);
+		set_manganese_in_milligrams(1.00700);
+		set_phosphorus_in_milligrams(126.00000);
+		set_selenium_in_micrograms(32.90000);
+		set_zinc_in_milligrams(1.36000);
+		set_choline_in_milligrams(9.40000);
+		set_folate_in_micrograms(28.00000);
+		set_niacin_in_milligrams(5.12300);
+		set_pantothenic_acid_in_milligrams(0.56500);
+		set_riboflavin_in_milligrams(0.09700);
+		set_thiamin_in_milligrams(0.59300);
+		set_vitamin_a_in_micrograms(3.00000);
+		set_vitamin_b6_in_milligrams(0.18300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.15000);
+		set_vitamin_k_in_micrograms(0.60000);
+		set_water_in_grams(8.19000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Pork_cured_ham_rump_bone_in_separable_lean_and_fat_heated_roasted extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Pork_cured_ham_rump_bone_in_separable_lean_and_fat_heated_roasted() {
-        set_food_id("10929");
-        set_food_name("Pork, cured, ham, rump, bone-in, separable lean and fat, heated, roasted");
-        set_food_label("Pork_cured_ham_rump_bone_in_separable_lean_and_fat_heated_roasted");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(177.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.64000);
-        set_fat_in_grams(8.88000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(23.95000);
-        set_cholesterol_in_milligrams(71.00000);
-        set_monounsaturated_fat_in_grams(3.79100);
-        set_polyunsaturated_fat_in_grams(1.27000);
-        set_saturated_fat_in_grams(2.85000);
-        set_alpha_linolenic_acid_in_grams(0.05500);
-        set_linoleic_acid_in_grams(1.04500);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(370.00000);
-        set_sodium_in_milligrams(826.00000);
-        set_calcium_in_milligrams(7.00000);
-        set_copper_in_milligrams(1.09300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.46000);
-        set_magnesium_in_milligrams(23.00000);
-        set_manganese_in_milligrams(0.02800);
-        set_phosphorus_in_milligrams(263.00000);
-        set_selenium_in_micrograms(23.50000);
-        set_zinc_in_milligrams(2.91000);
-        set_choline_in_milligrams(92.60000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(6.87100);
-        set_pantothenic_acid_in_milligrams(0.70500);
-        set_riboflavin_in_milligrams(0.28400);
-        set_thiamin_in_milligrams(0.53100);
-        set_vitamin_a_in_micrograms(1.00000);
-        set_vitamin_b6_in_milligrams(0.44600);
-        set_vitamin_b12_in_micrograms(0.61000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.80000);
-        set_vitamin_e_in_milligrams(0.33000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(63.82000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Pork_cured_ham_rump_bone_in_separable_lean_and_fat_heated_roasted() {
+		set_food_id("10929");
+		set_food_name("Pork, cured, ham, rump, bone-in, separable lean and fat, heated, roasted");
+		set_food_label("Pork_cured_ham_rump_bone_in_separable_lean_and_fat_heated_roasted");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(177.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.64000);
+		set_fat_in_grams(8.88000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(23.95000);
+		set_cholesterol_in_milligrams(71.00000);
+		set_monounsaturated_fat_in_grams(3.79100);
+		set_polyunsaturated_fat_in_grams(1.27000);
+		set_saturated_fat_in_grams(2.85000);
+		set_alpha_linolenic_acid_in_grams(0.05500);
+		set_linoleic_acid_in_grams(1.04500);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(370.00000);
+		set_sodium_in_milligrams(826.00000);
+		set_calcium_in_milligrams(7.00000);
+		set_copper_in_milligrams(1.09300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.46000);
+		set_magnesium_in_milligrams(23.00000);
+		set_manganese_in_milligrams(0.02800);
+		set_phosphorus_in_milligrams(263.00000);
+		set_selenium_in_micrograms(23.50000);
+		set_zinc_in_milligrams(2.91000);
+		set_choline_in_milligrams(92.60000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(6.87100);
+		set_pantothenic_acid_in_milligrams(0.70500);
+		set_riboflavin_in_milligrams(0.28400);
+		set_thiamin_in_milligrams(0.53100);
+		set_vitamin_a_in_micrograms(1.00000);
+		set_vitamin_b6_in_milligrams(0.44600);
+		set_vitamin_b12_in_micrograms(0.61000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.80000);
+		set_vitamin_e_in_milligrams(0.33000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(63.82000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

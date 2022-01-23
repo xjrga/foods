@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Tofu_hard_prepared_with_nigari extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Tofu_hard_prepared_with_nigari() {
-        set_food_id("16160");
-        set_food_name("Tofu, hard, prepared with nigari");
-        set_food_label("Tofu_hard_prepared_with_nigari");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(145.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(4.39000);
-        set_fat_in_grams(9.99000);
-        set_fiber_in_grams(0.60000);
-        set_protein_in_grams(12.68000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(2.20500);
-        set_polyunsaturated_fat_in_grams(5.63800);
-        set_saturated_fat_in_grams(1.44500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(146.00000);
-        set_sodium_in_milligrams(2.00000);
-        set_calcium_in_milligrams(345.00000);
-        set_copper_in_milligrams(0.32800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.75000);
-        set_magnesium_in_milligrams(53.00000);
-        set_manganese_in_milligrams(1.05200);
-        set_phosphorus_in_milligrams(231.00000);
-        set_selenium_in_micrograms(16.80000);
-        set_zinc_in_milligrams(1.66000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(22.00000);
-        set_niacin_in_milligrams(0.63900);
-        set_pantothenic_acid_in_milligrams(0.03700);
-        set_riboflavin_in_milligrams(0.07700);
-        set_thiamin_in_milligrams(0.04200);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.03900);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.30000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(71.12000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Tofu_hard_prepared_with_nigari() {
+		set_food_id("16160");
+		set_food_name("Tofu, hard, prepared with nigari");
+		set_food_label("Tofu_hard_prepared_with_nigari");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(145.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(4.39000);
+		set_fat_in_grams(9.99000);
+		set_fiber_in_grams(0.60000);
+		set_protein_in_grams(12.68000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(2.20500);
+		set_polyunsaturated_fat_in_grams(5.63800);
+		set_saturated_fat_in_grams(1.44500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(146.00000);
+		set_sodium_in_milligrams(2.00000);
+		set_calcium_in_milligrams(345.00000);
+		set_copper_in_milligrams(0.32800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.75000);
+		set_magnesium_in_milligrams(53.00000);
+		set_manganese_in_milligrams(1.05200);
+		set_phosphorus_in_milligrams(231.00000);
+		set_selenium_in_micrograms(16.80000);
+		set_zinc_in_milligrams(1.66000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(22.00000);
+		set_niacin_in_milligrams(0.63900);
+		set_pantothenic_acid_in_milligrams(0.03700);
+		set_riboflavin_in_milligrams(0.07700);
+		set_thiamin_in_milligrams(0.04200);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.03900);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.30000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(71.12000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

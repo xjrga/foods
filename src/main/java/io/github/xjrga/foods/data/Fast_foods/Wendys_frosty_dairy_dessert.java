@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Wendys_frosty_dairy_dessert extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Wendys_frosty_dairy_dessert() {
-        set_food_id("21248");
-        set_food_name("WENDY'S, Frosty Dairy Dessert");
-        set_food_label("Wendys_frosty_dairy_dessert");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(132.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(23.62000);
-        set_fat_in_grams(2.60000);
-        set_fiber_in_grams(3.30000);
-        set_protein_in_grams(3.49000);
-        set_cholesterol_in_milligrams(16.00000);
-        set_monounsaturated_fat_in_grams(0.69200);
-        set_polyunsaturated_fat_in_grams(0.11700);
-        set_saturated_fat_in_grams(1.63500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(185.00000);
-        set_sodium_in_milligrams(98.00000);
-        set_calcium_in_milligrams(128.00000);
-        set_copper_in_milligrams(0.07500);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.04000);
-        set_magnesium_in_milligrams(20.00000);
-        set_manganese_in_milligrams(0.06300);
-        set_phosphorus_in_milligrams(112.00000);
-        set_selenium_in_micrograms(3.30000);
-        set_zinc_in_milligrams(0.44000);
-        set_choline_in_milligrams(27.70000);
-        set_folate_in_micrograms(0.00000);
-        set_niacin_in_milligrams(0.34800);
-        set_pantothenic_acid_in_milligrams(0.60100);
-        set_riboflavin_in_milligrams(0.72000);
-        set_thiamin_in_milligrams(0.06000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.00000);
-        set_vitamin_b12_in_micrograms(0.59000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.40000);
-        set_water_in_grams(69.25000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Wendys_frosty_dairy_dessert() {
+		set_food_id("21248");
+		set_food_name("WENDY'S, Frosty Dairy Dessert");
+		set_food_label("Wendys_frosty_dairy_dessert");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(132.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(23.62000);
+		set_fat_in_grams(2.60000);
+		set_fiber_in_grams(3.30000);
+		set_protein_in_grams(3.49000);
+		set_cholesterol_in_milligrams(16.00000);
+		set_monounsaturated_fat_in_grams(0.69200);
+		set_polyunsaturated_fat_in_grams(0.11700);
+		set_saturated_fat_in_grams(1.63500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(185.00000);
+		set_sodium_in_milligrams(98.00000);
+		set_calcium_in_milligrams(128.00000);
+		set_copper_in_milligrams(0.07500);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.04000);
+		set_magnesium_in_milligrams(20.00000);
+		set_manganese_in_milligrams(0.06300);
+		set_phosphorus_in_milligrams(112.00000);
+		set_selenium_in_micrograms(3.30000);
+		set_zinc_in_milligrams(0.44000);
+		set_choline_in_milligrams(27.70000);
+		set_folate_in_micrograms(0.00000);
+		set_niacin_in_milligrams(0.34800);
+		set_pantothenic_acid_in_milligrams(0.60100);
+		set_riboflavin_in_milligrams(0.72000);
+		set_thiamin_in_milligrams(0.06000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.00000);
+		set_vitamin_b12_in_micrograms(0.59000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.40000);
+		set_water_in_grams(69.25000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Grapes_red_or_green_european_type_such_as_thompson_seedless_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Grapes_red_or_green_european_type_such_as_thompson_seedless_raw() {
-        set_food_id("09132");
-        set_food_name("Grapes, red or green (European type, such as Thompson seedless), raw");
-        set_food_label("Grapes_red_or_green_european_type_such_as_thompson_seedless_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(69.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(18.10000);
-        set_fat_in_grams(0.16000);
-        set_fiber_in_grams(0.90000);
-        set_protein_in_grams(0.72000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00700);
-        set_polyunsaturated_fat_in_grams(0.04800);
-        set_saturated_fat_in_grams(0.05400);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(191.00000);
-        set_sodium_in_milligrams(2.00000);
-        set_calcium_in_milligrams(10.00000);
-        set_copper_in_milligrams(0.12700);
-        set_fluoride_in_micrograms(7.80000);
-        set_iron_in_milligrams(0.36000);
-        set_magnesium_in_milligrams(7.00000);
-        set_manganese_in_milligrams(0.07100);
-        set_phosphorus_in_milligrams(20.00000);
-        set_selenium_in_micrograms(0.10000);
-        set_zinc_in_milligrams(0.07000);
-        set_choline_in_milligrams(5.60000);
-        set_folate_in_micrograms(2.00000);
-        set_niacin_in_milligrams(0.18800);
-        set_pantothenic_acid_in_milligrams(0.05000);
-        set_riboflavin_in_milligrams(0.07000);
-        set_thiamin_in_milligrams(0.06900);
-        set_vitamin_a_in_micrograms(3.00000);
-        set_vitamin_b6_in_milligrams(0.08600);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(3.20000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.19000);
-        set_vitamin_k_in_micrograms(14.60000);
-        set_water_in_grams(80.54000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.60000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.36000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(46.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Grapes_red_or_green_european_type_such_as_thompson_seedless_raw() {
+		set_food_id("09132");
+		set_food_name("Grapes, red or green (European type, such as Thompson seedless), raw");
+		set_food_label("Grapes_red_or_green_european_type_such_as_thompson_seedless_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(69.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(18.10000);
+		set_fat_in_grams(0.16000);
+		set_fiber_in_grams(0.90000);
+		set_protein_in_grams(0.72000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00700);
+		set_polyunsaturated_fat_in_grams(0.04800);
+		set_saturated_fat_in_grams(0.05400);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(191.00000);
+		set_sodium_in_milligrams(2.00000);
+		set_calcium_in_milligrams(10.00000);
+		set_copper_in_milligrams(0.12700);
+		set_fluoride_in_micrograms(7.80000);
+		set_iron_in_milligrams(0.36000);
+		set_magnesium_in_milligrams(7.00000);
+		set_manganese_in_milligrams(0.07100);
+		set_phosphorus_in_milligrams(20.00000);
+		set_selenium_in_micrograms(0.10000);
+		set_zinc_in_milligrams(0.07000);
+		set_choline_in_milligrams(5.60000);
+		set_folate_in_micrograms(2.00000);
+		set_niacin_in_milligrams(0.18800);
+		set_pantothenic_acid_in_milligrams(0.05000);
+		set_riboflavin_in_milligrams(0.07000);
+		set_thiamin_in_milligrams(0.06900);
+		set_vitamin_a_in_micrograms(3.00000);
+		set_vitamin_b6_in_milligrams(0.08600);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(3.20000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.19000);
+		set_vitamin_k_in_micrograms(14.60000);
+		set_water_in_grams(80.54000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.60000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.36000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(46.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

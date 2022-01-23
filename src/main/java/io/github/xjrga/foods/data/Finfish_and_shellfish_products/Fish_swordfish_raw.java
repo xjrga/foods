@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fish_swordfish_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fish_swordfish_raw() {
-        set_food_id("15110");
-        set_food_name("Fish, swordfish, raw");
-        set_food_label("Fish_swordfish_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(144.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(6.65000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(19.66000);
-        set_cholesterol_in_milligrams(66.00000);
-        set_monounsaturated_fat_in_grams(2.97100);
-        set_polyunsaturated_fat_in_grams(1.14700);
-        set_saturated_fat_in_grams(1.60200);
-        set_alpha_linolenic_acid_in_grams(0.02800);
-        set_linoleic_acid_in_grams(0.04600);
-        set_dha_in_grams(0.64700);
-        set_epa_in_grams(0.10700);
-        set_potassium_in_milligrams(418.00000);
-        set_sodium_in_milligrams(81.00000);
-        set_calcium_in_milligrams(5.00000);
-        set_copper_in_milligrams(0.03900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.38000);
-        set_magnesium_in_milligrams(29.00000);
-        set_manganese_in_milligrams(0.01100);
-        set_phosphorus_in_milligrams(255.00000);
-        set_selenium_in_micrograms(57.40000);
-        set_zinc_in_milligrams(0.66000);
-        set_choline_in_milligrams(65.00000);
-        set_folate_in_micrograms(2.00000);
-        set_niacin_in_milligrams(7.76000);
-        set_pantothenic_acid_in_milligrams(0.35000);
-        set_riboflavin_in_milligrams(0.05300);
-        set_thiamin_in_milligrams(0.07500);
-        set_vitamin_a_in_micrograms(36.00000);
-        set_vitamin_b6_in_milligrams(0.54300);
-        set_vitamin_b12_in_micrograms(1.70000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(13.90000);
-        set_vitamin_e_in_milligrams(2.02000);
-        set_vitamin_k_in_micrograms(0.10000);
-        set_water_in_grams(73.38000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fish_swordfish_raw() {
+		set_food_id("15110");
+		set_food_name("Fish, swordfish, raw");
+		set_food_label("Fish_swordfish_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(144.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(6.65000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(19.66000);
+		set_cholesterol_in_milligrams(66.00000);
+		set_monounsaturated_fat_in_grams(2.97100);
+		set_polyunsaturated_fat_in_grams(1.14700);
+		set_saturated_fat_in_grams(1.60200);
+		set_alpha_linolenic_acid_in_grams(0.02800);
+		set_linoleic_acid_in_grams(0.04600);
+		set_dha_in_grams(0.64700);
+		set_epa_in_grams(0.10700);
+		set_potassium_in_milligrams(418.00000);
+		set_sodium_in_milligrams(81.00000);
+		set_calcium_in_milligrams(5.00000);
+		set_copper_in_milligrams(0.03900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.38000);
+		set_magnesium_in_milligrams(29.00000);
+		set_manganese_in_milligrams(0.01100);
+		set_phosphorus_in_milligrams(255.00000);
+		set_selenium_in_micrograms(57.40000);
+		set_zinc_in_milligrams(0.66000);
+		set_choline_in_milligrams(65.00000);
+		set_folate_in_micrograms(2.00000);
+		set_niacin_in_milligrams(7.76000);
+		set_pantothenic_acid_in_milligrams(0.35000);
+		set_riboflavin_in_milligrams(0.05300);
+		set_thiamin_in_milligrams(0.07500);
+		set_vitamin_a_in_micrograms(36.00000);
+		set_vitamin_b6_in_milligrams(0.54300);
+		set_vitamin_b12_in_micrograms(1.70000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(13.90000);
+		set_vitamin_e_in_milligrams(2.02000);
+		set_vitamin_k_in_micrograms(0.10000);
+		set_water_in_grams(73.38000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

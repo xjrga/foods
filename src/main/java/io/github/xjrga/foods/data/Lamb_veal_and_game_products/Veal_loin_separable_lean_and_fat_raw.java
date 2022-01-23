@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Veal_loin_separable_lean_and_fat_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Veal_loin_separable_lean_and_fat_raw() {
-        set_food_id("17104");
-        set_food_name("Veal, loin, separable lean and fat, raw");
-        set_food_label("Veal_loin_separable_lean_and_fat_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(177.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.07000);
-        set_fat_in_grams(10.07000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(20.07000);
-        set_cholesterol_in_milligrams(59.00000);
-        set_monounsaturated_fat_in_grams(4.80800);
-        set_polyunsaturated_fat_in_grams(0.40400);
-        set_saturated_fat_in_grams(3.60700);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00100);
-        set_potassium_in_milligrams(241.00000);
-        set_sodium_in_milligrams(98.00000);
-        set_calcium_in_milligrams(14.00000);
-        set_copper_in_milligrams(0.08200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.84000);
-        set_magnesium_in_milligrams(43.00000);
-        set_manganese_in_milligrams(0.01300);
-        set_phosphorus_in_milligrams(222.00000);
-        set_selenium_in_micrograms(16.20000);
-        set_zinc_in_milligrams(2.01000);
-        set_choline_in_milligrams(98.90000);
-        set_folate_in_micrograms(3.00000);
-        set_niacin_in_milligrams(6.61700);
-        set_pantothenic_acid_in_milligrams(0.62900);
-        set_riboflavin_in_milligrams(0.28000);
-        set_thiamin_in_milligrams(0.07800);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.60400);
-        set_vitamin_b12_in_micrograms(2.46000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(1.70000);
-        set_vitamin_e_in_milligrams(0.30000);
-        set_vitamin_k_in_micrograms(1.30000);
-        set_water_in_grams(69.44000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Veal_loin_separable_lean_and_fat_raw() {
+		set_food_id("17104");
+		set_food_name("Veal, loin, separable lean and fat, raw");
+		set_food_label("Veal_loin_separable_lean_and_fat_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(177.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.07000);
+		set_fat_in_grams(10.07000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(20.07000);
+		set_cholesterol_in_milligrams(59.00000);
+		set_monounsaturated_fat_in_grams(4.80800);
+		set_polyunsaturated_fat_in_grams(0.40400);
+		set_saturated_fat_in_grams(3.60700);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00100);
+		set_potassium_in_milligrams(241.00000);
+		set_sodium_in_milligrams(98.00000);
+		set_calcium_in_milligrams(14.00000);
+		set_copper_in_milligrams(0.08200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.84000);
+		set_magnesium_in_milligrams(43.00000);
+		set_manganese_in_milligrams(0.01300);
+		set_phosphorus_in_milligrams(222.00000);
+		set_selenium_in_micrograms(16.20000);
+		set_zinc_in_milligrams(2.01000);
+		set_choline_in_milligrams(98.90000);
+		set_folate_in_micrograms(3.00000);
+		set_niacin_in_milligrams(6.61700);
+		set_pantothenic_acid_in_milligrams(0.62900);
+		set_riboflavin_in_milligrams(0.28000);
+		set_thiamin_in_milligrams(0.07800);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.60400);
+		set_vitamin_b12_in_micrograms(2.46000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(1.70000);
+		set_vitamin_e_in_milligrams(0.30000);
+		set_vitamin_k_in_micrograms(1.30000);
+		set_water_in_grams(69.44000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

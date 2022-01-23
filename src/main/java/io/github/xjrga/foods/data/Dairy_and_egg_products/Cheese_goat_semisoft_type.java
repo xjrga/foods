@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cheese_goat_semisoft_type extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cheese_goat_semisoft_type() {
-        set_food_id("01157");
-        set_food_name("Cheese, goat, semisoft type");
-        set_food_label("Cheese_goat_semisoft_type");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(364.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.12000);
-        set_fat_in_grams(29.84000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(21.58000);
-        set_cholesterol_in_milligrams(79.00000);
-        set_monounsaturated_fat_in_grams(6.80800);
-        set_polyunsaturated_fat_in_grams(0.70900);
-        set_saturated_fat_in_grams(20.63900);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(158.00000);
-        set_sodium_in_milligrams(415.00000);
-        set_calcium_in_milligrams(298.00000);
-        set_copper_in_milligrams(0.56400);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.62000);
-        set_magnesium_in_milligrams(29.00000);
-        set_manganese_in_milligrams(0.09300);
-        set_phosphorus_in_milligrams(375.00000);
-        set_selenium_in_micrograms(3.80000);
-        set_zinc_in_milligrams(0.66000);
-        set_choline_in_milligrams(15.40000);
-        set_folate_in_micrograms(2.00000);
-        set_niacin_in_milligrams(1.14800);
-        set_pantothenic_acid_in_milligrams(0.19000);
-        set_riboflavin_in_milligrams(0.67600);
-        set_thiamin_in_milligrams(0.07200);
-        set_vitamin_a_in_micrograms(407.00000);
-        set_vitamin_b6_in_milligrams(0.06000);
-        set_vitamin_b12_in_micrograms(0.22000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.50000);
-        set_vitamin_e_in_milligrams(0.26000);
-        set_vitamin_k_in_micrograms(2.50000);
-        set_water_in_grams(45.52000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(8.79000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cheese_goat_semisoft_type() {
+		set_food_id("01157");
+		set_food_name("Cheese, goat, semisoft type");
+		set_food_label("Cheese_goat_semisoft_type");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(364.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.12000);
+		set_fat_in_grams(29.84000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(21.58000);
+		set_cholesterol_in_milligrams(79.00000);
+		set_monounsaturated_fat_in_grams(6.80800);
+		set_polyunsaturated_fat_in_grams(0.70900);
+		set_saturated_fat_in_grams(20.63900);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(158.00000);
+		set_sodium_in_milligrams(415.00000);
+		set_calcium_in_milligrams(298.00000);
+		set_copper_in_milligrams(0.56400);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.62000);
+		set_magnesium_in_milligrams(29.00000);
+		set_manganese_in_milligrams(0.09300);
+		set_phosphorus_in_milligrams(375.00000);
+		set_selenium_in_micrograms(3.80000);
+		set_zinc_in_milligrams(0.66000);
+		set_choline_in_milligrams(15.40000);
+		set_folate_in_micrograms(2.00000);
+		set_niacin_in_milligrams(1.14800);
+		set_pantothenic_acid_in_milligrams(0.19000);
+		set_riboflavin_in_milligrams(0.67600);
+		set_thiamin_in_milligrams(0.07200);
+		set_vitamin_a_in_micrograms(407.00000);
+		set_vitamin_b6_in_milligrams(0.06000);
+		set_vitamin_b12_in_micrograms(0.22000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.50000);
+		set_vitamin_e_in_milligrams(0.26000);
+		set_vitamin_k_in_micrograms(2.50000);
+		set_water_in_grams(45.52000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(8.79000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

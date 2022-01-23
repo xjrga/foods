@@ -23,61 +23,64 @@ import io.github.xjrga.foods.Abstract_food;
  *
  * @author Jorge R Garcia de Alba &lt;jorge.r.garciadealba@gmail.com&gt;
  */
-public class Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw extends Abstract_food {
+public class Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw
+		extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw() {
-        set_food_id("23103");
-        set_food_name("Beef, chuck, under blade pot roast or steak, boneless, separable lean and fat, trimmed to 0' fat, choice, raw");
-        set_food_label("Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(202.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(13.93000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(19.15000);
-        set_cholesterol_in_milligrams(66.00000);
-        set_monounsaturated_fat_in_grams(6.79400);
-        set_polyunsaturated_fat_in_grams(0.58800);
-        set_saturated_fat_in_grams(5.89600);
-        set_alpha_linolenic_acid_in_grams(0.02100);
-        set_linoleic_acid_in_grams(0.45100);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00100);
-        set_potassium_in_milligrams(329.00000);
-        set_sodium_in_milligrams(76.00000);
-        set_calcium_in_milligrams(12.00000);
-        set_copper_in_milligrams(0.07300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.13000);
-        set_magnesium_in_milligrams(19.00000);
-        set_manganese_in_milligrams(0.01100);
-        set_phosphorus_in_milligrams(181.00000);
-        set_selenium_in_micrograms(21.70000);
-        set_zinc_in_milligrams(6.99000);
-        set_choline_in_milligrams(64.50000);
-        set_folate_in_micrograms(3.00000);
-        set_niacin_in_milligrams(3.98300);
-        set_pantothenic_acid_in_milligrams(0.63000);
-        set_riboflavin_in_milligrams(0.16700);
-        set_thiamin_in_milligrams(0.07900);
-        set_vitamin_a_in_micrograms(4.00000);
-        set_vitamin_b6_in_milligrams(0.38000);
-        set_vitamin_b12_in_micrograms(2.94000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.16000);
-        set_vitamin_k_in_micrograms(1.50000);
-        set_water_in_grams(66.00000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw() {
+		set_food_id("23103");
+		set_food_name(
+				"Beef, chuck, under blade pot roast or steak, boneless, separable lean and fat, trimmed to 0' fat, choice, raw");
+		set_food_label(
+				"Beef_chuck_under_blade_pot_roast_or_steak_boneless_separable_lean_and_fat_trimmed_to_0_fat_choice_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(202.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(13.93000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(19.15000);
+		set_cholesterol_in_milligrams(66.00000);
+		set_monounsaturated_fat_in_grams(6.79400);
+		set_polyunsaturated_fat_in_grams(0.58800);
+		set_saturated_fat_in_grams(5.89600);
+		set_alpha_linolenic_acid_in_grams(0.02100);
+		set_linoleic_acid_in_grams(0.45100);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00100);
+		set_potassium_in_milligrams(329.00000);
+		set_sodium_in_milligrams(76.00000);
+		set_calcium_in_milligrams(12.00000);
+		set_copper_in_milligrams(0.07300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.13000);
+		set_magnesium_in_milligrams(19.00000);
+		set_manganese_in_milligrams(0.01100);
+		set_phosphorus_in_milligrams(181.00000);
+		set_selenium_in_micrograms(21.70000);
+		set_zinc_in_milligrams(6.99000);
+		set_choline_in_milligrams(64.50000);
+		set_folate_in_micrograms(3.00000);
+		set_niacin_in_milligrams(3.98300);
+		set_pantothenic_acid_in_milligrams(0.63000);
+		set_riboflavin_in_milligrams(0.16700);
+		set_thiamin_in_milligrams(0.07900);
+		set_vitamin_a_in_micrograms(4.00000);
+		set_vitamin_b6_in_milligrams(0.38000);
+		set_vitamin_b12_in_micrograms(2.94000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.16000);
+		set_vitamin_k_in_micrograms(1.50000);
+		set_water_in_grams(66.00000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

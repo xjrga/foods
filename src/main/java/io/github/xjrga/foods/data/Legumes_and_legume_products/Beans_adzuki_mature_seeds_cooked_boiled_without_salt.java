@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Beans_adzuki_mature_seeds_cooked_boiled_without_salt extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Beans_adzuki_mature_seeds_cooked_boiled_without_salt() {
-        set_food_id("16002");
-        set_food_name("Beans, adzuki, mature seeds, cooked, boiled, without salt");
-        set_food_label("Beans_adzuki_mature_seeds_cooked_boiled_without_salt");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(128.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(24.77000);
-        set_fat_in_grams(0.10000);
-        set_fiber_in_grams(7.30000);
-        set_protein_in_grams(7.52000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.00900);
-        set_polyunsaturated_fat_in_grams(0.02100);
-        set_saturated_fat_in_grams(0.03600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(532.00000);
-        set_sodium_in_milligrams(8.00000);
-        set_calcium_in_milligrams(28.00000);
-        set_copper_in_milligrams(0.29800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.00000);
-        set_magnesium_in_milligrams(52.00000);
-        set_manganese_in_milligrams(0.57300);
-        set_phosphorus_in_milligrams(168.00000);
-        set_selenium_in_micrograms(1.20000);
-        set_zinc_in_milligrams(1.77000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(121.00000);
-        set_niacin_in_milligrams(0.71700);
-        set_pantothenic_acid_in_milligrams(0.43000);
-        set_riboflavin_in_milligrams(0.06400);
-        set_thiamin_in_milligrams(0.11500);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.09600);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(66.29000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.07000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.47000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Beans_adzuki_mature_seeds_cooked_boiled_without_salt() {
+		set_food_id("16002");
+		set_food_name("Beans, adzuki, mature seeds, cooked, boiled, without salt");
+		set_food_label("Beans_adzuki_mature_seeds_cooked_boiled_without_salt");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(128.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(24.77000);
+		set_fat_in_grams(0.10000);
+		set_fiber_in_grams(7.30000);
+		set_protein_in_grams(7.52000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.00900);
+		set_polyunsaturated_fat_in_grams(0.02100);
+		set_saturated_fat_in_grams(0.03600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(532.00000);
+		set_sodium_in_milligrams(8.00000);
+		set_calcium_in_milligrams(28.00000);
+		set_copper_in_milligrams(0.29800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.00000);
+		set_magnesium_in_milligrams(52.00000);
+		set_manganese_in_milligrams(0.57300);
+		set_phosphorus_in_milligrams(168.00000);
+		set_selenium_in_micrograms(1.20000);
+		set_zinc_in_milligrams(1.77000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(121.00000);
+		set_niacin_in_milligrams(0.71700);
+		set_pantothenic_acid_in_milligrams(0.43000);
+		set_riboflavin_in_milligrams(0.06400);
+		set_thiamin_in_milligrams(0.11500);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.09600);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(66.29000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.07000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.47000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

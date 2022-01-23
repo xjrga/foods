@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Semolina_unenriched extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Semolina_unenriched() {
-        set_food_id("20466");
-        set_food_name("Semolina, unenriched");
-        set_food_label("Semolina_unenriched");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(360.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(72.83000);
-        set_fat_in_grams(1.05000);
-        set_fiber_in_grams(3.90000);
-        set_protein_in_grams(12.68000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.12400);
-        set_polyunsaturated_fat_in_grams(0.43000);
-        set_saturated_fat_in_grams(0.15000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(186.00000);
-        set_sodium_in_milligrams(1.00000);
-        set_calcium_in_milligrams(17.00000);
-        set_copper_in_milligrams(0.18900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(1.23000);
-        set_magnesium_in_milligrams(47.00000);
-        set_manganese_in_milligrams(0.61900);
-        set_phosphorus_in_milligrams(136.00000);
-        set_selenium_in_micrograms(0.00000);
-        set_zinc_in_milligrams(1.05000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(72.00000);
-        set_niacin_in_milligrams(3.31000);
-        set_pantothenic_acid_in_milligrams(0.58000);
-        set_riboflavin_in_milligrams(0.08000);
-        set_thiamin_in_milligrams(0.28000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.10300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.00000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(12.67000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.12000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(4.05000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Semolina_unenriched() {
+		set_food_id("20466");
+		set_food_name("Semolina, unenriched");
+		set_food_label("Semolina_unenriched");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(360.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(72.83000);
+		set_fat_in_grams(1.05000);
+		set_fiber_in_grams(3.90000);
+		set_protein_in_grams(12.68000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.12400);
+		set_polyunsaturated_fat_in_grams(0.43000);
+		set_saturated_fat_in_grams(0.15000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(186.00000);
+		set_sodium_in_milligrams(1.00000);
+		set_calcium_in_milligrams(17.00000);
+		set_copper_in_milligrams(0.18900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(1.23000);
+		set_magnesium_in_milligrams(47.00000);
+		set_manganese_in_milligrams(0.61900);
+		set_phosphorus_in_milligrams(136.00000);
+		set_selenium_in_micrograms(0.00000);
+		set_zinc_in_milligrams(1.05000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(72.00000);
+		set_niacin_in_milligrams(3.31000);
+		set_pantothenic_acid_in_milligrams(0.58000);
+		set_riboflavin_in_milligrams(0.08000);
+		set_thiamin_in_milligrams(0.28000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.10300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.00000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(12.67000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.12000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(4.05000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

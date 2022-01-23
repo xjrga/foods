@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Salad_dressing_blue_or_roquefort_cheese_dressing_light extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Salad_dressing_blue_or_roquefort_cheese_dressing_light() {
-        set_food_id("42153");
-        set_food_name("Salad dressing, blue or roquefort cheese dressing, light");
-        set_food_label("Salad_dressing_blue_or_roquefort_cheese_dressing_light");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(86.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(13.20000);
-        set_fat_in_grams(2.70000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(2.10000);
-        set_cholesterol_in_milligrams(10.00000);
-        set_monounsaturated_fat_in_grams(1.09200);
-        set_polyunsaturated_fat_in_grams(0.85500);
-        set_saturated_fat_in_grams(0.62800);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(51.00000);
-        set_sodium_in_milligrams(939.00000);
-        set_calcium_in_milligrams(68.00000);
-        set_copper_in_milligrams(0.01300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.14000);
-        set_magnesium_in_milligrams(4.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(47.00000);
-        set_selenium_in_micrograms(1.60000);
-        set_zinc_in_milligrams(0.30000);
-        set_choline_in_milligrams(17.00000);
-        set_folate_in_micrograms(28.00000);
-        set_niacin_in_milligrams(0.04000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.04000);
-        set_thiamin_in_milligrams(0.01000);
-        set_vitamin_a_in_micrograms(67.00000);
-        set_vitamin_b6_in_milligrams(0.02000);
-        set_vitamin_b12_in_micrograms(0.11000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.90000);
-        set_vitamin_k_in_micrograms(91.00000);
-        set_water_in_grams(77.80000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Salad_dressing_blue_or_roquefort_cheese_dressing_light() {
+		set_food_id("42153");
+		set_food_name("Salad dressing, blue or roquefort cheese dressing, light");
+		set_food_label("Salad_dressing_blue_or_roquefort_cheese_dressing_light");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(86.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(13.20000);
+		set_fat_in_grams(2.70000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(2.10000);
+		set_cholesterol_in_milligrams(10.00000);
+		set_monounsaturated_fat_in_grams(1.09200);
+		set_polyunsaturated_fat_in_grams(0.85500);
+		set_saturated_fat_in_grams(0.62800);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(51.00000);
+		set_sodium_in_milligrams(939.00000);
+		set_calcium_in_milligrams(68.00000);
+		set_copper_in_milligrams(0.01300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.14000);
+		set_magnesium_in_milligrams(4.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(47.00000);
+		set_selenium_in_micrograms(1.60000);
+		set_zinc_in_milligrams(0.30000);
+		set_choline_in_milligrams(17.00000);
+		set_folate_in_micrograms(28.00000);
+		set_niacin_in_milligrams(0.04000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.04000);
+		set_thiamin_in_milligrams(0.01000);
+		set_vitamin_a_in_micrograms(67.00000);
+		set_vitamin_b6_in_milligrams(0.02000);
+		set_vitamin_b12_in_micrograms(0.11000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.90000);
+		set_vitamin_k_in_micrograms(91.00000);
+		set_water_in_grams(77.80000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

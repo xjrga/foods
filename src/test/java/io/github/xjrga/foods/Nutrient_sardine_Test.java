@@ -28,7 +28,7 @@ import org.junit.Test;
  */
 public class Nutrient_sardine_Test {
 
-    private static Abstract_food food;
+    private static Interface_food food;
 
     public Nutrient_sardine_Test() {
     }

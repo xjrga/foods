@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Soup_chicken_with_rice_canned_condensed extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Soup_chicken_with_rice_canned_condensed() {
-        set_food_id("06023");
-        set_food_name("Soup, chicken with rice, canned, condensed");
-        set_food_label("Soup_chicken_with_rice_canned_condensed");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(68.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(11.57000);
-        set_fat_in_grams(1.56000);
-        set_fiber_in_grams(0.90000);
-        set_protein_in_grams(1.84000);
-        set_cholesterol_in_milligrams(4.00000);
-        set_monounsaturated_fat_in_grams(0.74000);
-        set_polyunsaturated_fat_in_grams(0.34000);
-        set_saturated_fat_in_grams(0.37000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(34.00000);
-        set_sodium_in_milligrams(645.00000);
-        set_calcium_in_milligrams(41.00000);
-        set_copper_in_milligrams(0.09600);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.25000);
-        set_magnesium_in_milligrams(10.00000);
-        set_manganese_in_milligrams(0.30000);
-        set_phosphorus_in_milligrams(42.00000);
-        set_selenium_in_micrograms(4.10000);
-        set_zinc_in_milligrams(0.18000);
-        set_choline_in_milligrams(9.80000);
-        set_folate_in_micrograms(1.00000);
-        set_niacin_in_milligrams(0.91800);
-        set_pantothenic_acid_in_milligrams(0.14000);
-        set_riboflavin_in_milligrams(0.02000);
-        set_thiamin_in_milligrams(0.01400);
-        set_vitamin_a_in_micrograms(25.00000);
-        set_vitamin_b6_in_milligrams(0.02000);
-        set_vitamin_b12_in_micrograms(0.13000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.07000);
-        set_vitamin_k_in_micrograms(0.30000);
-        set_water_in_grams(83.15000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Soup_chicken_with_rice_canned_condensed() {
+		set_food_id("06023");
+		set_food_name("Soup, chicken with rice, canned, condensed");
+		set_food_label("Soup_chicken_with_rice_canned_condensed");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(68.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(11.57000);
+		set_fat_in_grams(1.56000);
+		set_fiber_in_grams(0.90000);
+		set_protein_in_grams(1.84000);
+		set_cholesterol_in_milligrams(4.00000);
+		set_monounsaturated_fat_in_grams(0.74000);
+		set_polyunsaturated_fat_in_grams(0.34000);
+		set_saturated_fat_in_grams(0.37000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(34.00000);
+		set_sodium_in_milligrams(645.00000);
+		set_calcium_in_milligrams(41.00000);
+		set_copper_in_milligrams(0.09600);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.25000);
+		set_magnesium_in_milligrams(10.00000);
+		set_manganese_in_milligrams(0.30000);
+		set_phosphorus_in_milligrams(42.00000);
+		set_selenium_in_micrograms(4.10000);
+		set_zinc_in_milligrams(0.18000);
+		set_choline_in_milligrams(9.80000);
+		set_folate_in_micrograms(1.00000);
+		set_niacin_in_milligrams(0.91800);
+		set_pantothenic_acid_in_milligrams(0.14000);
+		set_riboflavin_in_milligrams(0.02000);
+		set_thiamin_in_milligrams(0.01400);
+		set_vitamin_a_in_micrograms(25.00000);
+		set_vitamin_b6_in_milligrams(0.02000);
+		set_vitamin_b12_in_micrograms(0.13000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.07000);
+		set_vitamin_k_in_micrograms(0.30000);
+		set_water_in_grams(83.15000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Mangos_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Mangos_raw() {
-        set_food_id("09176");
-        set_food_name("Mangos, raw");
-        set_food_label("Mangos_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(60.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(14.98000);
-        set_fat_in_grams(0.38000);
-        set_fiber_in_grams(1.60000);
-        set_protein_in_grams(0.82000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.14000);
-        set_polyunsaturated_fat_in_grams(0.07100);
-        set_saturated_fat_in_grams(0.09200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(168.00000);
-        set_sodium_in_milligrams(1.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.11100);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.16000);
-        set_magnesium_in_milligrams(10.00000);
-        set_manganese_in_milligrams(0.06300);
-        set_phosphorus_in_milligrams(14.00000);
-        set_selenium_in_micrograms(0.60000);
-        set_zinc_in_milligrams(0.09000);
-        set_choline_in_milligrams(7.60000);
-        set_folate_in_micrograms(43.00000);
-        set_niacin_in_milligrams(0.66900);
-        set_pantothenic_acid_in_milligrams(0.19700);
-        set_riboflavin_in_milligrams(0.03800);
-        set_thiamin_in_milligrams(0.02800);
-        set_vitamin_a_in_micrograms(54.00000);
-        set_vitamin_b6_in_milligrams(0.11900);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(36.40000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.90000);
-        set_vitamin_k_in_micrograms(4.20000);
-        set_water_in_grams(83.46000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.60000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(3.36000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(51.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Mangos_raw() {
+		set_food_id("09176");
+		set_food_name("Mangos, raw");
+		set_food_label("Mangos_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(60.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(14.98000);
+		set_fat_in_grams(0.38000);
+		set_fiber_in_grams(1.60000);
+		set_protein_in_grams(0.82000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.14000);
+		set_polyunsaturated_fat_in_grams(0.07100);
+		set_saturated_fat_in_grams(0.09200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(168.00000);
+		set_sodium_in_milligrams(1.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.11100);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.16000);
+		set_magnesium_in_milligrams(10.00000);
+		set_manganese_in_milligrams(0.06300);
+		set_phosphorus_in_milligrams(14.00000);
+		set_selenium_in_micrograms(0.60000);
+		set_zinc_in_milligrams(0.09000);
+		set_choline_in_milligrams(7.60000);
+		set_folate_in_micrograms(43.00000);
+		set_niacin_in_milligrams(0.66900);
+		set_pantothenic_acid_in_milligrams(0.19700);
+		set_riboflavin_in_milligrams(0.03800);
+		set_thiamin_in_milligrams(0.02800);
+		set_vitamin_a_in_micrograms(54.00000);
+		set_vitamin_b6_in_milligrams(0.11900);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(36.40000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.90000);
+		set_vitamin_k_in_micrograms(4.20000);
+		set_water_in_grams(83.46000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.60000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(3.36000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(51.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

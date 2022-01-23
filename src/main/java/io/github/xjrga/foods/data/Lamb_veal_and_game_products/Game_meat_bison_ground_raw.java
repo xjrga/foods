@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Game_meat_bison_ground_raw extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Game_meat_bison_ground_raw() {
-        set_food_id("17330");
-        set_food_name("Game meat , bison, ground, raw");
-        set_food_label("Game_meat_bison_ground_raw");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(223.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(0.00000);
-        set_fat_in_grams(15.93000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(18.67000);
-        set_cholesterol_in_milligrams(70.00000);
-        set_monounsaturated_fat_in_grams(6.22200);
-        set_polyunsaturated_fat_in_grams(0.74900);
-        set_saturated_fat_in_grams(6.80200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(307.00000);
-        set_sodium_in_milligrams(66.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.13100);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(2.60000);
-        set_magnesium_in_milligrams(19.00000);
-        set_manganese_in_milligrams(0.00900);
-        set_phosphorus_in_milligrams(181.00000);
-        set_selenium_in_micrograms(18.70000);
-        set_zinc_in_milligrams(4.29000);
-        set_choline_in_milligrams(0.00000);
-        set_folate_in_micrograms(11.00000);
-        set_niacin_in_milligrams(4.91000);
-        set_pantothenic_acid_in_milligrams(0.64000);
-        set_riboflavin_in_milligrams(0.22700);
-        set_thiamin_in_milligrams(0.13000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.35300);
-        set_vitamin_b12_in_micrograms(1.79000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.24000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(64.25000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.87000);
-        set_fat_atwater_factor(9.02000);
-        set_protein_atwater_factor(4.27000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Game_meat_bison_ground_raw() {
+		set_food_id("17330");
+		set_food_name("Game meat , bison, ground, raw");
+		set_food_label("Game_meat_bison_ground_raw");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(223.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(0.00000);
+		set_fat_in_grams(15.93000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(18.67000);
+		set_cholesterol_in_milligrams(70.00000);
+		set_monounsaturated_fat_in_grams(6.22200);
+		set_polyunsaturated_fat_in_grams(0.74900);
+		set_saturated_fat_in_grams(6.80200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(307.00000);
+		set_sodium_in_milligrams(66.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.13100);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(2.60000);
+		set_magnesium_in_milligrams(19.00000);
+		set_manganese_in_milligrams(0.00900);
+		set_phosphorus_in_milligrams(181.00000);
+		set_selenium_in_micrograms(18.70000);
+		set_zinc_in_milligrams(4.29000);
+		set_choline_in_milligrams(0.00000);
+		set_folate_in_micrograms(11.00000);
+		set_niacin_in_milligrams(4.91000);
+		set_pantothenic_acid_in_milligrams(0.64000);
+		set_riboflavin_in_milligrams(0.22700);
+		set_thiamin_in_milligrams(0.13000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.35300);
+		set_vitamin_b12_in_micrograms(1.79000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.24000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(64.25000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.87000);
+		set_fat_atwater_factor(9.02000);
+		set_protein_atwater_factor(4.27000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

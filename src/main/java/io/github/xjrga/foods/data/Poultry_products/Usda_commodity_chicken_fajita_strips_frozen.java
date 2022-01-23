@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Usda_commodity_chicken_fajita_strips_frozen extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Usda_commodity_chicken_fajita_strips_frozen() {
-        set_food_id("05353");
-        set_food_name("USDA Commodity, chicken fajita strips, frozen");
-        set_food_label("Usda_commodity_chicken_fajita_strips_frozen");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(135.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(2.23000);
-        set_fat_in_grams(5.73000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(18.56000);
-        set_cholesterol_in_milligrams(88.00000);
-        set_monounsaturated_fat_in_grams(2.33300);
-        set_polyunsaturated_fat_in_grams(1.08900);
-        set_saturated_fat_in_grams(1.59600);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(284.00000);
-        set_sodium_in_milligrams(799.00000);
-        set_calcium_in_milligrams(13.00000);
-        set_copper_in_milligrams(0.03000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.99000);
-        set_magnesium_in_milligrams(22.00000);
-        set_manganese_in_milligrams(0.06600);
-        set_phosphorus_in_milligrams(277.00000);
-        set_selenium_in_micrograms(16.70000);
-        set_zinc_in_milligrams(1.37000);
-        set_choline_in_milligrams(67.80000);
-        set_folate_in_micrograms(4.00000);
-        set_niacin_in_milligrams(4.77900);
-        set_pantothenic_acid_in_milligrams(0.72600);
-        set_riboflavin_in_milligrams(0.21300);
-        set_thiamin_in_milligrams(0.10000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.38700);
-        set_vitamin_b12_in_micrograms(0.54000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.22000);
-        set_vitamin_k_in_micrograms(0.20000);
-        set_water_in_grams(70.60000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Usda_commodity_chicken_fajita_strips_frozen() {
+		set_food_id("05353");
+		set_food_name("USDA Commodity, chicken fajita strips, frozen");
+		set_food_label("Usda_commodity_chicken_fajita_strips_frozen");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(135.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(2.23000);
+		set_fat_in_grams(5.73000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(18.56000);
+		set_cholesterol_in_milligrams(88.00000);
+		set_monounsaturated_fat_in_grams(2.33300);
+		set_polyunsaturated_fat_in_grams(1.08900);
+		set_saturated_fat_in_grams(1.59600);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(284.00000);
+		set_sodium_in_milligrams(799.00000);
+		set_calcium_in_milligrams(13.00000);
+		set_copper_in_milligrams(0.03000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.99000);
+		set_magnesium_in_milligrams(22.00000);
+		set_manganese_in_milligrams(0.06600);
+		set_phosphorus_in_milligrams(277.00000);
+		set_selenium_in_micrograms(16.70000);
+		set_zinc_in_milligrams(1.37000);
+		set_choline_in_milligrams(67.80000);
+		set_folate_in_micrograms(4.00000);
+		set_niacin_in_milligrams(4.77900);
+		set_pantothenic_acid_in_milligrams(0.72600);
+		set_riboflavin_in_milligrams(0.21300);
+		set_thiamin_in_milligrams(0.10000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.38700);
+		set_vitamin_b12_in_micrograms(0.54000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.22000);
+		set_vitamin_k_in_micrograms(0.20000);
+		set_water_in_grams(70.60000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

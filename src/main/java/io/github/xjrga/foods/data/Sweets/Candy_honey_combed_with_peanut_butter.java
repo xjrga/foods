@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Candy_honey_combed_with_peanut_butter extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Candy_honey_combed_with_peanut_butter() {
-        set_food_id("19025");
-        set_food_name("Candy, honey-combed, with peanut butter");
-        set_food_label("Candy_honey_combed_with_peanut_butter");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(486.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(67.41000);
-        set_fat_in_grams(20.18000);
-        set_fiber_in_grams(1.90000);
-        set_protein_in_grams(8.72000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(8.49600);
-        set_polyunsaturated_fat_in_grams(4.79400);
-        set_saturated_fat_in_grams(5.73500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(220.00000);
-        set_sodium_in_milligrams(174.00000);
-        set_calcium_in_milligrams(21.00000);
-        set_copper_in_milligrams(0.16900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.71000);
-        set_magnesium_in_milligrams(66.00000);
-        set_manganese_in_milligrams(0.65600);
-        set_phosphorus_in_milligrams(132.00000);
-        set_selenium_in_micrograms(2.00000);
-        set_zinc_in_milligrams(1.03000);
-        set_choline_in_milligrams(24.70000);
-        set_folate_in_micrograms(34.00000);
-        set_niacin_in_milligrams(5.14700);
-        set_pantothenic_acid_in_milligrams(0.44600);
-        set_riboflavin_in_milligrams(0.08500);
-        set_thiamin_in_milligrams(0.06400);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.17300);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(3.57000);
-        set_vitamin_k_in_micrograms(0.10000);
-        set_water_in_grams(2.54000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Candy_honey_combed_with_peanut_butter() {
+		set_food_id("19025");
+		set_food_name("Candy, honey-combed, with peanut butter");
+		set_food_label("Candy_honey_combed_with_peanut_butter");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(486.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(67.41000);
+		set_fat_in_grams(20.18000);
+		set_fiber_in_grams(1.90000);
+		set_protein_in_grams(8.72000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(8.49600);
+		set_polyunsaturated_fat_in_grams(4.79400);
+		set_saturated_fat_in_grams(5.73500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(220.00000);
+		set_sodium_in_milligrams(174.00000);
+		set_calcium_in_milligrams(21.00000);
+		set_copper_in_milligrams(0.16900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.71000);
+		set_magnesium_in_milligrams(66.00000);
+		set_manganese_in_milligrams(0.65600);
+		set_phosphorus_in_milligrams(132.00000);
+		set_selenium_in_micrograms(2.00000);
+		set_zinc_in_milligrams(1.03000);
+		set_choline_in_milligrams(24.70000);
+		set_folate_in_micrograms(34.00000);
+		set_niacin_in_milligrams(5.14700);
+		set_pantothenic_acid_in_milligrams(0.44600);
+		set_riboflavin_in_milligrams(0.08500);
+		set_thiamin_in_milligrams(0.06400);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.17300);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(3.57000);
+		set_vitamin_k_in_micrograms(0.10000);
+		set_water_in_grams(2.54000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

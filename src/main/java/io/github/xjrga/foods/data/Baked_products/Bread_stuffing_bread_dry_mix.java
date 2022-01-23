@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Bread_stuffing_bread_dry_mix extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Bread_stuffing_bread_dry_mix() {
-        set_food_id("18081");
-        set_food_name("Bread stuffing, bread, dry mix");
-        set_food_label("Bread_stuffing_bread_dry_mix");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(386.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(76.20000);
-        set_fat_in_grams(3.40000);
-        set_fiber_in_grams(3.20000);
-        set_protein_in_grams(11.00000);
-        set_cholesterol_in_milligrams(1.00000);
-        set_monounsaturated_fat_in_grams(1.49300);
-        set_polyunsaturated_fat_in_grams(0.71300);
-        set_saturated_fat_in_grams(0.84500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(246.00000);
-        set_sodium_in_milligrams(1405.00000);
-        set_calcium_in_milligrams(97.00000);
-        set_copper_in_milligrams(0.23800);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(3.81000);
-        set_magnesium_in_milligrams(40.00000);
-        set_manganese_in_milligrams(0.59400);
-        set_phosphorus_in_milligrams(141.00000);
-        set_selenium_in_micrograms(48.00000);
-        set_zinc_in_milligrams(0.93000);
-        set_choline_in_milligrams(14.60000);
-        set_folate_in_micrograms(225.00000);
-        set_niacin_in_milligrams(5.76600);
-        set_pantothenic_acid_in_milligrams(0.39800);
-        set_riboflavin_in_milligrams(0.40400);
-        set_thiamin_in_milligrams(0.59600);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.15200);
-        set_vitamin_b12_in_micrograms(0.02000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.38000);
-        set_vitamin_k_in_micrograms(1.10000);
-        set_water_in_grams(4.20000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.10000);
-        set_fat_atwater_factor(8.80000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Bread_stuffing_bread_dry_mix() {
+		set_food_id("18081");
+		set_food_name("Bread stuffing, bread, dry mix");
+		set_food_label("Bread_stuffing_bread_dry_mix");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(386.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(76.20000);
+		set_fat_in_grams(3.40000);
+		set_fiber_in_grams(3.20000);
+		set_protein_in_grams(11.00000);
+		set_cholesterol_in_milligrams(1.00000);
+		set_monounsaturated_fat_in_grams(1.49300);
+		set_polyunsaturated_fat_in_grams(0.71300);
+		set_saturated_fat_in_grams(0.84500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(246.00000);
+		set_sodium_in_milligrams(1405.00000);
+		set_calcium_in_milligrams(97.00000);
+		set_copper_in_milligrams(0.23800);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(3.81000);
+		set_magnesium_in_milligrams(40.00000);
+		set_manganese_in_milligrams(0.59400);
+		set_phosphorus_in_milligrams(141.00000);
+		set_selenium_in_micrograms(48.00000);
+		set_zinc_in_milligrams(0.93000);
+		set_choline_in_milligrams(14.60000);
+		set_folate_in_micrograms(225.00000);
+		set_niacin_in_milligrams(5.76600);
+		set_pantothenic_acid_in_milligrams(0.39800);
+		set_riboflavin_in_milligrams(0.40400);
+		set_thiamin_in_milligrams(0.59600);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.15200);
+		set_vitamin_b12_in_micrograms(0.02000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.38000);
+		set_vitamin_k_in_micrograms(1.10000);
+		set_water_in_grams(4.20000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.10000);
+		set_fat_atwater_factor(8.80000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

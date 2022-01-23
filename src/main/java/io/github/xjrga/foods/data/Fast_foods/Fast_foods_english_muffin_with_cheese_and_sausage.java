@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fast_foods_english_muffin_with_cheese_and_sausage extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fast_foods_english_muffin_with_cheese_and_sausage() {
-        set_food_id("21020");
-        set_food_name("Fast foods, english muffin, with cheese and sausage");
-        set_food_label("Fast_foods_english_muffin_with_cheese_and_sausage");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(338.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(25.28000);
-        set_fat_in_grams(20.67000);
-        set_fiber_in_grams(0.50000);
-        set_protein_in_grams(13.28000);
-        set_cholesterol_in_milligrams(43.00000);
-        set_monounsaturated_fat_in_grams(7.90500);
-        set_polyunsaturated_fat_in_grams(3.11500);
-        set_saturated_fat_in_grams(8.15200);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(179.00000);
-        set_sodium_in_milligrams(668.00000);
-        set_calcium_in_milligrams(210.00000);
-        set_copper_in_milligrams(0.25200);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(3.14000);
-        set_magnesium_in_milligrams(21.00000);
-        set_manganese_in_milligrams(0.28400);
-        set_phosphorus_in_milligrams(168.00000);
-        set_selenium_in_micrograms(25.30000);
-        set_zinc_in_milligrams(1.19000);
-        set_choline_in_milligrams(29.80000);
-        set_folate_in_micrograms(75.00000);
-        set_niacin_in_milligrams(4.21700);
-        set_pantothenic_acid_in_milligrams(0.69600);
-        set_riboflavin_in_milligrams(0.19700);
-        set_thiamin_in_milligrams(0.48100);
-        set_vitamin_a_in_micrograms(56.00000);
-        set_vitamin_b6_in_milligrams(0.08600);
-        set_vitamin_b12_in_micrograms(0.79000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.40000);
-        set_vitamin_e_in_milligrams(0.58000);
-        set_vitamin_k_in_micrograms(2.20000);
-        set_water_in_grams(37.93000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.94000);
-        set_fat_atwater_factor(8.89000);
-        set_protein_atwater_factor(4.12000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fast_foods_english_muffin_with_cheese_and_sausage() {
+		set_food_id("21020");
+		set_food_name("Fast foods, english muffin, with cheese and sausage");
+		set_food_label("Fast_foods_english_muffin_with_cheese_and_sausage");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(338.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(25.28000);
+		set_fat_in_grams(20.67000);
+		set_fiber_in_grams(0.50000);
+		set_protein_in_grams(13.28000);
+		set_cholesterol_in_milligrams(43.00000);
+		set_monounsaturated_fat_in_grams(7.90500);
+		set_polyunsaturated_fat_in_grams(3.11500);
+		set_saturated_fat_in_grams(8.15200);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(179.00000);
+		set_sodium_in_milligrams(668.00000);
+		set_calcium_in_milligrams(210.00000);
+		set_copper_in_milligrams(0.25200);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(3.14000);
+		set_magnesium_in_milligrams(21.00000);
+		set_manganese_in_milligrams(0.28400);
+		set_phosphorus_in_milligrams(168.00000);
+		set_selenium_in_micrograms(25.30000);
+		set_zinc_in_milligrams(1.19000);
+		set_choline_in_milligrams(29.80000);
+		set_folate_in_micrograms(75.00000);
+		set_niacin_in_milligrams(4.21700);
+		set_pantothenic_acid_in_milligrams(0.69600);
+		set_riboflavin_in_milligrams(0.19700);
+		set_thiamin_in_milligrams(0.48100);
+		set_vitamin_a_in_micrograms(56.00000);
+		set_vitamin_b6_in_milligrams(0.08600);
+		set_vitamin_b12_in_micrograms(0.79000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.40000);
+		set_vitamin_e_in_milligrams(0.58000);
+		set_vitamin_k_in_micrograms(2.20000);
+		set_water_in_grams(37.93000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.94000);
+		set_fat_atwater_factor(8.89000);
+		set_protein_atwater_factor(4.12000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Cereals_ready_to_eat_quaker_capn_crunch_with_crunchberries extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Cereals_ready_to_eat_quaker_capn_crunch_with_crunchberries() {
-        set_food_id("08011");
-        set_food_name("Cereals ready-to-eat, QUAKER, CAP'N CRUNCH with CRUNCHBERRIES");
-        set_food_label("Cereals_ready_to_eat_quaker_capn_crunch_with_crunchberries");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(397.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(85.93000);
-        set_fat_in_grams(4.83000);
-        set_fiber_in_grams(2.60000);
-        set_protein_in_grams(4.45000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.63000);
-        set_polyunsaturated_fat_in_grams(0.75000);
-        set_saturated_fat_in_grams(3.08000);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(187.00000);
-        set_sodium_in_milligrams(725.00000);
-        set_calcium_in_milligrams(11.00000);
-        set_copper_in_milligrams(0.11900);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(19.80000);
-        set_magnesium_in_milligrams(55.00000);
-        set_manganese_in_milligrams(0.00000);
-        set_phosphorus_in_milligrams(168.00000);
-        set_selenium_in_micrograms(10.40000);
-        set_zinc_in_milligrams(15.56000);
-        set_choline_in_milligrams(8.60000);
-        set_folate_in_micrograms(2757.00000);
-        set_niacin_in_milligrams(20.75000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(1.80000);
-        set_thiamin_in_milligrams(1.60000);
-        set_vitamin_a_in_micrograms(7.00000);
-        set_vitamin_b6_in_milligrams(2.14000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(0.10000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.63000);
-        set_vitamin_k_in_micrograms(0.60000);
-        set_water_in_grams(2.50000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Cereals_ready_to_eat_quaker_capn_crunch_with_crunchberries() {
+		set_food_id("08011");
+		set_food_name("Cereals ready-to-eat, QUAKER, CAP'N CRUNCH with CRUNCHBERRIES");
+		set_food_label("Cereals_ready_to_eat_quaker_capn_crunch_with_crunchberries");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(397.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(85.93000);
+		set_fat_in_grams(4.83000);
+		set_fiber_in_grams(2.60000);
+		set_protein_in_grams(4.45000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.63000);
+		set_polyunsaturated_fat_in_grams(0.75000);
+		set_saturated_fat_in_grams(3.08000);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(187.00000);
+		set_sodium_in_milligrams(725.00000);
+		set_calcium_in_milligrams(11.00000);
+		set_copper_in_milligrams(0.11900);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(19.80000);
+		set_magnesium_in_milligrams(55.00000);
+		set_manganese_in_milligrams(0.00000);
+		set_phosphorus_in_milligrams(168.00000);
+		set_selenium_in_micrograms(10.40000);
+		set_zinc_in_milligrams(15.56000);
+		set_choline_in_milligrams(8.60000);
+		set_folate_in_micrograms(2757.00000);
+		set_niacin_in_milligrams(20.75000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(1.80000);
+		set_thiamin_in_milligrams(1.60000);
+		set_vitamin_a_in_micrograms(7.00000);
+		set_vitamin_b6_in_milligrams(2.14000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(0.10000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.63000);
+		set_vitamin_k_in_micrograms(0.60000);
+		set_water_in_grams(2.50000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

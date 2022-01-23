@@ -32,7 +32,7 @@ import org.junit.Test;
  */
 public class Food_summator_02_Test {
 
-    private static Abstract_food summator;
+    private static Interface_food summator;
 
     public Food_summator_02_Test() {
 
@@ -41,24 +41,55 @@ public class Food_summator_02_Test {
     @BeforeClass
     public static void one_time_setup() {
         //meal 01
-        ArrayList<Abstract_food> list_01 = new ArrayList();
-        Abstract_food honey = new Honey();
-        Abstract_food yogurt = new Yogurt_greek_plain_nonfat();
-        list_01.add(new Food_multiply(honey, 1000.0));
-        list_01.add(new Food_multiply(yogurt, 1000.0));
-        Abstract_food summator_01 = new Food_sum(list_01, "Meal_01");
+        ArrayList<Interface_food> list_01 = new ArrayList();
+        Interface_food honey = new Honey();
+        Interface_food yogurt = new Yogurt_greek_plain_nonfat();
+        list_01.add(new Food_multiplier(honey, 1000.0));
+        list_01.add(new Food_multiplier(yogurt, 1000.0));
+        Interface_food summator_01 = new Food_summator(list_01, "Meal_01");
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:3024.9600000000005
+        //energy_fat:0.0
+        //energy_protein:10.08
+        //energy_digestible:3035.0400000000004
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:144.00000000000003
+        //energy_fat:35.1
+        //energy_protein:407.59999999999997
+        //energy_digestible:586.7
         //meal 02
-        ArrayList<Abstract_food> list_02 = new ArrayList();
-        Abstract_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        Abstract_food tomato = new Tomato_products_canned_puree_without_salt_added();
-        list_02.add(new Food_multiply(sardine, 1000.0));
-        list_02.add(new Food_multiply(tomato, 1000.0));
-        Abstract_food summator_02 = new Food_sum(list_02, "Meal_02");
+        ArrayList<Interface_food> list_02 = new ArrayList();
+        Interface_food sardine = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        Interface_food tomato = new Tomato_products_canned_puree_without_salt_added();
+        list_02.add(new Food_multiplier(sardine, 1000.0));
+        list_02.add(new Food_multiplier(tomato, 1000.0));
+        Interface_food summator_02 = new Food_summator(list_02, "Meal_02");
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:0.0
+        //energy_fat:1030.4999999999998
+        //energy_protein:1051.274
+        //energy_digestible:2081.7739999999994
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:252.75600000000003
+        //energy_fat:17.576999999999998
+        //energy_protein:40.26
+        //energy_digestible:310.593
         //total
-        ArrayList<Abstract_food> list_03 = new ArrayList();
+        ArrayList<Interface_food> list_03 = new ArrayList();
         list_03.add(summator_01);
         list_03.add(summator_02);
-        summator = new Food_sum(list_03, "Total");
+        summator = new Food_summator(list_03, "Total");
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:3432.0000000000005
+        //energy_fat:35.1
+        //energy_protein:419.59999999999997
+        //energy_digestible:3886.7000000000003<-
+
+        //energy_alcohol:0.0
+        //energy_digestible_carbohydrate:252.75600000000003
+        //energy_fat:975.9419999999998
+        //energy_protein:640.9879999999999
+        //energy_digestible:1869.686<-
     }
 
     //food_name
@@ -346,36 +377,36 @@ public class Food_summator_02_Test {
     //energy_digestible_carbohydrate
     @Test
     public void test_energy_digestible_carbohydrate() {
-        assertEquals(3715.2, summator.get_energy_digestible_carbohydrate_in_kilocalories(), 0.00001);
+        assertEquals(3421.71600, summator.get_energy_digestible_carbohydrate_in_kilocalories(), 0.00001);
     }
 
     //energy_digestible
     @Test
     public void test_energy_digestible() {
-        assertEquals(6270.1, summator.get_energy_digestible_in_kilocalories(), 0.00001);
+        assertEquals(6014.10700, summator.get_energy_digestible_in_kilocalories(), 0.00001);
     }
 
     //energy_fat
     @Test
     public void test_energy_fat() {
-        assertEquals(1084.49999, summator.get_energy_fat_in_kilocalories(), 0.00001);
+        assertEquals(1083.17700, summator.get_energy_fat_in_kilocalories(), 0.00001);
     }
 
     //energy_protein
     @Test
     public void test_energy_protein() {
-        assertEquals(1470.39999, summator.get_energy_protein_in_kilocalories(), 0.00001);
+        assertEquals(1509.21400, summator.get_energy_protein_in_kilocalories(), 0.00001);
     }
 
     //digestible_carbohydrate
     @Test
     public void test_digestible_carbohydrate() {
-        assertEquals(928.8, summator.get_digestible_carbohydrate_in_grams(), 0.00001);
+        assertEquals(928.80000, summator.get_digestible_carbohydrate_in_grams(), 0.00001);
     }
 
     //food_quotient
     @Test
     public void test_food_quotient() {
-        assertEquals(0.90528, summator.get_food_quotient(), 0.00001);
+        assertEquals(0.90009, summator.get_food_quotient(), 0.00001);
     }
 }

@@ -28,15 +28,15 @@ import org.junit.Test;
  */
 public class Food_multiplier_01_Test {
 
-    private static Abstract_food multiplier;
+    private static Interface_food multiplier;
 
     public Food_multiplier_01_Test() {
     }
 
     @BeforeClass
     public static void one_time_setup() {
-        Abstract_food food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
-        multiplier = new Food_multiply(food, 100.0);
+        Interface_food food = new Fish_sardine_atlantic_canned_in_oil_drained_solids_with_bone();
+        multiplier = new Food_multiplier(food, 100.0);
     }
 
     //food_name
@@ -336,7 +336,7 @@ public class Food_multiplier_01_Test {
     //energy_digestible
     @Test
     public void test_energy_digestible() {
-        assertEquals(201.53, multiplier.get_energy_digestible_in_kilocalories(), 0.00001);
+        assertEquals(208.1774, multiplier.get_energy_digestible_in_kilocalories(), 0.00001);
     }
 
     //energy_fat
@@ -348,12 +348,13 @@ public class Food_multiplier_01_Test {
     //energy_protein
     @Test
     public void test_energy_protein() {
-        assertEquals(98.48, multiplier.get_energy_protein_in_kilocalories(), 0.00001);
+        assertEquals(105.1274, multiplier.get_energy_protein_in_kilocalories(), 0.00001);
     }
 
     //
     @Test
     public void test_energy_gross_coefficient() {
+    	//todo - rename
         assertEquals(2.08, multiplier.get_energy_gross_in_kilocalories_coefficient(), 0.00001);
     }
 
@@ -618,7 +619,7 @@ public class Food_multiplier_01_Test {
     //energy_digestible_coefficient
     @Test
     public void test_energy_digestible_coefficient() {
-        assertEquals(2.0153, multiplier.get_energy_digestible_coefficient(), 0.00001);
+        assertEquals(2.081774, multiplier.get_energy_digestible_coefficient(), 0.00001);
     }
 
     //energy_fat_coefficient
@@ -630,7 +631,7 @@ public class Food_multiplier_01_Test {
     //energy_protein_coefficient
     @Test
     public void test_energy_protein_coefficient() {
-        assertEquals(.9848, multiplier.get_energy_protein_coefficient(), 0.00001);
+        assertEquals(1.051274, multiplier.get_energy_protein_coefficient(), 0.00001);
     }
 
     //digestible_carbohydrate
@@ -642,6 +643,6 @@ public class Food_multiplier_01_Test {
     //food_quotient
     @Test
     public void test_food_quotient() {
-        assertEquals(0.75886, multiplier.get_food_quotient(), 0.00001);
+        assertEquals(0.760498949453687, multiplier.get_food_quotient(), 0.00001);
     }
 }

@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Fast_foods_fried_chicken_wing_meat_only_skin_and_breading_removed extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Fast_foods_fried_chicken_wing_meat_only_skin_and_breading_removed() {
-        set_food_id("21467");
-        set_food_name("Fast Foods, Fried Chicken, Wing, meat only, skin and breading removed");
-        set_food_label("Fast_foods_fried_chicken_wing_meat_only_skin_and_breading_removed");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(215.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(2.13000);
-        set_fat_in_grams(10.20000);
-        set_fiber_in_grams(0.00000);
-        set_protein_in_grams(28.77000);
-        set_cholesterol_in_milligrams(148.00000);
-        set_monounsaturated_fat_in_grams(4.75600);
-        set_polyunsaturated_fat_in_grams(1.85700);
-        set_saturated_fat_in_grams(2.65100);
-        set_alpha_linolenic_acid_in_grams(0.17800);
-        set_linoleic_acid_in_grams(1.47400);
-        set_dha_in_grams(0.00600);
-        set_epa_in_grams(0.00300);
-        set_potassium_in_milligrams(296.00000);
-        set_sodium_in_milligrams(761.00000);
-        set_calcium_in_milligrams(40.00000);
-        set_copper_in_milligrams(0.08000);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(0.96000);
-        set_magnesium_in_milligrams(24.00000);
-        set_manganese_in_milligrams(0.05300);
-        set_phosphorus_in_milligrams(225.00000);
-        set_selenium_in_micrograms(38.90000);
-        set_zinc_in_milligrams(1.90000);
-        set_choline_in_milligrams(126.40000);
-        set_folate_in_micrograms(8.00000);
-        set_niacin_in_milligrams(7.59000);
-        set_pantothenic_acid_in_milligrams(1.13000);
-        set_riboflavin_in_milligrams(0.26700);
-        set_thiamin_in_milligrams(0.08000);
-        set_vitamin_a_in_micrograms(10.00000);
-        set_vitamin_b6_in_milligrams(0.26400);
-        set_vitamin_b12_in_micrograms(0.59000);
-        set_vitamin_c_in_milligrams(0.00000);
-        set_vitamin_d_in_micrograms(0.10000);
-        set_vitamin_e_in_milligrams(0.54000);
-        set_vitamin_k_in_micrograms(0.00000);
-        set_water_in_grams(56.16000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Fast_foods_fried_chicken_wing_meat_only_skin_and_breading_removed() {
+		set_food_id("21467");
+		set_food_name("Fast Foods, Fried Chicken, Wing, meat only, skin and breading removed");
+		set_food_label("Fast_foods_fried_chicken_wing_meat_only_skin_and_breading_removed");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(215.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(2.13000);
+		set_fat_in_grams(10.20000);
+		set_fiber_in_grams(0.00000);
+		set_protein_in_grams(28.77000);
+		set_cholesterol_in_milligrams(148.00000);
+		set_monounsaturated_fat_in_grams(4.75600);
+		set_polyunsaturated_fat_in_grams(1.85700);
+		set_saturated_fat_in_grams(2.65100);
+		set_alpha_linolenic_acid_in_grams(0.17800);
+		set_linoleic_acid_in_grams(1.47400);
+		set_dha_in_grams(0.00600);
+		set_epa_in_grams(0.00300);
+		set_potassium_in_milligrams(296.00000);
+		set_sodium_in_milligrams(761.00000);
+		set_calcium_in_milligrams(40.00000);
+		set_copper_in_milligrams(0.08000);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(0.96000);
+		set_magnesium_in_milligrams(24.00000);
+		set_manganese_in_milligrams(0.05300);
+		set_phosphorus_in_milligrams(225.00000);
+		set_selenium_in_micrograms(38.90000);
+		set_zinc_in_milligrams(1.90000);
+		set_choline_in_milligrams(126.40000);
+		set_folate_in_micrograms(8.00000);
+		set_niacin_in_milligrams(7.59000);
+		set_pantothenic_acid_in_milligrams(1.13000);
+		set_riboflavin_in_milligrams(0.26700);
+		set_thiamin_in_milligrams(0.08000);
+		set_vitamin_a_in_micrograms(10.00000);
+		set_vitamin_b6_in_milligrams(0.26400);
+		set_vitamin_b12_in_micrograms(0.59000);
+		set_vitamin_c_in_milligrams(0.00000);
+		set_vitamin_d_in_micrograms(0.10000);
+		set_vitamin_e_in_milligrams(0.54000);
+		set_vitamin_k_in_micrograms(0.00000);
+		set_water_in_grams(56.16000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

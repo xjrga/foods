@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Spices_marjoram_dried extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Spices_marjoram_dried() {
-        set_food_id("02023");
-        set_food_name("Spices, marjoram, dried");
-        set_food_label("Spices_marjoram_dried");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(271.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(60.56000);
-        set_fat_in_grams(7.04000);
-        set_fiber_in_grams(40.30000);
-        set_protein_in_grams(12.66000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.94000);
-        set_polyunsaturated_fat_in_grams(4.40500);
-        set_saturated_fat_in_grams(0.52900);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(1522.00000);
-        set_sodium_in_milligrams(77.00000);
-        set_calcium_in_milligrams(1990.00000);
-        set_copper_in_milligrams(1.13300);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(82.71000);
-        set_magnesium_in_milligrams(346.00000);
-        set_manganese_in_milligrams(5.43300);
-        set_phosphorus_in_milligrams(306.00000);
-        set_selenium_in_micrograms(4.50000);
-        set_zinc_in_milligrams(3.60000);
-        set_choline_in_milligrams(43.60000);
-        set_folate_in_micrograms(274.00000);
-        set_niacin_in_milligrams(4.12000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(0.31600);
-        set_thiamin_in_milligrams(0.28900);
-        set_vitamin_a_in_micrograms(403.00000);
-        set_vitamin_b6_in_milligrams(1.19000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(51.40000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(1.69000);
-        set_vitamin_k_in_micrograms(621.70000);
-        set_water_in_grams(7.64000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(3.00000);
-        set_fat_atwater_factor(8.37000);
-        set_protein_atwater_factor(2.44000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Spices_marjoram_dried() {
+		set_food_id("02023");
+		set_food_name("Spices, marjoram, dried");
+		set_food_label("Spices_marjoram_dried");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(271.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(60.56000);
+		set_fat_in_grams(7.04000);
+		set_fiber_in_grams(40.30000);
+		set_protein_in_grams(12.66000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.94000);
+		set_polyunsaturated_fat_in_grams(4.40500);
+		set_saturated_fat_in_grams(0.52900);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(1522.00000);
+		set_sodium_in_milligrams(77.00000);
+		set_calcium_in_milligrams(1990.00000);
+		set_copper_in_milligrams(1.13300);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(82.71000);
+		set_magnesium_in_milligrams(346.00000);
+		set_manganese_in_milligrams(5.43300);
+		set_phosphorus_in_milligrams(306.00000);
+		set_selenium_in_micrograms(4.50000);
+		set_zinc_in_milligrams(3.60000);
+		set_choline_in_milligrams(43.60000);
+		set_folate_in_micrograms(274.00000);
+		set_niacin_in_milligrams(4.12000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(0.31600);
+		set_thiamin_in_milligrams(0.28900);
+		set_vitamin_a_in_micrograms(403.00000);
+		set_vitamin_b6_in_milligrams(1.19000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(51.40000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(1.69000);
+		set_vitamin_k_in_micrograms(621.70000);
+		set_water_in_grams(7.64000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(3.00000);
+		set_fat_atwater_factor(8.37000);
+		set_protein_atwater_factor(2.44000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }

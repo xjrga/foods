@@ -25,59 +25,59 @@ import io.github.xjrga.foods.Abstract_food;
  */
 public class Babyfood_cereal_rice_with_pears_and_apple_dry_instant_fortified extends Abstract_food {
 
-    /**
-     * Constructs a food item
-     */
-    public Babyfood_cereal_rice_with_pears_and_apple_dry_instant_fortified() {
-        set_food_id("43544");
-        set_food_name("Babyfood, cereal, rice with pears and apple, dry, instant fortified");
-        set_food_label("Babyfood_cereal_rice_with_pears_and_apple_dry_instant_fortified");
-        set_weight_in_grams(100.00000);
-        set_energy_gross_in_kilocalories(389.00000);
-        set_alcohol_in_grams(0.00000);
-        set_carbohydrate_by_difference_in_grams(88.50000);
-        set_fat_in_grams(0.90000);
-        set_fiber_in_grams(2.60000);
-        set_protein_in_grams(6.60000);
-        set_cholesterol_in_milligrams(0.00000);
-        set_monounsaturated_fat_in_grams(0.25200);
-        set_polyunsaturated_fat_in_grams(0.23100);
-        set_saturated_fat_in_grams(0.18500);
-        set_alpha_linolenic_acid_in_grams(0.00000);
-        set_linoleic_acid_in_grams(0.00000);
-        set_dha_in_grams(0.00000);
-        set_epa_in_grams(0.00000);
-        set_potassium_in_milligrams(414.00000);
-        set_sodium_in_milligrams(2.00000);
-        set_calcium_in_milligrams(38.00000);
-        set_copper_in_milligrams(0.37700);
-        set_fluoride_in_micrograms(0.00000);
-        set_iron_in_milligrams(9.00000);
-        set_magnesium_in_milligrams(37.00000);
-        set_manganese_in_milligrams(1.29800);
-        set_phosphorus_in_milligrams(253.00000);
-        set_selenium_in_micrograms(16.30000);
-        set_zinc_in_milligrams(3.30000);
-        set_choline_in_milligrams(6.60000);
-        set_folate_in_micrograms(5.00000);
-        set_niacin_in_milligrams(25.24000);
-        set_pantothenic_acid_in_milligrams(0.00000);
-        set_riboflavin_in_milligrams(1.88000);
-        set_thiamin_in_milligrams(1.60000);
-        set_vitamin_a_in_micrograms(0.00000);
-        set_vitamin_b6_in_milligrams(0.09000);
-        set_vitamin_b12_in_micrograms(0.00000);
-        set_vitamin_c_in_milligrams(250.00000);
-        set_vitamin_d_in_micrograms(0.00000);
-        set_vitamin_e_in_milligrams(0.13000);
-        set_vitamin_k_in_micrograms(0.30000);
-        set_water_in_grams(2.00000);
-        set_alcohol_atwater_factor(6.73000);
-        set_carbohydrate_by_difference_atwater_factor(4.00000);
-        set_fat_atwater_factor(9.00000);
-        set_protein_atwater_factor(4.00000);
-        set_complete_protein_in_grams(0.00000);
-        set_glycemic_index(0.00000);
-        set_cost_in_dollars(0.0);
-    }
+	/**
+	 * Constructs a food item
+	 */
+	public Babyfood_cereal_rice_with_pears_and_apple_dry_instant_fortified() {
+		set_food_id("43544");
+		set_food_name("Babyfood, cereal, rice with pears and apple, dry, instant fortified");
+		set_food_label("Babyfood_cereal_rice_with_pears_and_apple_dry_instant_fortified");
+		set_weight_in_grams(100.00000);
+		set_energy_gross_in_kilocalories(389.00000);
+		set_alcohol_in_grams(0.00000);
+		set_carbohydrate_by_difference_in_grams(88.50000);
+		set_fat_in_grams(0.90000);
+		set_fiber_in_grams(2.60000);
+		set_protein_in_grams(6.60000);
+		set_cholesterol_in_milligrams(0.00000);
+		set_monounsaturated_fat_in_grams(0.25200);
+		set_polyunsaturated_fat_in_grams(0.23100);
+		set_saturated_fat_in_grams(0.18500);
+		set_alpha_linolenic_acid_in_grams(0.00000);
+		set_linoleic_acid_in_grams(0.00000);
+		set_dha_in_grams(0.00000);
+		set_epa_in_grams(0.00000);
+		set_potassium_in_milligrams(414.00000);
+		set_sodium_in_milligrams(2.00000);
+		set_calcium_in_milligrams(38.00000);
+		set_copper_in_milligrams(0.37700);
+		set_fluoride_in_micrograms(0.00000);
+		set_iron_in_milligrams(9.00000);
+		set_magnesium_in_milligrams(37.00000);
+		set_manganese_in_milligrams(1.29800);
+		set_phosphorus_in_milligrams(253.00000);
+		set_selenium_in_micrograms(16.30000);
+		set_zinc_in_milligrams(3.30000);
+		set_choline_in_milligrams(6.60000);
+		set_folate_in_micrograms(5.00000);
+		set_niacin_in_milligrams(25.24000);
+		set_pantothenic_acid_in_milligrams(0.00000);
+		set_riboflavin_in_milligrams(1.88000);
+		set_thiamin_in_milligrams(1.60000);
+		set_vitamin_a_in_micrograms(0.00000);
+		set_vitamin_b6_in_milligrams(0.09000);
+		set_vitamin_b12_in_micrograms(0.00000);
+		set_vitamin_c_in_milligrams(250.00000);
+		set_vitamin_d_in_micrograms(0.00000);
+		set_vitamin_e_in_milligrams(0.13000);
+		set_vitamin_k_in_micrograms(0.30000);
+		set_water_in_grams(2.00000);
+		set_alcohol_atwater_factor(6.73000);
+		set_carbohydrate_by_difference_atwater_factor(4.00000);
+		set_fat_atwater_factor(9.00000);
+		set_protein_atwater_factor(4.00000);
+		set_complete_protein_in_grams(0.00000);
+		set_glycemic_index(0.00000);
+		set_cost_in_dollars(0.0);
+	}
 }
